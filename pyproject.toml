@@ -1,0 +1,88 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "emotion-engine"
+version = "0.1.0"
+description = "Pre-verbal emotion extraction, manipulation, and re-synthesis via latent steering"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+
+dependencies = [
+    # Deep learning core — installed from https://download.pytorch.org/whl/cu128
+    "torch>=2.11.0",
+    "torchvision",
+    "transformers>=5.4.0",
+
+    # Mechanistic interpretability / residual-stream hooks
+    # Choose one; transformer_lens is primary, nnsight as fallback
+    "transformer_lens>=2.14.0",
+
+    # Training / inference utilities
+    "accelerate>=1.6.0",
+    "bitsandbytes>=0.46.0",   # 4-bit/8-bit quantisation for 7B on 24 GB
+    "sentencepiece>=0.2.0",   # tokenisers for Qwen / Llama
+    "tiktoken>=0.9.0",
+
+    # Data
+    "datasets>=4.8.4",
+    "safetensors>=0.5.3",
+
+    # Analysis / decomposition
+    "scikit-learn>=1.6.0",
+    "umap-learn>=0.5.7",
+    "numpy>=2.0.0",
+    "scipy>=1.15.0",
+    "pandas>=2.2.0",
+
+    # Visualisation
+    "plotly>=6.0.0",
+    "matplotlib>=3.10.0",
+
+    # API / serving
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.34.0",
+    "sse-starlette>=2.2.0",     # Server-Sent Events for token streaming
+
+    # Utilities
+    "pyyaml>=6.0.2",
+    "tqdm>=4.67.0",
+    "rich>=13.9.0",
+    "python-dotenv>=1.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.25.0",
+    "ipykernel>=6.29.0",
+    "jupyterlab>=4.3.0",
+    "black>=25.1.0",
+    "ruff>=0.9.0",
+]
+ui = [
+    # Node/Vite managed separately; only Python bridge deps here
+    "httpx>=0.28.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

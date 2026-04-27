@@ -1,0 +1,24 @@
+{
+  "input_rows": 184037,
+  "kept_rows": 113582,
+  "bypass_rows": 25553,
+  "min_agreement": 0.5,
+  "kept_by_source": {
+    "daily_dialog": 59688,
+    "emobank": 10061,
+    "go_emotions": 32446,
+    "isear": 5402,
+    "semeval2018": 5985
+  },
+  "kept_by_category": {
+    "anger": 4885,
+    "anticipation": 5882,
+    "disgust": 1114,
+    "fear": 3146,
+    "joy": 12510,
+    "neutral": 70831,
+    "sadness": 3379,
+    "surprise": 2225,
+    "trust": 9610
+  }
+}

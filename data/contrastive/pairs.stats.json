@@ -1,0 +1,28 @@
+{
+  "total_pairs": 4000,
+  "by_category": {
+    "anger": 500,
+    "anticipation": 500,
+    "disgust": 500,
+    "fear": 500,
+    "joy": 500,
+    "sadness": 500,
+    "surprise": 500,
+    "trust": 500
+  },
+  "by_provenance": {
+    "llm_swap": 1200,
+    "mined": 2400,
+    "template": 400
+  },
+  "config": {
+    "pairs_per_category": 500,
+    "mined": 300,
+    "llm_swap": 150,
+    "template": 50,
+    "negative_strategy": "mixed",
+    "min_text_tokens": 3,
+    "max_text_tokens": 80,
+    "seed": 0
+  }
+}

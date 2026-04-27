@@ -1,0 +1,46 @@
+# configs/steering.yaml
+# Steering / activation-manipulation configuration.
+
+# ── CAA (Contrastive Activation Addition) ──────────────────────────────────
+caa:
+  # Layer(s) at which to inject the steering vector during inference.
+  # Must be a subset of hook_layers in model.yaml.
+  # Single layer is standard; list for multi-layer blending.
+  inject_layers: [14]
+
+  # Scalar multiplier for the steering vector.
+  # alpha > 0  → steer toward target emotion
+  # alpha < 0  → steer away from target emotion
+  alpha: 15.0
+
+  # Maximum allowed perplexity increase (ratio vs baseline) before
+  # the alpha is clipped. Prevents semantic degradation.
+  max_perplexity_ratio: 2.0
+
+  # Token positions to apply steering to:
+  #   "generation"  — only newly generated tokens (post-prompt)
+  #   "all"         — prompt + generation (stronger but may distort input)
+  apply_to: generation
+
+# ── Emotion code ────────────────────────────────────────────────────────────
+emotion_code:
+  # Number of primitive basis dimensions (k).
+  # Compare k ∈ {3, 8, 16}; 8 matches Plutchik wheel.
+  n_basis: 8
+
+  # Decomposition method for discovering primitive basis.
+  # "pca" | "nmf" | "sparse"
+  basis_method: nmf
+
+  # Path to saved basis matrix (filled after Phase B)
+  basis_path: data/emotion_code/basis.pt
+
+  # Path to VAD linear mapping weights (filled after Phase B)
+  vad_mapping_path: data/emotion_code/vad_mapping.pt
+
+# ── VAD axes ────────────────────────────────────────────────────────────────
+vad:
+  # Value range for interactive UI sliders
+  valence:  {min: -1.0, max: 1.0, default: 0.0}
+  arousal:   {min: -1.0, max: 1.0, default: 0.0}
+  dominance: {min: -1.0, max: 1.0, default: 0.0}

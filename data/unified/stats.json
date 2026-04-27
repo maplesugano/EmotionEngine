@@ -1,0 +1,67 @@
+{
+  "total": 184037,
+  "by_source": {
+    "go_emotions": 53206,
+    "semeval2018": 10689,
+    "daily_dialog": 102979,
+    "isear": 7102,
+    "emobank": 10061
+  },
+  "category_counts_by_source": {
+    "go_emotions": {
+      "joy": 9694,
+      "trust": 9609,
+      "fear": 797,
+      "surprise": 1871,
+      "sadness": 3258,
+      "disgust": 2882,
+      "anger": 4607,
+      "anticipation": 4367,
+      "neutral": 16121
+    },
+    "semeval2018": {
+      "joy": 3038,
+      "trust": 1,
+      "fear": 864,
+      "surprise": 21,
+      "sadness": 587,
+      "disgust": 703,
+      "anger": 3960,
+      "anticipation": 1515,
+      "neutral": 0
+    },
+    "daily_dialog": {
+      "joy": 12885,
+      "trust": 0,
+      "fear": 174,
+      "surprise": 1823,
+      "sadness": 1150,
+      "disgust": 353,
+      "anger": 1022,
+      "anticipation": 0,
+      "neutral": 85572
+    },
+    "isear": {
+      "joy": 1616,
+      "trust": 0,
+      "fear": 2252,
+      "surprise": 0,
+      "sadness": 1533,
+      "disgust": 0,
+      "anger": 1701,
+      "anticipation": 0,
+      "neutral": 0
+    },
+    "emobank": {
+      "joy": 0,
+      "trust": 0,
+      "fear": 0,
+      "surprise": 0,
+      "sadness": 0,
+      "disgust": 0,
+      "anger": 0,
+      "anticipation": 0,
+      "neutral": 10061
+    }
+  }
+}

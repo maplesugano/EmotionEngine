@@ -1,0 +1,78 @@
+# configs/data.yaml
+# Dataset construction configuration for Phase A.
+# Scope: English only (decided 2026-04 after time-budget review).
+
+# ── Emotion taxonomy ────────────────────────────────────────────────────────
+# Categorical labels are used ONLY to construct contrastive pairs.
+# The downstream emotion code is continuous and discovered from residual-stream
+# geometry in Phase B; it is NOT one-hot supervised.
+taxonomy:
+  # Canonical axis: Plutchik 8 + neutral
+  categories:
+    - joy
+    - trust
+    - fear
+    - surprise
+    - sadness
+    - disgust
+    - anger
+    - anticipation
+    - neutral
+
+# ── Source datasets ─────────────────────────────────────────────────────────
+# Each loader normalises into the unified `EmotionExample` schema
+# (see src/data/schema.py).
+source_datasets:
+  - name: go_emotions
+    hf_id: "google-research-datasets/go_emotions"
+    config: simplified            # 27 emotions + neutral (multi-label)
+    splits: [train, validation, test]
+    role: contrastive
+
+  - name: semeval2018
+    hf_id: "SemEvalWorkshop/sem_eval_2018_task_1"
+    config: subtask5.english      # E-c multi-label, 11 emotions
+    splits: [train, validation, test]
+    role: contrastive
+
+  - name: daily_dialog
+    hf_id: "li2017dailydialog/daily_dialog"
+    splits: [train, validation, test]
+    role: contrastive
+
+  - name: isear
+    # ISEAR redistribution is restricted; drop the CSV at this path manually.
+    local_path: "data/raw/isear/isear.csv"
+    role: contrastive
+
+  - name: emobank
+    # VAD-supervision source. Demoted to diagnostic role after Phase 1-3
+    # GPT-2 experiments (see /memories/session/plan.md → "Pivot summary").
+    hf_id: "JuliusAlphonso/EmoBank"   # 10k sentences, V/A/D ∈ [1, 5]
+    splits: [train, validation, test]
+    role: vad_supervision
+
+# ── Contrastive pair targets ────────────────────────────────────────────────
+contrastive:
+  pairs_per_category: 500       # ≈4500 total pairs across 9 categories
+  composition:
+    mined_fraction: 0.60
+    llm_swap_fraction: 0.30
+    template_fraction: 0.10
+  negative_strategy: mixed      # "neutral" | "opposite" | "mixed"
+  min_text_tokens: 3
+  max_text_tokens: 80
+
+# ── Quality filter ──────────────────────────────────────────────────────────
+quality_filter:
+  classifier_id: "j-hartmann/emotion-english-distilroberta-base"
+  min_agreement: 0.50
+  drop_length_outliers: true
+
+# ── Activation collection ───────────────────────────────────────────────────
+activations:
+  output_dir: data/activations
+  format: safetensors
+  positions: [last_token]       # all-layer last-token only (≈2.4 GB on Llama-8B)
+  shard_size: 512
+  store_all_layers: true

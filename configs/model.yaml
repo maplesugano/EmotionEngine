@@ -1,0 +1,39 @@
+# configs/model.yaml
+# Model selection and hook configuration for Emotion Engine.
+# Switch between models by changing `active` and running experiments.
+
+active: llama         # "llama" | "gpt2"  — which profile is used at runtime
+
+profiles:
+  # ── Primary model: English, 8B, largest mech-interp/CAA community ──
+  llama:
+    name: "meta-llama/Llama-3.1-8B-Instruct"
+    family: llama
+    dtype: bfloat16           # bfloat16 fits 24 GB VRAM; 16 GB used, 8 GB headroom
+    load_in_4bit: false       # set true to run < 8 GB; slight quality drop
+    attn_implementation: flash_attention_2   # requires flash-attn wheel
+    hook_backend: transformer_lens           # "transformer_lens" | "nnsight"
+    # Layers to extract residual-stream activations from (0-indexed).
+    # Llama-3.1-8B has 32 transformer layers.
+    # We sample 4 layers spanning depth 40–70% as per planning notes.
+    hook_layers: [13, 16, 19, 22]
+    # Position to read: "last_token" | "mean_prompt"
+    hook_position: last_token
+    max_new_tokens: 256
+    temperature: 0.7
+    top_p: 0.9
+
+  # ── Fast-ablation model: GPT-2 medium, 345M, fully hookable ──
+  gpt2:
+    name: "gpt2-medium"
+    family: gpt2
+    dtype: float32
+    load_in_4bit: false
+    attn_implementation: eager
+    hook_backend: transformer_lens
+    # GPT-2 medium has 24 transformer layers.
+    hook_layers: [10, 13, 16, 18]
+    hook_position: last_token
+    max_new_tokens: 128
+    temperature: 0.9
+    top_p: 0.95
