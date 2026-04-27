@@ -1,0 +1,72 @@
+{
+  "alpha_pos": 2.0,
+  "mean_shift_acc": 0.13333333333333333,
+  "mean_baseline_acc": 0.06666666666666667,
+  "mean_delta": 0.06666666666666667,
+  "per_category": [
+    {
+      "category": "anger",
+      "n": 10,
+      "shift_acc": 0.0,
+      "baseline_acc": 0.0,
+      "delta": 0.0,
+      "note": ""
+    },
+    {
+      "category": "anticipation",
+      "n": 0,
+      "shift_acc": NaN,
+      "baseline_acc": NaN,
+      "delta": NaN,
+      "note": "no classifier label"
+    },
+    {
+      "category": "disgust",
+      "n": 10,
+      "shift_acc": 0.0,
+      "baseline_acc": 0.0,
+      "delta": 0.0,
+      "note": ""
+    },
+    {
+      "category": "fear",
+      "n": 10,
+      "shift_acc": 0.0,
+      "baseline_acc": 0.0,
+      "delta": 0.0,
+      "note": ""
+    },
+    {
+      "category": "joy",
+      "n": 10,
+      "shift_acc": 0.4,
+      "baseline_acc": 0.3,
+      "delta": 0.10000000000000003,
+      "note": ""
+    },
+    {
+      "category": "sadness",
+      "n": 10,
+      "shift_acc": 0.3,
+      "baseline_acc": 0.0,
+      "delta": 0.3,
+      "note": ""
+    },
+    {
+      "category": "surprise",
+      "n": 10,
+      "shift_acc": 0.1,
+      "baseline_acc": 0.1,
+      "delta": 0.0,
+      "note": ""
+    },
+    {
+      "category": "trust",
+      "n": 0,
+      "shift_acc": NaN,
+      "baseline_acc": NaN,
+      "delta": NaN,
+      "note": "no classifier label"
+    }
+  ]
+}

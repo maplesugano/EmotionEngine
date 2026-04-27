@@ -1,0 +1,46 @@
+{
+  "max_perplexity_ratio": 2.0,
+  "chosen": [
+    {
+      "category": "anger",
+      "baseline_ppl": 4.9609375,
+      "max_alpha_unit": 3.0
+    },
+    {
+      "category": "anticipation",
+      "baseline_ppl": 4.9609375,
+      "max_alpha_unit": 2.0
+    },
+    {
+      "category": "disgust",
+      "baseline_ppl": 4.9609375,
+      "max_alpha_unit": 5.0
+    },
+    {
+      "category": "fear",
+      "baseline_ppl": 4.9609375,
+      "max_alpha_unit": 1.0
+    },
+    {
+      "category": "joy",
+      "baseline_ppl": 4.9609375,
+      "max_alpha_unit": 5.0
+    },
+    {
+      "category": "sadness",
+      "baseline_ppl": 4.9609375,
+      "max_alpha_unit": 1.0
+    },
+    {
+      "category": "surprise",
+      "baseline_ppl": 4.9609375,
+      "max_alpha_unit": 4.0
+    },
+    {
+      "category": "trust",
+      "baseline_ppl": 4.9609375,
+      "max_alpha_unit": 2.0
+    }
+  ],
+  "median_max_alpha_unit": 2.5
+}

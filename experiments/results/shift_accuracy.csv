@@ -1,0 +1,9 @@
+category,n,shift_acc,baseline_acc,delta,note
+anger,10,0.0,0.0,0.0,
+anticipation,0,,,,no classifier label
+disgust,10,0.0,0.0,0.0,
+fear,10,0.0,0.0,0.0,
+joy,10,0.4,0.3,0.10000000000000003,
+sadness,10,0.3,0.0,0.3,
+surprise,10,0.1,0.1,0.0,
+trust,0,,,,no classifier label

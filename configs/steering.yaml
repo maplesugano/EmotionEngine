@@ -6,12 +6,14 @@ caa:
   # Layer(s) at which to inject the steering vector during inference.
   # Must be a subset of hook_layers in model.yaml.
   # Single layer is standard; list for multi-layer blending.
-  inject_layers: [14]
+  # Llama-3.1-8B: layer 16 won the val-accuracy sweep (see
+  # experiments/results/layer_sweep.json).
+  inject_layers: [16]
 
-  # Scalar multiplier for the steering vector.
-  # alpha > 0  → steer toward target emotion
-  # alpha < 0  → steer away from target emotion
-  alpha: 15.0
+  # Scalar multiplier for the steering vector, in *std-norm units* —
+  # i.e. final added vector ≈ alpha * (median ||v||) * v̂. To be tightened
+  # by the perplexity guardrail in experiments/eval_perplexity.py.
+  alpha: 2.0
 
   # Maximum allowed perplexity increase (ratio vs baseline) before
   # the alpha is clipped. Prevents semantic degradation.

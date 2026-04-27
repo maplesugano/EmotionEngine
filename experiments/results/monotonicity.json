@@ -1,0 +1,60 @@
+{
+  "mean_rho": 0.2530154914101843,
+  "min_rho": 0.15681376728497148,
+  "per_category": [
+    {
+      "category": "anger",
+      "rho": 0.282251225354453,
+      "p_value": 0.04704222047818112,
+      "n": 50,
+      "note": ""
+    },
+    {
+      "category": "anticipation",
+      "rho": NaN,
+      "p_value": NaN,
+      "note": "no classifier label"
+    },
+    {
+      "category": "disgust",
+      "rho": 0.2851776472941147,
+      "p_value": 0.04470653540337289,
+      "n": 50,
+      "note": ""
+    },
+    {
+      "category": "fear",
+      "rho": 0.22834908162356787,
+      "p_value": 0.11071552657174369,
+      "n": 50,
+      "note": ""
+    },
+    {
+      "category": "joy",
+      "rho": 0.31854326429878616,
+      "p_value": 0.024161256325733224,
+      "n": 50,
+      "note": ""
+    },
+    {
+      "category": "sadness",
+      "rho": 0.24695796260521272,
+      "p_value": 0.08381246622598702,
+      "n": 50,
+      "note": ""
+    },
+    {
+      "category": "surprise",
+      "rho": 0.15681376728497148,
+      "p_value": 0.2767980380282085,
+      "n": 50,
+      "note": ""
+    },
+    {
+      "category": "trust",
+      "rho": NaN,
+      "p_value": NaN,
+      "note": "no classifier label"
+    }
+  ]
+}
