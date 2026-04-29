@@ -1,0 +1,67 @@
+{
+  "artifact": "data/emotion_code/basis_sweep/ica_k008_seed0.pt",
+  "decomposer": "ica",
+  "k": 8,
+  "seed": 0,
+  "layer": 19,
+  "silhouette_cosine_H": -0.05604231357574463,
+  "chance_acc": 0.125,
+  "per_component": [
+    {
+      "component": 0,
+      "mi": 0.1754466049150718,
+      "linear_sep_acc": 0.14375,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0019408040679991245
+    },
+    {
+      "component": 1,
+      "mi": 0.22134552813637898,
+      "linear_sep_acc": 0.1678125,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.02627962827682495
+    },
+    {
+      "component": 2,
+      "mi": 0.17731455183767109,
+      "linear_sep_acc": 0.1540625,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.00046428863424807787
+    },
+    {
+      "component": 3,
+      "mi": 0.1581278605448091,
+      "linear_sep_acc": 0.15812500000000002,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0020293493289500475
+    },
+    {
+      "component": 4,
+      "mi": 0.2048440667222846,
+      "linear_sep_acc": 0.17281250000000004,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.00022077995527070016
+    },
+    {
+      "component": 5,
+      "mi": 0.17615136174709134,
+      "linear_sep_acc": 0.15,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.003094397485256195
+    },
+    {
+      "component": 6,
+      "mi": 0.2151307479883524,
+      "linear_sep_acc": 0.15437499999999998,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.012287240475416183
+    },
+    {
+      "component": 7,
+      "mi": 0.175264052470391,
+      "linear_sep_acc": 0.13312500000000002,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.00045361340744420886
+    }
+  ]
+}

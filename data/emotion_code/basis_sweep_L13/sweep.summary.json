@@ -1,0 +1,16 @@
+{
+  "layer": 13,
+  "profile": "llama",
+  "rows": [
+    {
+      "decomposer": "ica",
+      "k": 16,
+      "seed": 0,
+      "layer": 13,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep_L13/ica_k016_seed0.pt",
+      "n_iter": 2000,
+      "converged": false
+    }
+  ]
+}

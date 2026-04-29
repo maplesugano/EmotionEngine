@@ -1,0 +1,19 @@
+{
+  "basis": "data/emotion_code/caa.pt",
+  "which": "caa",
+  "layer": 16,
+  "k": 8,
+  "components": [
+    4,
+    5,
+    0
+  ],
+  "alphas": [
+    -2.0,
+    0.0,
+    2.0
+  ],
+  "n_prompts": 4,
+  "monotonicity_mean": 0.125,
+  "specificity_at_extreme": -0.053357510638999794
+}

@@ -1,0 +1,126 @@
+{
+  "layer": 19,
+  "profile": "llama",
+  "rows": [
+    {
+      "decomposer": "nmf",
+      "k": 8,
+      "seed": 0,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/nmf_k008_seed0.pt",
+      "reconstruction_err": 759.6463623046875,
+      "n_iter": 469,
+      "converged": true
+    },
+    {
+      "decomposer": "nmf",
+      "k": 8,
+      "seed": 1,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/nmf_k008_seed1.pt",
+      "reconstruction_err": 759.6463623046875,
+      "n_iter": 469,
+      "converged": true
+    },
+    {
+      "decomposer": "nmf",
+      "k": 16,
+      "seed": 0,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/nmf_k016_seed0.pt",
+      "reconstruction_err": 734.4613647460938,
+      "n_iter": 1500,
+      "converged": false
+    },
+    {
+      "decomposer": "nmf",
+      "k": 16,
+      "seed": 1,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/nmf_k016_seed1.pt",
+      "reconstruction_err": 734.4613647460938,
+      "n_iter": 1500,
+      "converged": false
+    },
+    {
+      "decomposer": "pca",
+      "k": 8,
+      "seed": 0,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/pca_k008_seed0.pt",
+      "explained_variance": 0.2555890763178468
+    },
+    {
+      "decomposer": "pca",
+      "k": 8,
+      "seed": 1,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/pca_k008_seed1.pt",
+      "explained_variance": 0.2555887848138809
+    },
+    {
+      "decomposer": "pca",
+      "k": 16,
+      "seed": 0,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/pca_k016_seed0.pt",
+      "explained_variance": 0.3400845406576991
+    },
+    {
+      "decomposer": "pca",
+      "k": 16,
+      "seed": 1,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/pca_k016_seed1.pt",
+      "explained_variance": 0.3400814877822995
+    },
+    {
+      "decomposer": "ica",
+      "k": 8,
+      "seed": 0,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/ica_k008_seed0.pt",
+      "n_iter": 19,
+      "converged": true
+    },
+    {
+      "decomposer": "ica",
+      "k": 8,
+      "seed": 1,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/ica_k008_seed1.pt",
+      "n_iter": 29,
+      "converged": true
+    },
+    {
+      "decomposer": "ica",
+      "k": 16,
+      "seed": 0,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/ica_k016_seed0.pt",
+      "n_iter": 51,
+      "converged": true
+    },
+    {
+      "decomposer": "ica",
+      "k": 16,
+      "seed": 1,
+      "layer": 19,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep/ica_k016_seed1.pt",
+      "n_iter": 78,
+      "converged": true
+    }
+  ]
+}

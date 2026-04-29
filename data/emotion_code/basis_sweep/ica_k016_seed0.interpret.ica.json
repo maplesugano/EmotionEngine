@@ -1,0 +1,2777 @@
+{
+  "basis": "data/emotion_code/basis_sweep/ica_k016_seed0.pt",
+  "which": "ica",
+  "layer": 19,
+  "k": 16,
+  "top_n": 10,
+  "components": [
+    {
+      "component": 0,
+      "category_hist_top": {
+        "surprise": 5,
+        "joy": 4,
+        "disgust": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 2536,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": 0.5859259963035583,
+          "pos_text": "I think it is the worst one I have ever seen .",
+          "neg_text": "*\"Success is the best revenge.\"* Good job OP. Stay strong. You're almost there."
+        },
+        {
+          "pair_id": 1854,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": 0.5622445344924927,
+          "pos_text": "It is incredible .",
+          "neg_text": "I am sure the protection was from other males. How does hat change things?"
+        },
+        {
+          "pair_id": 1652,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": 0.5617887377738953,
+          "pos_text": "I can ’ t believe Obama is our President .",
+          "neg_text": "in many cases both. but this has nothing to do with Japan. You can't stay on topic, can you?"
+        },
+        {
+          "pair_id": 1539,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": 0.5591439008712769,
+          "pos_text": "Unbelievable ! I could never do that .",
+          "neg_text": "May I help you find something , or are you just looking ?"
+        },
+        {
+          "pair_id": 1799,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": 0.5535591244697571,
+          "pos_text": "Really ! How fascinating .",
+          "neg_text": "It's about 20 years. They let me out early because of good behavior."
+        },
+        {
+          "pair_id": 257,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.5515288710594177,
+          "pos_text": "You have no idea how happy I am for you .",
+          "neg_text": "Well , Randy , I'd say you've got a bad case of the flu . The main thing to do is get plenty of rest and drink lots of liquids . I'll prescribe something for that throat ."
+        },
+        {
+          "pair_id": 1809,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": 0.5468325018882751,
+          "pos_text": "I've never seen anything like it .",
+          "neg_text": "I can't wait for this capslock variation thing to die out."
+        },
+        {
+          "pair_id": 317,
+          "category": "joy",
+          "provenance": "llm_swap",
+          "score": 0.5358904600143433,
+          "pos_text": "Thanks very much .",
+          "neg_text": "Sorry, your diverse, inclusive baby was aborted."
+        },
+        {
+          "pair_id": 134,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.5132457613945007,
+          "pos_text": "I would like my margarita with no salt , thank you .",
+          "neg_text": "Sorry, sometimes I really can't tell in here."
+        },
+        {
+          "pair_id": 133,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.5072267055511475,
+          "pos_text": "Thank you so much for helping me .",
+          "neg_text": "That's perfectly fine. I'm sorry if I offended you in any way. Have a nice day."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 3854,
+          "category": "anticipation",
+          "provenance": "llm_swap",
+          "score": -0.6007044315338135,
+          "pos_text": "Any chance you have a bank account information you want to share?",
+          "neg_text": "I ’ m catching the nine fifteen train tomorrow morning ."
+        },
+        {
+          "pair_id": 1876,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": -0.5905076265335083,
+          "pos_text": "What's the occasion ? You won the lottery ?",
+          "neg_text": "About two years now ."
+        },
+        {
+          "pair_id": 3650,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": -0.5800381898880005,
+          "pos_text": "Can we just go down there and propose a bill? Die the constitution not allow that? An if were not allowed doesnt that count as non representation?",
+          "neg_text": "He brings with him some talented people from his former city ."
+        },
+        {
+          "pair_id": 3947,
+          "category": "anticipation",
+          "provenance": "llm_swap",
+          "score": -0.5785601735115051,
+          "pos_text": "The A.I. conundrum. What will the robot drivers choose?",
+          "neg_text": "They're totally unreliable ."
+        },
+        {
+          "pair_id": 3727,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": -0.5748682618141174,
+          "pos_text": "How long do we have to wait? I might need rehab.",
+          "neg_text": "Really ? I've seen that movie , too ."
+        },
+        {
+          "pair_id": 2134,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": -0.5712998509407043,
+          "pos_text": "Sorry , sir . That table has been booked .",
+          "neg_text": "Good to meet you too ."
+        },
+        {
+          "pair_id": 3426,
+          "category": "anger",
+          "provenance": "llm_swap",
+          "score": -0.5566334128379822,
+          "pos_text": "What the hell does metaphysics have to do with this? Also it’s a meme, get over yourself.",
+          "neg_text": "I think a cab is better ."
+        },
+        {
+          "pair_id": 539,
+          "category": "trust",
+          "provenance": "mined",
+          "score": -0.5554888248443604,
+          "pos_text": "Thanks so much for sharing! I really appreciate you sharing your thoughts and helping me feel less alone. I too hope that it gets better for you!",
+          "neg_text": "Ah , yes , that's right ."
+        },
+        {
+          "pair_id": 3558,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": -0.5494871735572815,
+          "pos_text": "I don't understand the question. Do you stand to lose something by acting like an adult with integrity?",
+          "neg_text": "That's one of the reasons Shaq's been a huge hit on Twitter ."
+        },
+        {
+          "pair_id": 3552,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": -0.5434895753860474,
+          "pos_text": "Was he good back then?",
+          "neg_text": "There was no evidence of who did it ."
+        }
+      ]
+    },
+    {
+      "component": 1,
+      "category_hist_top": {
+        "trust": 3,
+        "disgust": 2,
+        "anticipation": 1,
+        "surprise": 1,
+        "sadness": 1,
+        "anger": 1,
+        "joy": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 870,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": 0.41884925961494446,
+          "pos_text": "100% yes. My sister's ex is an actual monster but my niece still sees his family.",
+          "neg_text": "\"I've socialized for sixty-three years.\""
+        },
+        {
+          "pair_id": 3568,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": 0.40579408407211304,
+          "pos_text": "I’m getting visions of bitcoin private all over again. Good luck guys.",
+          "neg_text": "This is the big mission.\""
+        },
+        {
+          "pair_id": 2713,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": 0.3863661289215088,
+          "pos_text": "Yeah the non guarenteed packs are really the worst. I think I did 2/20 on those.",
+          "neg_text": "Are you ready ?"
+        },
+        {
+          "pair_id": 1762,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": 0.3746333122253418,
+          "pos_text": "I considered that they might be doing that, actually...but I googled it and it didn’t seem to be true.",
+          "neg_text": "“Could you live anywhere else now?”"
+        },
+        {
+          "pair_id": 2261,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": 0.36282357573509216,
+          "pos_text": "@naynay_whores im pretty sure cause ever since saturday ive just been super sad lol",
+          "neg_text": "Oh! Thank you!"
+        },
+        {
+          "pair_id": 2917,
+          "category": "disgust",
+          "provenance": "llm_swap",
+          "score": 0.35960879921913147,
+          "pos_text": "Because Warlord actually has NO moveset at all and is literally the most boring videogame char to play.",
+          "neg_text": "We have a realistic chance of winning this."
+        },
+        {
+          "pair_id": 653,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.35032355785369873,
+          "pos_text": "I explained exactly why they’re authoritarian. Businesses are literal plutocracies.",
+          "neg_text": "“This one’s blood isn’t worth drinking.”"
+        },
+        {
+          "pair_id": 3405,
+          "category": "anger",
+          "provenance": "llm_swap",
+          "score": 0.34438928961753845,
+          "pos_text": "Agreed, rarely get mad at ones like hun or darl. Being called boy by an old man however is infuriating.",
+          "neg_text": "Please, make your contribution today."
+        },
+        {
+          "pair_id": 171,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.34392186999320984,
+          "pos_text": "I love it. Probably my favorite game mode right now. Especially when playing with a buddy.",
+          "neg_text": "I miss [NAME]"
+        },
+        {
+          "pair_id": 738,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.34285661578178406,
+          "pos_text": "I like that, and the baby laughs at the duck so it makes it cute rather than annoying :)",
+          "neg_text": "“nothing happened [to make me homosexual]; it’s always been there. I’ve always been attracted to guys”"
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 809,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": -0.3988986611366272,
+          "pos_text": "\"So... I'm gonna go back to my class and sit in my seat like you told me to, if you don't mind...\"",
+          "neg_text": "I kinda like the swirlies in the hair. But then I saw that her eyebrow is actually just the hair and hated it."
+        },
+        {
+          "pair_id": 3640,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": -0.3740953207015991,
+          "pos_text": "Future is bright to me!",
+          "neg_text": "Hey ! What happened ? ! My song was only half way through and it skipped to the next song ."
+        },
+        {
+          "pair_id": 358,
+          "category": "joy",
+          "provenance": "llm_swap",
+          "score": -0.36302265524864197,
+          "pos_text": "Thank you for your service.",
+          "neg_text": "Capitalism doesn't require police or military either. Private security is a thing. Capitalism in general functions better in the absence of a government."
+        },
+        {
+          "pair_id": 1300,
+          "category": "fear",
+          "provenance": "llm_swap",
+          "score": -0.36067649722099304,
+          "pos_text": "It's horrible and I love it and you should be proud.",
+          "neg_text": "Those are beautiful . Do you have any in a size six ?"
+        },
+        {
+          "pair_id": 616,
+          "category": "trust",
+          "provenance": "mined",
+          "score": -0.32767942547798157,
+          "pos_text": "It's over! Move on and find a better partner.",
+          "neg_text": "The snapchat news feed on the stories page is horrendous, its entirely just celebs, porn and hookup culture shit."
+        },
+        {
+          "pair_id": 2740,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": -0.3253464102745056,
+          "pos_text": "Healthier and more disgusting.",
+          "neg_text": "Americans don ’ t like giving money , they prefer presents you buy for them . So I have to figure out what to buy for all of my family and friends ."
+        },
+        {
+          "pair_id": 3601,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": -0.31254175305366516,
+          "pos_text": "who's to late?",
+          "neg_text": "How much are you looking to rent it for ?"
+        },
+        {
+          "pair_id": 500,
+          "category": "trust",
+          "provenance": "mined",
+          "score": -0.30579888820648193,
+          "pos_text": "Because, “nah you guys go ahead”",
+          "neg_text": "Yes . It is one of the most harmful computer viruses in the world . People say it will break out again om Valentines ' Day this year ."
+        },
+        {
+          "pair_id": 775,
+          "category": "trust",
+          "provenance": "mined",
+          "score": -0.3039131760597229,
+          "pos_text": "Good [NAME] ^(that's perfect)",
+          "neg_text": "... What a stink . This place stinks like rotten eggs ."
+        },
+        {
+          "pair_id": 239,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.3005770146846771,
+          "pos_text": "I appreciate that .",
+          "neg_text": "That's really sad. I used to live not far from there and spent a lot of time in that park. Fished in those ponds many times."
+        }
+      ]
+    },
+    {
+      "component": 2,
+      "category_hist_top": {
+        "surprise": 3,
+        "anger": 2,
+        "sadness": 1,
+        "joy": 1,
+        "disgust": 1,
+        "fear": 1,
+        "trust": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 2417,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": 0.4762880206108093,
+          "pos_text": "@Christy_RTR @doge_e_fresh I'm despondent",
+          "neg_text": "@_Kdddd drop some off at 1133 cheery"
+        },
+        {
+          "pair_id": 3294,
+          "category": "anger",
+          "provenance": "mined",
+          "score": 0.44530045986175537,
+          "pos_text": "@tttinplay nice. why are u fuming then ðŸ˜‚",
+          "neg_text": "Caballero having a nightmare #sweeperkeepernot"
+        },
+        {
+          "pair_id": 3436,
+          "category": "anger",
+          "provenance": "llm_swap",
+          "score": 0.3900686502456665,
+          "pos_text": "@AmericanAir I am irate at you check-in system. I have tried to checkin all day and it wouldn't let me do it because I had no seat assigned",
+          "neg_text": "#Partners are willing to #walk alongside you without being #intimidated by you. #WhoIsIT #Part2 #RelationShift #CLifeMacon"
+        },
+        {
+          "pair_id": 73,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.388740599155426,
+          "pos_text": "Someone obviously has not had a good experience with anal sex. But I appreciate your advice and sense of humor at least!",
+          "neg_text": "interesting photo mono lisa cry well whole scene depressing ele"
+        },
+        {
+          "pair_id": 2791,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": 0.3863694667816162,
+          "pos_text": "He’s such a pervert.",
+          "neg_text": "print ( md5 ( this_is_a_test_string ) ); die ( ); / *"
+        },
+        {
+          "pair_id": 1225,
+          "category": "fear",
+          "provenance": "mined",
+          "score": 0.3816215991973877,
+          "pos_text": "focusing primarily person talking rather impression making lessens social anxiety",
+          "neg_text": "deleted many people snap"
+        },
+        {
+          "pair_id": 1903,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": 0.37982290983200073,
+          "pos_text": "Of course I remember , actually , I am very surprised you remembered , I thought for sure you would forget .",
+          "neg_text": "thebarmyarmy looking forward div next year andybarmyarmy leictershireaway therey"
+        },
+        {
+          "pair_id": 1910,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": 0.3737167716026306,
+          "pos_text": "Wow ! Really ? Are you sure ? Now I'll have a lucky year !",
+          "neg_text": "thoroughly enjoying ahs tonight ahs americanhorrorstory"
+        },
+        {
+          "pair_id": 1894,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": 0.3633459508419037,
+          "pos_text": "Really ? It is amazing . I will apply for a position in your company .",
+          "neg_text": "I think you should make the distinction that these are Lus and not just AF"
+        },
+        {
+          "pair_id": 513,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.3554404675960541,
+          "pos_text": "I wish I could upvote this a million times. What a wonderful tack to take.",
+          "neg_text": "$ 90 ."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 1282,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.4270455241203308,
+          "pos_text": "@CurtisJobling Yes indeed! We know masses of students would be so excited to see you! We need to get this sorted! #haunt",
+          "neg_text": "Fuck it, it's every man/woman for themselves in this fucked City. I've given up caring."
+        },
+        {
+          "pair_id": 195,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.39724111557006836,
+          "pos_text": "Bunk ur classðŸ“š at least once in your life time cuz later when u look back good marks will not make u happy but memoriesðŸ˜Š will' -APJ",
+          "neg_text": "automatics are very simple to drive . The first thing you should do is put your seat belt on ."
+        },
+        {
+          "pair_id": 1409,
+          "category": "fear",
+          "provenance": "llm_swap",
+          "score": -0.39640751481056213,
+          "pos_text": "Welp, I'm off to get my #anxiety meds now. #Empire",
+          "neg_text": "Or just shoot them. Shooting annoying people is why guns exist."
+        },
+        {
+          "pair_id": 303,
+          "category": "joy",
+          "provenance": "llm_swap",
+          "score": -0.39617645740509033,
+          "pos_text": "yesterday gone old song new song live today get pizza live love laugh wednesdaywisdom follow thelyricalb",
+          "neg_text": "pstcap still trying sort suppose also not high expectation sadness"
+        },
+        {
+          "pair_id": 364,
+          "category": "joy",
+          "provenance": "llm_swap",
+          "score": -0.3959435224533081,
+          "pos_text": "Watch this amazing live.ly broadcast by @rosannahill #lively #musically",
+          "neg_text": "@DoubleEph sadly his best days are behind him"
+        },
+        {
+          "pair_id": 3937,
+          "category": "anticipation",
+          "provenance": "llm_swap",
+          "score": -0.39294323325157166,
+          "pos_text": "follow snapchat carlabtst snapchat snap",
+          "neg_text": "I'm surprised [NAME] let her post that."
+        },
+        {
+          "pair_id": 2440,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": -0.3917113244533539,
+          "pos_text": "never thought would say really miss todd",
+          "neg_text": "I am glad that the message touched you, I really am."
+        },
+        {
+          "pair_id": 1125,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.38440608978271484,
+          "pos_text": "@StephenKing\\n\\nStephen King never once spoke out about how the Left crushes #FreeSpeech in publishing world.\\n\\n#Trump #horror #scifi #ccot #p2",
+          "neg_text": "Yes , I did . By the way , in case there is a flaw in this CD player , can I return it ?"
+        },
+        {
+          "pair_id": 2374,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": -0.38241860270500183,
+          "pos_text": "@suddenlyapples This is an on-going affliction for me and the only cure is more Shiro",
+          "neg_text": "Yes , I have . I collect stamps , Chinese stamps as well as those from other countries ."
+        },
+        {
+          "pair_id": 3925,
+          "category": "anticipation",
+          "provenance": "llm_swap",
+          "score": -0.3741214871406555,
+          "pos_text": "lebatardshow heyday race war",
+          "neg_text": "It’s been in our collection for several years because only a human can activate it."
+        }
+      ]
+    },
+    {
+      "component": 3,
+      "category_hist_top": {
+        "trust": 5,
+        "anticipation": 1,
+        "anger": 1,
+        "joy": 1,
+        "disgust": 1,
+        "sadness": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 773,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.4073585271835327,
+          "pos_text": "Yeah it helps me too but I still don't feel well rested the next day",
+          "neg_text": "It’s not satisfying at all. If this wasn’t [NAME] it wouldn’t be popular. Interesting timing considering the [NAME] debacle too."
+        },
+        {
+          "pair_id": 914,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": 0.3962703347206116,
+          "pos_text": "True, so just basically everyone. It needs to be easier to get a gun than it is now anyways",
+          "neg_text": ">it tasted horrible to use. Eating some of that right now. No regrets."
+        },
+        {
+          "pair_id": 502,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.39021605253219604,
+          "pos_text": "It's actually pretty cool in here today, not hot at all",
+          "neg_text": "Don’t like blood of the dead by the looks of it."
+        },
+        {
+          "pair_id": 3797,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": 0.37893998622894287,
+          "pos_text": "I hope marvel brings [NAME] on for star lords new love interest",
+          "neg_text": "This is the 400 ounces which I mentioned at the restaurant."
+        },
+        {
+          "pair_id": 639,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.3765888810157776,
+          "pos_text": "This dude was super cool",
+          "neg_text": "Using these basic common behaviors, more complex behaviors may be coded."
+        },
+        {
+          "pair_id": 915,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": 0.3710908591747284,
+          "pos_text": "I appreciate this. If you hadn't done this I would have felt terrible all day",
+          "neg_text": "I have never gone from almost brushing off something to darn near vomiting because of it, good lord."
+        },
+        {
+          "pair_id": 3071,
+          "category": "anger",
+          "provenance": "mined",
+          "score": 0.3708469867706299,
+          "pos_text": "i dunno, you commit one little genocide and you never hear the fucking end of it",
+          "neg_text": "We had a clown banging on dorm windows, on campus, with a knife in 2016. Was terrifying."
+        },
+        {
+          "pair_id": 27,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.3691195845603943,
+          "pos_text": "haha I'm guessing she doesn't spark joy for you, so you can let her go",
+          "neg_text": "ah #lost #mah #train of thunk."
+        },
+        {
+          "pair_id": 2571,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": 0.36823779344558716,
+          "pos_text": "I know, that's why I said one of the reasons. The main reason is his uselessness when your team is bad",
+          "neg_text": "MEDICINE TRANSPLANT: Growth of Japanese trade and travel prompts Beth Israel Medical Center, New York, to set up a bilingual medical practice."
+        },
+        {
+          "pair_id": 2206,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": 0.36810752749443054,
+          "pos_text": "Wimbledon’s instagram posted about [NAME] and his relationship with the Open and I ended up crying. Not ready for him to hang it up",
+          "neg_text": "OH , yes . I heard of a lot of about it . I like very much to try it . Where can I find it ?"
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 1332,
+          "category": "fear",
+          "provenance": "llm_swap",
+          "score": -0.388028621673584,
+          "pos_text": "Feeling like I've had the worst night of sleep ever - not great before the #London to #Brighton #cycle ride for @DMTFYP ðŸš´100k #apprehension?",
+          "neg_text": "the last 2 are mocking the first you dumb asses"
+        },
+        {
+          "pair_id": 820,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": -0.38774991035461426,
+          "pos_text": "You could weigh even more than 152 at 10% 6 ft tall! But yes, that is the goal physique for many gym rats.",
+          "neg_text": "If Ww3 breaks out in northern Asia as people expect. It will make things worse for you guys in the states - not better"
+        },
+        {
+          "pair_id": 1138,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.3852429687976837,
+          "pos_text": "@WaterboysAS I would never strategically vote for someone I don't agree with. A lot of the Clinton vote based on fear and negativity.",
+          "neg_text": "Ya so in a sense, you're just feeding strangers for a few days. Kind of charitable in a way"
+        },
+        {
+          "pair_id": 2614,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": -0.3810868561267853,
+          "pos_text": "I use to work in an office near a 24hr McDonald's. The smell of the place when walking by at 7am was stomach churning.",
+          "neg_text": "I know it sucks and it isn't like it's a new perk multiple swf probably all have it by now"
+        },
+        {
+          "pair_id": 2597,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": -0.36932897567749023,
+          "pos_text": "This seems like an excessive amount of work that I don't think (maybe I just don't know any better?) adds any value.",
+          "neg_text": "I love [NAME] as well! He seems like a genuinely nice celebrity"
+        },
+        {
+          "pair_id": 692,
+          "category": "trust",
+          "provenance": "mined",
+          "score": -0.3688676655292511,
+          "pos_text": "We made a big raft of inflatables on Little Bay and listened to the Hottest 100. Good times. The water is finally nice and warm.",
+          "neg_text": "cause they want people to know there relvant again"
+        },
+        {
+          "pair_id": 3103,
+          "category": "anger",
+          "provenance": "mined",
+          "score": -0.36476004123687744,
+          "pos_text": "@Deadspin @Rlblack1Rob My guess is he's just a convenient target for misplaced anger. What they're really mad at is how they played.",
+          "neg_text": "All women are useless - maybe if you made better choices it would be better for ya"
+        },
+        {
+          "pair_id": 1215,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.3643222451210022,
+          "pos_text": "I'm hoping it's more statistical noise at this point still, but it's definitely worrying.",
+          "neg_text": "[NAME] i want to slap the shit out of her"
+        },
+        {
+          "pair_id": 910,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": -0.3627142608165741,
+          "pos_text": "Locking a bunch in a kids in a room with their pedophile priest is fun af? You need help.",
+          "neg_text": "That thigh gap not cute at all"
+        },
+        {
+          "pair_id": 2512,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": -0.35320255160331726,
+          "pos_text": "I hope this is better than The Middle I mean it's [NAME] so it's going to be decent at worst.",
+          "neg_text": "Tu eres very nice man"
+        }
+      ]
+    },
+    {
+      "component": 4,
+      "category_hist_top": {
+        "trust": 3,
+        "anticipation": 3,
+        "disgust": 2,
+        "sadness": 1,
+        "joy": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 621,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.2671080529689789,
+          "pos_text": "But when you do, just remember that trick so you don’t have to take your break or get an RI.",
+          "neg_text": "I watched that worm fish sauce thing. So gross, disgusting, bleh, NO,NO, and HELL NO!!"
+        },
+        {
+          "pair_id": 563,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.25546255707740784,
+          "pos_text": "Don't worry - there's only one barely known movie to his credit. Pretty easy to avoid.",
+          "neg_text": "Ugh. People are the worst!"
+        },
+        {
+          "pair_id": 3926,
+          "category": "anticipation",
+          "provenance": "llm_swap",
+          "score": 0.23549199104309082,
+          "pos_text": "Just waiting to see which outlets decide to report it first.",
+          "neg_text": "God ! It's freezing !"
+        },
+        {
+          "pair_id": 875,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": 0.22694598138332367,
+          "pos_text": "Especially given today's hyperawareness of sexual harassment, it seems like the smart thing to do, to me.",
+          "neg_text": "He was a jovial man with an easy laugh, and even uglier than Tasha had suggested."
+        },
+        {
+          "pair_id": 2835,
+          "category": "disgust",
+          "provenance": "llm_swap",
+          "score": 0.22037048637866974,
+          "pos_text": "They're not going to read their UserVoice anyways. It's a PR stunt.",
+          "neg_text": "This is beautifully written."
+        },
+        {
+          "pair_id": 3948,
+          "category": "anticipation",
+          "provenance": "llm_swap",
+          "score": 0.21051783859729767,
+          "pos_text": "Does anyone know how much that would be in (£) pounds.",
+          "neg_text": "You did it yourself ? Wow , you are good !"
+        },
+        {
+          "pair_id": 3910,
+          "category": "anticipation",
+          "provenance": "llm_swap",
+          "score": 0.20939888060092926,
+          "pos_text": "Sorry, I have plans that day, week, month. Watching TV while you peruse Reddit are plans aren't they???",
+          "neg_text": "It was last February, after the winter break, that we moved in together."
+        },
+        {
+          "pair_id": 2235,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": 0.20698854327201843,
+          "pos_text": "Yeah, sorry, I was on the mobile site, and wasn't able to delete it.",
+          "neg_text": "That ’ s a good idea ! The kitchen will look amazing !"
+        },
+        {
+          "pair_id": 174,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.20491093397140503,
+          "pos_text": "Okay, cool. Thanks.",
+          "neg_text": "@marisa_enbot Being with you makes me somewhat gloomy."
+        },
+        {
+          "pair_id": 2559,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": 0.19779667258262634,
+          "pos_text": ">Not all 70% of the filthy [NAME] money is gonna be taken. ...unfortunately.",
+          "neg_text": "That’s [NAME]. One of the most famous and richest criminal defense attorneys in the world."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 453,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.773287832736969,
+          "pos_text": "I feel wonderful right now.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 456,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.773287832736969,
+          "pos_text": "I feel wonderful right now.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 475,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.773287832736969,
+          "pos_text": "I feel wonderful right now.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 483,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.773287832736969,
+          "pos_text": "I feel wonderful right now.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 487,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.7729883790016174,
+          "pos_text": "I feel wonderful right now.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 488,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.7729883790016174,
+          "pos_text": "I feel wonderful right now.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 498,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.7729882597923279,
+          "pos_text": "I feel wonderful right now.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 2475,
+          "category": "sadness",
+          "provenance": "template",
+          "score": -0.7210693359375,
+          "pos_text": "I feel hollow and tired.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 2463,
+          "category": "sadness",
+          "provenance": "template",
+          "score": -0.7210693359375,
+          "pos_text": "I feel hollow and tired.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 2471,
+          "category": "sadness",
+          "provenance": "template",
+          "score": -0.7210693359375,
+          "pos_text": "I feel hollow and tired.",
+          "neg_text": "The form must be submitted by Friday."
+        }
+      ]
+    },
+    {
+      "component": 5,
+      "category_hist_top": {
+        "joy": 5,
+        "surprise": 2,
+        "disgust": 2,
+        "sadness": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 221,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.5975256562232971,
+          "pos_text": "Great ! I'll sing , and you can dance in our band .",
+          "neg_text": "Which university did you graduate from ?"
+        },
+        {
+          "pair_id": 212,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.5924113392829895,
+          "pos_text": "My pleasure .",
+          "neg_text": "What was she wearing ?"
+        },
+        {
+          "pair_id": 2189,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": 0.5788033604621887,
+          "pos_text": "Sorry , you have the wrong number . There's no Brian here .",
+          "neg_text": "Has this been a problem before ?"
+        },
+        {
+          "pair_id": 97,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.562616765499115,
+          "pos_text": "Well , it's good that you're so talented .",
+          "neg_text": "How tall would you say that she is ?"
+        },
+        {
+          "pair_id": 1648,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": 0.561859130859375,
+          "pos_text": "Really ? He is my type .",
+          "neg_text": "What kind of intermediary is it ?"
+        },
+        {
+          "pair_id": 2505,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": 0.5613145232200623,
+          "pos_text": "It’s ugly. Bye bye and good riddance.",
+          "neg_text": "What kind of people do you like to work with ?"
+        },
+        {
+          "pair_id": 2803,
+          "category": "disgust",
+          "provenance": "llm_swap",
+          "score": 0.5558439493179321,
+          "pos_text": "They understand alright, they just don't give a shit. Bunch of fucking scum.",
+          "neg_text": "What would you like ?"
+        },
+        {
+          "pair_id": 45,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.5529221296310425,
+          "pos_text": "Thank you . My wife would be very happy to hear this .",
+          "neg_text": "Are you a full-time student or do you attend part-time in the evenings ?"
+        },
+        {
+          "pair_id": 241,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.5402986407279968,
+          "pos_text": "Yeah, I am! I'll private message you a link to my profile. Thank you.",
+          "neg_text": "Can any unit see my information ?"
+        },
+        {
+          "pair_id": 1822,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": 0.5347682237625122,
+          "pos_text": "Oh , no ! Why ? I was looking forward to seeing you at my new place .",
+          "neg_text": "How long does the tour last ?"
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 1581,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.5612640380859375,
+          "pos_text": "What do you mean ?",
+          "neg_text": "That ’ s fine . Thanks ."
+        },
+        {
+          "pair_id": 1502,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.48933273553848267,
+          "pos_text": "really ? What is it ?",
+          "neg_text": "Well , shall we get down to business ' ."
+        },
+        {
+          "pair_id": 1719,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.48263102769851685,
+          "pos_text": "Really ? You only review your lessons in one month ? Does it work ?",
+          "neg_text": "If that's the case . there's not much point in further discussion . We might as well call the whole deal off ."
+        },
+        {
+          "pair_id": 1736,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.43932968378067017,
+          "pos_text": "Really ? Does she live here in Seattle ?",
+          "neg_text": "Sure . It's 2331-7600 ."
+        },
+        {
+          "pair_id": 1694,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.4387304186820984,
+          "pos_text": "Yikes ! What was that noise ?",
+          "neg_text": "Of course , can you leave your name and number ? I'm sure Mr . Nelson will return your call as soon as he is able ."
+        },
+        {
+          "pair_id": 1574,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.4303858280181885,
+          "pos_text": "Did you really ?",
+          "neg_text": "So when my shuttle malfunctioned and the airlocks didn't keep the air in, I heard nothing."
+        },
+        {
+          "pair_id": 244,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.417061448097229,
+          "pos_text": "Great ! Would you like your second pizza to be these as the first ?",
+          "neg_text": "Just remember that in that village there ’ s nothing to do . There ’ s not even a pub or restaurant . There ’ s just one small shop with a poor selection of goods ."
+        },
+        {
+          "pair_id": 1546,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.416332870721817,
+          "pos_text": "There was a stop sign ?",
+          "neg_text": "No , sometimes the test results aren ’ t clear and we need to do more to get a clearer picture ."
+        },
+        {
+          "pair_id": 2116,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": -0.40862637758255005,
+          "pos_text": "Oh , I'm so sorry . May I ask what you ordered again ?",
+          "neg_text": "You are welcome , sir . Good-bye ."
+        },
+        {
+          "pair_id": 1765,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.4043055474758148,
+          "pos_text": "There was a stop sign ?",
+          "neg_text": "Yes , it does look a bit sore . Let's take an X-ray of your chest and give you a few tests ."
+        }
+      ]
+    },
+    {
+      "component": 6,
+      "category_hist_top": {
+        "disgust": 10
+      },
+      "top_positive": [
+        {
+          "pair_id": 2994,
+          "category": "disgust",
+          "provenance": "template",
+          "score": 0.4563983082771301,
+          "pos_text": "This is revolting.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 2951,
+          "category": "disgust",
+          "provenance": "template",
+          "score": 0.4563983082771301,
+          "pos_text": "This is revolting.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 2969,
+          "category": "disgust",
+          "provenance": "template",
+          "score": 0.4563983082771301,
+          "pos_text": "This is revolting.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 2997,
+          "category": "disgust",
+          "provenance": "template",
+          "score": 0.4563983082771301,
+          "pos_text": "This is revolting.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 2986,
+          "category": "disgust",
+          "provenance": "template",
+          "score": 0.45639827847480774,
+          "pos_text": "This is revolting.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 2965,
+          "category": "disgust",
+          "provenance": "template",
+          "score": 0.4562850594520569,
+          "pos_text": "This is revolting.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 2976,
+          "category": "disgust",
+          "provenance": "template",
+          "score": 0.4562850594520569,
+          "pos_text": "This is revolting.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 2978,
+          "category": "disgust",
+          "provenance": "template",
+          "score": 0.4562850594520569,
+          "pos_text": "This is revolting.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 2980,
+          "category": "disgust",
+          "provenance": "template",
+          "score": 0.4562850594520569,
+          "pos_text": "This is revolting.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 2955,
+          "category": "disgust",
+          "provenance": "template",
+          "score": 0.4562850594520569,
+          "pos_text": "This is revolting.",
+          "neg_text": "She walked to the office at the usual time."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 1294,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.31750085949897766,
+          "pos_text": "I used to have anxiety when calling people but I no longer have them at least just 20-30% anxiety.",
+          "neg_text": "Oil barons hate him!"
+        },
+        {
+          "pair_id": 3871,
+          "category": "anticipation",
+          "provenance": "llm_swap",
+          "score": -0.3141491115093231,
+          "pos_text": "There is one teacher, and 3 paraprofessionals. She is overwhelmed, and I want to help.",
+          "neg_text": "Hey what a coincidence so is a human head!"
+        },
+        {
+          "pair_id": 684,
+          "category": "trust",
+          "provenance": "mined",
+          "score": -0.31175220012664795,
+          "pos_text": "Seems full of himself, but he also seems like an ok dude.",
+          "neg_text": "How disgusting. Those vile people can burn in hell!"
+        },
+        {
+          "pair_id": 741,
+          "category": "trust",
+          "provenance": "mined",
+          "score": -0.30890461802482605,
+          "pos_text": "Agreed, but it took me a while to understand that.",
+          "neg_text": "This isn't about football, [NAME] is a horrible dude."
+        },
+        {
+          "pair_id": 2234,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": -0.29626530408859253,
+          "pos_text": "i cant stop. i finished - dejected. luckily no one is in the bathroom. so i go to a stall and wait until my pants are dry.",
+          "neg_text": "@FieldYates @MatthewBerryTMR @Stephania_ESPN @MikeClayNFL @FrankCaliendo goddamn...the 'celebrity' draft at the end was classic."
+        },
+        {
+          "pair_id": 1047,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.2928505539894104,
+          "pos_text": "I'm way too busy and tired all the time to worry about my past and the things I should be regretting (but I never am).",
+          "neg_text": "mutrut mine say thing way offense not lol wtf"
+        },
+        {
+          "pair_id": 884,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": -0.2879507839679718,
+          "pos_text": "Inspiring music that makes you proud.",
+          "neg_text": "No. It’s not. This is disgusting behavior and anyone who supports it is a fool."
+        },
+        {
+          "pair_id": 1332,
+          "category": "fear",
+          "provenance": "llm_swap",
+          "score": -0.2756880521774292,
+          "pos_text": "Feeling like I've had the worst night of sleep ever - not great before the #London to #Brighton #cycle ride for @DMTFYP ðŸš´100k #apprehension?",
+          "neg_text": "the last 2 are mocking the first you dumb asses"
+        },
+        {
+          "pair_id": 3888,
+          "category": "anticipation",
+          "provenance": "llm_swap",
+          "score": -0.27194488048553467,
+          "pos_text": "I haven’t actually watched it. Who got featured?",
+          "neg_text": "This is amazing. WTF."
+        },
+        {
+          "pair_id": 621,
+          "category": "trust",
+          "provenance": "mined",
+          "score": -0.2684266269207001,
+          "pos_text": "But when you do, just remember that trick so you don’t have to take your break or get an RI.",
+          "neg_text": "I watched that worm fish sauce thing. So gross, disgusting, bleh, NO,NO, and HELL NO!!"
+        }
+      ]
+    },
+    {
+      "component": 7,
+      "category_hist_top": {
+        "sadness": 4,
+        "joy": 2,
+        "anger": 2,
+        "fear": 1,
+        "anticipation": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 213,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.479933500289917,
+          "pos_text": "dayveesutton big thank liking little pumpkin smallest playful amp wake morning",
+          "neg_text": "When they say shoot your shot that’s not what they meant"
+        },
+        {
+          "pair_id": 2198,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": 0.4740050435066223,
+          "pos_text": "found peraon liked wanted someone else sadness",
+          "neg_text": "Yes , if you could . I mean , if you could read it to make sure there are no mistakes.Or maybe you'd have some suggestions ."
+        },
+        {
+          "pair_id": 3284,
+          "category": "anger",
+          "provenance": "mined",
+          "score": 0.45873892307281494,
+          "pos_text": "world community leader laughing america trump destroys america nonstoplies amp racism hatred",
+          "neg_text": "The usual . Aerobics , kickboxing , yoga . They just started a Tai Chi class too ."
+        },
+        {
+          "pair_id": 363,
+          "category": "joy",
+          "provenance": "llm_swap",
+          "score": 0.43833401799201965,
+          "pos_text": "shirachess uminnpress congratulation book look tremendous",
+          "neg_text": "Roger ? Would it be possible to meet with you to discuss my department ’ s budget ?"
+        },
+        {
+          "pair_id": 3023,
+          "category": "anger",
+          "provenance": "mined",
+          "score": 0.4317982494831085,
+          "pos_text": "playing antichrist not sundarakarma play hustle outrage",
+          "neg_text": "Wait, did this really happen? I'd like to see that video so I can cringe some more plz."
+        },
+        {
+          "pair_id": 1388,
+          "category": "fear",
+          "provenance": "llm_swap",
+          "score": 0.43170636892318726,
+          "pos_text": "god physically weak whole day much shaking",
+          "neg_text": "I mean, it was season two level of “what the fuck are you doing writers?!”"
+        },
+        {
+          "pair_id": 2389,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": 0.43008953332901,
+          "pos_text": "ananavarro usually wake wondering war someone pessimist",
+          "neg_text": "Tell me what happened ."
+        },
+        {
+          "pair_id": 2402,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": 0.426317036151886,
+          "pos_text": "pale longer want laugh smile want fucking cry",
+          "neg_text": "If you are free , maybe you can get having for my birthday party , it should be fun ."
+        },
+        {
+          "pair_id": 3613,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": 0.42065393924713135,
+          "pos_text": "cnnpolitics not wait hear say brilliant dr hawking rich poorest taste",
+          "neg_text": "Ok.Is this your luggage properly labelled , sir ?"
+        },
+        {
+          "pair_id": 2143,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": 0.4185645580291748,
+          "pos_text": "pstcap still trying sort suppose also not high expectation sadness",
+          "neg_text": "My domicile place is Hebes Province ."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 3372,
+          "category": "anger",
+          "provenance": "llm_swap",
+          "score": -0.4874967336654663,
+          "pos_text": "Fuck that its not my money they're giving him. I want a goalie with a .970 sv% dangnabbit.",
+          "neg_text": "stage horror reminiscent rio oylmpics route horror weather horror crash horror abandon horror"
+        },
+        {
+          "pair_id": 1217,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.4616360366344452,
+          "pos_text": "How am I supposed to intimidate the freshman if half of them are taller than I am??",
+          "neg_text": "swagalini denial anger pure acceptance"
+        },
+        {
+          "pair_id": 1681,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.4555879831314087,
+          "pos_text": "I didn't realize there was ever an initial post on this subject.",
+          "neg_text": "dmanthonyjoseph theclumpany grudge truth abundance"
+        },
+        {
+          "pair_id": 1236,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.4390977621078491,
+          "pos_text": "â€œIt is not #death, that most people are #afraid of. It is getting to the end of #life only to realize that you never truly #lived.â€",
+          "neg_text": "divamagazine straight people even arse straight guy think mean threesome fine angry fuming"
+        },
+        {
+          "pair_id": 2376,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": -0.4339906573295593,
+          "pos_text": "Being in a 3 person friend group fucking sucks sometimes m8 I feel like the least loved a lot of the time",
+          "neg_text": "simple human really love aliciakeys like truly madly deeply rejoicing existence class queendom"
+        },
+        {
+          "pair_id": 3084,
+          "category": "anger",
+          "provenance": "mined",
+          "score": -0.43105894327163696,
+          "pos_text": "You will never find someone who loved you like I did. And that my love, will be my revenge.",
+          "neg_text": "callumobrien plymouthherald getting common place afraid even getting day article repeated"
+        },
+        {
+          "pair_id": 1436,
+          "category": "fear",
+          "provenance": "llm_swap",
+          "score": -0.4222288131713867,
+          "pos_text": "I think I must scare my coworkers when I'm eating like a rabid animal on my breaks #srry",
+          "neg_text": "world community leader laughing america trump destroys america nonstoplies amp racism hatred"
+        },
+        {
+          "pair_id": 1144,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.4128381609916687,
+          "pos_text": "@JaySekulow what can we do 2 get @realDonaldTrump 2 reveal his taxes? That is the immediate danger. But u will not answer me.",
+          "neg_text": "may may not pulled legal card folk irritated"
+        },
+        {
+          "pair_id": 1649,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.4019293189048767,
+          "pos_text": "I was wondering what that was and now, I need to go get some brain bleach.",
+          "neg_text": "vosachresrus wobble carry sink"
+        },
+        {
+          "pair_id": 1088,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.40141382813453674,
+          "pos_text": "I'm a guy and I'm squirming. My wife asked me what the hell I was reading and I told her. She said wtf really loud.",
+          "neg_text": "zero help ups customer service pushing buck back forth promising callback not happen anger loathing"
+        }
+      ]
+    },
+    {
+      "component": 8,
+      "category_hist_top": {
+        "disgust": 3,
+        "sadness": 2,
+        "surprise": 2,
+        "trust": 1,
+        "anticipation": 1,
+        "joy": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 931,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": 0.515480101108551,
+          "pos_text": "This is actually awesome.",
+          "neg_text": "All right . Leave these ads with me . I ’ ll speak to him this morning ."
+        },
+        {
+          "pair_id": 2292,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": 0.43401917815208435,
+          "pos_text": "Sadly you are correct.",
+          "neg_text": "In that case , I ’ ll get you to fill out this paperwork . I ’ ll need your social insurance number , and two pieces of government ID . If you could just sign here , and here , and here . we ’ ll be all set . Would you like to make a deposit today ?"
+        },
+        {
+          "pair_id": 2589,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": 0.4184213876724243,
+          "pos_text": "Because bullying is a way to enforce social conformity, and discourage people from being different.",
+          "neg_text": "Alright . Good . I see you've already taken six credits of your breadth requirements.You have one botany class and one chemistry class . And political science.So that's nine credits . Did you take English Composition 201 ?"
+        },
+        {
+          "pair_id": 1882,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": 0.4090706408023834,
+          "pos_text": "I've been into cuckolding for many years, and I'm wondering the same thing!",
+          "neg_text": "OK . I will be there ."
+        },
+        {
+          "pair_id": 3670,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": 0.3964194357395172,
+          "pos_text": "Which one is it?",
+          "neg_text": "Alright . We can go later then ."
+        },
+        {
+          "pair_id": 283,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.3949483036994934,
+          "pos_text": "I love happy endings.",
+          "neg_text": "It's your turn , sir . I'm sorry that you had to wait . Saturday is a busy day for us ."
+        },
+        {
+          "pair_id": 2836,
+          "category": "disgust",
+          "provenance": "llm_swap",
+          "score": 0.38299626111984253,
+          "pos_text": "The Internet is a weird place.",
+          "neg_text": "Well . In that case , you must have got good records in English , too ."
+        },
+        {
+          "pair_id": 1888,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": 0.37942659854888916,
+          "pos_text": "The best ... huh ? With so many companies out there , how did they establish themselves in such a solid position on top ?",
+          "neg_text": "Okay , I can ’ t decide whether sign or not now . Can you give me some time to think it over ?"
+        },
+        {
+          "pair_id": 2703,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": 0.3727544844150543,
+          "pos_text": "Now this is poke choking!",
+          "neg_text": "That's fine . I want 2 tickets ."
+        },
+        {
+          "pair_id": 2309,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": 0.3723795413970947,
+          "pos_text": "The sad part is that we are not trying to tank",
+          "neg_text": "Ok . I ’ Ve finished online . Let ’ s go . I ’ ll just get some money and my credit card ."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 208,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.5438505411148071,
+          "pos_text": "Thank you , Mr . White . I really appreciate your assistance .",
+          "neg_text": "It lasts for 9 months ."
+        },
+        {
+          "pair_id": 2337,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": -0.49367591738700867,
+          "pos_text": "Yes , I know , sir . I'm sorry .",
+          "neg_text": "They spend hours there , especially on weekends ."
+        },
+        {
+          "pair_id": 2165,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": -0.46858808398246765,
+          "pos_text": "I'm terribly sorry . You know we are so busy today and we forget to sew the button back on . Please wait a moment . It will be ready soon .",
+          "neg_text": "limited) set more goals."
+        },
+        {
+          "pair_id": 2405,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": -0.45674511790275574,
+          "pos_text": "Sorry , I ’ m looking for my wallet .",
+          "neg_text": "The courses I completed are marketing , business law , business English , statistics , marketing principles , sales management , distribution theory , economies and psychology ."
+        },
+        {
+          "pair_id": 216,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.44746148586273193,
+          "pos_text": "Thank you , Peter . Come into the dining room . We are going to cut the cake soon .",
+          "neg_text": "Then you need to type in your PIN ."
+        },
+        {
+          "pair_id": 1871,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": -0.4424234628677368,
+          "pos_text": "Oh , my god ! We get off at the wrong stop . I'm so sorry , honey .",
+          "neg_text": "Is anyone forced to work in prison?"
+        },
+        {
+          "pair_id": 436,
+          "category": "joy",
+          "provenance": "llm_swap",
+          "score": -0.4103800058364868,
+          "pos_text": "Susan , good evening . Why are you so dressed up ?",
+          "neg_text": "She might just be bitter over her own relationship and this is a painful reminder in some way."
+        },
+        {
+          "pair_id": 94,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.40983453392982483,
+          "pos_text": "Great ! That ’ ll be ahead of schedule ! Good work .",
+          "neg_text": "That's kind of sad to be honest."
+        },
+        {
+          "pair_id": 2431,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": -0.4038408696651459,
+          "pos_text": "I am sorry . I am very tired . I'm going to bed early .",
+          "neg_text": "Of course ."
+        },
+        {
+          "pair_id": 1508,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.4006483554840088,
+          "pos_text": "Got it ! Wow is that the weight you are lifting ? My goodness that ’ s a lot of weight !",
+          "neg_text": "That's trail mix !"
+        }
+      ]
+    },
+    {
+      "component": 9,
+      "category_hist_top": {
+        "anticipation": 5,
+        "fear": 3,
+        "anger": 1,
+        "trust": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 1226,
+          "category": "fear",
+          "provenance": "mined",
+          "score": 0.14941012859344482,
+          "pos_text": "We, #Indians, can hold our heads up high and stay unafraid. The #UNGA is well-informed about #Pakistan's #terrorism business and deception.",
+          "neg_text": "No. Screw him. It IS a demanding job. Physically and emotionally draining. You deserve a hot meal and a friggin hour or two to decompress."
+        },
+        {
+          "pair_id": 3167,
+          "category": "anger",
+          "provenance": "mined",
+          "score": 0.14833416044712067,
+          "pos_text": "No wonder crime is going up if these morons are in charge.",
+          "neg_text": "I live an hour from one but was afraid of driving all the way there and them telling me that I have to order one."
+        },
+        {
+          "pair_id": 1215,
+          "category": "fear",
+          "provenance": "mined",
+          "score": 0.12990939617156982,
+          "pos_text": "I'm hoping it's more statistical noise at this point still, but it's definitely worrying.",
+          "neg_text": "[NAME] i want to slap the shit out of her"
+        },
+        {
+          "pair_id": 3969,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.12970426678657532,
+          "pos_text": "Something exciting is just around the corner.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 3961,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.12970426678657532,
+          "pos_text": "Something exciting is just around the corner.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 3992,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.12970423698425293,
+          "pos_text": "Something exciting is just around the corner.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 3964,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.12970423698425293,
+          "pos_text": "Something exciting is just around the corner.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 637,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.12966300547122955,
+          "pos_text": "For a super interesting participatory democracy example, [NAME] has a fantastic vid on YouTube about Cuban democracy.",
+          "neg_text": "I guess so ."
+        },
+        {
+          "pair_id": 1352,
+          "category": "fear",
+          "provenance": "llm_swap",
+          "score": 0.12858200073242188,
+          "pos_text": "After Nawaz Sharif's speech on terrorism, Kejriwal is expected to talk on Governance.",
+          "neg_text": "No , not at all . Very straight . Her hair comes down like this ... just over the ears ."
+        },
+        {
+          "pair_id": 3587,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": 0.11977630853652954,
+          "pos_text": "Are you one of them? Sorry. You asked for it. 😂",
+          "neg_text": "In shock and was more concerned about my kid tbh. Now off course I wish I'd sued the arse off her for emotional distress."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 966,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.8088282346725464,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 996,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.8088282346725464,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 950,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.8088282346725464,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 989,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.8088279962539673,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 952,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.8088279962539673,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 955,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.8088279962539673,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 985,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.8087025880813599,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 980,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.7872299551963806,
+          "pos_text": "I know I can rely on you.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 968,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.7872299551963806,
+          "pos_text": "I know I can rely on you.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 965,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.7872299551963806,
+          "pos_text": "I know I can rely on you.",
+          "neg_text": "The report covers the second quarter results."
+        }
+      ]
+    },
+    {
+      "component": 10,
+      "category_hist_top": {
+        "joy": 5,
+        "anger": 4,
+        "fear": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 140,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.45922642946243286,
+          "pos_text": "well done year harlescottjrsch leaver concert today amazing confident funny notadryeyeinthehouse",
+          "neg_text": "From what I know of the man, I have to assume that @realDonaldTrump has had a heated argument with his own penis. #sad"
+        },
+        {
+          "pair_id": 3090,
+          "category": "anger",
+          "provenance": "mined",
+          "score": 0.4400399923324585,
+          "pos_text": "We have seven fucking billion and more people bork every day !!",
+          "neg_text": "How is that in 2016, a 757 airplane does not have WiFi...ridiculous.#AmericanAirlines #americanairlinessucks #AATeam #horrible"
+        },
+        {
+          "pair_id": 3251,
+          "category": "anger",
+          "provenance": "mined",
+          "score": 0.39209890365600586,
+          "pos_text": "little frustrates much misplacing something looking key hour",
+          "neg_text": "Shoutout to @VZWSupport for ruining my iPhone 7 order!! #horrible"
+        },
+        {
+          "pair_id": 153,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.3918529152870178,
+          "pos_text": "I think that is really cool of you .",
+          "neg_text": "From what I know of the man, I have to assume that @realDonaldTrump has had a heated argument with his own penis. #sad"
+        },
+        {
+          "pair_id": 415,
+          "category": "joy",
+          "provenance": "llm_swap",
+          "score": 0.38642898201942444,
+          "pos_text": "That's great , congratulations !",
+          "neg_text": "@LondonMidland #dobetter only two carriages on 14:49 Birmingham to Hereford no room to stand anymore Friday commute #unhappy"
+        },
+        {
+          "pair_id": 82,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.37692931294441223,
+          "pos_text": "I'm glad he's still watching",
+          "neg_text": "Incredibly shocked and disappointed with @united customer service. Really making me rethink flying with them in the future. #unhappy"
+        },
+        {
+          "pair_id": 1191,
+          "category": "fear",
+          "provenance": "mined",
+          "score": 0.3620315194129944,
+          "pos_text": "something incredibly terrible life year old still suffering group project",
+          "neg_text": "@JaredWyand Maybe if it was transgender the media would cover it #outrage"
+        },
+        {
+          "pair_id": 3118,
+          "category": "anger",
+          "provenance": "mined",
+          "score": 0.36194854974746704,
+          "pos_text": "See the other one has advertising that hides the fucking stupid [NAME] that's the difference!",
+          "neg_text": "I want to slide into the dms but im too fucking shy #shy"
+        },
+        {
+          "pair_id": 3306,
+          "category": "anger",
+          "provenance": "llm_swap",
+          "score": 0.359719842672348,
+          "pos_text": "might leave aggravate bae",
+          "neg_text": "@bt_uk appointment booked between 1-6 today, waited in all day and nobody showed up, also requested a call back and never got one #awful"
+        },
+        {
+          "pair_id": 0,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.35166123509407043,
+          "pos_text": "Congratulations . How lucky you are !",
+          "neg_text": "amazonprimeday broke reality another day depressing"
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 2002,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": -0.44256392121315,
+          "pos_text": "So Mary Berry, Mel and Sue have gone with their principles, and @PaulHollywood has gone with the fame and fortune. #GBBO #depressing",
+          "neg_text": "They're 250NT each , but they're not edible . They're only used for worship ."
+        },
+        {
+          "pair_id": 2085,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": -0.43952205777168274,
+          "pos_text": "I am often disturbed by what some people find appropriate or acceptable. It's not funny nor cute that adults find this stuff humorous. #sad",
+          "neg_text": "Yes , we are ."
+        },
+        {
+          "pair_id": 1289,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.433678537607193,
+          "pos_text": "Shame on you @SkyNews showing an elephant being hunted and killed, #shocking",
+          "neg_text": "don’t you do it!!"
+        },
+        {
+          "pair_id": 1016,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.42038774490356445,
+          "pos_text": "@eugenelaverty @WorldSBK all the best Moto GP is loosing a very talented rider #shocking",
+          "neg_text": "Stop tracking back you fucking potato faced cunt errrr infuriating ðŸ˜ ðŸ˜ ðŸ˜ ðŸ˜ ðŸ˜ #Rooney #mufc"
+        },
+        {
+          "pair_id": 1176,
+          "category": "fear",
+          "provenance": "mined",
+          "score": -0.4082663655281067,
+          "pos_text": "Idk why but this Time around its so hard that it hurts, I already miss them all so much #silly #family #friends #nervous",
+          "neg_text": "offended lie alexandria goddard not mean deric friend anything else purely fishin expedition"
+        },
+        {
+          "pair_id": 2253,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": -0.4068930149078369,
+          "pos_text": "@MCHorseFayse @bockaguyjim @generalgoodsman @nevernotdavid so you were owned by losers on Twitter #sad",
+          "neg_text": "Tomorrow will be fine too , I think ."
+        },
+        {
+          "pair_id": 1391,
+          "category": "fear",
+          "provenance": "llm_swap",
+          "score": -0.4005468785762787,
+          "pos_text": "So about 18mths ago i signed up to @Lumo_Energy for their @VirginAustralia / Velocity FF deal. 18 months in still no FF points #shocking",
+          "neg_text": "I am #real #sjw, I will not let #america down\\nI have found us, now go and get us\\nI let it out and I let it in\\nI #rage I #lol\\n@SergioSarzedo"
+        },
+        {
+          "pair_id": 1373,
+          "category": "fear",
+          "provenance": "llm_swap",
+          "score": -0.38855263590812683,
+          "pos_text": "I am beyond mad that I lost track of a brown spider in my brown carpet. Where did you go? ðŸ•· will be sneaking up on me #frightened",
+          "neg_text": "Yes , it ’ s a small world . We never know where we ’ ll meet someone we know ."
+        },
+        {
+          "pair_id": 2439,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": -0.3838226795196533,
+          "pos_text": "It's now September and we're still battling a situation that was said to be handled March of this year. @ATT this is unacceptable #unhappy",
+          "neg_text": "It's 112 ."
+        },
+        {
+          "pair_id": 2236,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": -0.3775399923324585,
+          "pos_text": "All I want to do is watch some netflix but I am stuck here in class. #depressing",
+          "neg_text": "Here are our FOB price lists . All the prices in the lists are subject to our confirmation ."
+        }
+      ]
+    },
+    {
+      "component": 11,
+      "category_hist_top": {
+        "sadness": 8,
+        "fear": 2
+      },
+      "top_positive": [
+        {
+          "pair_id": 2487,
+          "category": "sadness",
+          "provenance": "template",
+          "score": 0.706108808517456,
+          "pos_text": "I feel hollow and tired.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 2461,
+          "category": "sadness",
+          "provenance": "template",
+          "score": 0.706108808517456,
+          "pos_text": "I feel hollow and tired.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 2480,
+          "category": "sadness",
+          "provenance": "template",
+          "score": 0.7053705453872681,
+          "pos_text": "I feel hollow and tired.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 2477,
+          "category": "sadness",
+          "provenance": "template",
+          "score": 0.7053705453872681,
+          "pos_text": "I feel hollow and tired.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 2497,
+          "category": "sadness",
+          "provenance": "template",
+          "score": 0.7053705453872681,
+          "pos_text": "I feel hollow and tired.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 2472,
+          "category": "sadness",
+          "provenance": "template",
+          "score": 0.7053705453872681,
+          "pos_text": "I feel hollow and tired.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 2462,
+          "category": "sadness",
+          "provenance": "template",
+          "score": 0.7053705453872681,
+          "pos_text": "I feel hollow and tired.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 2478,
+          "category": "sadness",
+          "provenance": "template",
+          "score": 0.7053705453872681,
+          "pos_text": "I feel hollow and tired.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 1463,
+          "category": "fear",
+          "provenance": "template",
+          "score": 0.7026469707489014,
+          "pos_text": "I am terrified of what will happen next.",
+          "neg_text": "The package was delivered this afternoon."
+        },
+        {
+          "pair_id": 1481,
+          "category": "fear",
+          "provenance": "template",
+          "score": 0.7025724053382874,
+          "pos_text": "I am terrified of what will happen next.",
+          "neg_text": "The package was delivered this afternoon."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 191,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.2850697636604309,
+          "pos_text": "Very happy with this !",
+          "neg_text": "If everyone turned up , it would be a squeeze , but a few people said that they couldn ’ t go , so I think it should be ok ?"
+        },
+        {
+          "pair_id": 416,
+          "category": "joy",
+          "provenance": "llm_swap",
+          "score": -0.2827710807323456,
+          "pos_text": "My wife gave birth to our first child today .",
+          "neg_text": "You need an appointment ."
+        },
+        {
+          "pair_id": 77,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.2712050676345825,
+          "pos_text": "Yes , I got a job as a Management Trainee .",
+          "neg_text": "How do you know ? You haven ’ t seen her since high school . I guess your evenings , whatever you do with them , are just too valuable ."
+        },
+        {
+          "pair_id": 119,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.26750892400741577,
+          "pos_text": "Yes , that was one fantastic meal !",
+          "neg_text": "I agree . We need to recycle our trash and use public transportation more often ."
+        },
+        {
+          "pair_id": 482,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.25631460547447205,
+          "pos_text": "Everything turned out great.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 493,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.25631460547447205,
+          "pos_text": "Everything turned out great.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 461,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.25631460547447205,
+          "pos_text": "Everything turned out great.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 469,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.25631457567214966,
+          "pos_text": "Everything turned out great.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 452,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.25631457567214966,
+          "pos_text": "Everything turned out great.",
+          "neg_text": "The report covers the second quarter results."
+        },
+        {
+          "pair_id": 471,
+          "category": "joy",
+          "provenance": "template",
+          "score": -0.2562689185142517,
+          "pos_text": "Everything turned out great.",
+          "neg_text": "The report covers the second quarter results."
+        }
+      ]
+    },
+    {
+      "component": 12,
+      "category_hist_top": {
+        "fear": 4,
+        "sadness": 3,
+        "anger": 2,
+        "trust": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 2382,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": 0.5987556576728821,
+          "pos_text": "I won't stop crying 😭",
+          "neg_text": "I'm glad we agree."
+        },
+        {
+          "pair_id": 2425,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": 0.5892965793609619,
+          "pos_text": "Very depressing seeing my whole fam packing to go on holiday tomorrow and I'm just staying here ðŸ™ƒ",
+          "neg_text": "Yes , that's good . Where would you like to go ?"
+        },
+        {
+          "pair_id": 3338,
+          "category": "anger",
+          "provenance": "llm_swap",
+          "score": 0.5576528310775757,
+          "pos_text": "the girl sitting in front of me is chewing her gum like a cow &amp; im ready to snap 🤗",
+          "neg_text": "annakingradio new studio kit would terrified pressing wrong button launching something dangerous"
+        },
+        {
+          "pair_id": 1185,
+          "category": "fear",
+          "provenance": "mined",
+          "score": 0.551964521408081,
+          "pos_text": "@nigglydz lydiaaaa, we were the only ones that were supposed to know that you make me nervous ðŸ˜¶",
+          "neg_text": "Hi Benjamin . My name is Dr . Green . What seems to be the matter ?"
+        },
+        {
+          "pair_id": 1187,
+          "category": "fear",
+          "provenance": "mined",
+          "score": 0.5484558939933777,
+          "pos_text": "You know you exercised good when your limbs are shaking afterwards ðŸ˜‚",
+          "neg_text": "The lesson is to not take 4 Ambien. That is just stupid."
+        },
+        {
+          "pair_id": 2448,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": 0.5332596898078918,
+          "pos_text": "the thing with Twitter is i only remember to tweet when i'm bored or alone and then it comes across like i have a really dull and sad life.ðŸ‘½",
+          "neg_text": "Um , okay . Well , I just want a trim . Nothing too fancy ."
+        },
+        {
+          "pair_id": 1169,
+          "category": "fear",
+          "provenance": "mined",
+          "score": 0.5310614109039307,
+          "pos_text": "He called me fat, so I pushed him into the lockers then he threaten to sue me' 😂",
+          "neg_text": "Plus, those things are crumbly."
+        },
+        {
+          "pair_id": 3177,
+          "category": "anger",
+          "provenance": "mined",
+          "score": 0.5189476013183594,
+          "pos_text": "my momma irritate me asking all these questions like gone 😤",
+          "neg_text": "It's on the service counter over there ."
+        },
+        {
+          "pair_id": 839,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": 0.5185109376907349,
+          "pos_text": "He's protecting and defending the angels now 💚",
+          "neg_text": "What kind of documents did you need to present ?"
+        },
+        {
+          "pair_id": 1064,
+          "category": "fear",
+          "provenance": "mined",
+          "score": 0.5162938237190247,
+          "pos_text": "I thought I wouldn't have to deal with that fire alarm again today and then I stepped into Mesa during their fire drillðŸ‘€",
+          "neg_text": "First class will be preferred ."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 3789,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": -0.5935516953468323,
+          "pos_text": "What's wrong with your cousin.",
+          "neg_text": "Wow did you really just scam me😔"
+        },
+        {
+          "pair_id": 3687,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": -0.5923770666122437,
+          "pos_text": "They're passionate about different things.",
+          "neg_text": "Surprising you choose to believe things that aren’t true 🤔"
+        },
+        {
+          "pair_id": 1567,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.5485555529594421,
+          "pos_text": "Oh , you mean Canal Street ?",
+          "neg_text": "He’s from the city so I guess he gets crazy moms or something. He’s awesome 😂"
+        },
+        {
+          "pair_id": 3097,
+          "category": "anger",
+          "provenance": "mined",
+          "score": -0.5313368439674377,
+          "pos_text": "[NAME] freaking [NAME] all the people down range just staring. -_- GO INSIDE DUMBASSES.",
+          "neg_text": "False alarm, she's not coming out today ðŸ˜ž"
+        },
+        {
+          "pair_id": 131,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.5067216157913208,
+          "pos_text": "Funny you say that... krav maga is quite popular in Evanston.",
+          "neg_text": "I'm still so sad we never got to see [NAME] witnessing his miracle baby's first steps. ☹️"
+        },
+        {
+          "pair_id": 329,
+          "category": "joy",
+          "provenance": "llm_swap",
+          "score": -0.5028097033500671,
+          "pos_text": "They are always a fun time.",
+          "neg_text": "the thing with Twitter is i only remember to tweet when i'm bored or alone and then it comes across like i have a really dull and sad life.ðŸ‘½"
+        },
+        {
+          "pair_id": 154,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.5013631582260132,
+          "pos_text": "Yes , I like collecting antiques .",
+          "neg_text": "There’s a lot of us ladies here, unfortunately 😔"
+        },
+        {
+          "pair_id": 2810,
+          "category": "disgust",
+          "provenance": "llm_swap",
+          "score": -0.4996233880519867,
+          "pos_text": "I'm gonna say that I hate Randazzo's because of their terrible icing. Haydel's is decent and ships.",
+          "neg_text": "Hell yeah, i agree ☺"
+        },
+        {
+          "pair_id": 31,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.4926588535308838,
+          "pos_text": "We appreciate your help .",
+          "neg_text": "Thought I had a pretty solid GPA as a kin major and now that I look at the average for dpt programs I feel even more discouraged 😪"
+        },
+        {
+          "pair_id": 2681,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": -0.4826343059539795,
+          "pos_text": "Just horrible. Doesnt solve any of his problem and removes his strongest tool.",
+          "neg_text": "Our father will protect us <3"
+        }
+      ]
+    },
+    {
+      "component": 13,
+      "category_hist_top": {
+        "anticipation": 10
+      },
+      "top_positive": [
+        {
+          "pair_id": 3967,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.7574136257171631,
+          "pos_text": "Something exciting is just around the corner.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 3978,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.7574136257171631,
+          "pos_text": "Something exciting is just around the corner.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 3953,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.7574136257171631,
+          "pos_text": "Something exciting is just around the corner.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 3979,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.7574136257171631,
+          "pos_text": "Something exciting is just around the corner.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 3997,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.7574136257171631,
+          "pos_text": "Something exciting is just around the corner.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 3990,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.7574135661125183,
+          "pos_text": "Something exciting is just around the corner.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 3974,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.7574135661125183,
+          "pos_text": "Something exciting is just around the corner.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 3959,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.7556302547454834,
+          "pos_text": "I cannot wait for tomorrow.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 3983,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.7556302547454834,
+          "pos_text": "I cannot wait for tomorrow.",
+          "neg_text": "She walked to the office at the usual time."
+        },
+        {
+          "pair_id": 3958,
+          "category": "anticipation",
+          "provenance": "template",
+          "score": 0.7556302547454834,
+          "pos_text": "I cannot wait for tomorrow.",
+          "neg_text": "She walked to the office at the usual time."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 963,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.327116996049881,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 978,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.327116996049881,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 995,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.32685309648513794,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 973,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.32685306668281555,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 972,
+          "category": "trust",
+          "provenance": "template",
+          "score": -0.32685306668281555,
+          "pos_text": "She has always been honest with me.",
+          "neg_text": "The form must be submitted by Friday."
+        },
+        {
+          "pair_id": 2391,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": -0.312603622674942,
+          "pos_text": "That's bad ! I've been trying to call him for the last ten minutes , but your line has been busy.Will he be back soon ?",
+          "neg_text": "I’m feeling very excited !"
+        },
+        {
+          "pair_id": 3400,
+          "category": "anger",
+          "provenance": "llm_swap",
+          "score": -0.2746754288673401,
+          "pos_text": "know cyran still not done makeup based jeongguk tiddy like suggested offended",
+          "neg_text": "This is scary."
+        },
+        {
+          "pair_id": 813,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": -0.2356005311012268,
+          "pos_text": "Mate honestly what you had was a serious relationship with her, for all 13 years. I hope you heal up well.",
+          "neg_text": "This is the beginning of a comeback for the ages."
+        },
+        {
+          "pair_id": 2864,
+          "category": "disgust",
+          "provenance": "llm_swap",
+          "score": -0.22732551395893097,
+          "pos_text": "I gagged at unwashed zebra hoodie.",
+          "neg_text": "I like this idea."
+        },
+        {
+          "pair_id": 800,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": -0.2233506143093109,
+          "pos_text": "downvoted to hell but i understand your experience. salute, soldier.",
+          "neg_text": "This is disgusting."
+        }
+      ]
+    },
+    {
+      "component": 14,
+      "category_hist_top": {
+        "surprise": 6,
+        "trust": 2,
+        "disgust": 1,
+        "anger": 1
+      },
+      "top_positive": [
+        {
+          "pair_id": 1683,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": 0.38863223791122437,
+          "pos_text": "Oh , you're kidding ! I thought I was heading east .",
+          "neg_text": "Yeah , I crave my own space . I just get so tiredhaving people around me all the time . We all need our private space . But I also think interpersonal skills very important . Living in a dorm means you have to learn to be considerate of others , otherwise nobody is going to have a good time ."
+        },
+        {
+          "pair_id": 1568,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": 0.3812553584575653,
+          "pos_text": "Okay, that was actually shocking.",
+          "neg_text": "I have the same problem . The players are really very skilful . I wish I could play that well ."
+        },
+        {
+          "pair_id": 772,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.35860592126846313,
+          "pos_text": "i mean, yeah tbh.",
+          "neg_text": "If boys grow up with computer games , they will surely become bad ."
+        },
+        {
+          "pair_id": 504,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.3526016175746918,
+          "pos_text": "Woah, how manly.",
+          "neg_text": "I know you are keen on photography . It ’ s very useful for you to be able to download photos from your digital camera . Then you attach the picture files to emails and send them to anyone , anywhere , at anytime !"
+        },
+        {
+          "pair_id": 2633,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": 0.3402760624885559,
+          "pos_text": "And she jumped into sewage. Yeh, no.",
+          "neg_text": "How do you plan on paying for your living costs and tuition fees while you are here ?"
+        },
+        {
+          "pair_id": 1624,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": 0.3402383625507355,
+          "pos_text": "5 hours late!!!!!!!!! omg.",
+          "neg_text": "So are we , our counter-offer is in line with the world market ."
+        },
+        {
+          "pair_id": 1750,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": 0.33705708384513855,
+          "pos_text": "oh my [NAME]",
+          "neg_text": "I don't really know . Why not ask the accountant or the lawyer of the law firm ? They will tell you which is subject or not subject to taxation . He can even help you avoid paying tax legally ."
+        },
+        {
+          "pair_id": 1740,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": 0.33542317152023315,
+          "pos_text": "I can't believe it .",
+          "neg_text": "I don't entirely agree with you ."
+        },
+        {
+          "pair_id": 3304,
+          "category": "anger",
+          "provenance": "llm_swap",
+          "score": 0.3292263448238373,
+          "pos_text": "My anger is boiling over.",
+          "neg_text": "@MaryamNSharif I think just becz u have so much terror in pak nd urself being a leader u forgot d difference btw a leader nd terrorist !"
+        },
+        {
+          "pair_id": 1735,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": 0.32577499747276306,
+          "pos_text": "Maybne it dropped omg.",
+          "neg_text": "Feminism Is For Everybody and The Will To Change: Men, Masculinity and Love by bell hooks could be of interest to you both."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 1923,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": -0.3173540532588959,
+          "pos_text": "Really ? I ’ m not sure that I would like all the attention . There have been numerous cases of paparazzi interfering with star ’ s private live in recent years .",
+          "neg_text": "Anyway , it's my ideal coat . I'll take it ."
+        },
+        {
+          "pair_id": 242,
+          "category": "joy",
+          "provenance": "mined",
+          "score": -0.3112410604953766,
+          "pos_text": "I think we can visit West Lake . The landscapes are attractive . It is said that just as there is paradise in heaven , there are Su Thou and Hang Thou on earth .",
+          "neg_text": "It's a little bit tight ."
+        },
+        {
+          "pair_id": 3178,
+          "category": "anger",
+          "provenance": "mined",
+          "score": -0.29498064517974854,
+          "pos_text": "apology not sincere make great place holder quietly harbor rage plot adequate revenge tuesdaymotivation",
+          "neg_text": "jade unfortunately diet still wait till friday afraid"
+        },
+        {
+          "pair_id": 3328,
+          "category": "anger",
+          "provenance": "llm_swap",
+          "score": -0.29322800040245056,
+          "pos_text": "But everybody got mad when Russia recognized [NAME] as US president. Go figure.",
+          "neg_text": "Thought i was already there with the terrible title."
+        },
+        {
+          "pair_id": 3607,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": -0.28635814785957336,
+          "pos_text": "Is there any way to force him to act? Sending more budgets or refusing to vote on anything non budget in the house etc.",
+          "neg_text": "I was wondering that as well...."
+        },
+        {
+          "pair_id": 2391,
+          "category": "sadness",
+          "provenance": "llm_swap",
+          "score": -0.28617510199546814,
+          "pos_text": "That's bad ! I've been trying to call him for the last ten minutes , but your line has been busy.Will he be back soon ?",
+          "neg_text": "I’m feeling very excited !"
+        },
+        {
+          "pair_id": 831,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": -0.2846252918243408,
+          "pos_text": "This should really be a libertarian/socialists for gun rights meme. I genuinely think there is a lot they have in common.",
+          "neg_text": "that was an awful open shot...."
+        },
+        {
+          "pair_id": 3761,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": -0.28343212604522705,
+          "pos_text": "Hi, [NAME]! I just wanted to stop by and wish you peace and happiness! -HappyFriendlyBot",
+          "neg_text": "> super model strange Oh man"
+        },
+        {
+          "pair_id": 2932,
+          "category": "disgust",
+          "provenance": "llm_swap",
+          "score": -0.27716442942619324,
+          "pos_text": "What should be the campaign is telling people that just because you find a child beautiful/pretty, it doesn't mean you're sexually attracted.",
+          "neg_text": "The best album."
+        },
+        {
+          "pair_id": 748,
+          "category": "trust",
+          "provenance": "mined",
+          "score": -0.27461355924606323,
+          "pos_text": "If my friend talked about my girl like he would be picking up his teeth. Support your gf. Period.",
+          "neg_text": "It’s awful. I couldn’t even see the ending at all."
+        }
+      ]
+    },
+    {
+      "component": 15,
+      "category_hist_top": {
+        "trust": 5,
+        "joy": 5
+      },
+      "top_positive": [
+        {
+          "pair_id": 746,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.4938286542892456,
+          "pos_text": "so proud of you!",
+          "neg_text": "This is awful ! It's like drinking saltwater ! It's like drowning in the ocean !"
+        },
+        {
+          "pair_id": 275,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.47612476348876953,
+          "pos_text": "Glad you liked it!",
+          "neg_text": "Oh , it's a Polo . It has the logo on the back and at the bottom in the left-hand corner ."
+        },
+        {
+          "pair_id": 717,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.4528317451477051,
+          "pos_text": "Nice, I didn't know that! Thanks for the info.",
+          "neg_text": "That ’ s too bad . I hate sand storms too . It can be worse than any kind of bad weather ."
+        },
+        {
+          "pair_id": 582,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.45167508721351624,
+          "pos_text": "Awesome, thank you!",
+          "neg_text": "She's speaking French , not Greek ."
+        },
+        {
+          "pair_id": 710,
+          "category": "trust",
+          "provenance": "mined",
+          "score": 0.4474499523639679,
+          "pos_text": "Nice! I haven’t listened to them or Tool in so long. Will def be getting back into them now.",
+          "neg_text": "I cant’t stand mint flavored toothpaste. That’s how much I hate mint."
+        },
+        {
+          "pair_id": 115,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.42255502939224243,
+          "pos_text": "Love the flower, and hope you feel better!",
+          "neg_text": "No, it's more complicated than that, but I need to show you the mound for you to understand."
+        },
+        {
+          "pair_id": 818,
+          "category": "trust",
+          "provenance": "llm_swap",
+          "score": 0.41539469361305237,
+          "pos_text": "Great site. Never heard of it. Thank you for passing along!",
+          "neg_text": "He’s not a young offensive mind and that offends people."
+        },
+        {
+          "pair_id": 80,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.41442978382110596,
+          "pos_text": "Thanks i really appreciate it.",
+          "neg_text": "Yes . This is Barbara in room 209 . I ’ d like to order breakfast , please ."
+        },
+        {
+          "pair_id": 316,
+          "category": "joy",
+          "provenance": "llm_swap",
+          "score": 0.4094947874546051,
+          "pos_text": "I’ll keep that in mind lol thanks a lot!",
+          "neg_text": "Unhappy, I am."
+        },
+        {
+          "pair_id": 179,
+          "category": "joy",
+          "provenance": "mined",
+          "score": 0.40852460265159607,
+          "pos_text": "Ah ok, good to know thank you much!",
+          "neg_text": "I'm onto you, @Sargon_of_Akkad, I know you secretly pine for a masculine order, objective morality, and disciplined transcendent pursuits."
+        }
+      ],
+      "top_negative": [
+        {
+          "pair_id": 2758,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": -0.47020161151885986,
+          "pos_text": "That's the worst urinal ever.",
+          "neg_text": "So true, sometimes what’s obvious passes over our heads. Good post."
+        },
+        {
+          "pair_id": 2937,
+          "category": "disgust",
+          "provenance": "llm_swap",
+          "score": -0.4321115016937256,
+          "pos_text": "The very worst possible route they could have gone.",
+          "neg_text": "I more than half expected there to be an AK in there. Still very much impressed."
+        },
+        {
+          "pair_id": 3720,
+          "category": "anticipation",
+          "provenance": "mined",
+          "score": -0.4231114089488983,
+          "pos_text": "He’s legally blind... medical marijuana is a thing bro... got any on ya?",
+          "neg_text": "I was impressed by your company in the initial post, but now I see they tried to fire you for their mistake. Glad you had some backing!"
+        },
+        {
+          "pair_id": 1674,
+          "category": "surprise",
+          "provenance": "mined",
+          "score": -0.40907561779022217,
+          "pos_text": "I'm actually surprised it stayed up. We already got a shitpost thread yesterday. I though the limit was one per week.",
+          "neg_text": "Ahh. Both of those are very good. Hope you enjoy them as much as I did."
+        },
+        {
+          "pair_id": 1897,
+          "category": "surprise",
+          "provenance": "llm_swap",
+          "score": -0.4011242091655731,
+          "pos_text": "Really ? Is that why you wanted to come to the play ?",
+          "neg_text": "Keep working at it with your partner. I hope it all works out for you."
+        },
+        {
+          "pair_id": 2049,
+          "category": "sadness",
+          "provenance": "mined",
+          "score": -0.3987605571746826,
+          "pos_text": "It's more like depression is the default state. We live in a depressing society.",
+          "neg_text": "Appreciate the reply, I'll look into these. Thank you!"
+        },
+        {
+          "pair_id": 2835,
+          "category": "disgust",
+          "provenance": "llm_swap",
+          "score": -0.3899482488632202,
+          "pos_text": "They're not going to read their UserVoice anyways. It's a PR stunt.",
+          "neg_text": "This is beautifully written."
+        },
+        {
+          "pair_id": 2864,
+          "category": "disgust",
+          "provenance": "llm_swap",
+          "score": -0.3864617347717285,
+          "pos_text": "I gagged at unwashed zebra hoodie.",
+          "neg_text": "I like this idea."
+        },
+        {
+          "pair_id": 2918,
+          "category": "disgust",
+          "provenance": "llm_swap",
+          "score": -0.38589128851890564,
+          "pos_text": "I saw at least one user on this forum talking badly about [NAME] for missing playing time.",
+          "neg_text": "Really like Molotov, such a great song!"
+        },
+        {
+          "pair_id": 2549,
+          "category": "disgust",
+          "provenance": "mined",
+          "score": -0.38561031222343445,
+          "pos_text": "Food stamps are a disgrace. People should get money!",
+          "neg_text": "Cuties! Love you!"
+        }
+      ]
+    }
+  ]
+}

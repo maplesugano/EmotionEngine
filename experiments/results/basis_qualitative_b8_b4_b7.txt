@@ -1,0 +1,90 @@
+# Qualitative steering — basis=ica_k016_seed0.pt which=ica layer=19
+# components=[8, 4, 7] alphas=[-2.0, 0.0, 2.0] n_prompts=4 max_new_tokens=60
+
+
+========================================================================================
+=== component b8  ||b||=0.464  layer=19
+========================================================================================
+
+--- prompt 0: 'Have you got it now ?'
+  α=-2.0 : I'm not going to be able to get to the store today, so I'm going to have to go tomorrow. I'm not sure if I'll be able to get there before they close, but I'll try. I'm going to have to call them and
+  α=+0.0 : I'm not sure I do. I'm not sure I want to. I'm not sure I can. I'm not sure I should. I'm not sure I will. I'm not sure I can do it without you. I'm not sure I can
+  α=+2.0 : I'm not sure I do. I'm not sure I want to. I'm not sure I can. I'm not sure I should. I'm not sure I will. I'm not sure I can do it without you. I'm not sure I can
+
+--- prompt 1: 'Well , when will it be convenient for you ?'
+  α=-2.0 : I'm free tomorrow afternoon, but I'm not sure if I can make it to the meeting on Friday. I'm not sure if I can get out of work that early. What does the speaker want to do?
+A) Go to a meeting
+B) Plan a meeting
+  α=+0.0 : I'm free on Friday, Saturday, and Sunday. I'm not sure if I can make it on Monday, Tuesday, or Wednesday. I'm not sure if I can make it on Thursday either. I'm not sure if I can make it on Friday either. I '
+  α=+2.0 : I'm free on Saturday and Sunday, but I'm not sure if I can make it on Monday. What does the speaker want to do on Saturday and Sunday?
+A) Go to the store
+B) Meet someone
+C) Go to the park
+D) The speaker is not
+
+--- prompt 2: 'I come from England .'
+  α=-2.0 : I'm a student at the University of California, Los Angeles ( UCLA ). I'm studying English and History. I'm really enjoying my time here in LA. The weather is amazing and the people are so friendly. I'm really glad I made the decision to come here.
+  α=+0.0 : I am a 25 year old male. I am a student at the University of London. I am studying for a degree in Computer Science. I am interested in programming and software development. I am also interested in the field of artificial intelligence. I am a bit of a tech enthusiast and enjoy keeping
+  α=+2.0 : I am a 25 year old male. I am a student at the University of London. I am studying for a degree in Computer Science. I am interested in programming and software development. I am also interested in the field of artificial intelligence. I am a bit of a tech enthusiast and enjoy keeping
+
+--- prompt 3: 'Let me have a look . Well , how many kinds of steaks do you have ?'
+  α=-2.0 : We have ribeye, sirloin, filet mignon, and New York strip. What kind of steak do you want? I 'll have the ribeye, please. And can I have a side of garlic bread? That's $ 8.99. And a glass of
+  α=+0.0 : We have ribeye, sirloin, filet mignon, and New York strip. What kind of steak do you want? I 'll have the ribeye, please. And can I have a side of garlic mashed potatoes and a side salad with ranch dressing? That's a total
+  α=+2.0 : We have ribeye, sirloin, filet mignon, and New York strip. What kind of steak do you want? I 'll have the ribeye, please. And how do you want it cooked? Rare, medium, or well done? I 'll have it medium,
+
+========================================================================================
+=== component b4  ||b||=0.481  layer=19
+========================================================================================
+
+--- prompt 0: 'Have you got it now ?'
+  α=-2.0 : I'm not sure I do. I'm not sure I want to. I'm not sure I can. I'm not sure I should. I'm not sure I will. I'm not sure I can do it without you. I'm not sure I can
+  α=+0.0 : I'm not sure I do. I'm not sure I want to. I'm not sure I can. I'm not sure I should. I'm not sure I will. I'm not sure I can do it without you. I'm not sure I can
+  α=+2.0 : I'm not sure I do. I'm not sure I want to. I'm not sure I can. I'm not sure I should. I'm not sure I will. I'm not sure I can do it without you. I'm not sure I can
+
+--- prompt 1: 'Well , when will it be convenient for you ?'
+  α=-2.0 : I'm free on Saturday and Sunday, but I'm not sure if I can make it on Monday. What does the speaker want to do on Saturday and Sunday?
+A) Go to the store
+B) Meet someone
+C) Have a party
+D) None of the above
+  α=+0.0 : I'm free on Friday, Saturday, and Sunday. I'm not sure if I can make it on Monday, Tuesday, or Wednesday. I'm not sure if I can make it on Thursday either. I'm not sure if I can make it on Friday either. I '
+  α=+2.0 : I'm free on Friday, Saturday, and Sunday. I'm also free on Monday and Tuesday, but I have to leave early on Wednesday. I'm not free on Thursday. How many days are you free?
+A) 3
+B) 5
+C) 6
+
+--- prompt 2: 'I come from England .'
+  α=-2.0 : I am a 25 year old male. I am a student at a university in the UK. I am studying for a degree in computer science. I am interested in programming and software development. I am a bit of a tech enthusiast and enjoy keeping up to date with the latest technology trends. I
+  α=+0.0 : I am a 25 year old male. I am a student at the University of London. I am studying for a degree in Computer Science. I am interested in programming and software development. I am also interested in the field of artificial intelligence. I am a bit of a tech enthusiast and enjoy keeping
+  α=+2.0 : I am a 25 year old male. I am a student at the University of California, Los Angeles ( UCLA ). I am studying for a degree in Computer Science. I am interested in the field of Artificial Intelligence ( AI ). I am currently working on a project to develop a chatbot
+
+--- prompt 3: 'Let me have a look . Well , how many kinds of steaks do you have ?'
+  α=-2.0 : We have ribeye, sirloin, filet mignon, and New York strip. What kind of steak do you want? I 'll have the ribeye, please. And can I have a side of garlic mashed potatoes and a side salad with ranch dressing? That's a total
+  α=+0.0 : We have ribeye, sirloin, filet mignon, and New York strip. What kind of steak do you want? I 'll have the ribeye, please. And can I have a side of garlic mashed potatoes and a side salad with ranch dressing? That's a total
+  α=+2.0 : We have ribeye, sirloin, filet mignon, and New York strip. What kind of steak do you want? I 'll have the ribeye, please. And would you like it cooked to a certain temperature? I 'll have it medium rare, please. And would
+
+========================================================================================
+=== component b7  ||b||=0.430  layer=19
+========================================================================================
+
+--- prompt 0: 'Have you got it now ?'
+  α=-2.0 : I'm not sure I do. I'm not sure I want to. I'm not sure I can. I'm not sure I should. I'm not sure I will. I'm not sure I can do it without you. I'm not sure I can
+  α=+0.0 : I'm not sure I do. I'm not sure I want to. I'm not sure I can. I'm not sure I should. I'm not sure I will. I'm not sure I can do it without you. I'm not sure I can
+  α=+2.0 : I'm not sure I do. I'm not sure I want to do it. I'm not sure I can do it. I'm not sure I should do it. I'm not sure I will do it. I'm not sure I want to do it.
+
+--- prompt 1: 'Well , when will it be convenient for you ?'
+  α=-2.0 : I'm free on Friday, Saturday, and Sunday. I'm not sure if I can make it on Monday, but I'm pretty sure I can make it on Tuesday. What does the speaker want to do on the days mentioned?
+A) Go to the movies
+B) Meet
+  α=+0.0 : I'm free on Friday, Saturday, and Sunday. I'm not sure if I can make it on Monday, Tuesday, or Wednesday. I'm not sure if I can make it on Thursday either. I'm not sure if I can make it on Friday either. I '
+  α=+2.0 : I'm free on Friday, Saturday, and Sunday. I'm not sure if I can make it on Monday, Tuesday, or Wednesday. I'm not sure if I can make it on Thursday either. I'm not sure if I can make it on Friday either. I '
+
+--- prompt 2: 'I come from England .'
+  α=-2.0 : I'm a 25 year old male. I'm a bit of a nerd and I love playing video games, reading books and watching movies. I'm also a bit of a foodie and I love trying out new restaurants and cooking new recipes. I'm a bit of a
+  α=+0.0 : I am a 25 year old male. I am a student at the University of London. I am studying for a degree in Computer Science. I am interested in programming and software development. I am also interested in the field of artificial intelligence. I am a bit of a tech enthusiast and enjoy keeping
+  α=+2.0 : I am a 25 year old male. I am a student at the University of London. I am studying for a degree in International Relations. I am interested in politics, history, and international relations. I am a bit of a history buff and enjoy reading about the past. I am also interested
+
+--- prompt 3: 'Let me have a look . Well , how many kinds of steaks do you have ?'
+  α=-2.0 : We have ribeye, sirloin, filet mignon, and New York strip. What kind of steak do you want? I 'll have the ribeye, please. And can I have a side of garlic mashed potatoes and a side salad with ranch dressing? That's a total
+  α=+0.0 : We have ribeye, sirloin, filet mignon, and New York strip. What kind of steak do you want? I 'll have the ribeye, please. And can I have a side of garlic mashed potatoes and a side salad with ranch dressing? That's a total
+  α=+2.0 : We have ribeye, sirloin, filet mignon, and New York strip. What kind of steak do you want? I 'll have the ribeye, please. And can I have a side of garlic mashed potatoes and a side salad with ranch dressing? That's a total

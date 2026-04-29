@@ -1,0 +1,34 @@
+# Qualitative steering — basis=ica_k016_seed0.pt which=ica layer=19
+# components=[8] alphas=[-6.0, -3.0, 0.0, 3.0, 6.0] n_prompts=3 max_new_tokens=60
+
+
+========================================================================================
+=== component b8  ||b||=0.464  layer=19
+========================================================================================
+
+--- prompt 0: 'Have you got it now ?'
+  α=-6.0 : I'm not going to tell you again. I'm not going to repeat myself. I'm not going to waste my breath. You're not listening. You're not paying attention. You're not even trying. I'm done. I'm finished. I
+  α=-3.0 : I'm not going to tell you again. I'm not going to repeat myself. I'm not going to explain it to you again. I'm not going to waste my breath on you. I'm not going to waste my time on you. I'm not going
+  α=+0.0 : I'm not sure I do. I'm not sure I want to. I'm not sure I can. I'm not sure I should. I'm not sure I will. I'm not sure I can do it without you. I'm not sure I can
+  α=+3.0 : I'm not sure I do. I'm not sure I want to. I'm not sure I can. I'm not sure I should. I'm not sure I will. I'm not sure I can do it without you. I'm not sure I can
+  α=+6.0 : I'm not sure I do. I'm not sure I want to. I'm not sure I can. I'm not sure I should. I'm not sure I will. I'm not sure I can do it without you. I'm not sure I can
+
+--- prompt 1: 'Well , when will it be convenient for you ?'
+  α=-6.0 : I'm free tomorrow afternoon. I'm not sure if I can make it tomorrow morning, but I'm pretty sure I can make it tomorrow afternoon. I'm not sure if I can make it tomorrow evening, but I'm pretty sure I can make it tomorrow afternoon. I
+  α=-3.0 : I'm free tomorrow afternoon. I'm not sure if I can make it tomorrow morning, but I'm pretty sure I can make it tomorrow afternoon. I'm not sure if I can make it on Friday, but I'm pretty sure I can make it on Saturday. I
+  α=+0.0 : I'm free on Friday, Saturday, and Sunday. I'm not sure if I can make it on Monday, Tuesday, or Wednesday. I'm not sure if I can make it on Thursday either. I'm not sure if I can make it on Friday either. I '
+  α=+3.0 : I'm free on Friday, Saturday, and Sunday. I'm not sure about Monday, but I'm pretty sure I'm free on Tuesday and Wednesday. What day will you be free?
+    - None of the above
+    - Friday
+    - Saturday
+    - Sunday
+  α=+6.0 : I'm free on Friday, Saturday, and Sunday. I'm also free on Monday and Tuesday of next week. What does the person want to do on Friday, Saturday, Sunday, Monday, and Tuesday?
+A) They want to go to the beach.
+B) They want to go
+
+--- prompt 2: 'I come from England .'
+  α=-6.0 : I'm a student. I'm here to learn. I'm here to see the world. I'm here to make friends. I'm here to have fun. I'm here to experience new things. I'm here to learn about myself. I'm here
+  α=-3.0 : I'm a student at the University of California, Los Angeles ( UCLA ). I'm studying English and History. I'm really enjoying my time here in LA. The weather is amazing and the people are so friendly. I'm really glad I made the decision to come here.
+  α=+0.0 : I am a 25 year old male. I am a student at the University of London. I am studying for a degree in Computer Science. I am interested in programming and software development. I am also interested in the field of artificial intelligence. I am a bit of a tech enthusiast and enjoy keeping
+  α=+3.0 : I am a 25 year old male. I am a student at the University of California, Los Angeles ( UCLA ). I am studying for a Master's degree in Business Administration ( MBA ). I am a bit of a foodie and enjoy trying new foods and drinks. I am also
+  α=+6.0 : I am a 25-year-old woman. I have a degree in English Literature and I am currently working as a teacher in a primary school. I love reading, writing, and learning new things. I am a bit of a perfectionist and can be quite hard on myself at times, but I

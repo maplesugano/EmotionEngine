@@ -1,0 +1,157 @@
+{
+  "tag": "ica_k016_seed0_L19_ols",
+  "layer": 19,
+  "decomposer": "ica",
+  "k": 16,
+  "seed": 0,
+  "fit_method": "ols",
+  "W_shape": [
+    8,
+    16
+  ],
+  "global_max_abs": 13.68349838256836,
+  "thresholds": {
+    "gap_thresh": 0.2,
+    "pan_pr": 4.0,
+    "specific_pr": 2.0
+  },
+  "n_components_by_class": {
+    "pan": 13,
+    "lexical_gap": 3
+  },
+  "lexical_gap_components": [
+    1,
+    11,
+    13
+  ],
+  "pan_components": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    14,
+    15
+  ],
+  "cat_specific_components": [],
+  "components_sorted_by_PR": [
+    {
+      "component": 13,
+      "PR": 7.0294623255339515,
+      "rel_max": 0.1237202565229749,
+      "class": "lexical_gap",
+      "top1": "anticipation"
+    },
+    {
+      "component": 5,
+      "PR": 6.526917383996292,
+      "rel_max": 0.429635261260833,
+      "class": "pan",
+      "top1": "sadness"
+    },
+    {
+      "component": 8,
+      "PR": 6.053827054810481,
+      "rel_max": 0.5851467795096765,
+      "class": "pan",
+      "top1": "anticipation"
+    },
+    {
+      "component": 11,
+      "PR": 5.8779087841903825,
+      "rel_max": 0.15774303696047434,
+      "class": "lexical_gap",
+      "top1": "sadness"
+    },
+    {
+      "component": 0,
+      "PR": 5.768160721710779,
+      "rel_max": 0.999999999999927,
+      "class": "pan",
+      "top1": "anticipation"
+    },
+    {
+      "component": 12,
+      "PR": 5.7086944888920685,
+      "rel_max": 0.3352864138663118,
+      "class": "pan",
+      "top1": "fear"
+    },
+    {
+      "component": 3,
+      "PR": 5.662435138876191,
+      "rel_max": 0.4107803020144125,
+      "class": "pan",
+      "top1": "fear"
+    },
+    {
+      "component": 2,
+      "PR": 5.630454109363707,
+      "rel_max": 0.4069344156906484,
+      "class": "pan",
+      "top1": "fear"
+    },
+    {
+      "component": 10,
+      "PR": 5.594914966663667,
+      "rel_max": 0.41012701394765455,
+      "class": "pan",
+      "top1": "sadness"
+    },
+    {
+      "component": 9,
+      "PR": 5.547971758073418,
+      "rel_max": 0.219901164523337,
+      "class": "pan",
+      "top1": "surprise"
+    },
+    {
+      "component": 7,
+      "PR": 5.484564153226163,
+      "rel_max": 0.34533430284016614,
+      "class": "pan",
+      "top1": "fear"
+    },
+    {
+      "component": 4,
+      "PR": 5.286234575027423,
+      "rel_max": 0.2408513186473266,
+      "class": "pan",
+      "top1": "surprise"
+    },
+    {
+      "component": 15,
+      "PR": 5.256681101129293,
+      "rel_max": 0.3134496495306356,
+      "class": "pan",
+      "top1": "trust"
+    },
+    {
+      "component": 14,
+      "PR": 5.004084406348785,
+      "rel_max": 0.23078238171954243,
+      "class": "pan",
+      "top1": "surprise"
+    },
+    {
+      "component": 6,
+      "PR": 4.465528678025327,
+      "rel_max": 0.39066661239729994,
+      "class": "pan",
+      "top1": "disgust"
+    },
+    {
+      "component": 1,
+      "PR": 4.10063128707933,
+      "rel_max": 0.15186720790108416,
+      "class": "lexical_gap",
+      "top1": "surprise"
+    }
+  ]
+}

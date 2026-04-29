@@ -1,0 +1,30 @@
+# Qualitative steering — basis=ica_k016_seed0.pt which=ica layer=19
+# components=[8] alphas=[-2.0, -1.0, 0.0, 1.0, 2.0] n_prompts=3 max_new_tokens=20
+
+
+========================================================================================
+=== component b8  ||b||=0.464  layer=19
+========================================================================================
+
+--- prompt 0: 'Have you got it now ?'
+  α=-2.0 : I'm not going to be able to get out of this one. The police are on their
+  α=-1.0 : I'm not going to be able to make the trip. The reason is that my car broke
+  α=+0.0 : I'm not sure if this is the right place to ask, but I thought maybe someone here
+  α=+1.0 : I'm not sure if this is the right place to ask, but I thought maybe someone here
+  α=+2.0 : I'm not sure if this is the right place to ask, but I thought maybe someone here
+
+--- prompt 1: 'Well , when will it be convenient for you ?'
+  α=-2.0 : I'm free tomorrow afternoon. How about we meet at the park and have a picnic?. What
+  α=-1.0 : I'm free tomorrow afternoon. How about we meet at the park and have a picnic?. What
+  α=+0.0 : I'm free on Friday and Saturday. How about we meet at the park then?
+A)
+  α=+1.0 : I'm free on Friday and Saturday. What does the speaker want to do?
+A) Go
+  α=+2.0 : I'm free on Saturday and Sunday. How about we meet at the park in the afternoon?
+
+--- prompt 2: 'I come from England .'
+  α=-2.0 : I'm a student at the University of California, Los Angeles ( UCLA ) and am studying for
+  α=-1.0 : I'm a student at the University of California, Los Angeles ( UCLA ) and am studying for
+  α=+0.0 : I am a 25 year old male, and I have been living in the United States for about
+  α=+1.0 : I'm a bit of an oddity in my family, as the only one who has never
+  α=+2.0 : I am a 25 year old male, and I have been living in the United States for about

@@ -1,0 +1,32 @@
+{
+  "basis": "data/emotion_code/basis_sweep/ica_k016_seed0.pt",
+  "which": "ica",
+  "layer": 19,
+  "k": 16,
+  "components": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "alphas": [
+    -2.0,
+    0.0,
+    2.0
+  ],
+  "n_prompts": 3,
+  "monotonicity_mean": 0.14583333333333334,
+  "specificity_at_extreme": -0.033296157049739525
+}

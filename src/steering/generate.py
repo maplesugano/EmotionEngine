@@ -26,8 +26,15 @@ def steered_generate(
     max_new_tokens: int = 64,
     temperature: float = 0.0,
     top_p: float = 1.0,
+    repetition_penalty: float = 1.0,
+    no_repeat_ngram_size: int = 0,
 ) -> str:
-    """Greedy (or top-p) decode with optional CAA steering injected at ``layers``."""
+    """Greedy (or top-p) decode with optional CAA steering injected at ``layers``.
+
+    Extra knobs to escape greedy self-loops:
+      - ``repetition_penalty`` (>1.0) divides logits of already-emitted tokens.
+      - ``no_repeat_ngram_size`` (>0) forbids repeating any n-gram of that size.
+    """
     tokens = model.to_tokens(prompt, prepend_bos=True)  # [1, S]
     prompt_len = int(tokens.shape[1])
     device = next(model.parameters()).device
@@ -35,9 +42,31 @@ def steered_generate(
 
     eos_id = model.tokenizer.eos_token_id
 
+    def _banned_by_ngram() -> list[int]:
+        n = no_repeat_ngram_size
+        if n <= 0 or tokens.shape[1] < n:
+            return []
+        seq = tokens[0].tolist()
+        prefix = tuple(seq[-(n - 1):]) if n > 1 else ()
+        banned: set[int] = set()
+        for i in range(len(seq) - n + 1):
+            if tuple(seq[i : i + n - 1]) == prefix:
+                banned.add(seq[i + n - 1])
+        return list(banned)
+
     def _step():
         logits = model(tokens)              # [1, S, V]
-        next_logits = logits[0, -1]         # [V]
+        next_logits = logits[0, -1].float() # [V]
+        if repetition_penalty != 1.0:
+            seen = torch.unique(tokens[0])
+            pos = next_logits[seen] > 0
+            scaled = next_logits[seen].clone()
+            scaled[pos] = scaled[pos] / repetition_penalty
+            scaled[~pos] = scaled[~pos] * repetition_penalty
+            next_logits[seen] = scaled
+        banned = _banned_by_ngram()
+        if banned:
+            next_logits[banned] = float("-inf")
         if temperature <= 0:
             return int(next_logits.argmax())
         probs = torch.softmax(next_logits / max(temperature, 1e-6), dim=-1)

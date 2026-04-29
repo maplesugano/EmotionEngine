@@ -1,0 +1,123 @@
+{
+  "artifact": "data/emotion_code/basis_sweep/nmf_k016_seed0.pt",
+  "decomposer": "nmf",
+  "k": 16,
+  "seed": 0,
+  "layer": 19,
+  "silhouette_cosine_H": -0.04439003765583038,
+  "chance_acc": 0.125,
+  "per_component": [
+    {
+      "component": 0,
+      "mi": 0.22651343486611175,
+      "linear_sep_acc": 0.1615625,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.002204303862527013
+    },
+    {
+      "component": 1,
+      "mi": 0.23192290562480977,
+      "linear_sep_acc": 0.17906249999999999,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0005545760504901409
+    },
+    {
+      "component": 2,
+      "mi": 0.1960899191834602,
+      "linear_sep_acc": 0.14968750000000003,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0009896240662783384
+    },
+    {
+      "component": 3,
+      "mi": 0.18592272137875776,
+      "linear_sep_acc": 0.16,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.004265297204256058
+    },
+    {
+      "component": 4,
+      "mi": 0.23951932866226366,
+      "linear_sep_acc": 0.18406250000000002,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.03615560382604599
+    },
+    {
+      "component": 5,
+      "mi": 0.20249476524334842,
+      "linear_sep_acc": 0.1521875,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.001181835657916963
+    },
+    {
+      "component": 6,
+      "mi": 0.1979601609080186,
+      "linear_sep_acc": 0.1721875,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.013841739855706692
+    },
+    {
+      "component": 7,
+      "mi": 0.23101772340610616,
+      "linear_sep_acc": 0.1578125,
+      "category_top1_dominance": 0.875,
+      "vad_explained": 0.003850993001833558
+    },
+    {
+      "component": 8,
+      "mi": 0.24534738088919505,
+      "linear_sep_acc": 0.18125,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0010479482589289546
+    },
+    {
+      "component": 9,
+      "mi": 0.19331643169164092,
+      "linear_sep_acc": 0.15187499999999998,
+      "category_top1_dominance": 0.875,
+      "vad_explained": 0.004646946210414171
+    },
+    {
+      "component": 10,
+      "mi": 0.19312537669191387,
+      "linear_sep_acc": 0.16343749999999999,
+      "category_top1_dominance": 1.0,
+      "vad_explained": 0.010065185837447643
+    },
+    {
+      "component": 11,
+      "mi": 0.16465102956526412,
+      "linear_sep_acc": 0.14218749999999997,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.00040096111479215324
+    },
+    {
+      "component": 12,
+      "mi": 0.13338583671361137,
+      "linear_sep_acc": 0.145,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0010348696960136294
+    },
+    {
+      "component": 13,
+      "mi": 0.20884452229684758,
+      "linear_sep_acc": 0.15812500000000002,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.00431154016405344
+    },
+    {
+      "component": 14,
+      "mi": 0.2683689734842498,
+      "linear_sep_acc": 0.1715625,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.014043185859918594
+    },
+    {
+      "component": 15,
+      "mi": 0.16181337186790445,
+      "linear_sep_acc": 0.13562500000000002,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0020559339318424463
+    }
+  ]
+}
