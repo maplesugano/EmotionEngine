@@ -1,0 +1,110 @@
+target,alpha_unit,prompt_id,other_label,other_score,cluster_id,cluster_name
+gap_b1,2.0,0,paranoid hypervigilance,0.6,2,uncertainty / indecision
+gap_b1,2.0,1,uncertainty,0.4,2,uncertainty / indecision
+gap_b11,2.0,0,self-affirmation,0.6,0,self-doubt / encouragement
+gap_b11,2.0,1,indecision,0.6,2,uncertainty / indecision
+gap_b13,2.0,0,uncertainty,0.7,2,uncertainty / indecision
+gap_b13,2.0,1,uncertainty,0.4,2,uncertainty / indecision
+pan_b0,2.0,0,frustration,0.7,1,frustration / despair
+pan_b0,2.0,1,collaborative spirit,0.5,6,enthusiasm / curiosity
+pan_b5,2.0,0,regret,0.7,1,frustration / despair
+pan_b8,2.0,0,cultural reflection,0.3,0,self-doubt / encouragement
+pan_b8,2.0,1,uncertainty,0.6,2,uncertainty / indecision
+combo_b1+b11,2.0,0,paranoid hypervigilance,0.8,2,uncertainty / indecision
+combo_b1+b11,2.0,1,uncertainty,0.6,2,uncertainty / indecision
+combo_b1+b13,2.0,0,self-doubt,0.6,0,self-doubt / encouragement
+combo_b11+b13,2.0,0,self-doubt,0.7,0,self-doubt / encouragement
+combo_b11+b13,2.0,1,overwhelm,0.6,1,frustration / despair
+gap_b1,2.0,2,wanderlust,0.6,6,enthusiasm / curiosity
+gap_b1,2.0,3,indecision,0.6,2,uncertainty / indecision
+gap_b1,2.0,4,uncertainty,0.6,2,uncertainty / indecision
+gap_b1,2.0,5,decision-making,0.4,2,uncertainty / indecision
+gap_b1,2.0,6,consumer confidence,0.4,2,uncertainty / indecision
+gap_b1,2.0,7,concern for safety,0.6,2,uncertainty / indecision
+gap_b1,2.0,8,playfulness,0.6,6,enthusiasm / curiosity
+gap_b1,2.0,9,financial caution,0.5,2,uncertainty / indecision
+gap_b1,2.0,10,indecision,0.5,2,uncertainty / indecision
+gap_b1,2.0,11,enthusiasm,0.6,6,enthusiasm / curiosity
+gap_b1,2.0,14,self-advocacy,0.6,0,self-doubt / encouragement
+gap_b1,2.0,15,protective concern,0.8,2,uncertainty / indecision
+gap_b11,2.0,2,romantic idealism,0.5,3,romantic idealism
+gap_b11,2.0,4,desire for stability,0.6,2,uncertainty / indecision
+gap_b11,2.0,5,uncertainty,0.7,2,uncertainty / indecision
+gap_b11,2.0,6,self-empowerment,0.6,0,self-doubt / encouragement
+gap_b11,2.0,7,cognitive dissonance,0.6,0,self-doubt / encouragement
+gap_b11,2.0,8,creativity,0.8,6,enthusiasm / curiosity
+gap_b11,2.0,9,stress,0.6,2,uncertainty / indecision
+gap_b11,2.0,10,despair,0.6,1,frustration / despair
+gap_b11,2.0,13,self-doubt,0.6,0,self-doubt / encouragement
+gap_b11,2.0,14,self-doubt,0.8,0,self-doubt / encouragement
+gap_b11,2.0,15,reassurance,0.7,2,uncertainty / indecision
+gap_b13,2.0,2,enthusiasm,0.7,6,enthusiasm / curiosity
+gap_b13,2.0,4,desire for security,0.6,2,uncertainty / indecision
+gap_b13,2.0,6,excitement about home,0.6,6,enthusiasm / curiosity
+gap_b13,2.0,7,family bonding,0.7,0,self-doubt / encouragement
+gap_b13,2.0,8,collaborative spirit,0.6,6,enthusiasm / curiosity
+gap_b13,2.0,9,enthusiasm,0.7,6,enthusiasm / curiosity
+gap_b13,2.0,10,contentment,0.8,2,uncertainty / indecision
+gap_b13,2.0,11,enthusiasm,0.7,6,enthusiasm / curiosity
+gap_b13,2.0,14,self-doubt,0.4,0,self-doubt / encouragement
+gap_b13,2.0,15,encouragement,0.9,0,self-doubt / encouragement
+pan_b0,2.0,2,curiosity,0.7,6,enthusiasm / curiosity
+pan_b0,2.0,4,desire for comfort,0.6,2,uncertainty / indecision
+pan_b0,2.0,7,anxiety,0.6,2,uncertainty / indecision
+pan_b0,2.0,8,enthusiasm,0.6,6,enthusiasm / curiosity
+pan_b0,2.0,9,curiosity,0.6,6,enthusiasm / curiosity
+pan_b0,2.0,10,resourcefulness,0.6,6,enthusiasm / curiosity
+pan_b0,2.0,11,self-identity,0.6,0,self-doubt / encouragement
+pan_b0,2.0,14,frustration,0.7,1,frustration / despair
+pan_b0,2.0,15,self-encouragement,0.7,0,self-doubt / encouragement
+pan_b5,2.0,2,enthusiasm,0.8,6,enthusiasm / curiosity
+pan_b5,2.0,4,uncertainty,0.5,2,uncertainty / indecision
+pan_b5,2.0,5,confusion,0.5,2,uncertainty / indecision
+pan_b5,2.0,6,self-criticism,0.7,0,self-doubt / encouragement
+pan_b5,2.0,7,ironic amusement,0.5,5,ironic amusement
+pan_b5,2.0,8,competitive determination,0.7,4,academic ambition / competitive determination
+pan_b5,2.0,9,restlessness,0.6,2,uncertainty / indecision
+pan_b5,2.0,10,fatigue,0.7,1,frustration / despair
+pan_b5,2.0,11,wedding anxiety,0.6,2,uncertainty / indecision
+pan_b5,2.0,13,indecision,0.4,2,uncertainty / indecision
+pan_b5,2.0,14,self-doubt,0.6,0,self-doubt / encouragement
+pan_b5,2.0,15,motivational support,0.6,0,self-doubt / encouragement
+pan_b8,2.0,2,intellectual curiosity,0.6,6,enthusiasm / curiosity
+pan_b8,2.0,4,enthusiasm for food,0.6,6,enthusiasm / curiosity
+pan_b8,2.0,7,concern for safety,0.4,2,uncertainty / indecision
+pan_b8,2.0,8,playfulness,0.6,6,enthusiasm / curiosity
+pan_b8,2.0,9,relaxation,0.8,2,uncertainty / indecision
+pan_b8,2.0,10,appreciation,0.6,6,enthusiasm / curiosity
+pan_b8,2.0,11,curiosity,0.7,6,enthusiasm / curiosity
+pan_b8,2.0,14,aspiration,0.7,6,enthusiasm / curiosity
+pan_b8,2.0,15,existential concern,0.6,2,uncertainty / indecision
+combo_b1+b11,2.0,2,cultural exploration,0.6,0,self-doubt / encouragement
+combo_b1+b11,2.0,4,financial constraint,0.6,2,uncertainty / indecision
+combo_b1+b11,2.0,5,decision-making,0.4,2,uncertainty / indecision
+combo_b1+b11,2.0,6,curiosity,0.4,6,enthusiasm / curiosity
+combo_b1+b11,2.0,7,nostalgic reflection,0.4,0,self-doubt / encouragement
+combo_b1+b11,2.0,9,indecision,0.5,2,uncertainty / indecision
+combo_b1+b11,2.0,10,resignation,0.4,1,frustration / despair
+combo_b1+b11,2.0,14,frustration,0.6,1,frustration / despair
+combo_b1+b11,2.0,15,reassurance,0.7,2,uncertainty / indecision
+combo_b1+b13,2.0,2,contentment,0.7,2,uncertainty / indecision
+combo_b1+b13,2.0,4,frustration,0.7,1,frustration / despair
+combo_b1+b13,2.0,5,uncertainty,0.3,2,uncertainty / indecision
+combo_b1+b13,2.0,7,nostalgic reflection,0.4,0,self-doubt / encouragement
+combo_b1+b13,2.0,8,playfulness,0.7,6,enthusiasm / curiosity
+combo_b1+b13,2.0,9,budgetary concern,0.5,2,uncertainty / indecision
+combo_b1+b13,2.0,10,contentment,0.8,2,uncertainty / indecision
+combo_b1+b13,2.0,11,enthusiasm,0.4,6,enthusiasm / curiosity
+combo_b1+b13,2.0,14,self-doubt,0.6,0,self-doubt / encouragement
+combo_b1+b13,2.0,15,encouragement,0.7,0,self-doubt / encouragement
+combo_b11+b13,2.0,2,academic ambition,0.6,4,academic ambition / competitive determination
+combo_b11+b13,2.0,3,culinary excitement,0.6,6,enthusiasm / curiosity
+combo_b11+b13,2.0,4,desire for security,0.6,2,uncertainty / indecision
+combo_b11+b13,2.0,6,helpfulness,0.6,6,enthusiasm / curiosity
+combo_b11+b13,2.0,7,self-doubt,0.6,0,self-doubt / encouragement
+combo_b11+b13,2.0,8,creativity,0.8,6,enthusiasm / curiosity
+combo_b11+b13,2.0,9,indecision,0.7,2,uncertainty / indecision
+combo_b11+b13,2.0,11,enthusiasm,0.7,6,enthusiasm / curiosity
+combo_b11+b13,2.0,13,financial uncertainty,0.7,2,uncertainty / indecision
+combo_b11+b13,2.0,14,self-doubt,0.8,0,self-doubt / encouragement
+combo_b11+b13,2.0,15,encouragement,0.8,0,self-doubt / encouragement

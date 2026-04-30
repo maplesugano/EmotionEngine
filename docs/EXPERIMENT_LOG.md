@@ -553,6 +553,114 @@ $$ v_{\text{joy}} \approx \sum_{k=1}^{K} w_k \, b_k $$
   EmoBank で fit）が同じ手順で R²=0.017 しか出さないことが、循環性が説明力の
   主因ではないことを示している。
 
+### 4.X.6 重み行列 W の構造（B：分散表現の直接証拠）
+
+8 カテゴリ × 16 basis 成分の OLS 重み行列 $W \in \mathbb{R}^{8 \times 16}$
+（ICA k=16 seed=0、L=19）を成分視点で再分析。
+
+- スクリプト：[experiments/eval_caa_basis_weight_structure.py](../experiments/eval_caa_basis_weight_structure.py)
+- 出力：[experiments/results/caa_basis_weight_structure/ica_k016_seed0_L19_ols/](../experiments/results/caa_basis_weight_structure/ica_k016_seed0_L19_ols/)
+  - `W_heatmap.png`, `W_heatmap_sorted_by_PR.png`,
+    `component_classification.csv`, `summary.json`
+
+成分ごとに以下を計算し分類：
+
+| 指標 | 定義 |
+|---|---|
+| `participation_ratio` | $(\sum |w_c|)^2 / \sum w_c^2$、低いほど特定カテゴリ寄り |
+| `sign_balance` | 正負重みの非対称度（−1 / +1 で完全片寄り） |
+| `top_cat_gap` | top-1 と top-2 カテゴリの $|w|$ 差 |
+| 分類 | `cat_specific` (PR ≤ 2)、`pan` (PR ≥ 4)、`lexical_gap` (gap ≤ 0.20) |
+
+**結果**：13 pan + **3 lexical_gap (b1, b11, b13)** + 0 cat_specific。
+
+- いずれの成分も **「joy 専用」「fear 専用」のような片寄りを持たない**
+  → Plutchik 8 が basis 軸の **独立片** ではなく **分散和** であることが直接示された。
+- 3 つの lexical_gap 成分は、どのカテゴリの top-1 にもならない（カテゴリ
+  間のほぼ均等な重み）→ **既存の Plutchik 名がない領域に意味を持つ候補**。
+
+### 4.X.7 Lexical-gap steering（C：行動検証の本実行）
+
+3 つの gap 成分（b1, b11, b13）と対照群 pan 成分（b0, b5, b8）、
+および 3 つの 2 成分加算 combo（b1+b11, b1+b13, b11+b13）を steering vector
+として注入し、生成挙動を比較。
+
+- スクリプト：[experiments/eval_lexical_gap_steering.py](../experiments/eval_lexical_gap_steering.py)
+- ターゲット 9 種 × α∈{0, 1, 2} × 16 中性プロンプト = **432 generations**
+- 出力：[experiments/results/lexical_gap_steering/](../experiments/results/lexical_gap_steering/)
+  - `generations.parquet`, `classifier.parquet`,
+    `summary_by_target.csv`, `qualitative.md`
+- **重要な実装**：basis ベクトルの行ノルムは ≈0.4、CAA の中央値ノルムは ≈4。
+  そのまま α を渡すと無効果。`--alpha-mode caa_match` で v を `median(||CAA||)`
+  にリスケールしてから effective α を計算するモードを追加した。
+
+外部分類器（j-hartmann/distilroberta）では gap 群と pan 群の Plutchik 分布
+がほぼ同一で、**「Plutchik 語彙の外側にある」ことを既存分類器は捉えられない**
+ことが確認された（→ §4.X.8 の judge 評価で明示化）。
+
+定性的には：
+- **gap_b11 は「自己分化・自己観察」**（"私はもっと自分を知るために..."系）
+- **combo_b1+b11 は「過警戒的・偏執的内省」**（強い不確実性 + 防衛）
+- **combo_b11+b13 は「決断不能 + 内的葛藤」**
+
+### 4.X.8 LLM-as-judge 評価とメタ感情クラスタ（E：「言葉にない感情」を実体化）
+
+**スクリプト**：
+
+- [experiments/eval_lexical_gap_judge.py](../experiments/eval_lexical_gap_judge.py)
+  GPT-4o-mini に Plutchik 8 を 0–1 で採点させた上で、**Plutchik で表しきれない
+  ものに自由記述ラベル（1–4 単語）と強度** を出力させる構造化 JSON judge。
+- [experiments/eval_lexical_gap_cluster.py](../experiments/eval_lexical_gap_cluster.py)
+  judge が出した自由記述ラベルを `text-embedding-3-small` で埋め込み、
+  cosine + agglomerative で 7 メタ感情クラスタに分類。
+
+**出力**：[experiments/results/lexical_gap_judge/](../experiments/results/lexical_gap_judge/)
+
+- `judgments.parquet`（432 行）、`summary_by_target.csv`、`other_labels.csv`
+- `cluster_assignment.csv`、`cluster_summary.csv`、
+  `cluster_scatter.png`、`cluster_per_target.png`
+
+**定量結果（α=+2、judge 集計）**：
+
+| target | plutchik_max | other_score | frac_other_dom |
+|---|---:|---:|---:|
+| **combo_b11+b13** | 0.49 | **0.55** | **0.75** |
+| **gap_b11** | 0.51 | 0.52 | 0.63 |
+| pan_b8 | 0.40 | 0.41 | 0.56 |
+| その他 | ≤0.50 | 0.30–0.45 | 0.40–0.55 |
+
+→ gap 群は pan 群より **「Plutchik 8 軸より自由記述ラベルの方が支配的」
+な比率が一貫して高い**。Hartmann 分類器では取れなかった差異が顕在化した。
+
+**メタ感情クラスタ（α=+2 で 109 ラベル / 61 unique → 7 cluster）**：
+
+| cluster | name | n_assignments |
+|---:|---|---:|
+| 2 | **uncertainty / indecision** | **43** |
+| 6 | enthusiasm / curiosity | 28 |
+| 0 | **self-doubt / encouragement** | **25** |
+| 1 | frustration / despair | 9 |
+| 4 | academic ambition / competitive determination | 2 |
+| 3 | romantic idealism | 1 |
+| 5 | ironic amusement | 1 |
+
+→ **約 6 割（43+25=68 / 109）が「不確実性・自己疑念・優柔不断」群**。
+b1, b11, b13 が掴んでいるのは、Plutchik 8（emotion）よりも一段上の
+**メタ認知的状態**（meta-cognitive states：自己への疑い、決断保留、
+内的葛藤）であることが明らかになった。
+
+### 4.X.9 含意の精緻化
+
+当初の仮説「言葉にない感情」は、より正確には：
+
+> **basis は Plutchik 8 のような coarse な感情カテゴリより細かい
+> 現象学的グラニュラリティ — とくに「メタ認知的状態（uncertainty,
+> self-doubt, indecision, ironic amusement, …）」を分離している**
+
+と再定式化される。これらは英語の単一語で命名困難であり、心理学の
+emotion 分類体系（Ekman, Plutchik）には **乗っていない**が、judge LLM が
+複数語句で記述できる程度には言語化可能な「中間状態」である。
+
 ---
 
 ## 5. 全体としての発見の要点

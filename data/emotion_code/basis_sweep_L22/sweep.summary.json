@@ -11,6 +11,16 @@
       "artifact": "data/emotion_code/basis_sweep_L22/ica_k016_seed0.pt",
       "n_iter": 394,
       "converged": true
+    },
+    {
+      "decomposer": "ica",
+      "k": 32,
+      "seed": 0,
+      "layer": 22,
+      "profile": "llama",
+      "artifact": "data/emotion_code/basis_sweep_L22/ica_k032_seed0.pt",
+      "n_iter": 46,
+      "converged": true
     }
   ]
 }

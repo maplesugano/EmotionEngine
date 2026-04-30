@@ -320,6 +320,82 @@ NNLS で R² が半減 → CAA は basis の **両符号** の重ね合わせ（
 - [experiments/results/caa_basis_decomposition/](../experiments/results/caa_basis_decomposition/)（`decomposition.csv`, `vad_baseline.csv`, `summary.json`, `weights/`）
 - [experiments/results/caa_basis_decomp_steering/](../experiments/results/caa_basis_decomp_steering/)（`generations.parquet`, `generations_classified.parquet`, `shift_by_variant.csv`, `summary_by_variant.csv`, `summary.json`）
 
+### 3.X.1 重み行列 W の構造（B：分散表現の直接証拠）
+
+スクリプト：[experiments/eval_caa_basis_weight_structure.py](../experiments/eval_caa_basis_weight_structure.py)
+
+8 カテゴリ × 16 basis 成分の OLS 重み行列を成分視点で再分析（`participation_ratio`,
+`sign_balance`, `top_cat_gap` で分類）。
+
+結果：**13 pan + 3 lexical_gap (b1, b11, b13) + 0 cat_specific**
+→ 「joy 専用」「fear 専用」のような片寄り成分は **存在しない**。Plutchik 8 が
+basis 軸の **独立片** ではなく **分散和** であることが直接示された。
+
+成果物：[experiments/results/caa_basis_weight_structure/ica_k016_seed0_L19_ols/](../experiments/results/caa_basis_weight_structure/ica_k016_seed0_L19_ols/)
+
+### 3.X.2 Lexical-gap steering（C：行動検証）
+
+スクリプト：[experiments/eval_lexical_gap_steering.py](../experiments/eval_lexical_gap_steering.py)
+
+3 つの gap 成分 + 3 つの pan 成分 + 3 つの 2 成分加算 combo の計 9 ターゲット ×
+α∈{0,1,2} × 16 中性プロンプト = **432 generations**。
+
+実装上の重要点：basis 行ノルム ≈0.4、CAA 中央値ノルム ≈4 → そのまま α では無効果。
+`--alpha-mode caa_match` で v を `median(||CAA||)` にリスケールしてから effective α
+を計算するモードを追加（このスケール合わせは以後の必須前処理）。
+
+外部分類器（Hartmann/distilroberta）では gap 群と pan 群の Plutchik 分布が同一で、
+**「Plutchik 語彙の外側」を既存分類器は捉えられない**ことが確認された。
+定性的には gap_b11 = 自己観察、combo_b1+b11 = 過警戒的内省、combo_b11+b13 = 決断不能。
+
+成果物：[experiments/results/lexical_gap_steering/](../experiments/results/lexical_gap_steering/)
+
+### 3.X.3 LLM-as-judge とメタ感情クラスタ（E：「言葉にない感情」を実体化）
+
+スクリプト：
+
+- [experiments/eval_lexical_gap_judge.py](../experiments/eval_lexical_gap_judge.py)
+  GPT-4o-mini で Plutchik 8 を 0–1 採点 + **自由記述ラベル（1–4 単語）と強度** を
+  構造化 JSON で取得（temperature=0、`--resume`、16 行 checkpoint）。
+- [experiments/eval_lexical_gap_cluster.py](../experiments/eval_lexical_gap_cluster.py)
+  自由記述ラベルを `text-embedding-3-small` で埋め込み、
+  cosine + agglomerative で 7 メタ感情クラスタへ分類。
+
+定量結果（α=+2、judge）：
+
+| target | other_score | frac_other_dom |
+|---|---:|---:|
+| **combo_b11+b13** | **0.55** | **0.75** |
+| **gap_b11** | 0.52 | 0.63 |
+| pan_b8 | 0.41 | 0.56 |
+
+**メタ感情クラスタ（109 ラベル / 61 unique → 7 群）**：
+
+| cluster | name | n |
+|---:|---|---:|
+| 2 | uncertainty / indecision | 43 |
+| 6 | enthusiasm / curiosity | 28 |
+| 0 | self-doubt / encouragement | 25 |
+| 1 | frustration / despair | 9 |
+| 4 | academic ambition / competitive determination | 2 |
+| 3 | romantic idealism | 1 |
+| 5 | ironic amusement | 1 |
+
+→ 約 6 割（68/109）が「不確実性 / 自己疑念 / 優柔不断」群。
+
+成果物：[experiments/results/lexical_gap_judge/](../experiments/results/lexical_gap_judge/)
+（`judgments.parquet`, `summary_by_target.csv`, `other_labels.csv`,
+`cluster_assignment.csv`, `cluster_summary.csv`,
+`cluster_scatter.png`, `cluster_per_target.png`）
+
+### 3.X.4 仮説の精緻化
+
+当初「言葉にない感情」と呼んでいたものは、**Plutchik より細かい現象学的
+グラニュラリティ — とくにメタ認知的状態（uncertainty, self-doubt,
+indecision, ironic amusement, …）** であることが judge + クラスタで明らかになった。
+これらは英語の単一語では命名困難だが、judge LLM が複数語句で記述できる
+程度には言語化可能な「中間状態」である。
+
 ---
 
 ## 4. ディレクトリ早見
@@ -364,9 +440,27 @@ data/emotion_code/
 
 ## 5. 次にやること（優先順）
 
-1. **加法性の追加検証**：cross-talk を抑える direction-orthogonalization（b_i, b_j に直交化した残差で評価）、または k=8 など低 k 基底での再測。
-2. **ノイズ低減した self-consistency 再測定**：n_prompts ≥ 8、α∈{−2, 2} の符号一致率（バイナリ AUC）でランキング。
-3. **k sweep（32, 64）+ R² plateau** → b8 がさらに分解されるか、未見の emergent 軸が出るか
-4. **L22 での独立探索**：L19→L22 のペア一貫性が最大 (0.73) なので b8-like 軸がさらに明確化している可能性
-5. **混合 prompt の生成 UI/CLI**：「言葉にできない感情」をユーザが探索できる体験
-6. （長期）SAE / dict 大 k での超完備辞書、SAE 業界標準ツールとの比較
+> **完了済み**：(B) W 構造解析、(C) lexical-gap steering、(E) LLM judge + メタ感情クラスタ
+> （いずれも §3.X.1〜3.X.4）。残タスクは下記。
+
+1. **k と layer を最適化して retention をさらに押し上げ**
+   Phase 1 ベスト構成は ICA k=16 L=22 (R²=0.878)。L19 ではなく L=22 で Phase 2 を走らせれば retention ≥ 0.75 が期待できる。
+   k=32, 64 で R² plateau を確認 → R²→0.95 が見えれば retention も 0.85 級へ。
+   コスト：Phase 2 ≈16h × 2〜3 構成。
+
+2. **メタ感情合成の人手評価 / UI**
+   §3.X.3 で同定された 7 メタ感情クラスタ（とくに *uncertainty/indecision*,
+   *self-doubt/encouragement*）を **目的的に induce** する steering UI を作り、
+   人手で「Plutchik で言えない」率を確認。
+
+3. **Compositionality（加法性）の本格検証**
+   $\alpha b_i + \beta b_j$ で steer したとき、shift パターンが
+   $i$ 単独・$j$ 単独の **線形和** になるか（既存の `eval_basis_additivity.py`
+   を OLS 重み再構成版に拡張）。
+   線形和が成り立てば「basis = 真の原子」、崩れれば「basis 間に高次相互作用あり」
+   が定量化できる。combo_b1+b11 / combo_b11+b13 で **emergent な定性パターン**
+   が観察されている（§3.X.2）ので、定量化の優先度は高い。
+
+4. **judge の信頼性確認**
+   GPT-4o-mini judge を別 LLM（Claude / Llama-3-70B）で再走 + Krippendorff α
+   で agreement を測る。`other_score` が judge bias でないことを保証。

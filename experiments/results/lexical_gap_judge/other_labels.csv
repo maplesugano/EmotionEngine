@@ -1,0 +1,98 @@
+target,other_label,count
+combo_b1+b11,cultural exploration,1
+combo_b1+b11,curiosity,1
+combo_b1+b11,decision-making,1
+combo_b1+b11,financial constraint,1
+combo_b1+b11,frustration,1
+combo_b1+b11,indecision,1
+combo_b1+b11,nostalgic reflection,1
+combo_b1+b11,paranoid hypervigilance,1
+combo_b1+b11,reassurance,1
+combo_b1+b11,resignation,1
+combo_b1+b11,uncertainty,1
+combo_b1+b13,contentment,2
+combo_b1+b13,self-doubt,2
+combo_b1+b13,budgetary concern,1
+combo_b1+b13,encouragement,1
+combo_b1+b13,enthusiasm,1
+combo_b1+b13,frustration,1
+combo_b1+b13,nostalgic reflection,1
+combo_b1+b13,playfulness,1
+combo_b1+b13,uncertainty,1
+combo_b11+b13,self-doubt,3
+combo_b11+b13,academic ambition,1
+combo_b11+b13,creativity,1
+combo_b11+b13,culinary excitement,1
+combo_b11+b13,desire for security,1
+combo_b11+b13,encouragement,1
+combo_b11+b13,enthusiasm,1
+combo_b11+b13,financial uncertainty,1
+combo_b11+b13,helpfulness,1
+combo_b11+b13,indecision,1
+combo_b11+b13,overwhelm,1
+gap_b1,indecision,2
+gap_b1,uncertainty,2
+gap_b1,concern for safety,1
+gap_b1,consumer confidence,1
+gap_b1,decision-making,1
+gap_b1,enthusiasm,1
+gap_b1,financial caution,1
+gap_b1,paranoid hypervigilance,1
+gap_b1,playfulness,1
+gap_b1,protective concern,1
+gap_b1,self-advocacy,1
+gap_b1,wanderlust,1
+gap_b11,self-doubt,2
+gap_b11,cognitive dissonance,1
+gap_b11,creativity,1
+gap_b11,desire for stability,1
+gap_b11,despair,1
+gap_b11,indecision,1
+gap_b11,reassurance,1
+gap_b11,romantic idealism,1
+gap_b11,self-affirmation,1
+gap_b11,self-empowerment,1
+gap_b11,stress,1
+gap_b11,uncertainty,1
+gap_b13,enthusiasm,3
+gap_b13,uncertainty,2
+gap_b13,collaborative spirit,1
+gap_b13,contentment,1
+gap_b13,desire for security,1
+gap_b13,encouragement,1
+gap_b13,excitement about home,1
+gap_b13,family bonding,1
+gap_b13,self-doubt,1
+pan_b0,curiosity,2
+pan_b0,frustration,2
+pan_b0,anxiety,1
+pan_b0,collaborative spirit,1
+pan_b0,desire for comfort,1
+pan_b0,enthusiasm,1
+pan_b0,resourcefulness,1
+pan_b0,self-encouragement,1
+pan_b0,self-identity,1
+pan_b5,competitive determination,1
+pan_b5,confusion,1
+pan_b5,enthusiasm,1
+pan_b5,fatigue,1
+pan_b5,indecision,1
+pan_b5,ironic amusement,1
+pan_b5,motivational support,1
+pan_b5,regret,1
+pan_b5,restlessness,1
+pan_b5,self-criticism,1
+pan_b5,self-doubt,1
+pan_b5,uncertainty,1
+pan_b5,wedding anxiety,1
+pan_b8,appreciation,1
+pan_b8,aspiration,1
+pan_b8,concern for safety,1
+pan_b8,cultural reflection,1
+pan_b8,curiosity,1
+pan_b8,enthusiasm for food,1
+pan_b8,existential concern,1
+pan_b8,intellectual curiosity,1
+pan_b8,playfulness,1
+pan_b8,relaxation,1
+pan_b8,uncertainty,1

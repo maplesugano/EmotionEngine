@@ -1,0 +1,115 @@
+{
+  "n_artifacts": 2,
+  "n_categories": 8,
+  "categories": [
+    "anger",
+    "anticipation",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise",
+    "trust"
+  ],
+  "caa_layers": [
+    13,
+    16,
+    19,
+    22
+  ],
+  "vad_baseline": {
+    "median_r2": 0.017008654979445037,
+    "median_cosine": 0.1303686425089836,
+    "per_layer_median_r2": {
+      "13": 0.01230510124924955,
+      "16": 0.016611936151373685,
+      "19": 0.02335326999660231,
+      "22": 0.016890520266490905
+    }
+  },
+  "by_fit_method": {
+    "ols": {
+      "median_r2": 0.9013138465507802,
+      "median_cosine": 0.9493753612041473,
+      "median_l0": 24.0
+    },
+    "nnls": {
+      "median_r2": 0.19708103837826935,
+      "median_cosine": 0.4439106461137724,
+      "median_l0": 12.0
+    },
+    "lasso": {
+      "median_r2": 0.0,
+      "median_cosine": 0.0,
+      "median_l0": 0.0
+    }
+  },
+  "by_decomposer_k_layer": [
+    {
+      "decomposer": "ica",
+      "k": 16,
+      "layer": 22,
+      "fit": "lasso",
+      "median_r2": 0.0,
+      "mean_r2": 0.0642905608494524,
+      "median_cosine": 0.0,
+      "median_l0": 0.0,
+      "n_rows": 24
+    },
+    {
+      "decomposer": "ica",
+      "k": 16,
+      "layer": 22,
+      "fit": "nnls",
+      "median_r2": 0.20906836400476325,
+      "mean_r2": 0.25195561589365284,
+      "median_cosine": 0.45716420519030376,
+      "median_l0": 9.5,
+      "n_rows": 8
+    },
+    {
+      "decomposer": "ica",
+      "k": 16,
+      "layer": 22,
+      "fit": "ols",
+      "median_r2": 0.877589086748136,
+      "mean_r2": 0.8571398004842046,
+      "median_cosine": 0.9367311298847198,
+      "median_l0": 16.0,
+      "n_rows": 8
+    },
+    {
+      "decomposer": "ica",
+      "k": 32,
+      "layer": 22,
+      "fit": "lasso",
+      "median_r2": 0.0,
+      "mean_r2": 0.038143863344378325,
+      "median_cosine": 0.0,
+      "median_l0": 0.0,
+      "n_rows": 24
+    },
+    {
+      "decomposer": "ica",
+      "k": 32,
+      "layer": 22,
+      "fit": "nnls",
+      "median_r2": 0.1912708246590541,
+      "mean_r2": 0.2199010183381746,
+      "median_cosine": 0.4373421050350986,
+      "median_l0": 15.0,
+      "n_rows": 8
+    },
+    {
+      "decomposer": "ica",
+      "k": 32,
+      "layer": 22,
+      "fit": "ols",
+      "median_r2": 0.9196716774951099,
+      "mean_r2": 0.9138910055559183,
+      "median_cosine": 0.9589576423168182,
+      "median_l0": 32.0,
+      "n_rows": 8
+    }
+  ]
+}
