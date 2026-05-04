@@ -1,0 +1,68 @@
+{
+  "additivity_dir": "experiments/results/basis_additivity_metaemotion_L22_k64",
+  "cluster_dir": "experiments/results/lexical_gap_judge",
+  "embed_model": "text-embedding-3-small",
+  "n_generations": 360,
+  "n_clusters": 7,
+  "cluster_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "cluster_names": [
+    "self-doubt / encouragement",
+    "frustration / despair",
+    "uncertainty / indecision",
+    "romantic idealism",
+    "academic ambition / competitive determination",
+    "ironic amusement",
+    "enthusiasm / curiosity"
+  ],
+  "n_pairs": 5,
+  "n_offdiag_cells": 20,
+  "median_top_cos": {
+    "resid": 0.07541169598698616,
+    "marg": 0.28080442547798157,
+    "full": 0.058299899101257324
+  },
+  "median_null_p95": 0.041279226541519165,
+  "top_resid_clusters": {
+    "academic ambition / competitive determination": 8,
+    "uncertainty / indecision": 7,
+    "self-doubt / encouragement": 4,
+    "ironic amusement": 1
+  },
+  "per_cluster_top_gain": [
+    {
+      "cluster_id": 5,
+      "cluster_name": "ironic amusement",
+      "median_joint": 0.1192239336669445,
+      "median_marg_max": 0.1326974481344223,
+      "median_resid_gain_to_max": -0.010434485971927643,
+      "median_resid_gain_to_avg": 0.006352122873067856,
+      "n": 160
+    },
+    {
+      "cluster_id": 0,
+      "cluster_name": "self-doubt / encouragement",
+      "median_joint": 0.14215733855962753,
+      "median_marg_max": 0.15917862951755524,
+      "median_resid_gain_to_max": -0.01292295753955841,
+      "median_resid_gain_to_avg": 0.010151120834052563,
+      "n": 160
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "frustration / despair",
+      "median_joint": 0.12330924347043037,
+      "median_marg_max": 0.13817673921585083,
+      "median_resid_gain_to_max": -0.014138422906398773,
+      "median_resid_gain_to_avg": 0.00468676071614027,
+      "n": 160
+    }
+  ]
+}

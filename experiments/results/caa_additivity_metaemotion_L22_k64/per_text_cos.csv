@@ -1,0 +1,2017 @@
+cat_a,cat_b,alpha,beta,prompt_id,cluster_id,cluster_name,cos
+anger,fear,-2.0,-2.0,0,0,self-doubt / encouragement,0.20526054501533508
+anger,fear,-2.0,-2.0,0,1,frustration / despair,0.17018981277942657
+anger,fear,-2.0,-2.0,0,2,uncertainty / indecision,0.20935148000717163
+anger,fear,-2.0,-2.0,0,3,romantic idealism,0.021431617438793182
+anger,fear,-2.0,-2.0,0,4,academic ambition / competitive determination,0.13145127892494202
+anger,fear,-2.0,-2.0,0,5,ironic amusement,0.2175980806350708
+anger,fear,-2.0,-2.0,0,6,enthusiasm / curiosity,0.20904898643493652
+anger,fear,-2.0,-2.0,1,0,self-doubt / encouragement,0.14961783587932587
+anger,fear,-2.0,-2.0,1,1,frustration / despair,0.1577862948179245
+anger,fear,-2.0,-2.0,1,2,uncertainty / indecision,0.17379043996334076
+anger,fear,-2.0,-2.0,1,3,romantic idealism,0.06038453057408333
+anger,fear,-2.0,-2.0,1,4,academic ambition / competitive determination,0.06802672147750854
+anger,fear,-2.0,-2.0,1,5,ironic amusement,0.12757083773612976
+anger,fear,-2.0,-2.0,1,6,enthusiasm / curiosity,0.14863082766532898
+anger,fear,-2.0,-2.0,2,0,self-doubt / encouragement,0.17494970560073853
+anger,fear,-2.0,-2.0,2,1,frustration / despair,0.10684092342853546
+anger,fear,-2.0,-2.0,2,2,uncertainty / indecision,0.1948155164718628
+anger,fear,-2.0,-2.0,2,3,romantic idealism,0.061302684247493744
+anger,fear,-2.0,-2.0,2,4,academic ambition / competitive determination,0.1644645482301712
+anger,fear,-2.0,-2.0,2,5,ironic amusement,0.13489870727062225
+anger,fear,-2.0,-2.0,2,6,enthusiasm / curiosity,0.17144039273262024
+anger,fear,-2.0,-2.0,3,0,self-doubt / encouragement,0.08840607851743698
+anger,fear,-2.0,-2.0,3,1,frustration / despair,0.10028690099716187
+anger,fear,-2.0,-2.0,3,2,uncertainty / indecision,0.11817175149917603
+anger,fear,-2.0,-2.0,3,3,romantic idealism,0.07144465297460556
+anger,fear,-2.0,-2.0,3,4,academic ambition / competitive determination,0.06305041164159775
+anger,fear,-2.0,-2.0,3,5,ironic amusement,0.13417625427246094
+anger,fear,-2.0,-2.0,3,6,enthusiasm / curiosity,0.10549486428499222
+anger,fear,-2.0,-2.0,4,0,self-doubt / encouragement,0.13157841563224792
+anger,fear,-2.0,-2.0,4,1,frustration / despair,0.05243239924311638
+anger,fear,-2.0,-2.0,4,2,uncertainty / indecision,0.15582172572612762
+anger,fear,-2.0,-2.0,4,3,romantic idealism,0.05722983554005623
+anger,fear,-2.0,-2.0,4,4,academic ambition / competitive determination,0.13447821140289307
+anger,fear,-2.0,-2.0,4,5,ironic amusement,0.05432502552866936
+anger,fear,-2.0,-2.0,4,6,enthusiasm / curiosity,0.10760078579187393
+anger,fear,-2.0,-2.0,5,0,self-doubt / encouragement,0.14537128806114197
+anger,fear,-2.0,-2.0,5,1,frustration / despair,0.1176389679312706
+anger,fear,-2.0,-2.0,5,2,uncertainty / indecision,0.14984184503555298
+anger,fear,-2.0,-2.0,5,3,romantic idealism,0.05132035166025162
+anger,fear,-2.0,-2.0,5,4,academic ambition / competitive determination,0.0698801726102829
+anger,fear,-2.0,-2.0,5,5,ironic amusement,0.17298725247383118
+anger,fear,-2.0,-2.0,5,6,enthusiasm / curiosity,0.16618967056274414
+anger,fear,-2.0,-2.0,6,0,self-doubt / encouragement,0.12840406596660614
+anger,fear,-2.0,-2.0,6,1,frustration / despair,0.11961888521909714
+anger,fear,-2.0,-2.0,6,2,uncertainty / indecision,0.14974530041217804
+anger,fear,-2.0,-2.0,6,3,romantic idealism,0.007385706529021263
+anger,fear,-2.0,-2.0,6,4,academic ambition / competitive determination,0.13933813571929932
+anger,fear,-2.0,-2.0,6,5,ironic amusement,0.12077575922012329
+anger,fear,-2.0,-2.0,6,6,enthusiasm / curiosity,0.20262844860553741
+anger,fear,-2.0,-2.0,7,0,self-doubt / encouragement,0.2939532399177551
+anger,fear,-2.0,-2.0,7,1,frustration / despair,0.34492677450180054
+anger,fear,-2.0,-2.0,7,2,uncertainty / indecision,0.39849424362182617
+anger,fear,-2.0,-2.0,7,3,romantic idealism,0.17476359009742737
+anger,fear,-2.0,-2.0,7,4,academic ambition / competitive determination,0.2899567782878876
+anger,fear,-2.0,-2.0,7,5,ironic amusement,0.2867128849029541
+anger,fear,-2.0,-2.0,7,6,enthusiasm / curiosity,0.3336951732635498
+anger,fear,-2.0,0.0,0,0,self-doubt / encouragement,0.21378503739833832
+anger,fear,-2.0,0.0,0,1,frustration / despair,0.19184617698192596
+anger,fear,-2.0,0.0,0,2,uncertainty / indecision,0.2423609495162964
+anger,fear,-2.0,0.0,0,3,romantic idealism,0.06062449514865875
+anger,fear,-2.0,0.0,0,4,academic ambition / competitive determination,0.1157606989145279
+anger,fear,-2.0,0.0,0,5,ironic amusement,0.1250118464231491
+anger,fear,-2.0,0.0,0,6,enthusiasm / curiosity,0.1549644023180008
+anger,fear,-2.0,0.0,1,0,self-doubt / encouragement,0.05908381938934326
+anger,fear,-2.0,0.0,1,1,frustration / despair,0.08640670776367188
+anger,fear,-2.0,0.0,1,2,uncertainty / indecision,0.14380322396755219
+anger,fear,-2.0,0.0,1,3,romantic idealism,-0.0004500128561630845
+anger,fear,-2.0,0.0,1,4,academic ambition / competitive determination,0.08119083195924759
+anger,fear,-2.0,0.0,1,5,ironic amusement,0.1015855073928833
+anger,fear,-2.0,0.0,1,6,enthusiasm / curiosity,0.09306027740240097
+anger,fear,-2.0,0.0,2,0,self-doubt / encouragement,0.11203654110431671
+anger,fear,-2.0,0.0,2,1,frustration / despair,0.08629456162452698
+anger,fear,-2.0,0.0,2,2,uncertainty / indecision,0.150186687707901
+anger,fear,-2.0,0.0,2,3,romantic idealism,0.05919823423027992
+anger,fear,-2.0,0.0,2,4,academic ambition / competitive determination,0.19814075529575348
+anger,fear,-2.0,0.0,2,5,ironic amusement,0.05877523869276047
+anger,fear,-2.0,0.0,2,6,enthusiasm / curiosity,0.12807020545005798
+anger,fear,-2.0,0.0,3,0,self-doubt / encouragement,0.04968643561005592
+anger,fear,-2.0,0.0,3,1,frustration / despair,0.10011174529790878
+anger,fear,-2.0,0.0,3,2,uncertainty / indecision,0.128189817070961
+anger,fear,-2.0,0.0,3,3,romantic idealism,0.038999758660793304
+anger,fear,-2.0,0.0,3,4,academic ambition / competitive determination,0.04337547719478607
+anger,fear,-2.0,0.0,3,5,ironic amusement,0.11101477593183517
+anger,fear,-2.0,0.0,3,6,enthusiasm / curiosity,0.12609483301639557
+anger,fear,-2.0,0.0,4,0,self-doubt / encouragement,0.11651457846164703
+anger,fear,-2.0,0.0,4,1,frustration / despair,0.07814192771911621
+anger,fear,-2.0,0.0,4,2,uncertainty / indecision,0.16940926015377045
+anger,fear,-2.0,0.0,4,3,romantic idealism,0.10259468853473663
+anger,fear,-2.0,0.0,4,4,academic ambition / competitive determination,0.16521799564361572
+anger,fear,-2.0,0.0,4,5,ironic amusement,0.0648786723613739
+anger,fear,-2.0,0.0,4,6,enthusiasm / curiosity,0.20355010032653809
+anger,fear,-2.0,0.0,5,0,self-doubt / encouragement,0.16927550733089447
+anger,fear,-2.0,0.0,5,1,frustration / despair,0.12772680819034576
+anger,fear,-2.0,0.0,5,2,uncertainty / indecision,0.19697757065296173
+anger,fear,-2.0,0.0,5,3,romantic idealism,0.04272943362593651
+anger,fear,-2.0,0.0,5,4,academic ambition / competitive determination,0.12854136526584625
+anger,fear,-2.0,0.0,5,5,ironic amusement,0.1335107684135437
+anger,fear,-2.0,0.0,5,6,enthusiasm / curiosity,0.236124649643898
+anger,fear,-2.0,0.0,6,0,self-doubt / encouragement,0.08250068128108978
+anger,fear,-2.0,0.0,6,1,frustration / despair,0.11992225050926208
+anger,fear,-2.0,0.0,6,2,uncertainty / indecision,0.1459178924560547
+anger,fear,-2.0,0.0,6,3,romantic idealism,-0.022089704871177673
+anger,fear,-2.0,0.0,6,4,academic ambition / competitive determination,0.08278192579746246
+anger,fear,-2.0,0.0,6,5,ironic amusement,0.05788957327604294
+anger,fear,-2.0,0.0,6,6,enthusiasm / curiosity,0.10315288603305817
+anger,fear,-2.0,0.0,7,0,self-doubt / encouragement,0.17709439992904663
+anger,fear,-2.0,0.0,7,1,frustration / despair,0.19954128563404083
+anger,fear,-2.0,0.0,7,2,uncertainty / indecision,0.2686428725719452
+anger,fear,-2.0,0.0,7,3,romantic idealism,0.1467004418373108
+anger,fear,-2.0,0.0,7,4,academic ambition / competitive determination,0.10012609511613846
+anger,fear,-2.0,0.0,7,5,ironic amusement,0.17773398756980896
+anger,fear,-2.0,0.0,7,6,enthusiasm / curiosity,0.18728438019752502
+anger,fear,-2.0,2.0,0,0,self-doubt / encouragement,0.1917426884174347
+anger,fear,-2.0,2.0,0,1,frustration / despair,0.16839700937271118
+anger,fear,-2.0,2.0,0,2,uncertainty / indecision,0.14574716985225677
+anger,fear,-2.0,2.0,0,3,romantic idealism,0.048949822783470154
+anger,fear,-2.0,2.0,0,4,academic ambition / competitive determination,0.08717110753059387
+anger,fear,-2.0,2.0,0,5,ironic amusement,0.10677631944417953
+anger,fear,-2.0,2.0,0,6,enthusiasm / curiosity,0.12813961505889893
+anger,fear,-2.0,2.0,1,0,self-doubt / encouragement,0.12195132672786713
+anger,fear,-2.0,2.0,1,1,frustration / despair,0.1259993314743042
+anger,fear,-2.0,2.0,1,2,uncertainty / indecision,0.17901310324668884
+anger,fear,-2.0,2.0,1,3,romantic idealism,0.047849901020526886
+anger,fear,-2.0,2.0,1,4,academic ambition / competitive determination,0.05254542455077171
+anger,fear,-2.0,2.0,1,5,ironic amusement,0.08762183040380478
+anger,fear,-2.0,2.0,1,6,enthusiasm / curiosity,0.18528114259243011
+anger,fear,-2.0,2.0,2,0,self-doubt / encouragement,0.16618213057518005
+anger,fear,-2.0,2.0,2,1,frustration / despair,0.06457264721393585
+anger,fear,-2.0,2.0,2,2,uncertainty / indecision,0.10437891632318497
+anger,fear,-2.0,2.0,2,3,romantic idealism,0.11313727498054504
+anger,fear,-2.0,2.0,2,4,academic ambition / competitive determination,0.1512811779975891
+anger,fear,-2.0,2.0,2,5,ironic amusement,0.10528578609228134
+anger,fear,-2.0,2.0,2,6,enthusiasm / curiosity,0.20101980865001678
+anger,fear,-2.0,2.0,3,0,self-doubt / encouragement,0.04754674807190895
+anger,fear,-2.0,2.0,3,1,frustration / despair,0.09557820856571198
+anger,fear,-2.0,2.0,3,2,uncertainty / indecision,0.12335959076881409
+anger,fear,-2.0,2.0,3,3,romantic idealism,0.020721442997455597
+anger,fear,-2.0,2.0,3,4,academic ambition / competitive determination,0.04710391163825989
+anger,fear,-2.0,2.0,3,5,ironic amusement,0.11765428632497787
+anger,fear,-2.0,2.0,3,6,enthusiasm / curiosity,0.1399705857038498
+anger,fear,-2.0,2.0,4,0,self-doubt / encouragement,0.08944772183895111
+anger,fear,-2.0,2.0,4,1,frustration / despair,0.08179184794425964
+anger,fear,-2.0,2.0,4,2,uncertainty / indecision,0.16639186441898346
+anger,fear,-2.0,2.0,4,3,romantic idealism,0.09807264059782028
+anger,fear,-2.0,2.0,4,4,academic ambition / competitive determination,0.1906457543373108
+anger,fear,-2.0,2.0,4,5,ironic amusement,0.018696442246437073
+anger,fear,-2.0,2.0,4,6,enthusiasm / curiosity,0.10835680365562439
+anger,fear,-2.0,2.0,5,0,self-doubt / encouragement,0.1492541879415512
+anger,fear,-2.0,2.0,5,1,frustration / despair,0.14587561786174774
+anger,fear,-2.0,2.0,5,2,uncertainty / indecision,0.1725592166185379
+anger,fear,-2.0,2.0,5,3,romantic idealism,0.026705008000135422
+anger,fear,-2.0,2.0,5,4,academic ambition / competitive determination,0.08394484966993332
+anger,fear,-2.0,2.0,5,5,ironic amusement,0.11203843355178833
+anger,fear,-2.0,2.0,5,6,enthusiasm / curiosity,0.19020816683769226
+anger,fear,-2.0,2.0,6,0,self-doubt / encouragement,0.19925929605960846
+anger,fear,-2.0,2.0,6,1,frustration / despair,0.12236258387565613
+anger,fear,-2.0,2.0,6,2,uncertainty / indecision,0.1635761260986328
+anger,fear,-2.0,2.0,6,3,romantic idealism,-0.010226065292954445
+anger,fear,-2.0,2.0,6,4,academic ambition / competitive determination,0.14676804840564728
+anger,fear,-2.0,2.0,6,5,ironic amusement,0.08401922136545181
+anger,fear,-2.0,2.0,6,6,enthusiasm / curiosity,0.20150946080684662
+anger,fear,-2.0,2.0,7,0,self-doubt / encouragement,0.21941787004470825
+anger,fear,-2.0,2.0,7,1,frustration / despair,0.1734119951725006
+anger,fear,-2.0,2.0,7,2,uncertainty / indecision,0.21166494488716125
+anger,fear,-2.0,2.0,7,3,romantic idealism,0.08191540837287903
+anger,fear,-2.0,2.0,7,4,academic ambition / competitive determination,0.12766915559768677
+anger,fear,-2.0,2.0,7,5,ironic amusement,0.1537054479122162
+anger,fear,-2.0,2.0,7,6,enthusiasm / curiosity,0.2134888917207718
+anger,fear,0.0,-2.0,0,0,self-doubt / encouragement,0.2579997777938843
+anger,fear,0.0,-2.0,0,1,frustration / despair,0.1789245754480362
+anger,fear,0.0,-2.0,0,2,uncertainty / indecision,0.29390186071395874
+anger,fear,0.0,-2.0,0,3,romantic idealism,0.09816206246614456
+anger,fear,0.0,-2.0,0,4,academic ambition / competitive determination,0.1298098862171173
+anger,fear,0.0,-2.0,0,5,ironic amusement,0.1419863998889923
+anger,fear,0.0,-2.0,0,6,enthusiasm / curiosity,0.18679481744766235
+anger,fear,0.0,-2.0,1,0,self-doubt / encouragement,0.10924135148525238
+anger,fear,0.0,-2.0,1,1,frustration / despair,0.11108601838350296
+anger,fear,0.0,-2.0,1,2,uncertainty / indecision,0.19293516874313354
+anger,fear,0.0,-2.0,1,3,romantic idealism,0.02738611400127411
+anger,fear,0.0,-2.0,1,4,academic ambition / competitive determination,0.09196264296770096
+anger,fear,0.0,-2.0,1,5,ironic amusement,0.12647168338298798
+anger,fear,0.0,-2.0,1,6,enthusiasm / curiosity,0.09957394748926163
+anger,fear,0.0,-2.0,2,0,self-doubt / encouragement,0.13851650059223175
+anger,fear,0.0,-2.0,2,1,frustration / despair,0.08928446471691132
+anger,fear,0.0,-2.0,2,2,uncertainty / indecision,0.17251801490783691
+anger,fear,0.0,-2.0,2,3,romantic idealism,0.050403691828250885
+anger,fear,0.0,-2.0,2,4,academic ambition / competitive determination,0.19722029566764832
+anger,fear,0.0,-2.0,2,5,ironic amusement,0.048356328159570694
+anger,fear,0.0,-2.0,2,6,enthusiasm / curiosity,0.14655113220214844
+anger,fear,0.0,-2.0,3,0,self-doubt / encouragement,0.06093175336718559
+anger,fear,0.0,-2.0,3,1,frustration / despair,0.10251928865909576
+anger,fear,0.0,-2.0,3,2,uncertainty / indecision,0.16539502143859863
+anger,fear,0.0,-2.0,3,3,romantic idealism,0.03413036838173866
+anger,fear,0.0,-2.0,3,4,academic ambition / competitive determination,0.0693514347076416
+anger,fear,0.0,-2.0,3,5,ironic amusement,0.09954050928354263
+anger,fear,0.0,-2.0,3,6,enthusiasm / curiosity,0.11298248916864395
+anger,fear,0.0,-2.0,4,0,self-doubt / encouragement,0.08728994429111481
+anger,fear,0.0,-2.0,4,1,frustration / despair,0.06173887848854065
+anger,fear,0.0,-2.0,4,2,uncertainty / indecision,0.16229671239852905
+anger,fear,0.0,-2.0,4,3,romantic idealism,0.05726369470357895
+anger,fear,0.0,-2.0,4,4,academic ambition / competitive determination,0.10703927278518677
+anger,fear,0.0,-2.0,4,5,ironic amusement,0.052045658230781555
+anger,fear,0.0,-2.0,4,6,enthusiasm / curiosity,0.10717548429965973
+anger,fear,0.0,-2.0,5,0,self-doubt / encouragement,0.13340717554092407
+anger,fear,0.0,-2.0,5,1,frustration / despair,0.13162413239479065
+anger,fear,0.0,-2.0,5,2,uncertainty / indecision,0.16089193522930145
+anger,fear,0.0,-2.0,5,3,romantic idealism,0.06402648985385895
+anger,fear,0.0,-2.0,5,4,academic ambition / competitive determination,0.10799308866262436
+anger,fear,0.0,-2.0,5,5,ironic amusement,0.12329086661338806
+anger,fear,0.0,-2.0,5,6,enthusiasm / curiosity,0.20928701758384705
+anger,fear,0.0,-2.0,6,0,self-doubt / encouragement,0.03782835602760315
+anger,fear,0.0,-2.0,6,1,frustration / despair,0.08399330824613571
+anger,fear,0.0,-2.0,6,2,uncertainty / indecision,0.06298138201236725
+anger,fear,0.0,-2.0,6,3,romantic idealism,-0.04130189120769501
+anger,fear,0.0,-2.0,6,4,academic ambition / competitive determination,0.039893392473459244
+anger,fear,0.0,-2.0,6,5,ironic amusement,0.027037885040044785
+anger,fear,0.0,-2.0,6,6,enthusiasm / curiosity,0.12117548286914825
+anger,fear,0.0,-2.0,7,0,self-doubt / encouragement,0.2939532399177551
+anger,fear,0.0,-2.0,7,1,frustration / despair,0.34492677450180054
+anger,fear,0.0,-2.0,7,2,uncertainty / indecision,0.39849424362182617
+anger,fear,0.0,-2.0,7,3,romantic idealism,0.17476359009742737
+anger,fear,0.0,-2.0,7,4,academic ambition / competitive determination,0.2899567782878876
+anger,fear,0.0,-2.0,7,5,ironic amusement,0.2867128849029541
+anger,fear,0.0,-2.0,7,6,enthusiasm / curiosity,0.3336951732635498
+anger,fear,0.0,0.0,0,0,self-doubt / encouragement,0.2579997777938843
+anger,fear,0.0,0.0,0,1,frustration / despair,0.1789245754480362
+anger,fear,0.0,0.0,0,2,uncertainty / indecision,0.29390186071395874
+anger,fear,0.0,0.0,0,3,romantic idealism,0.09816206246614456
+anger,fear,0.0,0.0,0,4,academic ambition / competitive determination,0.1298098862171173
+anger,fear,0.0,0.0,0,5,ironic amusement,0.1419863998889923
+anger,fear,0.0,0.0,0,6,enthusiasm / curiosity,0.18679481744766235
+anger,fear,0.0,0.0,1,0,self-doubt / encouragement,0.08845274150371552
+anger,fear,0.0,0.0,1,1,frustration / despair,0.12093593180179596
+anger,fear,0.0,0.0,1,2,uncertainty / indecision,0.1579023152589798
+anger,fear,0.0,0.0,1,3,romantic idealism,-0.006807968486100435
+anger,fear,0.0,0.0,1,4,academic ambition / competitive determination,0.07018128782510757
+anger,fear,0.0,0.0,1,5,ironic amusement,0.1118372306227684
+anger,fear,0.0,0.0,1,6,enthusiasm / curiosity,0.10050424188375473
+anger,fear,0.0,0.0,2,0,self-doubt / encouragement,0.11809313297271729
+anger,fear,0.0,0.0,2,1,frustration / despair,0.08123224973678589
+anger,fear,0.0,0.0,2,2,uncertainty / indecision,0.16268309950828552
+anger,fear,0.0,0.0,2,3,romantic idealism,0.08184073120355606
+anger,fear,0.0,0.0,2,4,academic ambition / competitive determination,0.22492694854736328
+anger,fear,0.0,0.0,2,5,ironic amusement,0.0756302997469902
+anger,fear,0.0,0.0,2,6,enthusiasm / curiosity,0.16488052904605865
+anger,fear,0.0,0.0,3,0,self-doubt / encouragement,0.05243324488401413
+anger,fear,0.0,0.0,3,1,frustration / despair,0.09356782585382462
+anger,fear,0.0,0.0,3,2,uncertainty / indecision,0.12729161977767944
+anger,fear,0.0,0.0,3,3,romantic idealism,0.030825095251202583
+anger,fear,0.0,0.0,3,4,academic ambition / competitive determination,0.0544109046459198
+anger,fear,0.0,0.0,3,5,ironic amusement,0.11290410161018372
+anger,fear,0.0,0.0,3,6,enthusiasm / curiosity,0.11533231288194656
+anger,fear,0.0,0.0,4,0,self-doubt / encouragement,0.09420821070671082
+anger,fear,0.0,0.0,4,1,frustration / despair,0.08754955232143402
+anger,fear,0.0,0.0,4,2,uncertainty / indecision,0.1750241070985794
+anger,fear,0.0,0.0,4,3,romantic idealism,0.0778314620256424
+anger,fear,0.0,0.0,4,4,academic ambition / competitive determination,0.17608575522899628
+anger,fear,0.0,0.0,4,5,ironic amusement,0.04792594164609909
+anger,fear,0.0,0.0,4,6,enthusiasm / curiosity,0.12139500677585602
+anger,fear,0.0,0.0,5,0,self-doubt / encouragement,0.26054656505584717
+anger,fear,0.0,0.0,5,1,frustration / despair,0.18212664127349854
+anger,fear,0.0,0.0,5,2,uncertainty / indecision,0.32548990845680237
+anger,fear,0.0,0.0,5,3,romantic idealism,0.07388083636760712
+anger,fear,0.0,0.0,5,4,academic ambition / competitive determination,0.2368214726448059
+anger,fear,0.0,0.0,5,5,ironic amusement,0.12936455011367798
+anger,fear,0.0,0.0,5,6,enthusiasm / curiosity,0.24971291422843933
+anger,fear,0.0,0.0,6,0,self-doubt / encouragement,0.05740978196263313
+anger,fear,0.0,0.0,6,1,frustration / despair,0.018406767398118973
+anger,fear,0.0,0.0,6,2,uncertainty / indecision,0.05213114619255066
+anger,fear,0.0,0.0,6,3,romantic idealism,-0.0029194806702435017
+anger,fear,0.0,0.0,6,4,academic ambition / competitive determination,0.06545843183994293
+anger,fear,0.0,0.0,6,5,ironic amusement,0.11780129373073578
+anger,fear,0.0,0.0,6,6,enthusiasm / curiosity,0.0769282728433609
+anger,fear,0.0,0.0,7,0,self-doubt / encouragement,0.2342257797718048
+anger,fear,0.0,0.0,7,1,frustration / despair,0.17508135735988617
+anger,fear,0.0,0.0,7,2,uncertainty / indecision,0.23814348876476288
+anger,fear,0.0,0.0,7,3,romantic idealism,0.04391293227672577
+anger,fear,0.0,0.0,7,4,academic ambition / competitive determination,0.09760971367359161
+anger,fear,0.0,0.0,7,5,ironic amusement,0.1656855195760727
+anger,fear,0.0,0.0,7,6,enthusiasm / curiosity,0.21326756477355957
+anger,fear,0.0,2.0,0,0,self-doubt / encouragement,0.17587535083293915
+anger,fear,0.0,2.0,0,1,frustration / despair,0.17068102955818176
+anger,fear,0.0,2.0,0,2,uncertainty / indecision,0.15906034409999847
+anger,fear,0.0,2.0,0,3,romantic idealism,0.10870297253131866
+anger,fear,0.0,2.0,0,4,academic ambition / competitive determination,0.046992767602205276
+anger,fear,0.0,2.0,0,5,ironic amusement,0.07731746882200241
+anger,fear,0.0,2.0,0,6,enthusiasm / curiosity,0.13171570003032684
+anger,fear,0.0,2.0,1,0,self-doubt / encouragement,0.15911740064620972
+anger,fear,0.0,2.0,1,1,frustration / despair,0.18338552117347717
+anger,fear,0.0,2.0,1,2,uncertainty / indecision,0.18819817900657654
+anger,fear,0.0,2.0,1,3,romantic idealism,0.06501414626836777
+anger,fear,0.0,2.0,1,4,academic ambition / competitive determination,0.1428396999835968
+anger,fear,0.0,2.0,1,5,ironic amusement,0.15843820571899414
+anger,fear,0.0,2.0,1,6,enthusiasm / curiosity,0.20069795846939087
+anger,fear,0.0,2.0,2,0,self-doubt / encouragement,0.12674054503440857
+anger,fear,0.0,2.0,2,1,frustration / despair,0.06934133172035217
+anger,fear,0.0,2.0,2,2,uncertainty / indecision,0.05134817957878113
+anger,fear,0.0,2.0,2,3,romantic idealism,0.0494811125099659
+anger,fear,0.0,2.0,2,4,academic ambition / competitive determination,0.05046037957072258
+anger,fear,0.0,2.0,2,5,ironic amusement,0.008855702355504036
+anger,fear,0.0,2.0,2,6,enthusiasm / curiosity,0.13807103037834167
+anger,fear,0.0,2.0,3,0,self-doubt / encouragement,0.056468408554792404
+anger,fear,0.0,2.0,3,1,frustration / despair,0.10151947289705276
+anger,fear,0.0,2.0,3,2,uncertainty / indecision,0.13756822049617767
+anger,fear,0.0,2.0,3,3,romantic idealism,0.03691897913813591
+anger,fear,0.0,2.0,3,4,academic ambition / competitive determination,0.058205537497997284
+anger,fear,0.0,2.0,3,5,ironic amusement,0.11789689213037491
+anger,fear,0.0,2.0,3,6,enthusiasm / curiosity,0.12192412465810776
+anger,fear,0.0,2.0,4,0,self-doubt / encouragement,0.12873487174510956
+anger,fear,0.0,2.0,4,1,frustration / despair,0.13585512340068817
+anger,fear,0.0,2.0,4,2,uncertainty / indecision,0.18124794960021973
+anger,fear,0.0,2.0,4,3,romantic idealism,0.11147821694612503
+anger,fear,0.0,2.0,4,4,academic ambition / competitive determination,0.14391951262950897
+anger,fear,0.0,2.0,4,5,ironic amusement,0.051859527826309204
+anger,fear,0.0,2.0,4,6,enthusiasm / curiosity,0.14379191398620605
+anger,fear,0.0,2.0,5,0,self-doubt / encouragement,0.22758321464061737
+anger,fear,0.0,2.0,5,1,frustration / despair,0.18761566281318665
+anger,fear,0.0,2.0,5,2,uncertainty / indecision,0.2525778114795685
+anger,fear,0.0,2.0,5,3,romantic idealism,0.1012197807431221
+anger,fear,0.0,2.0,5,4,academic ambition / competitive determination,0.09921886771917343
+anger,fear,0.0,2.0,5,5,ironic amusement,0.1633627861738205
+anger,fear,0.0,2.0,5,6,enthusiasm / curiosity,0.2551378011703491
+anger,fear,0.0,2.0,6,0,self-doubt / encouragement,0.09587086737155914
+anger,fear,0.0,2.0,6,1,frustration / despair,0.1121509000658989
+anger,fear,0.0,2.0,6,2,uncertainty / indecision,0.17253725230693817
+anger,fear,0.0,2.0,6,3,romantic idealism,0.030363023281097412
+anger,fear,0.0,2.0,6,4,academic ambition / competitive determination,0.04356946423649788
+anger,fear,0.0,2.0,6,5,ironic amusement,0.08397892862558365
+anger,fear,0.0,2.0,6,6,enthusiasm / curiosity,0.10001963376998901
+anger,fear,0.0,2.0,7,0,self-doubt / encouragement,0.23237517476081848
+anger,fear,0.0,2.0,7,1,frustration / despair,0.17180059850215912
+anger,fear,0.0,2.0,7,2,uncertainty / indecision,0.23589646816253662
+anger,fear,0.0,2.0,7,3,romantic idealism,0.03895362466573715
+anger,fear,0.0,2.0,7,4,academic ambition / competitive determination,0.0799139142036438
+anger,fear,0.0,2.0,7,5,ironic amusement,0.15713627636432648
+anger,fear,0.0,2.0,7,6,enthusiasm / curiosity,0.18449446558952332
+anger,fear,2.0,-2.0,0,0,self-doubt / encouragement,0.17711129784584045
+anger,fear,2.0,-2.0,0,1,frustration / despair,0.21496239304542542
+anger,fear,2.0,-2.0,0,2,uncertainty / indecision,0.19592401385307312
+anger,fear,2.0,-2.0,0,3,romantic idealism,0.008179385215044022
+anger,fear,2.0,-2.0,0,4,academic ambition / competitive determination,0.07444795221090317
+anger,fear,2.0,-2.0,0,5,ironic amusement,0.14283762872219086
+anger,fear,2.0,-2.0,0,6,enthusiasm / curiosity,0.14291788637638092
+anger,fear,2.0,-2.0,1,0,self-doubt / encouragement,0.10528334975242615
+anger,fear,2.0,-2.0,1,1,frustration / despair,0.11092164367437363
+anger,fear,2.0,-2.0,1,2,uncertainty / indecision,0.14275315403938293
+anger,fear,2.0,-2.0,1,3,romantic idealism,0.010319828055799007
+anger,fear,2.0,-2.0,1,4,academic ambition / competitive determination,0.10390657931566238
+anger,fear,2.0,-2.0,1,5,ironic amusement,0.1227639764547348
+anger,fear,2.0,-2.0,1,6,enthusiasm / curiosity,0.11675653606653214
+anger,fear,2.0,-2.0,2,0,self-doubt / encouragement,0.11246195435523987
+anger,fear,2.0,-2.0,2,1,frustration / despair,0.08880400657653809
+anger,fear,2.0,-2.0,2,2,uncertainty / indecision,0.1562202274799347
+anger,fear,2.0,-2.0,2,3,romantic idealism,0.06515420228242874
+anger,fear,2.0,-2.0,2,4,academic ambition / competitive determination,0.1943763643503189
+anger,fear,2.0,-2.0,2,5,ironic amusement,0.060144707560539246
+anger,fear,2.0,-2.0,2,6,enthusiasm / curiosity,0.11963852494955063
+anger,fear,2.0,-2.0,3,0,self-doubt / encouragement,0.15437836945056915
+anger,fear,2.0,-2.0,3,1,frustration / despair,0.12698981165885925
+anger,fear,2.0,-2.0,3,2,uncertainty / indecision,0.16307567059993744
+anger,fear,2.0,-2.0,3,3,romantic idealism,0.04210587963461876
+anger,fear,2.0,-2.0,3,4,academic ambition / competitive determination,0.09551846981048584
+anger,fear,2.0,-2.0,3,5,ironic amusement,0.11220350861549377
+anger,fear,2.0,-2.0,3,6,enthusiasm / curiosity,0.1803779900074005
+anger,fear,2.0,-2.0,4,0,self-doubt / encouragement,0.047523338347673416
+anger,fear,2.0,-2.0,4,1,frustration / despair,0.06025748699903488
+anger,fear,2.0,-2.0,4,2,uncertainty / indecision,0.1252475380897522
+anger,fear,2.0,-2.0,4,3,romantic idealism,0.029348846524953842
+anger,fear,2.0,-2.0,4,4,academic ambition / competitive determination,0.0604635551571846
+anger,fear,2.0,-2.0,4,5,ironic amusement,0.01936153508722782
+anger,fear,2.0,-2.0,4,6,enthusiasm / curiosity,0.0770663395524025
+anger,fear,2.0,-2.0,5,0,self-doubt / encouragement,0.06099396571516991
+anger,fear,2.0,-2.0,5,1,frustration / despair,0.0826258733868599
+anger,fear,2.0,-2.0,5,2,uncertainty / indecision,0.09971735626459122
+anger,fear,2.0,-2.0,5,3,romantic idealism,-0.031433843076229095
+anger,fear,2.0,-2.0,5,4,academic ambition / competitive determination,0.034183815121650696
+anger,fear,2.0,-2.0,5,5,ironic amusement,0.09093088656663895
+anger,fear,2.0,-2.0,5,6,enthusiasm / curiosity,0.08596382290124893
+anger,fear,2.0,-2.0,6,0,self-doubt / encouragement,0.04343023523688316
+anger,fear,2.0,-2.0,6,1,frustration / despair,0.049233630299568176
+anger,fear,2.0,-2.0,6,2,uncertainty / indecision,0.06598241627216339
+anger,fear,2.0,-2.0,6,3,romantic idealism,0.04770787060260773
+anger,fear,2.0,-2.0,6,4,academic ambition / competitive determination,0.023208465427160263
+anger,fear,2.0,-2.0,6,5,ironic amusement,0.1037898063659668
+anger,fear,2.0,-2.0,6,6,enthusiasm / curiosity,0.06769838184118271
+anger,fear,2.0,-2.0,7,0,self-doubt / encouragement,0.23415355384349823
+anger,fear,2.0,-2.0,7,1,frustration / despair,0.19330084323883057
+anger,fear,2.0,-2.0,7,2,uncertainty / indecision,0.24455493688583374
+anger,fear,2.0,-2.0,7,3,romantic idealism,0.06195284426212311
+anger,fear,2.0,-2.0,7,4,academic ambition / competitive determination,0.10019462555646896
+anger,fear,2.0,-2.0,7,5,ironic amusement,0.1660861223936081
+anger,fear,2.0,-2.0,7,6,enthusiasm / curiosity,0.2136467546224594
+anger,fear,2.0,0.0,0,0,self-doubt / encouragement,0.21284502744674683
+anger,fear,2.0,0.0,0,1,frustration / despair,0.1304447203874588
+anger,fear,2.0,0.0,0,2,uncertainty / indecision,0.2458190619945526
+anger,fear,2.0,0.0,0,3,romantic idealism,0.10900553315877914
+anger,fear,2.0,0.0,0,4,academic ambition / competitive determination,0.09882301092147827
+anger,fear,2.0,0.0,0,5,ironic amusement,0.1224302351474762
+anger,fear,2.0,0.0,0,6,enthusiasm / curiosity,0.14364448189735413
+anger,fear,2.0,0.0,1,0,self-doubt / encouragement,0.1372314840555191
+anger,fear,2.0,0.0,1,1,frustration / despair,0.1495278775691986
+anger,fear,2.0,0.0,1,2,uncertainty / indecision,0.15697774291038513
+anger,fear,2.0,0.0,1,3,romantic idealism,0.039697278290987015
+anger,fear,2.0,0.0,1,4,academic ambition / competitive determination,0.1076546460390091
+anger,fear,2.0,0.0,1,5,ironic amusement,0.13755548000335693
+anger,fear,2.0,0.0,1,6,enthusiasm / curiosity,0.16734068095684052
+anger,fear,2.0,0.0,2,0,self-doubt / encouragement,0.16848070919513702
+anger,fear,2.0,0.0,2,1,frustration / despair,0.03958519175648689
+anger,fear,2.0,0.0,2,2,uncertainty / indecision,0.09163138270378113
+anger,fear,2.0,0.0,2,3,romantic idealism,0.149385005235672
+anger,fear,2.0,0.0,2,4,academic ambition / competitive determination,0.07411760836839676
+anger,fear,2.0,0.0,2,5,ironic amusement,0.14601309597492218
+anger,fear,2.0,0.0,2,6,enthusiasm / curiosity,0.2261088788509369
+anger,fear,2.0,0.0,3,0,self-doubt / encouragement,0.051011670380830765
+anger,fear,2.0,0.0,3,1,frustration / despair,0.0911153182387352
+anger,fear,2.0,0.0,3,2,uncertainty / indecision,0.1257820725440979
+anger,fear,2.0,0.0,3,3,romantic idealism,0.03458606079220772
+anger,fear,2.0,0.0,3,4,academic ambition / competitive determination,0.04760643094778061
+anger,fear,2.0,0.0,3,5,ironic amusement,0.13287468254566193
+anger,fear,2.0,0.0,3,6,enthusiasm / curiosity,0.11680193990468979
+anger,fear,2.0,0.0,4,0,self-doubt / encouragement,0.10837101191282272
+anger,fear,2.0,0.0,4,1,frustration / despair,0.08957935869693756
+anger,fear,2.0,0.0,4,2,uncertainty / indecision,0.16728493571281433
+anger,fear,2.0,0.0,4,3,romantic idealism,0.07812293618917465
+anger,fear,2.0,0.0,4,4,academic ambition / competitive determination,0.16520443558692932
+anger,fear,2.0,0.0,4,5,ironic amusement,0.10444143414497375
+anger,fear,2.0,0.0,4,6,enthusiasm / curiosity,0.15574811398983002
+anger,fear,2.0,0.0,5,0,self-doubt / encouragement,0.16633149981498718
+anger,fear,2.0,0.0,5,1,frustration / despair,0.15711545944213867
+anger,fear,2.0,0.0,5,2,uncertainty / indecision,0.2239469736814499
+anger,fear,2.0,0.0,5,3,romantic idealism,0.08975018560886383
+anger,fear,2.0,0.0,5,4,academic ambition / competitive determination,0.14205001294612885
+anger,fear,2.0,0.0,5,5,ironic amusement,0.12396751344203949
+anger,fear,2.0,0.0,5,6,enthusiasm / curiosity,0.21036139130592346
+anger,fear,2.0,0.0,6,0,self-doubt / encouragement,0.09339761734008789
+anger,fear,2.0,0.0,6,1,frustration / despair,0.08502586930990219
+anger,fear,2.0,0.0,6,2,uncertainty / indecision,0.10527422279119492
+anger,fear,2.0,0.0,6,3,romantic idealism,0.02985743060708046
+anger,fear,2.0,0.0,6,4,academic ambition / competitive determination,0.04635358974337578
+anger,fear,2.0,0.0,6,5,ironic amusement,0.15204310417175293
+anger,fear,2.0,0.0,6,6,enthusiasm / curiosity,0.1275821179151535
+anger,fear,2.0,0.0,7,0,self-doubt / encouragement,0.23227837681770325
+anger,fear,2.0,0.0,7,1,frustration / despair,0.16978690028190613
+anger,fear,2.0,0.0,7,2,uncertainty / indecision,0.23718245327472687
+anger,fear,2.0,0.0,7,3,romantic idealism,0.03831618279218674
+anger,fear,2.0,0.0,7,4,academic ambition / competitive determination,0.07918471097946167
+anger,fear,2.0,0.0,7,5,ironic amusement,0.16015441715717316
+anger,fear,2.0,0.0,7,6,enthusiasm / curiosity,0.18266844749450684
+anger,fear,2.0,2.0,0,0,self-doubt / encouragement,0.16673703491687775
+anger,fear,2.0,2.0,0,1,frustration / despair,0.19277271628379822
+anger,fear,2.0,2.0,0,2,uncertainty / indecision,0.1866322159767151
+anger,fear,2.0,2.0,0,3,romantic idealism,0.04324130341410637
+anger,fear,2.0,2.0,0,4,academic ambition / competitive determination,0.11246539652347565
+anger,fear,2.0,2.0,0,5,ironic amusement,0.09457536786794662
+anger,fear,2.0,2.0,0,6,enthusiasm / curiosity,0.16297590732574463
+anger,fear,2.0,2.0,1,0,self-doubt / encouragement,0.1474607288837433
+anger,fear,2.0,2.0,1,1,frustration / despair,0.15300090610980988
+anger,fear,2.0,2.0,1,2,uncertainty / indecision,0.19879493117332458
+anger,fear,2.0,2.0,1,3,romantic idealism,0.039987653493881226
+anger,fear,2.0,2.0,1,4,academic ambition / competitive determination,0.15082867443561554
+anger,fear,2.0,2.0,1,5,ironic amusement,0.16416770219802856
+anger,fear,2.0,2.0,1,6,enthusiasm / curiosity,0.1959042102098465
+anger,fear,2.0,2.0,2,0,self-doubt / encouragement,0.2648674249649048
+anger,fear,2.0,2.0,2,1,frustration / despair,0.06768158078193665
+anger,fear,2.0,2.0,2,2,uncertainty / indecision,0.15356798470020294
+anger,fear,2.0,2.0,2,3,romantic idealism,0.11569038033485413
+anger,fear,2.0,2.0,2,4,academic ambition / competitive determination,0.17159515619277954
+anger,fear,2.0,2.0,2,5,ironic amusement,0.04272812604904175
+anger,fear,2.0,2.0,2,6,enthusiasm / curiosity,0.16578282415866852
+anger,fear,2.0,2.0,3,0,self-doubt / encouragement,0.120909683406353
+anger,fear,2.0,2.0,3,1,frustration / despair,0.1523641049861908
+anger,fear,2.0,2.0,3,2,uncertainty / indecision,0.18306568264961243
+anger,fear,2.0,2.0,3,3,romantic idealism,0.05219312012195587
+anger,fear,2.0,2.0,3,4,academic ambition / competitive determination,0.1000576764345169
+anger,fear,2.0,2.0,3,5,ironic amusement,0.14408369362354279
+anger,fear,2.0,2.0,3,6,enthusiasm / curiosity,0.19315184652805328
+anger,fear,2.0,2.0,4,0,self-doubt / encouragement,0.1634911149740219
+anger,fear,2.0,2.0,4,1,frustration / despair,0.12530265748500824
+anger,fear,2.0,2.0,4,2,uncertainty / indecision,0.15949563682079315
+anger,fear,2.0,2.0,4,3,romantic idealism,0.11361384391784668
+anger,fear,2.0,2.0,4,4,academic ambition / competitive determination,0.13655363023281097
+anger,fear,2.0,2.0,4,5,ironic amusement,0.064913310110569
+anger,fear,2.0,2.0,4,6,enthusiasm / curiosity,0.19096530973911285
+anger,fear,2.0,2.0,5,0,self-doubt / encouragement,0.20830149948596954
+anger,fear,2.0,2.0,5,1,frustration / despair,0.17095410823822021
+anger,fear,2.0,2.0,5,2,uncertainty / indecision,0.27762624621391296
+anger,fear,2.0,2.0,5,3,romantic idealism,0.08345435559749603
+anger,fear,2.0,2.0,5,4,academic ambition / competitive determination,0.20886871218681335
+anger,fear,2.0,2.0,5,5,ironic amusement,0.12954354286193848
+anger,fear,2.0,2.0,5,6,enthusiasm / curiosity,0.2124488353729248
+anger,fear,2.0,2.0,6,0,self-doubt / encouragement,0.08911681175231934
+anger,fear,2.0,2.0,6,1,frustration / despair,0.062204863876104355
+anger,fear,2.0,2.0,6,2,uncertainty / indecision,0.11092911660671234
+anger,fear,2.0,2.0,6,3,romantic idealism,0.026429936289787292
+anger,fear,2.0,2.0,6,4,academic ambition / competitive determination,0.05778959393501282
+anger,fear,2.0,2.0,6,5,ironic amusement,0.1148461401462555
+anger,fear,2.0,2.0,6,6,enthusiasm / curiosity,0.10063870251178741
+anger,fear,2.0,2.0,7,0,self-doubt / encouragement,0.17399843037128448
+anger,fear,2.0,2.0,7,1,frustration / despair,0.16979770362377167
+anger,fear,2.0,2.0,7,2,uncertainty / indecision,0.2528182864189148
+anger,fear,2.0,2.0,7,3,romantic idealism,0.13513319194316864
+anger,fear,2.0,2.0,7,4,academic ambition / competitive determination,0.1326257735490799
+anger,fear,2.0,2.0,7,5,ironic amusement,0.2223670333623886
+anger,fear,2.0,2.0,7,6,enthusiasm / curiosity,0.14774253964424133
+disgust,joy,-2.0,-2.0,0,0,self-doubt / encouragement,0.1606709063053131
+disgust,joy,-2.0,-2.0,0,1,frustration / despair,0.08654411882162094
+disgust,joy,-2.0,-2.0,0,2,uncertainty / indecision,0.19914641976356506
+disgust,joy,-2.0,-2.0,0,3,romantic idealism,0.0715961754322052
+disgust,joy,-2.0,-2.0,0,4,academic ambition / competitive determination,0.1221274882555008
+disgust,joy,-2.0,-2.0,0,5,ironic amusement,0.0674188956618309
+disgust,joy,-2.0,-2.0,0,6,enthusiasm / curiosity,0.2376004159450531
+disgust,joy,-2.0,-2.0,1,0,self-doubt / encouragement,0.1225748211145401
+disgust,joy,-2.0,-2.0,1,1,frustration / despair,0.10296424478292465
+disgust,joy,-2.0,-2.0,1,2,uncertainty / indecision,0.13535436987876892
+disgust,joy,-2.0,-2.0,1,3,romantic idealism,0.03739012032747269
+disgust,joy,-2.0,-2.0,1,4,academic ambition / competitive determination,0.033626120537519455
+disgust,joy,-2.0,-2.0,1,5,ironic amusement,0.08371962606906891
+disgust,joy,-2.0,-2.0,1,6,enthusiasm / curiosity,0.16215723752975464
+disgust,joy,-2.0,-2.0,2,0,self-doubt / encouragement,0.1373465359210968
+disgust,joy,-2.0,-2.0,2,1,frustration / despair,0.026037955656647682
+disgust,joy,-2.0,-2.0,2,2,uncertainty / indecision,0.08553479611873627
+disgust,joy,-2.0,-2.0,2,3,romantic idealism,0.10142690688371658
+disgust,joy,-2.0,-2.0,2,4,academic ambition / competitive determination,0.1505051553249359
+disgust,joy,-2.0,-2.0,2,5,ironic amusement,0.10403577983379364
+disgust,joy,-2.0,-2.0,2,6,enthusiasm / curiosity,0.19334036111831665
+disgust,joy,-2.0,-2.0,3,0,self-doubt / encouragement,0.04934614524245262
+disgust,joy,-2.0,-2.0,3,1,frustration / despair,0.09432683885097504
+disgust,joy,-2.0,-2.0,3,2,uncertainty / indecision,0.12452184408903122
+disgust,joy,-2.0,-2.0,3,3,romantic idealism,0.04455432668328285
+disgust,joy,-2.0,-2.0,3,4,academic ambition / competitive determination,0.04677873104810715
+disgust,joy,-2.0,-2.0,3,5,ironic amusement,0.12317882478237152
+disgust,joy,-2.0,-2.0,3,6,enthusiasm / curiosity,0.11951851099729538
+disgust,joy,-2.0,-2.0,4,0,self-doubt / encouragement,0.08880703896284103
+disgust,joy,-2.0,-2.0,4,1,frustration / despair,0.0836922824382782
+disgust,joy,-2.0,-2.0,4,2,uncertainty / indecision,0.15824183821678162
+disgust,joy,-2.0,-2.0,4,3,romantic idealism,0.10902853310108185
+disgust,joy,-2.0,-2.0,4,4,academic ambition / competitive determination,0.08765533566474915
+disgust,joy,-2.0,-2.0,4,5,ironic amusement,0.09763965010643005
+disgust,joy,-2.0,-2.0,4,6,enthusiasm / curiosity,0.13807269930839539
+disgust,joy,-2.0,-2.0,5,0,self-doubt / encouragement,0.13162964582443237
+disgust,joy,-2.0,-2.0,5,1,frustration / despair,0.11472997069358826
+disgust,joy,-2.0,-2.0,5,2,uncertainty / indecision,0.1381562054157257
+disgust,joy,-2.0,-2.0,5,3,romantic idealism,0.029332023113965988
+disgust,joy,-2.0,-2.0,5,4,academic ambition / competitive determination,0.06568822264671326
+disgust,joy,-2.0,-2.0,5,5,ironic amusement,0.10427474230527878
+disgust,joy,-2.0,-2.0,5,6,enthusiasm / curiosity,0.1672700047492981
+disgust,joy,-2.0,-2.0,6,0,self-doubt / encouragement,0.05908779427409172
+disgust,joy,-2.0,-2.0,6,1,frustration / despair,0.08251304924488068
+disgust,joy,-2.0,-2.0,6,2,uncertainty / indecision,0.11995156109333038
+disgust,joy,-2.0,-2.0,6,3,romantic idealism,0.06152266263961792
+disgust,joy,-2.0,-2.0,6,4,academic ambition / competitive determination,0.02601758949458599
+disgust,joy,-2.0,-2.0,6,5,ironic amusement,0.04129508137702942
+disgust,joy,-2.0,-2.0,6,6,enthusiasm / curiosity,0.10594072937965393
+disgust,joy,-2.0,-2.0,7,0,self-doubt / encouragement,0.17884160578250885
+disgust,joy,-2.0,-2.0,7,1,frustration / despair,0.203616201877594
+disgust,joy,-2.0,-2.0,7,2,uncertainty / indecision,0.2739603519439697
+disgust,joy,-2.0,-2.0,7,3,romantic idealism,0.14325980842113495
+disgust,joy,-2.0,-2.0,7,4,academic ambition / competitive determination,0.11342181265354156
+disgust,joy,-2.0,-2.0,7,5,ironic amusement,0.17515337467193604
+disgust,joy,-2.0,-2.0,7,6,enthusiasm / curiosity,0.18781030178070068
+disgust,joy,-2.0,0.0,0,0,self-doubt / encouragement,0.16643169522285461
+disgust,joy,-2.0,0.0,0,1,frustration / despair,0.13673712313175201
+disgust,joy,-2.0,0.0,0,2,uncertainty / indecision,0.2544216811656952
+disgust,joy,-2.0,0.0,0,3,romantic idealism,0.05357162281870842
+disgust,joy,-2.0,0.0,0,4,academic ambition / competitive determination,0.1548566371202469
+disgust,joy,-2.0,0.0,0,5,ironic amusement,0.09036832302808762
+disgust,joy,-2.0,0.0,0,6,enthusiasm / curiosity,0.24496211111545563
+disgust,joy,-2.0,0.0,1,0,self-doubt / encouragement,0.09154102206230164
+disgust,joy,-2.0,0.0,1,1,frustration / despair,0.10806676745414734
+disgust,joy,-2.0,0.0,1,2,uncertainty / indecision,0.17407426238059998
+disgust,joy,-2.0,0.0,1,3,romantic idealism,0.021292315796017647
+disgust,joy,-2.0,0.0,1,4,academic ambition / competitive determination,0.0961323231458664
+disgust,joy,-2.0,0.0,1,5,ironic amusement,0.08230233192443848
+disgust,joy,-2.0,0.0,1,6,enthusiasm / curiosity,0.12441173940896988
+disgust,joy,-2.0,0.0,2,0,self-doubt / encouragement,0.13144724071025848
+disgust,joy,-2.0,0.0,2,1,frustration / despair,0.09655258059501648
+disgust,joy,-2.0,0.0,2,2,uncertainty / indecision,0.17450231313705444
+disgust,joy,-2.0,0.0,2,3,romantic idealism,0.0646076574921608
+disgust,joy,-2.0,0.0,2,4,academic ambition / competitive determination,0.22837720811367035
+disgust,joy,-2.0,0.0,2,5,ironic amusement,0.045697636902332306
+disgust,joy,-2.0,0.0,2,6,enthusiasm / curiosity,0.19934850931167603
+disgust,joy,-2.0,0.0,3,0,self-doubt / encouragement,0.058628637343645096
+disgust,joy,-2.0,0.0,3,1,frustration / despair,0.11284936964511871
+disgust,joy,-2.0,0.0,3,2,uncertainty / indecision,0.14047710597515106
+disgust,joy,-2.0,0.0,3,3,romantic idealism,0.04877948388457298
+disgust,joy,-2.0,0.0,3,4,academic ambition / competitive determination,0.05089724808931351
+disgust,joy,-2.0,0.0,3,5,ironic amusement,0.11911211162805557
+disgust,joy,-2.0,0.0,3,6,enthusiasm / curiosity,0.13037025928497314
+disgust,joy,-2.0,0.0,4,0,self-doubt / encouragement,0.06936684250831604
+disgust,joy,-2.0,0.0,4,1,frustration / despair,0.0523747056722641
+disgust,joy,-2.0,0.0,4,2,uncertainty / indecision,0.12026599049568176
+disgust,joy,-2.0,0.0,4,3,romantic idealism,0.042600713670253754
+disgust,joy,-2.0,0.0,4,4,academic ambition / competitive determination,0.08813334256410599
+disgust,joy,-2.0,0.0,4,5,ironic amusement,0.05742310732603073
+disgust,joy,-2.0,0.0,4,6,enthusiasm / curiosity,0.09760713577270508
+disgust,joy,-2.0,0.0,5,0,self-doubt / encouragement,0.11708182096481323
+disgust,joy,-2.0,0.0,5,1,frustration / despair,0.09501682966947556
+disgust,joy,-2.0,0.0,5,2,uncertainty / indecision,0.1558574140071869
+disgust,joy,-2.0,0.0,5,3,romantic idealism,0.021989356726408005
+disgust,joy,-2.0,0.0,5,4,academic ambition / competitive determination,0.09590702503919601
+disgust,joy,-2.0,0.0,5,5,ironic amusement,0.1396034061908722
+disgust,joy,-2.0,0.0,5,6,enthusiasm / curiosity,0.19363640248775482
+disgust,joy,-2.0,0.0,6,0,self-doubt / encouragement,0.1720665693283081
+disgust,joy,-2.0,0.0,6,1,frustration / despair,0.15788613259792328
+disgust,joy,-2.0,0.0,6,2,uncertainty / indecision,0.20431500673294067
+disgust,joy,-2.0,0.0,6,3,romantic idealism,0.03846999257802963
+disgust,joy,-2.0,0.0,6,4,academic ambition / competitive determination,0.08016881346702576
+disgust,joy,-2.0,0.0,6,5,ironic amusement,0.08523133397102356
+disgust,joy,-2.0,0.0,6,6,enthusiasm / curiosity,0.18675649166107178
+disgust,joy,-2.0,0.0,7,0,self-doubt / encouragement,0.17882271111011505
+disgust,joy,-2.0,0.0,7,1,frustration / despair,0.20358486473560333
+disgust,joy,-2.0,0.0,7,2,uncertainty / indecision,0.27392470836639404
+disgust,joy,-2.0,0.0,7,3,romantic idealism,0.14323945343494415
+disgust,joy,-2.0,0.0,7,4,academic ambition / competitive determination,0.11339493840932846
+disgust,joy,-2.0,0.0,7,5,ironic amusement,0.17511801421642303
+disgust,joy,-2.0,0.0,7,6,enthusiasm / curiosity,0.1877897083759308
+disgust,joy,-2.0,2.0,0,0,self-doubt / encouragement,0.11262727528810501
+disgust,joy,-2.0,2.0,0,1,frustration / despair,0.10695504397153854
+disgust,joy,-2.0,2.0,0,2,uncertainty / indecision,0.10439442843198776
+disgust,joy,-2.0,2.0,0,3,romantic idealism,0.0077555375173687935
+disgust,joy,-2.0,2.0,0,4,academic ambition / competitive determination,0.06383261829614639
+disgust,joy,-2.0,2.0,0,5,ironic amusement,0.09421180188655853
+disgust,joy,-2.0,2.0,0,6,enthusiasm / curiosity,0.13911005854606628
+disgust,joy,-2.0,2.0,1,0,self-doubt / encouragement,0.0928470641374588
+disgust,joy,-2.0,2.0,1,1,frustration / despair,0.13930585980415344
+disgust,joy,-2.0,2.0,1,2,uncertainty / indecision,0.21092699468135834
+disgust,joy,-2.0,2.0,1,3,romantic idealism,0.043445371091365814
+disgust,joy,-2.0,2.0,1,4,academic ambition / competitive determination,0.11298824846744537
+disgust,joy,-2.0,2.0,1,5,ironic amusement,0.10167328268289566
+disgust,joy,-2.0,2.0,1,6,enthusiasm / curiosity,0.12211856991052628
+disgust,joy,-2.0,2.0,2,0,self-doubt / encouragement,0.13569150865077972
+disgust,joy,-2.0,2.0,2,1,frustration / despair,0.07460003346204758
+disgust,joy,-2.0,2.0,2,2,uncertainty / indecision,0.05564823001623154
+disgust,joy,-2.0,2.0,2,3,romantic idealism,0.030339937657117844
+disgust,joy,-2.0,2.0,2,4,academic ambition / competitive determination,0.10399559140205383
+disgust,joy,-2.0,2.0,2,5,ironic amusement,0.027935922145843506
+disgust,joy,-2.0,2.0,2,6,enthusiasm / curiosity,0.12982939183712006
+disgust,joy,-2.0,2.0,3,0,self-doubt / encouragement,0.06718716025352478
+disgust,joy,-2.0,2.0,3,1,frustration / despair,0.10744557529687881
+disgust,joy,-2.0,2.0,3,2,uncertainty / indecision,0.13839207589626312
+disgust,joy,-2.0,2.0,3,3,romantic idealism,0.045547835528850555
+disgust,joy,-2.0,2.0,3,4,academic ambition / competitive determination,0.05637912079691887
+disgust,joy,-2.0,2.0,3,5,ironic amusement,0.12670491635799408
+disgust,joy,-2.0,2.0,3,6,enthusiasm / curiosity,0.14066897332668304
+disgust,joy,-2.0,2.0,4,0,self-doubt / encouragement,0.06931179761886597
+disgust,joy,-2.0,2.0,4,1,frustration / despair,0.05233168601989746
+disgust,joy,-2.0,2.0,4,2,uncertainty / indecision,0.12022855877876282
+disgust,joy,-2.0,2.0,4,3,romantic idealism,0.04255927354097366
+disgust,joy,-2.0,2.0,4,4,academic ambition / competitive determination,0.08810720592737198
+disgust,joy,-2.0,2.0,4,5,ironic amusement,0.05738174170255661
+disgust,joy,-2.0,2.0,4,6,enthusiasm / curiosity,0.09750708937644958
+disgust,joy,-2.0,2.0,5,0,self-doubt / encouragement,0.1877366602420807
+disgust,joy,-2.0,2.0,5,1,frustration / despair,0.168168842792511
+disgust,joy,-2.0,2.0,5,2,uncertainty / indecision,0.24395693838596344
+disgust,joy,-2.0,2.0,5,3,romantic idealism,0.10434608161449432
+disgust,joy,-2.0,2.0,5,4,academic ambition / competitive determination,0.13208375871181488
+disgust,joy,-2.0,2.0,5,5,ironic amusement,0.14609383046627045
+disgust,joy,-2.0,2.0,5,6,enthusiasm / curiosity,0.1743658483028412
+disgust,joy,-2.0,2.0,6,0,self-doubt / encouragement,0.12244477868080139
+disgust,joy,-2.0,2.0,6,1,frustration / despair,0.07838751375675201
+disgust,joy,-2.0,2.0,6,2,uncertainty / indecision,0.12175299227237701
+disgust,joy,-2.0,2.0,6,3,romantic idealism,0.04242110624909401
+disgust,joy,-2.0,2.0,6,4,academic ambition / competitive determination,0.061997346580028534
+disgust,joy,-2.0,2.0,6,5,ironic amusement,0.10455386340618134
+disgust,joy,-2.0,2.0,6,6,enthusiasm / curiosity,0.15404260158538818
+disgust,joy,-2.0,2.0,7,0,self-doubt / encouragement,0.2940784990787506
+disgust,joy,-2.0,2.0,7,1,frustration / despair,0.3450310528278351
+disgust,joy,-2.0,2.0,7,2,uncertainty / indecision,0.3986056447029114
+disgust,joy,-2.0,2.0,7,3,romantic idealism,0.1747763454914093
+disgust,joy,-2.0,2.0,7,4,academic ambition / competitive determination,0.2899446189403534
+disgust,joy,-2.0,2.0,7,5,ironic amusement,0.28673189878463745
+disgust,joy,-2.0,2.0,7,6,enthusiasm / curiosity,0.3337821066379547
+disgust,joy,0.0,-2.0,0,0,self-doubt / encouragement,0.24168843030929565
+disgust,joy,0.0,-2.0,0,1,frustration / despair,0.08713898062705994
+disgust,joy,0.0,-2.0,0,2,uncertainty / indecision,0.23395679891109467
+disgust,joy,0.0,-2.0,0,3,romantic idealism,0.10709793120622635
+disgust,joy,0.0,-2.0,0,4,academic ambition / competitive determination,0.12082728743553162
+disgust,joy,0.0,-2.0,0,5,ironic amusement,0.13675926625728607
+disgust,joy,0.0,-2.0,0,6,enthusiasm / curiosity,0.1477605253458023
+disgust,joy,0.0,-2.0,1,0,self-doubt / encouragement,0.13949361443519592
+disgust,joy,0.0,-2.0,1,1,frustration / despair,0.10933922231197357
+disgust,joy,0.0,-2.0,1,2,uncertainty / indecision,0.13898839056491852
+disgust,joy,0.0,-2.0,1,3,romantic idealism,0.010168049484491348
+disgust,joy,0.0,-2.0,1,4,academic ambition / competitive determination,0.0802764892578125
+disgust,joy,0.0,-2.0,1,5,ironic amusement,0.1281713843345642
+disgust,joy,0.0,-2.0,1,6,enthusiasm / curiosity,0.1458190381526947
+disgust,joy,0.0,-2.0,2,0,self-doubt / encouragement,0.13535141944885254
+disgust,joy,0.0,-2.0,2,1,frustration / despair,0.07778826355934143
+disgust,joy,0.0,-2.0,2,2,uncertainty / indecision,0.1824793815612793
+disgust,joy,0.0,-2.0,2,3,romantic idealism,0.09403322637081146
+disgust,joy,0.0,-2.0,2,4,academic ambition / competitive determination,0.26829108595848083
+disgust,joy,0.0,-2.0,2,5,ironic amusement,0.06264130771160126
+disgust,joy,0.0,-2.0,2,6,enthusiasm / curiosity,0.18666549026966095
+disgust,joy,0.0,-2.0,3,0,self-doubt / encouragement,0.15675082802772522
+disgust,joy,0.0,-2.0,3,1,frustration / despair,0.15172821283340454
+disgust,joy,0.0,-2.0,3,2,uncertainty / indecision,0.20751863718032837
+disgust,joy,0.0,-2.0,3,3,romantic idealism,0.04541705921292305
+disgust,joy,0.0,-2.0,3,4,academic ambition / competitive determination,0.11407246440649033
+disgust,joy,0.0,-2.0,3,5,ironic amusement,0.1557602733373642
+disgust,joy,0.0,-2.0,3,6,enthusiasm / curiosity,0.19193974137306213
+disgust,joy,0.0,-2.0,4,0,self-doubt / encouragement,0.05940939486026764
+disgust,joy,0.0,-2.0,4,1,frustration / despair,0.08110564202070236
+disgust,joy,0.0,-2.0,4,2,uncertainty / indecision,0.14603117108345032
+disgust,joy,0.0,-2.0,4,3,romantic idealism,0.08018386363983154
+disgust,joy,0.0,-2.0,4,4,academic ambition / competitive determination,0.15582279860973358
+disgust,joy,0.0,-2.0,4,5,ironic amusement,0.019449908286333084
+disgust,joy,0.0,-2.0,4,6,enthusiasm / curiosity,0.09807047247886658
+disgust,joy,0.0,-2.0,5,0,self-doubt / encouragement,0.2627015709877014
+disgust,joy,0.0,-2.0,5,1,frustration / despair,0.160855233669281
+disgust,joy,0.0,-2.0,5,2,uncertainty / indecision,0.2884596884250641
+disgust,joy,0.0,-2.0,5,3,romantic idealism,0.07068634778261185
+disgust,joy,0.0,-2.0,5,4,academic ambition / competitive determination,0.22211167216300964
+disgust,joy,0.0,-2.0,5,5,ironic amusement,0.12024052441120148
+disgust,joy,0.0,-2.0,5,6,enthusiasm / curiosity,0.2232605367898941
+disgust,joy,0.0,-2.0,6,0,self-doubt / encouragement,0.19403375685214996
+disgust,joy,0.0,-2.0,6,1,frustration / despair,0.14835700392723083
+disgust,joy,0.0,-2.0,6,2,uncertainty / indecision,0.1682434231042862
+disgust,joy,0.0,-2.0,6,3,romantic idealism,0.07945914566516876
+disgust,joy,0.0,-2.0,6,4,academic ambition / competitive determination,0.1666058599948883
+disgust,joy,0.0,-2.0,6,5,ironic amusement,0.13025254011154175
+disgust,joy,0.0,-2.0,6,6,enthusiasm / curiosity,0.24350573122501373
+disgust,joy,0.0,-2.0,7,0,self-doubt / encouragement,0.22511936724185944
+disgust,joy,0.0,-2.0,7,1,frustration / despair,0.16628418862819672
+disgust,joy,0.0,-2.0,7,2,uncertainty / indecision,0.25711652636528015
+disgust,joy,0.0,-2.0,7,3,romantic idealism,0.109942726790905
+disgust,joy,0.0,-2.0,7,4,academic ambition / competitive determination,0.1628679484128952
+disgust,joy,0.0,-2.0,7,5,ironic amusement,0.16770748794078827
+disgust,joy,0.0,-2.0,7,6,enthusiasm / curiosity,0.218405619263649
+disgust,joy,0.0,0.0,0,0,self-doubt / encouragement,0.25813189148902893
+disgust,joy,0.0,0.0,0,1,frustration / despair,0.17861869931221008
+disgust,joy,0.0,0.0,0,2,uncertainty / indecision,0.29390284419059753
+disgust,joy,0.0,0.0,0,3,romantic idealism,0.09836775064468384
+disgust,joy,0.0,0.0,0,4,academic ambition / competitive determination,0.1298055201768875
+disgust,joy,0.0,0.0,0,5,ironic amusement,0.1422668844461441
+disgust,joy,0.0,0.0,0,6,enthusiasm / curiosity,0.18688233196735382
+disgust,joy,0.0,0.0,1,0,self-doubt / encouragement,0.08841095864772797
+disgust,joy,0.0,0.0,1,1,frustration / despair,0.12091337889432907
+disgust,joy,0.0,0.0,1,2,uncertainty / indecision,0.15787731111049652
+disgust,joy,0.0,0.0,1,3,romantic idealism,-0.00679122656583786
+disgust,joy,0.0,0.0,1,4,academic ambition / competitive determination,0.07018516212701797
+disgust,joy,0.0,0.0,1,5,ironic amusement,0.11182816326618195
+disgust,joy,0.0,0.0,1,6,enthusiasm / curiosity,0.10045360773801804
+disgust,joy,0.0,0.0,2,0,self-doubt / encouragement,0.11807066202163696
+disgust,joy,0.0,0.0,2,1,frustration / despair,0.08125200122594833
+disgust,joy,0.0,0.0,2,2,uncertainty / indecision,0.16266992688179016
+disgust,joy,0.0,0.0,2,3,romantic idealism,0.08184510469436646
+disgust,joy,0.0,0.0,2,4,academic ambition / competitive determination,0.22492891550064087
+disgust,joy,0.0,0.0,2,5,ironic amusement,0.07568065822124481
+disgust,joy,0.0,0.0,2,6,enthusiasm / curiosity,0.16487851738929749
+disgust,joy,0.0,0.0,3,0,self-doubt / encouragement,0.052453186362981796
+disgust,joy,0.0,0.0,3,1,frustration / despair,0.09358758479356766
+disgust,joy,0.0,0.0,3,2,uncertainty / indecision,0.12734955549240112
+disgust,joy,0.0,0.0,3,3,romantic idealism,0.030833180993795395
+disgust,joy,0.0,0.0,3,4,academic ambition / competitive determination,0.054479993879795074
+disgust,joy,0.0,0.0,3,5,ironic amusement,0.11289394646883011
+disgust,joy,0.0,0.0,3,6,enthusiasm / curiosity,0.11540038138628006
+disgust,joy,0.0,0.0,4,0,self-doubt / encouragement,0.09420274198055267
+disgust,joy,0.0,0.0,4,1,frustration / despair,0.08755809813737869
+disgust,joy,0.0,0.0,4,2,uncertainty / indecision,0.17502230405807495
+disgust,joy,0.0,0.0,4,3,romantic idealism,0.07776586711406708
+disgust,joy,0.0,0.0,4,4,academic ambition / competitive determination,0.1760500818490982
+disgust,joy,0.0,0.0,4,5,ironic amusement,0.04792092368006706
+disgust,joy,0.0,0.0,4,6,enthusiasm / curiosity,0.12136555463075638
+disgust,joy,0.0,0.0,5,0,self-doubt / encouragement,0.2605997622013092
+disgust,joy,0.0,0.0,5,1,frustration / despair,0.1821449100971222
+disgust,joy,0.0,0.0,5,2,uncertainty / indecision,0.32553979754447937
+disgust,joy,0.0,0.0,5,3,romantic idealism,0.07390899211168289
+disgust,joy,0.0,0.0,5,4,academic ambition / competitive determination,0.2368435263633728
+disgust,joy,0.0,0.0,5,5,ironic amusement,0.12940168380737305
+disgust,joy,0.0,0.0,5,6,enthusiasm / curiosity,0.24974310398101807
+disgust,joy,0.0,0.0,6,0,self-doubt / encouragement,0.05742540583014488
+disgust,joy,0.0,0.0,6,1,frustration / despair,0.01839112676680088
+disgust,joy,0.0,0.0,6,2,uncertainty / indecision,0.05211809650063515
+disgust,joy,0.0,0.0,6,3,romantic idealism,-0.0029555847868323326
+disgust,joy,0.0,0.0,6,4,academic ambition / competitive determination,0.06546790897846222
+disgust,joy,0.0,0.0,6,5,ironic amusement,0.11780644953250885
+disgust,joy,0.0,0.0,6,6,enthusiasm / curiosity,0.07693177461624146
+disgust,joy,0.0,0.0,7,0,self-doubt / encouragement,0.23421017825603485
+disgust,joy,0.0,0.0,7,1,frustration / despair,0.17512358725070953
+disgust,joy,0.0,0.0,7,2,uncertainty / indecision,0.2381969541311264
+disgust,joy,0.0,0.0,7,3,romantic idealism,0.043936461210250854
+disgust,joy,0.0,0.0,7,4,academic ambition / competitive determination,0.0976153314113617
+disgust,joy,0.0,0.0,7,5,ironic amusement,0.16564039885997772
+disgust,joy,0.0,0.0,7,6,enthusiasm / curiosity,0.21328985691070557
+disgust,joy,0.0,2.0,0,0,self-doubt / encouragement,0.21378503739833832
+disgust,joy,0.0,2.0,0,1,frustration / despair,0.19184617698192596
+disgust,joy,0.0,2.0,0,2,uncertainty / indecision,0.2423609495162964
+disgust,joy,0.0,2.0,0,3,romantic idealism,0.06062449514865875
+disgust,joy,0.0,2.0,0,4,academic ambition / competitive determination,0.1157606989145279
+disgust,joy,0.0,2.0,0,5,ironic amusement,0.1250118464231491
+disgust,joy,0.0,2.0,0,6,enthusiasm / curiosity,0.1549644023180008
+disgust,joy,0.0,2.0,1,0,self-doubt / encouragement,0.09728923439979553
+disgust,joy,0.0,2.0,1,1,frustration / despair,0.14753183722496033
+disgust,joy,0.0,2.0,1,2,uncertainty / indecision,0.20171605050563812
+disgust,joy,0.0,2.0,1,3,romantic idealism,0.03883875906467438
+disgust,joy,0.0,2.0,1,4,academic ambition / competitive determination,0.10244415700435638
+disgust,joy,0.0,2.0,1,5,ironic amusement,0.1245109885931015
+disgust,joy,0.0,2.0,1,6,enthusiasm / curiosity,0.12277855724096298
+disgust,joy,0.0,2.0,2,0,self-doubt / encouragement,0.17355890572071075
+disgust,joy,0.0,2.0,2,1,frustration / despair,0.03188755363225937
+disgust,joy,0.0,2.0,2,2,uncertainty / indecision,0.07981067895889282
+disgust,joy,0.0,2.0,2,3,romantic idealism,0.11961069703102112
+disgust,joy,0.0,2.0,2,4,academic ambition / competitive determination,0.08078934252262115
+disgust,joy,0.0,2.0,2,5,ironic amusement,0.1405269056558609
+disgust,joy,0.0,2.0,2,6,enthusiasm / curiosity,0.2852917015552521
+disgust,joy,0.0,2.0,3,0,self-doubt / encouragement,0.05590430647134781
+disgust,joy,0.0,2.0,3,1,frustration / despair,0.09127063304185867
+disgust,joy,0.0,2.0,3,2,uncertainty / indecision,0.12994952499866486
+disgust,joy,0.0,2.0,3,3,romantic idealism,0.03349827229976654
+disgust,joy,0.0,2.0,3,4,academic ambition / competitive determination,0.0610361211001873
+disgust,joy,0.0,2.0,3,5,ironic amusement,0.11829773336648941
+disgust,joy,0.0,2.0,3,6,enthusiasm / curiosity,0.11223521083593369
+disgust,joy,0.0,2.0,4,0,self-doubt / encouragement,0.1390039622783661
+disgust,joy,0.0,2.0,4,1,frustration / despair,0.1246037632226944
+disgust,joy,0.0,2.0,4,2,uncertainty / indecision,0.2138533890247345
+disgust,joy,0.0,2.0,4,3,romantic idealism,0.1440524011850357
+disgust,joy,0.0,2.0,4,4,academic ambition / competitive determination,0.16884493827819824
+disgust,joy,0.0,2.0,4,5,ironic amusement,0.08999558538198471
+disgust,joy,0.0,2.0,4,6,enthusiasm / curiosity,0.18116770684719086
+disgust,joy,0.0,2.0,5,0,self-doubt / encouragement,0.18972086906433105
+disgust,joy,0.0,2.0,5,1,frustration / despair,0.11690311878919601
+disgust,joy,0.0,2.0,5,2,uncertainty / indecision,0.233826145529747
+disgust,joy,0.0,2.0,5,3,romantic idealism,0.08585479855537415
+disgust,joy,0.0,2.0,5,4,academic ambition / competitive determination,0.15735870599746704
+disgust,joy,0.0,2.0,5,5,ironic amusement,0.13426126539707184
+disgust,joy,0.0,2.0,5,6,enthusiasm / curiosity,0.2118896245956421
+disgust,joy,0.0,2.0,6,0,self-doubt / encouragement,0.06423669308423996
+disgust,joy,0.0,2.0,6,1,frustration / despair,0.0566629022359848
+disgust,joy,0.0,2.0,6,2,uncertainty / indecision,0.1096753478050232
+disgust,joy,0.0,2.0,6,3,romantic idealism,0.06310756504535675
+disgust,joy,0.0,2.0,6,4,academic ambition / competitive determination,0.06803785264492035
+disgust,joy,0.0,2.0,6,5,ironic amusement,0.09423606842756271
+disgust,joy,0.0,2.0,6,6,enthusiasm / curiosity,0.1438835859298706
+disgust,joy,0.0,2.0,7,0,self-doubt / encouragement,0.22920849919319153
+disgust,joy,0.0,2.0,7,1,frustration / despair,0.18515625596046448
+disgust,joy,0.0,2.0,7,2,uncertainty / indecision,0.1843675971031189
+disgust,joy,0.0,2.0,7,3,romantic idealism,0.05696609616279602
+disgust,joy,0.0,2.0,7,4,academic ambition / competitive determination,0.08817785233259201
+disgust,joy,0.0,2.0,7,5,ironic amusement,0.18527035415172577
+disgust,joy,0.0,2.0,7,6,enthusiasm / curiosity,0.145801842212677
+disgust,joy,2.0,-2.0,0,0,self-doubt / encouragement,0.1607436090707779
+disgust,joy,2.0,-2.0,0,1,frustration / despair,0.11721673607826233
+disgust,joy,2.0,-2.0,0,2,uncertainty / indecision,0.2192651629447937
+disgust,joy,2.0,-2.0,0,3,romantic idealism,0.004104325547814369
+disgust,joy,2.0,-2.0,0,4,academic ambition / competitive determination,0.1014929711818695
+disgust,joy,2.0,-2.0,0,5,ironic amusement,0.15584030747413635
+disgust,joy,2.0,-2.0,0,6,enthusiasm / curiosity,0.17244647443294525
+disgust,joy,2.0,-2.0,1,0,self-doubt / encouragement,0.12285579741001129
+disgust,joy,2.0,-2.0,1,1,frustration / despair,0.11484819650650024
+disgust,joy,2.0,-2.0,1,2,uncertainty / indecision,0.17233754694461823
+disgust,joy,2.0,-2.0,1,3,romantic idealism,0.011292025446891785
+disgust,joy,2.0,-2.0,1,4,academic ambition / competitive determination,0.12112464010715485
+disgust,joy,2.0,-2.0,1,5,ironic amusement,0.11639118194580078
+disgust,joy,2.0,-2.0,1,6,enthusiasm / curiosity,0.10615681856870651
+disgust,joy,2.0,-2.0,2,0,self-doubt / encouragement,0.18407997488975525
+disgust,joy,2.0,-2.0,2,1,frustration / despair,0.1239078938961029
+disgust,joy,2.0,-2.0,2,2,uncertainty / indecision,0.1842258870601654
+disgust,joy,2.0,-2.0,2,3,romantic idealism,0.08406290411949158
+disgust,joy,2.0,-2.0,2,4,academic ambition / competitive determination,0.12708362936973572
+disgust,joy,2.0,-2.0,2,5,ironic amusement,0.11209514737129211
+disgust,joy,2.0,-2.0,2,6,enthusiasm / curiosity,0.1319424957036972
+disgust,joy,2.0,-2.0,3,0,self-doubt / encouragement,0.09159185737371445
+disgust,joy,2.0,-2.0,3,1,frustration / despair,0.09159926325082779
+disgust,joy,2.0,-2.0,3,2,uncertainty / indecision,0.15447057783603668
+disgust,joy,2.0,-2.0,3,3,romantic idealism,0.020560985431075096
+disgust,joy,2.0,-2.0,3,4,academic ambition / competitive determination,0.05073261633515358
+disgust,joy,2.0,-2.0,3,5,ironic amusement,0.1026892364025116
+disgust,joy,2.0,-2.0,3,6,enthusiasm / curiosity,0.1614086776971817
+disgust,joy,2.0,-2.0,4,0,self-doubt / encouragement,0.11299993842840195
+disgust,joy,2.0,-2.0,4,1,frustration / despair,0.10690614581108093
+disgust,joy,2.0,-2.0,4,2,uncertainty / indecision,0.19246074557304382
+disgust,joy,2.0,-2.0,4,3,romantic idealism,0.11057872325181961
+disgust,joy,2.0,-2.0,4,4,academic ambition / competitive determination,0.18408076465129852
+disgust,joy,2.0,-2.0,4,5,ironic amusement,0.09160934388637543
+disgust,joy,2.0,-2.0,4,6,enthusiasm / curiosity,0.14910900592803955
+disgust,joy,2.0,-2.0,5,0,self-doubt / encouragement,0.1460505723953247
+disgust,joy,2.0,-2.0,5,1,frustration / despair,0.13817664980888367
+disgust,joy,2.0,-2.0,5,2,uncertainty / indecision,0.22194792330265045
+disgust,joy,2.0,-2.0,5,3,romantic idealism,0.06830628961324692
+disgust,joy,2.0,-2.0,5,4,academic ambition / competitive determination,0.1524711698293686
+disgust,joy,2.0,-2.0,5,5,ironic amusement,0.09799838811159134
+disgust,joy,2.0,-2.0,5,6,enthusiasm / curiosity,0.14378103613853455
+disgust,joy,2.0,-2.0,6,0,self-doubt / encouragement,0.10782143473625183
+disgust,joy,2.0,-2.0,6,1,frustration / despair,0.10054109245538712
+disgust,joy,2.0,-2.0,6,2,uncertainty / indecision,0.17944419384002686
+disgust,joy,2.0,-2.0,6,3,romantic idealism,0.08531415462493896
+disgust,joy,2.0,-2.0,6,4,academic ambition / competitive determination,0.0894240066409111
+disgust,joy,2.0,-2.0,6,5,ironic amusement,0.06896214932203293
+disgust,joy,2.0,-2.0,6,6,enthusiasm / curiosity,0.15792010724544525
+disgust,joy,2.0,-2.0,7,0,self-doubt / encouragement,0.23530732095241547
+disgust,joy,2.0,-2.0,7,1,frustration / despair,0.17907695472240448
+disgust,joy,2.0,-2.0,7,2,uncertainty / indecision,0.24237705767154694
+disgust,joy,2.0,-2.0,7,3,romantic idealism,0.04355081170797348
+disgust,joy,2.0,-2.0,7,4,academic ambition / competitive determination,0.09847919642925262
+disgust,joy,2.0,-2.0,7,5,ironic amusement,0.16520722210407257
+disgust,joy,2.0,-2.0,7,6,enthusiasm / curiosity,0.2141331434249878
+disgust,joy,2.0,0.0,0,0,self-doubt / encouragement,0.2539873719215393
+disgust,joy,2.0,0.0,0,1,frustration / despair,0.09411340206861496
+disgust,joy,2.0,0.0,0,2,uncertainty / indecision,0.24270464479923248
+disgust,joy,2.0,0.0,0,3,romantic idealism,0.10857578366994858
+disgust,joy,2.0,0.0,0,4,academic ambition / competitive determination,0.13294878602027893
+disgust,joy,2.0,0.0,0,5,ironic amusement,0.12317224591970444
+disgust,joy,2.0,0.0,0,6,enthusiasm / curiosity,0.18207886815071106
+disgust,joy,2.0,0.0,1,0,self-doubt / encouragement,0.09883798658847809
+disgust,joy,2.0,0.0,1,1,frustration / despair,0.12105782330036163
+disgust,joy,2.0,0.0,1,2,uncertainty / indecision,0.17377685010433197
+disgust,joy,2.0,0.0,1,3,romantic idealism,-0.0064012110233306885
+disgust,joy,2.0,0.0,1,4,academic ambition / competitive determination,0.11975564807653427
+disgust,joy,2.0,0.0,1,5,ironic amusement,0.11325263231992722
+disgust,joy,2.0,0.0,1,6,enthusiasm / curiosity,0.13379663228988647
+disgust,joy,2.0,0.0,2,0,self-doubt / encouragement,0.209800586104393
+disgust,joy,2.0,0.0,2,1,frustration / despair,0.06300538778305054
+disgust,joy,2.0,0.0,2,2,uncertainty / indecision,0.17439469695091248
+disgust,joy,2.0,0.0,2,3,romantic idealism,0.13995163142681122
+disgust,joy,2.0,0.0,2,4,academic ambition / competitive determination,0.08139947056770325
+disgust,joy,2.0,0.0,2,5,ironic amusement,0.1440826654434204
+disgust,joy,2.0,0.0,2,6,enthusiasm / curiosity,0.14276905357837677
+disgust,joy,2.0,0.0,3,0,self-doubt / encouragement,0.06520893424749374
+disgust,joy,2.0,0.0,3,1,frustration / despair,0.07995964586734772
+disgust,joy,2.0,0.0,3,2,uncertainty / indecision,0.11350437253713608
+disgust,joy,2.0,0.0,3,3,romantic idealism,-0.0021681450307369232
+disgust,joy,2.0,0.0,3,4,academic ambition / competitive determination,0.07217157632112503
+disgust,joy,2.0,0.0,3,5,ironic amusement,0.08310326933860779
+disgust,joy,2.0,0.0,3,6,enthusiasm / curiosity,0.11179111152887344
+disgust,joy,2.0,0.0,4,0,self-doubt / encouragement,0.1094857007265091
+disgust,joy,2.0,0.0,4,1,frustration / despair,0.09138737618923187
+disgust,joy,2.0,0.0,4,2,uncertainty / indecision,0.1800040453672409
+disgust,joy,2.0,0.0,4,3,romantic idealism,0.1237475574016571
+disgust,joy,2.0,0.0,4,4,academic ambition / competitive determination,0.1672368049621582
+disgust,joy,2.0,0.0,4,5,ironic amusement,0.07960675656795502
+disgust,joy,2.0,0.0,4,6,enthusiasm / curiosity,0.20011745393276215
+disgust,joy,2.0,0.0,5,0,self-doubt / encouragement,0.09603293985128403
+disgust,joy,2.0,0.0,5,1,frustration / despair,0.06855390965938568
+disgust,joy,2.0,0.0,5,2,uncertainty / indecision,0.12761175632476807
+disgust,joy,2.0,0.0,5,3,romantic idealism,0.02992565743625164
+disgust,joy,2.0,0.0,5,4,academic ambition / competitive determination,0.1036897748708725
+disgust,joy,2.0,0.0,5,5,ironic amusement,0.08769525587558746
+disgust,joy,2.0,0.0,5,6,enthusiasm / curiosity,0.13470150530338287
+disgust,joy,2.0,0.0,6,0,self-doubt / encouragement,0.17306208610534668
+disgust,joy,2.0,0.0,6,1,frustration / despair,0.23734605312347412
+disgust,joy,2.0,0.0,6,2,uncertainty / indecision,0.22024178504943848
+disgust,joy,2.0,0.0,6,3,romantic idealism,0.07516255974769592
+disgust,joy,2.0,0.0,6,4,academic ambition / competitive determination,0.11798050254583359
+disgust,joy,2.0,0.0,6,5,ironic amusement,0.13946524262428284
+disgust,joy,2.0,0.0,6,6,enthusiasm / curiosity,0.1515320986509323
+disgust,joy,2.0,0.0,7,0,self-doubt / encouragement,0.23229947686195374
+disgust,joy,2.0,0.0,7,1,frustration / despair,0.16974753141403198
+disgust,joy,2.0,0.0,7,2,uncertainty / indecision,0.23722265660762787
+disgust,joy,2.0,0.0,7,3,romantic idealism,0.038350753486156464
+disgust,joy,2.0,0.0,7,4,academic ambition / competitive determination,0.07920511811971664
+disgust,joy,2.0,0.0,7,5,ironic amusement,0.1601494550704956
+disgust,joy,2.0,0.0,7,6,enthusiasm / curiosity,0.18270906805992126
+disgust,joy,2.0,2.0,0,0,self-doubt / encouragement,0.2579997777938843
+disgust,joy,2.0,2.0,0,1,frustration / despair,0.1789245754480362
+disgust,joy,2.0,2.0,0,2,uncertainty / indecision,0.29390186071395874
+disgust,joy,2.0,2.0,0,3,romantic idealism,0.09816206246614456
+disgust,joy,2.0,2.0,0,4,academic ambition / competitive determination,0.1298098862171173
+disgust,joy,2.0,2.0,0,5,ironic amusement,0.1419863998889923
+disgust,joy,2.0,2.0,0,6,enthusiasm / curiosity,0.18679481744766235
+disgust,joy,2.0,2.0,1,0,self-doubt / encouragement,0.06895125657320023
+disgust,joy,2.0,2.0,1,1,frustration / despair,0.14558017253875732
+disgust,joy,2.0,2.0,1,2,uncertainty / indecision,0.17473536729812622
+disgust,joy,2.0,2.0,1,3,romantic idealism,-0.010364812798798084
+disgust,joy,2.0,2.0,1,4,academic ambition / competitive determination,0.12563765048980713
+disgust,joy,2.0,2.0,1,5,ironic amusement,0.10151171684265137
+disgust,joy,2.0,2.0,1,6,enthusiasm / curiosity,0.12953093647956848
+disgust,joy,2.0,2.0,2,0,self-doubt / encouragement,0.1376892477273941
+disgust,joy,2.0,2.0,2,1,frustration / despair,0.0737195611000061
+disgust,joy,2.0,2.0,2,2,uncertainty / indecision,0.1319589465856552
+disgust,joy,2.0,2.0,2,3,romantic idealism,0.10169880837202072
+disgust,joy,2.0,2.0,2,4,academic ambition / competitive determination,0.09271100908517838
+disgust,joy,2.0,2.0,2,5,ironic amusement,0.2092927098274231
+disgust,joy,2.0,2.0,2,6,enthusiasm / curiosity,0.17422762513160706
+disgust,joy,2.0,2.0,3,0,self-doubt / encouragement,0.06520893424749374
+disgust,joy,2.0,2.0,3,1,frustration / despair,0.07995964586734772
+disgust,joy,2.0,2.0,3,2,uncertainty / indecision,0.11350437253713608
+disgust,joy,2.0,2.0,3,3,romantic idealism,-0.0021681450307369232
+disgust,joy,2.0,2.0,3,4,academic ambition / competitive determination,0.07217157632112503
+disgust,joy,2.0,2.0,3,5,ironic amusement,0.08310326933860779
+disgust,joy,2.0,2.0,3,6,enthusiasm / curiosity,0.11179111152887344
+disgust,joy,2.0,2.0,4,0,self-doubt / encouragement,0.12389583140611649
+disgust,joy,2.0,2.0,4,1,frustration / despair,0.14502891898155212
+disgust,joy,2.0,2.0,4,2,uncertainty / indecision,0.22663255035877228
+disgust,joy,2.0,2.0,4,3,romantic idealism,0.11211434751749039
+disgust,joy,2.0,2.0,4,4,academic ambition / competitive determination,0.21076446771621704
+disgust,joy,2.0,2.0,4,5,ironic amusement,0.07919776439666748
+disgust,joy,2.0,2.0,4,6,enthusiasm / curiosity,0.14958655834197998
+disgust,joy,2.0,2.0,5,0,self-doubt / encouragement,0.09872845560312271
+disgust,joy,2.0,2.0,5,1,frustration / despair,0.06022325158119202
+disgust,joy,2.0,2.0,5,2,uncertainty / indecision,0.11045345664024353
+disgust,joy,2.0,2.0,5,3,romantic idealism,-0.027671311050653458
+disgust,joy,2.0,2.0,5,4,academic ambition / competitive determination,0.03721510246396065
+disgust,joy,2.0,2.0,5,5,ironic amusement,0.10630302876234055
+disgust,joy,2.0,2.0,5,6,enthusiasm / curiosity,0.09260538965463638
+disgust,joy,2.0,2.0,6,0,self-doubt / encouragement,0.12620650231838226
+disgust,joy,2.0,2.0,6,1,frustration / despair,0.13707399368286133
+disgust,joy,2.0,2.0,6,2,uncertainty / indecision,0.12240530550479889
+disgust,joy,2.0,2.0,6,3,romantic idealism,0.04512127488851547
+disgust,joy,2.0,2.0,6,4,academic ambition / competitive determination,0.07631763070821762
+disgust,joy,2.0,2.0,6,5,ironic amusement,0.10915270447731018
+disgust,joy,2.0,2.0,6,6,enthusiasm / curiosity,0.10902786254882812
+disgust,joy,2.0,2.0,7,0,self-doubt / encouragement,0.2283816933631897
+disgust,joy,2.0,2.0,7,1,frustration / despair,0.1334734559059143
+disgust,joy,2.0,2.0,7,2,uncertainty / indecision,0.1411249041557312
+disgust,joy,2.0,2.0,7,3,romantic idealism,0.05663282424211502
+disgust,joy,2.0,2.0,7,4,academic ambition / competitive determination,0.06912258267402649
+disgust,joy,2.0,2.0,7,5,ironic amusement,0.16595615446567535
+disgust,joy,2.0,2.0,7,6,enthusiasm / curiosity,0.15942971408367157
+joy,anger,-2.0,-2.0,0,0,self-doubt / encouragement,0.14785365760326385
+joy,anger,-2.0,-2.0,0,1,frustration / despair,0.17472884058952332
+joy,anger,-2.0,-2.0,0,2,uncertainty / indecision,0.21984224021434784
+joy,anger,-2.0,-2.0,0,3,romantic idealism,0.0445433184504509
+joy,anger,-2.0,-2.0,0,4,academic ambition / competitive determination,0.3036273419857025
+joy,anger,-2.0,-2.0,0,5,ironic amusement,0.10297268629074097
+joy,anger,-2.0,-2.0,0,6,enthusiasm / curiosity,0.14924170076847076
+joy,anger,-2.0,-2.0,1,0,self-doubt / encouragement,0.17871685326099396
+joy,anger,-2.0,-2.0,1,1,frustration / despair,0.12288674712181091
+joy,anger,-2.0,-2.0,1,2,uncertainty / indecision,0.19401201605796814
+joy,anger,-2.0,-2.0,1,3,romantic idealism,0.034902121871709824
+joy,anger,-2.0,-2.0,1,4,academic ambition / competitive determination,0.1472553014755249
+joy,anger,-2.0,-2.0,1,5,ironic amusement,0.11556823551654816
+joy,anger,-2.0,-2.0,1,6,enthusiasm / curiosity,0.17685966193675995
+joy,anger,-2.0,-2.0,2,0,self-doubt / encouragement,0.1337452083826065
+joy,anger,-2.0,-2.0,2,1,frustration / despair,0.1192982867360115
+joy,anger,-2.0,-2.0,2,2,uncertainty / indecision,0.13751228153705597
+joy,anger,-2.0,-2.0,2,3,romantic idealism,0.09160753339529037
+joy,anger,-2.0,-2.0,2,4,academic ambition / competitive determination,0.19261017441749573
+joy,anger,-2.0,-2.0,2,5,ironic amusement,0.05593579635024071
+joy,anger,-2.0,-2.0,2,6,enthusiasm / curiosity,0.13817785680294037
+joy,anger,-2.0,-2.0,3,0,self-doubt / encouragement,0.1274835467338562
+joy,anger,-2.0,-2.0,3,1,frustration / despair,0.06209374964237213
+joy,anger,-2.0,-2.0,3,2,uncertainty / indecision,0.17230434715747833
+joy,anger,-2.0,-2.0,3,3,romantic idealism,0.026202211156487465
+joy,anger,-2.0,-2.0,3,4,academic ambition / competitive determination,0.0884583592414856
+joy,anger,-2.0,-2.0,3,5,ironic amusement,0.12877795100212097
+joy,anger,-2.0,-2.0,3,6,enthusiasm / curiosity,0.17820188403129578
+joy,anger,-2.0,-2.0,4,0,self-doubt / encouragement,0.20819823443889618
+joy,anger,-2.0,-2.0,4,1,frustration / despair,0.13767164945602417
+joy,anger,-2.0,-2.0,4,2,uncertainty / indecision,0.21324975788593292
+joy,anger,-2.0,-2.0,4,3,romantic idealism,0.0756278708577156
+joy,anger,-2.0,-2.0,4,4,academic ambition / competitive determination,0.12115421146154404
+joy,anger,-2.0,-2.0,4,5,ironic amusement,0.13492515683174133
+joy,anger,-2.0,-2.0,4,6,enthusiasm / curiosity,0.25473061203956604
+joy,anger,-2.0,-2.0,5,0,self-doubt / encouragement,0.10645994544029236
+joy,anger,-2.0,-2.0,5,1,frustration / despair,0.06374555081129074
+joy,anger,-2.0,-2.0,5,2,uncertainty / indecision,0.13960927724838257
+joy,anger,-2.0,-2.0,5,3,romantic idealism,-0.004204148426651955
+joy,anger,-2.0,-2.0,5,4,academic ambition / competitive determination,0.040733277797698975
+joy,anger,-2.0,-2.0,5,5,ironic amusement,0.14172784984111786
+joy,anger,-2.0,-2.0,5,6,enthusiasm / curiosity,0.1869032382965088
+joy,anger,-2.0,-2.0,6,0,self-doubt / encouragement,0.0047813099808990955
+joy,anger,-2.0,-2.0,6,1,frustration / despair,0.02495996095240116
+joy,anger,-2.0,-2.0,6,2,uncertainty / indecision,0.0749020129442215
+joy,anger,-2.0,-2.0,6,3,romantic idealism,-0.00412786053493619
+joy,anger,-2.0,-2.0,6,4,academic ambition / competitive determination,0.028157083317637444
+joy,anger,-2.0,-2.0,6,5,ironic amusement,-0.006321807391941547
+joy,anger,-2.0,-2.0,6,6,enthusiasm / curiosity,0.029082495719194412
+joy,anger,-2.0,-2.0,7,0,self-doubt / encouragement,0.17884160578250885
+joy,anger,-2.0,-2.0,7,1,frustration / despair,0.203616201877594
+joy,anger,-2.0,-2.0,7,2,uncertainty / indecision,0.2739603519439697
+joy,anger,-2.0,-2.0,7,3,romantic idealism,0.14325980842113495
+joy,anger,-2.0,-2.0,7,4,academic ambition / competitive determination,0.11342181265354156
+joy,anger,-2.0,-2.0,7,5,ironic amusement,0.17515337467193604
+joy,anger,-2.0,-2.0,7,6,enthusiasm / curiosity,0.18781030178070068
+joy,anger,-2.0,0.0,0,0,self-doubt / encouragement,0.2416723072528839
+joy,anger,-2.0,0.0,0,1,frustration / despair,0.08709858357906342
+joy,anger,-2.0,0.0,0,2,uncertainty / indecision,0.23395304381847382
+joy,anger,-2.0,0.0,0,3,romantic idealism,0.10707913339138031
+joy,anger,-2.0,0.0,0,4,academic ambition / competitive determination,0.12080076336860657
+joy,anger,-2.0,0.0,0,5,ironic amusement,0.1366986185312271
+joy,anger,-2.0,0.0,0,6,enthusiasm / curiosity,0.14777284860610962
+joy,anger,-2.0,0.0,1,0,self-doubt / encouragement,0.13949938118457794
+joy,anger,-2.0,0.0,1,1,frustration / despair,0.1093488484621048
+joy,anger,-2.0,0.0,1,2,uncertainty / indecision,0.13900555670261383
+joy,anger,-2.0,0.0,1,3,romantic idealism,0.0101500004529953
+joy,anger,-2.0,0.0,1,4,academic ambition / competitive determination,0.08028964698314667
+joy,anger,-2.0,0.0,1,5,ironic amusement,0.12814021110534668
+joy,anger,-2.0,0.0,1,6,enthusiasm / curiosity,0.14583031833171844
+joy,anger,-2.0,0.0,2,0,self-doubt / encouragement,0.1353772133588791
+joy,anger,-2.0,0.0,2,1,frustration / despair,0.0777725800871849
+joy,anger,-2.0,0.0,2,2,uncertainty / indecision,0.1824788749217987
+joy,anger,-2.0,0.0,2,3,romantic idealism,0.09406162798404694
+joy,anger,-2.0,0.0,2,4,academic ambition / competitive determination,0.2683221697807312
+joy,anger,-2.0,0.0,2,5,ironic amusement,0.06266959011554718
+joy,anger,-2.0,0.0,2,6,enthusiasm / curiosity,0.1866932213306427
+joy,anger,-2.0,0.0,3,0,self-doubt / encouragement,0.15675240755081177
+joy,anger,-2.0,0.0,3,1,frustration / despair,0.15172626078128815
+joy,anger,-2.0,0.0,3,2,uncertainty / indecision,0.20749326050281525
+joy,anger,-2.0,0.0,3,3,romantic idealism,0.04540790617465973
+joy,anger,-2.0,0.0,3,4,academic ambition / competitive determination,0.11407603323459625
+joy,anger,-2.0,0.0,3,5,ironic amusement,0.15578784048557281
+joy,anger,-2.0,0.0,3,6,enthusiasm / curiosity,0.19195112586021423
+joy,anger,-2.0,0.0,4,0,self-doubt / encouragement,0.05941418185830116
+joy,anger,-2.0,0.0,4,1,frustration / despair,0.08119416236877441
+joy,anger,-2.0,0.0,4,2,uncertainty / indecision,0.14607946574687958
+joy,anger,-2.0,0.0,4,3,romantic idealism,0.08024097234010696
+joy,anger,-2.0,0.0,4,4,academic ambition / competitive determination,0.1558435708284378
+joy,anger,-2.0,0.0,4,5,ironic amusement,0.01961260847747326
+joy,anger,-2.0,0.0,4,6,enthusiasm / curiosity,0.0981014296412468
+joy,anger,-2.0,0.0,5,0,self-doubt / encouragement,0.26273325085639954
+joy,anger,-2.0,0.0,5,1,frustration / despair,0.1608516126871109
+joy,anger,-2.0,0.0,5,2,uncertainty / indecision,0.2884429693222046
+joy,anger,-2.0,0.0,5,3,romantic idealism,0.07068438082933426
+joy,anger,-2.0,0.0,5,4,academic ambition / competitive determination,0.22210119664669037
+joy,anger,-2.0,0.0,5,5,ironic amusement,0.12021782249212265
+joy,anger,-2.0,0.0,5,6,enthusiasm / curiosity,0.2232711911201477
+joy,anger,-2.0,0.0,6,0,self-doubt / encouragement,0.19330263137817383
+joy,anger,-2.0,0.0,6,1,frustration / despair,0.1471332162618637
+joy,anger,-2.0,0.0,6,2,uncertainty / indecision,0.16749916970729828
+joy,anger,-2.0,0.0,6,3,romantic idealism,0.0803346037864685
+joy,anger,-2.0,0.0,6,4,academic ambition / competitive determination,0.16426824033260345
+joy,anger,-2.0,0.0,6,5,ironic amusement,0.1317630261182785
+joy,anger,-2.0,0.0,6,6,enthusiasm / curiosity,0.24366001784801483
+joy,anger,-2.0,0.0,7,0,self-doubt / encouragement,0.2250956892967224
+joy,anger,-2.0,0.0,7,1,frustration / despair,0.16625189781188965
+joy,anger,-2.0,0.0,7,2,uncertainty / indecision,0.25709956884384155
+joy,anger,-2.0,0.0,7,3,romantic idealism,0.10998430848121643
+joy,anger,-2.0,0.0,7,4,academic ambition / competitive determination,0.1628682017326355
+joy,anger,-2.0,0.0,7,5,ironic amusement,0.16764648258686066
+joy,anger,-2.0,0.0,7,6,enthusiasm / curiosity,0.2183898538351059
+joy,anger,-2.0,2.0,0,0,self-doubt / encouragement,0.2416723072528839
+joy,anger,-2.0,2.0,0,1,frustration / despair,0.08709858357906342
+joy,anger,-2.0,2.0,0,2,uncertainty / indecision,0.23395304381847382
+joy,anger,-2.0,2.0,0,3,romantic idealism,0.10707913339138031
+joy,anger,-2.0,2.0,0,4,academic ambition / competitive determination,0.12080076336860657
+joy,anger,-2.0,2.0,0,5,ironic amusement,0.1366986185312271
+joy,anger,-2.0,2.0,0,6,enthusiasm / curiosity,0.14777284860610962
+joy,anger,-2.0,2.0,1,0,self-doubt / encouragement,0.16718167066574097
+joy,anger,-2.0,2.0,1,1,frustration / despair,0.23029179871082306
+joy,anger,-2.0,2.0,1,2,uncertainty / indecision,0.19582685828208923
+joy,anger,-2.0,2.0,1,3,romantic idealism,0.050637610256671906
+joy,anger,-2.0,2.0,1,4,academic ambition / competitive determination,0.14758656919002533
+joy,anger,-2.0,2.0,1,5,ironic amusement,0.15309475362300873
+joy,anger,-2.0,2.0,1,6,enthusiasm / curiosity,0.1956985741853714
+joy,anger,-2.0,2.0,2,0,self-doubt / encouragement,0.20966382324695587
+joy,anger,-2.0,2.0,2,1,frustration / despair,0.11079103499650955
+joy,anger,-2.0,2.0,2,2,uncertainty / indecision,0.20554900169372559
+joy,anger,-2.0,2.0,2,3,romantic idealism,0.09672271460294724
+joy,anger,-2.0,2.0,2,4,academic ambition / competitive determination,0.13229669630527496
+joy,anger,-2.0,2.0,2,5,ironic amusement,0.11103440821170807
+joy,anger,-2.0,2.0,2,6,enthusiasm / curiosity,0.1562664955854416
+joy,anger,-2.0,2.0,3,0,self-doubt / encouragement,0.1637236624956131
+joy,anger,-2.0,2.0,3,1,frustration / despair,0.16222544014453888
+joy,anger,-2.0,2.0,3,2,uncertainty / indecision,0.21771323680877686
+joy,anger,-2.0,2.0,3,3,romantic idealism,0.05043720081448555
+joy,anger,-2.0,2.0,3,4,academic ambition / competitive determination,0.11836909502744675
+joy,anger,-2.0,2.0,3,5,ironic amusement,0.1587611585855484
+joy,anger,-2.0,2.0,3,6,enthusiasm / curiosity,0.1987575888633728
+joy,anger,-2.0,2.0,4,0,self-doubt / encouragement,0.09819132089614868
+joy,anger,-2.0,2.0,4,1,frustration / despair,0.10593066364526749
+joy,anger,-2.0,2.0,4,2,uncertainty / indecision,0.1907615065574646
+joy,anger,-2.0,2.0,4,3,romantic idealism,0.10090164095163345
+joy,anger,-2.0,2.0,4,4,academic ambition / competitive determination,0.19896095991134644
+joy,anger,-2.0,2.0,4,5,ironic amusement,0.05978268384933472
+joy,anger,-2.0,2.0,4,6,enthusiasm / curiosity,0.13661064207553864
+joy,anger,-2.0,2.0,5,0,self-doubt / encouragement,0.20222942531108856
+joy,anger,-2.0,2.0,5,1,frustration / despair,0.1506936401128769
+joy,anger,-2.0,2.0,5,2,uncertainty / indecision,0.2681037187576294
+joy,anger,-2.0,2.0,5,3,romantic idealism,0.0718068927526474
+joy,anger,-2.0,2.0,5,4,academic ambition / competitive determination,0.20354554057121277
+joy,anger,-2.0,2.0,5,5,ironic amusement,0.13871219754219055
+joy,anger,-2.0,2.0,5,6,enthusiasm / curiosity,0.20646695792675018
+joy,anger,-2.0,2.0,6,0,self-doubt / encouragement,0.0879894345998764
+joy,anger,-2.0,2.0,6,1,frustration / despair,0.08929238468408585
+joy,anger,-2.0,2.0,6,2,uncertainty / indecision,0.14229631423950195
+joy,anger,-2.0,2.0,6,3,romantic idealism,0.007217960897833109
+joy,anger,-2.0,2.0,6,4,academic ambition / competitive determination,0.09390730410814285
+joy,anger,-2.0,2.0,6,5,ironic amusement,0.14047706127166748
+joy,anger,-2.0,2.0,6,6,enthusiasm / curiosity,0.12912100553512573
+joy,anger,-2.0,2.0,7,0,self-doubt / encouragement,0.21877557039260864
+joy,anger,-2.0,2.0,7,1,frustration / despair,0.1705329269170761
+joy,anger,-2.0,2.0,7,2,uncertainty / indecision,0.23344950377941132
+joy,anger,-2.0,2.0,7,3,romantic idealism,0.045206524431705475
+joy,anger,-2.0,2.0,7,4,academic ambition / competitive determination,0.09034328907728195
+joy,anger,-2.0,2.0,7,5,ironic amusement,0.16504310071468353
+joy,anger,-2.0,2.0,7,6,enthusiasm / curiosity,0.1956779658794403
+joy,anger,0.0,-2.0,0,0,self-doubt / encouragement,0.21378503739833832
+joy,anger,0.0,-2.0,0,1,frustration / despair,0.19184617698192596
+joy,anger,0.0,-2.0,0,2,uncertainty / indecision,0.2423609495162964
+joy,anger,0.0,-2.0,0,3,romantic idealism,0.06062449514865875
+joy,anger,0.0,-2.0,0,4,academic ambition / competitive determination,0.1157606989145279
+joy,anger,0.0,-2.0,0,5,ironic amusement,0.1250118464231491
+joy,anger,0.0,-2.0,0,6,enthusiasm / curiosity,0.1549644023180008
+joy,anger,0.0,-2.0,1,0,self-doubt / encouragement,0.05908381938934326
+joy,anger,0.0,-2.0,1,1,frustration / despair,0.08640670776367188
+joy,anger,0.0,-2.0,1,2,uncertainty / indecision,0.14380322396755219
+joy,anger,0.0,-2.0,1,3,romantic idealism,-0.0004500128561630845
+joy,anger,0.0,-2.0,1,4,academic ambition / competitive determination,0.08119083195924759
+joy,anger,0.0,-2.0,1,5,ironic amusement,0.1015855073928833
+joy,anger,0.0,-2.0,1,6,enthusiasm / curiosity,0.09306027740240097
+joy,anger,0.0,-2.0,2,0,self-doubt / encouragement,0.11203654110431671
+joy,anger,0.0,-2.0,2,1,frustration / despair,0.08629456162452698
+joy,anger,0.0,-2.0,2,2,uncertainty / indecision,0.150186687707901
+joy,anger,0.0,-2.0,2,3,romantic idealism,0.05919823423027992
+joy,anger,0.0,-2.0,2,4,academic ambition / competitive determination,0.19814075529575348
+joy,anger,0.0,-2.0,2,5,ironic amusement,0.05877523869276047
+joy,anger,0.0,-2.0,2,6,enthusiasm / curiosity,0.12807020545005798
+joy,anger,0.0,-2.0,3,0,self-doubt / encouragement,0.04968643561005592
+joy,anger,0.0,-2.0,3,1,frustration / despair,0.10011174529790878
+joy,anger,0.0,-2.0,3,2,uncertainty / indecision,0.128189817070961
+joy,anger,0.0,-2.0,3,3,romantic idealism,0.038999758660793304
+joy,anger,0.0,-2.0,3,4,academic ambition / competitive determination,0.04337547719478607
+joy,anger,0.0,-2.0,3,5,ironic amusement,0.11101477593183517
+joy,anger,0.0,-2.0,3,6,enthusiasm / curiosity,0.12609483301639557
+joy,anger,0.0,-2.0,4,0,self-doubt / encouragement,0.11651457846164703
+joy,anger,0.0,-2.0,4,1,frustration / despair,0.07814192771911621
+joy,anger,0.0,-2.0,4,2,uncertainty / indecision,0.16940926015377045
+joy,anger,0.0,-2.0,4,3,romantic idealism,0.10259468853473663
+joy,anger,0.0,-2.0,4,4,academic ambition / competitive determination,0.16521799564361572
+joy,anger,0.0,-2.0,4,5,ironic amusement,0.0648786723613739
+joy,anger,0.0,-2.0,4,6,enthusiasm / curiosity,0.20355010032653809
+joy,anger,0.0,-2.0,5,0,self-doubt / encouragement,0.16927550733089447
+joy,anger,0.0,-2.0,5,1,frustration / despair,0.12772680819034576
+joy,anger,0.0,-2.0,5,2,uncertainty / indecision,0.19697757065296173
+joy,anger,0.0,-2.0,5,3,romantic idealism,0.04272943362593651
+joy,anger,0.0,-2.0,5,4,academic ambition / competitive determination,0.12854136526584625
+joy,anger,0.0,-2.0,5,5,ironic amusement,0.1335107684135437
+joy,anger,0.0,-2.0,5,6,enthusiasm / curiosity,0.236124649643898
+joy,anger,0.0,-2.0,6,0,self-doubt / encouragement,0.08250068128108978
+joy,anger,0.0,-2.0,6,1,frustration / despair,0.11992225050926208
+joy,anger,0.0,-2.0,6,2,uncertainty / indecision,0.1459178924560547
+joy,anger,0.0,-2.0,6,3,romantic idealism,-0.022089704871177673
+joy,anger,0.0,-2.0,6,4,academic ambition / competitive determination,0.08278192579746246
+joy,anger,0.0,-2.0,6,5,ironic amusement,0.05788957327604294
+joy,anger,0.0,-2.0,6,6,enthusiasm / curiosity,0.10315288603305817
+joy,anger,0.0,-2.0,7,0,self-doubt / encouragement,0.17709439992904663
+joy,anger,0.0,-2.0,7,1,frustration / despair,0.19954128563404083
+joy,anger,0.0,-2.0,7,2,uncertainty / indecision,0.2686428725719452
+joy,anger,0.0,-2.0,7,3,romantic idealism,0.1467004418373108
+joy,anger,0.0,-2.0,7,4,academic ambition / competitive determination,0.10012609511613846
+joy,anger,0.0,-2.0,7,5,ironic amusement,0.17773398756980896
+joy,anger,0.0,-2.0,7,6,enthusiasm / curiosity,0.18728438019752502
+joy,anger,0.0,0.0,0,0,self-doubt / encouragement,0.2579997777938843
+joy,anger,0.0,0.0,0,1,frustration / despair,0.1789245754480362
+joy,anger,0.0,0.0,0,2,uncertainty / indecision,0.29390186071395874
+joy,anger,0.0,0.0,0,3,romantic idealism,0.09816206246614456
+joy,anger,0.0,0.0,0,4,academic ambition / competitive determination,0.1298098862171173
+joy,anger,0.0,0.0,0,5,ironic amusement,0.1419863998889923
+joy,anger,0.0,0.0,0,6,enthusiasm / curiosity,0.18679481744766235
+joy,anger,0.0,0.0,1,0,self-doubt / encouragement,0.08845274150371552
+joy,anger,0.0,0.0,1,1,frustration / despair,0.12093593180179596
+joy,anger,0.0,0.0,1,2,uncertainty / indecision,0.1579023152589798
+joy,anger,0.0,0.0,1,3,romantic idealism,-0.006807968486100435
+joy,anger,0.0,0.0,1,4,academic ambition / competitive determination,0.07018128782510757
+joy,anger,0.0,0.0,1,5,ironic amusement,0.1118372306227684
+joy,anger,0.0,0.0,1,6,enthusiasm / curiosity,0.10050424188375473
+joy,anger,0.0,0.0,2,0,self-doubt / encouragement,0.11809313297271729
+joy,anger,0.0,0.0,2,1,frustration / despair,0.08123224973678589
+joy,anger,0.0,0.0,2,2,uncertainty / indecision,0.16268309950828552
+joy,anger,0.0,0.0,2,3,romantic idealism,0.08184073120355606
+joy,anger,0.0,0.0,2,4,academic ambition / competitive determination,0.22492694854736328
+joy,anger,0.0,0.0,2,5,ironic amusement,0.0756302997469902
+joy,anger,0.0,0.0,2,6,enthusiasm / curiosity,0.16488052904605865
+joy,anger,0.0,0.0,3,0,self-doubt / encouragement,0.05243324488401413
+joy,anger,0.0,0.0,3,1,frustration / despair,0.09356782585382462
+joy,anger,0.0,0.0,3,2,uncertainty / indecision,0.12729161977767944
+joy,anger,0.0,0.0,3,3,romantic idealism,0.030825095251202583
+joy,anger,0.0,0.0,3,4,academic ambition / competitive determination,0.0544109046459198
+joy,anger,0.0,0.0,3,5,ironic amusement,0.11290410161018372
+joy,anger,0.0,0.0,3,6,enthusiasm / curiosity,0.11533231288194656
+joy,anger,0.0,0.0,4,0,self-doubt / encouragement,0.09420821070671082
+joy,anger,0.0,0.0,4,1,frustration / despair,0.08754955232143402
+joy,anger,0.0,0.0,4,2,uncertainty / indecision,0.1750241070985794
+joy,anger,0.0,0.0,4,3,romantic idealism,0.0778314620256424
+joy,anger,0.0,0.0,4,4,academic ambition / competitive determination,0.17608575522899628
+joy,anger,0.0,0.0,4,5,ironic amusement,0.04792594164609909
+joy,anger,0.0,0.0,4,6,enthusiasm / curiosity,0.12139500677585602
+joy,anger,0.0,0.0,5,0,self-doubt / encouragement,0.26054656505584717
+joy,anger,0.0,0.0,5,1,frustration / despair,0.18212664127349854
+joy,anger,0.0,0.0,5,2,uncertainty / indecision,0.32548990845680237
+joy,anger,0.0,0.0,5,3,romantic idealism,0.07388083636760712
+joy,anger,0.0,0.0,5,4,academic ambition / competitive determination,0.2368214726448059
+joy,anger,0.0,0.0,5,5,ironic amusement,0.12936455011367798
+joy,anger,0.0,0.0,5,6,enthusiasm / curiosity,0.24971291422843933
+joy,anger,0.0,0.0,6,0,self-doubt / encouragement,0.05740978196263313
+joy,anger,0.0,0.0,6,1,frustration / despair,0.018406767398118973
+joy,anger,0.0,0.0,6,2,uncertainty / indecision,0.05213114619255066
+joy,anger,0.0,0.0,6,3,romantic idealism,-0.0029194806702435017
+joy,anger,0.0,0.0,6,4,academic ambition / competitive determination,0.06545843183994293
+joy,anger,0.0,0.0,6,5,ironic amusement,0.11780129373073578
+joy,anger,0.0,0.0,6,6,enthusiasm / curiosity,0.0769282728433609
+joy,anger,0.0,0.0,7,0,self-doubt / encouragement,0.2342257797718048
+joy,anger,0.0,0.0,7,1,frustration / despair,0.17508135735988617
+joy,anger,0.0,0.0,7,2,uncertainty / indecision,0.23814348876476288
+joy,anger,0.0,0.0,7,3,romantic idealism,0.04391293227672577
+joy,anger,0.0,0.0,7,4,academic ambition / competitive determination,0.09760971367359161
+joy,anger,0.0,0.0,7,5,ironic amusement,0.1656855195760727
+joy,anger,0.0,0.0,7,6,enthusiasm / curiosity,0.21326756477355957
+joy,anger,0.0,2.0,0,0,self-doubt / encouragement,0.21280314028263092
+joy,anger,0.0,2.0,0,1,frustration / despair,0.1304527074098587
+joy,anger,0.0,2.0,0,2,uncertainty / indecision,0.24581289291381836
+joy,anger,0.0,2.0,0,3,romantic idealism,0.10900090634822845
+joy,anger,0.0,2.0,0,4,academic ambition / competitive determination,0.09876739233732224
+joy,anger,0.0,2.0,0,5,ironic amusement,0.12242086976766586
+joy,anger,0.0,2.0,0,6,enthusiasm / curiosity,0.1436716765165329
+joy,anger,0.0,2.0,1,0,self-doubt / encouragement,0.13718655705451965
+joy,anger,0.0,2.0,1,1,frustration / despair,0.14950962364673615
+joy,anger,0.0,2.0,1,2,uncertainty / indecision,0.15698589384555817
+joy,anger,0.0,2.0,1,3,romantic idealism,0.039665669202804565
+joy,anger,0.0,2.0,1,4,academic ambition / competitive determination,0.10759592056274414
+joy,anger,0.0,2.0,1,5,ironic amusement,0.13751322031021118
+joy,anger,0.0,2.0,1,6,enthusiasm / curiosity,0.16732138395309448
+joy,anger,0.0,2.0,2,0,self-doubt / encouragement,0.1686282604932785
+joy,anger,0.0,2.0,2,1,frustration / despair,0.03947892785072327
+joy,anger,0.0,2.0,2,2,uncertainty / indecision,0.09129512310028076
+joy,anger,0.0,2.0,2,3,romantic idealism,0.14886394143104553
+joy,anger,0.0,2.0,2,4,academic ambition / competitive determination,0.07389688491821289
+joy,anger,0.0,2.0,2,5,ironic amusement,0.14611245691776276
+joy,anger,0.0,2.0,2,6,enthusiasm / curiosity,0.22597156465053558
+joy,anger,0.0,2.0,3,0,self-doubt / encouragement,0.05099865421652794
+joy,anger,0.0,2.0,3,1,frustration / despair,0.09108290076255798
+joy,anger,0.0,2.0,3,2,uncertainty / indecision,0.12575259804725647
+joy,anger,0.0,2.0,3,3,romantic idealism,0.03460206091403961
+joy,anger,0.0,2.0,3,4,academic ambition / competitive determination,0.04758639633655548
+joy,anger,0.0,2.0,3,5,ironic amusement,0.13284268975257874
+joy,anger,0.0,2.0,3,6,enthusiasm / curiosity,0.11677185446023941
+joy,anger,0.0,2.0,4,0,self-doubt / encouragement,0.10838546603918076
+joy,anger,0.0,2.0,4,1,frustration / despair,0.08958091586828232
+joy,anger,0.0,2.0,4,2,uncertainty / indecision,0.16731159389019012
+joy,anger,0.0,2.0,4,3,romantic idealism,0.07813356071710587
+joy,anger,0.0,2.0,4,4,academic ambition / competitive determination,0.16522468626499176
+joy,anger,0.0,2.0,4,5,ironic amusement,0.10440558940172195
+joy,anger,0.0,2.0,4,6,enthusiasm / curiosity,0.15576139092445374
+joy,anger,0.0,2.0,5,0,self-doubt / encouragement,0.16632172465324402
+joy,anger,0.0,2.0,5,1,frustration / despair,0.15703067183494568
+joy,anger,0.0,2.0,5,2,uncertainty / indecision,0.22388173639774323
+joy,anger,0.0,2.0,5,3,romantic idealism,0.08974974602460861
+joy,anger,0.0,2.0,5,4,academic ambition / competitive determination,0.14202186465263367
+joy,anger,0.0,2.0,5,5,ironic amusement,0.12393540143966675
+joy,anger,0.0,2.0,5,6,enthusiasm / curiosity,0.21034228801727295
+joy,anger,0.0,2.0,6,0,self-doubt / encouragement,0.09343306720256805
+joy,anger,0.0,2.0,6,1,frustration / despair,0.08500189334154129
+joy,anger,0.0,2.0,6,2,uncertainty / indecision,0.10529924184083939
+joy,anger,0.0,2.0,6,3,romantic idealism,0.02987937442958355
+joy,anger,0.0,2.0,6,4,academic ambition / competitive determination,0.04634569585323334
+joy,anger,0.0,2.0,6,5,ironic amusement,0.15203090012073517
+joy,anger,0.0,2.0,6,6,enthusiasm / curiosity,0.12758389115333557
+joy,anger,0.0,2.0,7,0,self-doubt / encouragement,0.23229947686195374
+joy,anger,0.0,2.0,7,1,frustration / despair,0.16974753141403198
+joy,anger,0.0,2.0,7,2,uncertainty / indecision,0.23722265660762787
+joy,anger,0.0,2.0,7,3,romantic idealism,0.038350753486156464
+joy,anger,0.0,2.0,7,4,academic ambition / competitive determination,0.07920511811971664
+joy,anger,0.0,2.0,7,5,ironic amusement,0.1601494550704956
+joy,anger,0.0,2.0,7,6,enthusiasm / curiosity,0.18270906805992126
+joy,anger,2.0,-2.0,0,0,self-doubt / encouragement,0.21378503739833832
+joy,anger,2.0,-2.0,0,1,frustration / despair,0.19184617698192596
+joy,anger,2.0,-2.0,0,2,uncertainty / indecision,0.2423609495162964
+joy,anger,2.0,-2.0,0,3,romantic idealism,0.06062449514865875
+joy,anger,2.0,-2.0,0,4,academic ambition / competitive determination,0.1157606989145279
+joy,anger,2.0,-2.0,0,5,ironic amusement,0.1250118464231491
+joy,anger,2.0,-2.0,0,6,enthusiasm / curiosity,0.1549644023180008
+joy,anger,2.0,-2.0,1,0,self-doubt / encouragement,0.08605632930994034
+joy,anger,2.0,-2.0,1,1,frustration / despair,0.12080033123493195
+joy,anger,2.0,-2.0,1,2,uncertainty / indecision,0.16977687180042267
+joy,anger,2.0,-2.0,1,3,romantic idealism,0.00527739804238081
+joy,anger,2.0,-2.0,1,4,academic ambition / competitive determination,0.09100822359323502
+joy,anger,2.0,-2.0,1,5,ironic amusement,0.08419986069202423
+joy,anger,2.0,-2.0,1,6,enthusiasm / curiosity,0.11458516120910645
+joy,anger,2.0,-2.0,2,0,self-doubt / encouragement,0.1574421226978302
+joy,anger,2.0,-2.0,2,1,frustration / despair,0.06633686274290085
+joy,anger,2.0,-2.0,2,2,uncertainty / indecision,0.11038266122341156
+joy,anger,2.0,-2.0,2,3,romantic idealism,0.08232990652322769
+joy,anger,2.0,-2.0,2,4,academic ambition / competitive determination,0.09772667288780212
+joy,anger,2.0,-2.0,2,5,ironic amusement,0.07499542832374573
+joy,anger,2.0,-2.0,2,6,enthusiasm / curiosity,0.1274992823600769
+joy,anger,2.0,-2.0,3,0,self-doubt / encouragement,0.05812520161271095
+joy,anger,2.0,-2.0,3,1,frustration / despair,0.09549356251955032
+joy,anger,2.0,-2.0,3,2,uncertainty / indecision,0.13708269596099854
+joy,anger,2.0,-2.0,3,3,romantic idealism,0.032596759498119354
+joy,anger,2.0,-2.0,3,4,academic ambition / competitive determination,0.05623644217848778
+joy,anger,2.0,-2.0,3,5,ironic amusement,0.0933443009853363
+joy,anger,2.0,-2.0,3,6,enthusiasm / curiosity,0.12993618845939636
+joy,anger,2.0,-2.0,4,0,self-doubt / encouragement,0.11917532235383987
+joy,anger,2.0,-2.0,4,1,frustration / despair,0.131681427359581
+joy,anger,2.0,-2.0,4,2,uncertainty / indecision,0.18522535264492035
+joy,anger,2.0,-2.0,4,3,romantic idealism,0.11660029739141464
+joy,anger,2.0,-2.0,4,4,academic ambition / competitive determination,0.16158325970172882
+joy,anger,2.0,-2.0,4,5,ironic amusement,0.06190918758511543
+joy,anger,2.0,-2.0,4,6,enthusiasm / curiosity,0.144793301820755
+joy,anger,2.0,-2.0,5,0,self-doubt / encouragement,0.0883408635854721
+joy,anger,2.0,-2.0,5,1,frustration / despair,0.1132972240447998
+joy,anger,2.0,-2.0,5,2,uncertainty / indecision,0.14537478983402252
+joy,anger,2.0,-2.0,5,3,romantic idealism,0.0021234098821878433
+joy,anger,2.0,-2.0,5,4,academic ambition / competitive determination,0.0457753911614418
+joy,anger,2.0,-2.0,5,5,ironic amusement,0.09864016622304916
+joy,anger,2.0,-2.0,5,6,enthusiasm / curiosity,0.12425374239683151
+joy,anger,2.0,-2.0,6,0,self-doubt / encouragement,0.14167286455631256
+joy,anger,2.0,-2.0,6,1,frustration / despair,0.10043894499540329
+joy,anger,2.0,-2.0,6,2,uncertainty / indecision,0.14699439704418182
+joy,anger,2.0,-2.0,6,3,romantic idealism,0.044964566826820374
+joy,anger,2.0,-2.0,6,4,academic ambition / competitive determination,0.09370322525501251
+joy,anger,2.0,-2.0,6,5,ironic amusement,0.12406645715236664
+joy,anger,2.0,-2.0,6,6,enthusiasm / curiosity,0.21250174939632416
+joy,anger,2.0,-2.0,7,0,self-doubt / encouragement,0.2939532399177551
+joy,anger,2.0,-2.0,7,1,frustration / despair,0.34492677450180054
+joy,anger,2.0,-2.0,7,2,uncertainty / indecision,0.39849424362182617
+joy,anger,2.0,-2.0,7,3,romantic idealism,0.17476359009742737
+joy,anger,2.0,-2.0,7,4,academic ambition / competitive determination,0.2899567782878876
+joy,anger,2.0,-2.0,7,5,ironic amusement,0.2867128849029541
+joy,anger,2.0,-2.0,7,6,enthusiasm / curiosity,0.3336951732635498
+joy,anger,2.0,0.0,0,0,self-doubt / encouragement,0.21378503739833832
+joy,anger,2.0,0.0,0,1,frustration / despair,0.19184617698192596
+joy,anger,2.0,0.0,0,2,uncertainty / indecision,0.2423609495162964
+joy,anger,2.0,0.0,0,3,romantic idealism,0.06062449514865875
+joy,anger,2.0,0.0,0,4,academic ambition / competitive determination,0.1157606989145279
+joy,anger,2.0,0.0,0,5,ironic amusement,0.1250118464231491
+joy,anger,2.0,0.0,0,6,enthusiasm / curiosity,0.1549644023180008
+joy,anger,2.0,0.0,1,0,self-doubt / encouragement,0.09728923439979553
+joy,anger,2.0,0.0,1,1,frustration / despair,0.14753183722496033
+joy,anger,2.0,0.0,1,2,uncertainty / indecision,0.20171605050563812
+joy,anger,2.0,0.0,1,3,romantic idealism,0.03883875906467438
+joy,anger,2.0,0.0,1,4,academic ambition / competitive determination,0.10244415700435638
+joy,anger,2.0,0.0,1,5,ironic amusement,0.1245109885931015
+joy,anger,2.0,0.0,1,6,enthusiasm / curiosity,0.12277855724096298
+joy,anger,2.0,0.0,2,0,self-doubt / encouragement,0.17355890572071075
+joy,anger,2.0,0.0,2,1,frustration / despair,0.03188755363225937
+joy,anger,2.0,0.0,2,2,uncertainty / indecision,0.07981067895889282
+joy,anger,2.0,0.0,2,3,romantic idealism,0.11961069703102112
+joy,anger,2.0,0.0,2,4,academic ambition / competitive determination,0.08078934252262115
+joy,anger,2.0,0.0,2,5,ironic amusement,0.1405269056558609
+joy,anger,2.0,0.0,2,6,enthusiasm / curiosity,0.2852917015552521
+joy,anger,2.0,0.0,3,0,self-doubt / encouragement,0.05590430647134781
+joy,anger,2.0,0.0,3,1,frustration / despair,0.09127063304185867
+joy,anger,2.0,0.0,3,2,uncertainty / indecision,0.12994952499866486
+joy,anger,2.0,0.0,3,3,romantic idealism,0.03349827229976654
+joy,anger,2.0,0.0,3,4,academic ambition / competitive determination,0.0610361211001873
+joy,anger,2.0,0.0,3,5,ironic amusement,0.11829773336648941
+joy,anger,2.0,0.0,3,6,enthusiasm / curiosity,0.11223521083593369
+joy,anger,2.0,0.0,4,0,self-doubt / encouragement,0.13900312781333923
+joy,anger,2.0,0.0,4,1,frustration / despair,0.12460857629776001
+joy,anger,2.0,0.0,4,2,uncertainty / indecision,0.2138528823852539
+joy,anger,2.0,0.0,4,3,romantic idealism,0.14402733743190765
+joy,anger,2.0,0.0,4,4,academic ambition / competitive determination,0.1688574254512787
+joy,anger,2.0,0.0,4,5,ironic amusement,0.08999751508235931
+joy,anger,2.0,0.0,4,6,enthusiasm / curiosity,0.18118581175804138
+joy,anger,2.0,0.0,5,0,self-doubt / encouragement,0.18972086906433105
+joy,anger,2.0,0.0,5,1,frustration / despair,0.11690311878919601
+joy,anger,2.0,0.0,5,2,uncertainty / indecision,0.233826145529747
+joy,anger,2.0,0.0,5,3,romantic idealism,0.08585479855537415
+joy,anger,2.0,0.0,5,4,academic ambition / competitive determination,0.15735870599746704
+joy,anger,2.0,0.0,5,5,ironic amusement,0.13426126539707184
+joy,anger,2.0,0.0,5,6,enthusiasm / curiosity,0.2118896245956421
+joy,anger,2.0,0.0,6,0,self-doubt / encouragement,0.06423669308423996
+joy,anger,2.0,0.0,6,1,frustration / despair,0.0566629022359848
+joy,anger,2.0,0.0,6,2,uncertainty / indecision,0.1096753478050232
+joy,anger,2.0,0.0,6,3,romantic idealism,0.06310756504535675
+joy,anger,2.0,0.0,6,4,academic ambition / competitive determination,0.06803785264492035
+joy,anger,2.0,0.0,6,5,ironic amusement,0.09423606842756271
+joy,anger,2.0,0.0,6,6,enthusiasm / curiosity,0.1438835859298706
+joy,anger,2.0,0.0,7,0,self-doubt / encouragement,0.22920849919319153
+joy,anger,2.0,0.0,7,1,frustration / despair,0.18515625596046448
+joy,anger,2.0,0.0,7,2,uncertainty / indecision,0.1843675971031189
+joy,anger,2.0,0.0,7,3,romantic idealism,0.05696609616279602
+joy,anger,2.0,0.0,7,4,academic ambition / competitive determination,0.08817785233259201
+joy,anger,2.0,0.0,7,5,ironic amusement,0.18527035415172577
+joy,anger,2.0,0.0,7,6,enthusiasm / curiosity,0.145801842212677
+joy,anger,2.0,2.0,0,0,self-doubt / encouragement,0.2579997777938843
+joy,anger,2.0,2.0,0,1,frustration / despair,0.1789245754480362
+joy,anger,2.0,2.0,0,2,uncertainty / indecision,0.29390186071395874
+joy,anger,2.0,2.0,0,3,romantic idealism,0.09816206246614456
+joy,anger,2.0,2.0,0,4,academic ambition / competitive determination,0.1298098862171173
+joy,anger,2.0,2.0,0,5,ironic amusement,0.1419863998889923
+joy,anger,2.0,2.0,0,6,enthusiasm / curiosity,0.18679481744766235
+joy,anger,2.0,2.0,1,0,self-doubt / encouragement,0.13718655705451965
+joy,anger,2.0,2.0,1,1,frustration / despair,0.14950962364673615
+joy,anger,2.0,2.0,1,2,uncertainty / indecision,0.15698589384555817
+joy,anger,2.0,2.0,1,3,romantic idealism,0.039665669202804565
+joy,anger,2.0,2.0,1,4,academic ambition / competitive determination,0.10759592056274414
+joy,anger,2.0,2.0,1,5,ironic amusement,0.13751322031021118
+joy,anger,2.0,2.0,1,6,enthusiasm / curiosity,0.16732138395309448
+joy,anger,2.0,2.0,2,0,self-doubt / encouragement,0.20346754789352417
+joy,anger,2.0,2.0,2,1,frustration / despair,0.025099143385887146
+joy,anger,2.0,2.0,2,2,uncertainty / indecision,0.0731939822435379
+joy,anger,2.0,2.0,2,3,romantic idealism,0.10892631113529205
+joy,anger,2.0,2.0,2,4,academic ambition / competitive determination,0.10882902890443802
+joy,anger,2.0,2.0,2,5,ironic amusement,0.11621202528476715
+joy,anger,2.0,2.0,2,6,enthusiasm / curiosity,0.31202101707458496
+joy,anger,2.0,2.0,3,0,self-doubt / encouragement,0.06757967919111252
+joy,anger,2.0,2.0,3,1,frustration / despair,0.10813043266534805
+joy,anger,2.0,2.0,3,2,uncertainty / indecision,0.14825239777565002
+joy,anger,2.0,2.0,3,3,romantic idealism,0.047819942235946655
+joy,anger,2.0,2.0,3,4,academic ambition / competitive determination,0.06639979779720306
+joy,anger,2.0,2.0,3,5,ironic amusement,0.10899794101715088
+joy,anger,2.0,2.0,3,6,enthusiasm / curiosity,0.13807593286037445
+joy,anger,2.0,2.0,4,0,self-doubt / encouragement,0.13702286779880524
+joy,anger,2.0,2.0,4,1,frustration / despair,0.10561516135931015
+joy,anger,2.0,2.0,4,2,uncertainty / indecision,0.21460118889808655
+joy,anger,2.0,2.0,4,3,romantic idealism,0.13376463949680328
+joy,anger,2.0,2.0,4,4,academic ambition / competitive determination,0.1837044209241867
+joy,anger,2.0,2.0,4,5,ironic amusement,0.09222674369812012
+joy,anger,2.0,2.0,4,6,enthusiasm / curiosity,0.16393941640853882
+joy,anger,2.0,2.0,5,0,self-doubt / encouragement,0.1652941107749939
+joy,anger,2.0,2.0,5,1,frustration / despair,0.1297493577003479
+joy,anger,2.0,2.0,5,2,uncertainty / indecision,0.22816452383995056
+joy,anger,2.0,2.0,5,3,romantic idealism,0.08811447024345398
+joy,anger,2.0,2.0,5,4,academic ambition / competitive determination,0.14918097853660583
+joy,anger,2.0,2.0,5,5,ironic amusement,0.08378541469573975
+joy,anger,2.0,2.0,5,6,enthusiasm / curiosity,0.17688539624214172
+joy,anger,2.0,2.0,6,0,self-doubt / encouragement,0.10585366189479828
+joy,anger,2.0,2.0,6,1,frustration / despair,0.08908915519714355
+joy,anger,2.0,2.0,6,2,uncertainty / indecision,0.11055485159158707
+joy,anger,2.0,2.0,6,3,romantic idealism,0.03935997560620308
+joy,anger,2.0,2.0,6,4,academic ambition / competitive determination,0.04395852982997894
+joy,anger,2.0,2.0,6,5,ironic amusement,0.15885233879089355
+joy,anger,2.0,2.0,6,6,enthusiasm / curiosity,0.13635210692882538
+joy,anger,2.0,2.0,7,0,self-doubt / encouragement,0.23229947686195374
+joy,anger,2.0,2.0,7,1,frustration / despair,0.16974753141403198
+joy,anger,2.0,2.0,7,2,uncertainty / indecision,0.23722265660762787
+joy,anger,2.0,2.0,7,3,romantic idealism,0.038350753486156464
+joy,anger,2.0,2.0,7,4,academic ambition / competitive determination,0.07920511811971664
+joy,anger,2.0,2.0,7,5,ironic amusement,0.1601494550704956
+joy,anger,2.0,2.0,7,6,enthusiasm / curiosity,0.18270906805992126
+joy,sadness,-2.0,-2.0,0,0,self-doubt / encouragement,0.18583425879478455
+joy,sadness,-2.0,-2.0,0,1,frustration / despair,0.15250656008720398
+joy,sadness,-2.0,-2.0,0,2,uncertainty / indecision,0.21103651821613312
+joy,sadness,-2.0,-2.0,0,3,romantic idealism,0.1567460596561432
+joy,sadness,-2.0,-2.0,0,4,academic ambition / competitive determination,0.1853683739900589
+joy,sadness,-2.0,-2.0,0,5,ironic amusement,0.16585604846477509
+joy,sadness,-2.0,-2.0,0,6,enthusiasm / curiosity,0.21673035621643066
+joy,sadness,-2.0,-2.0,1,0,self-doubt / encouragement,0.10613485425710678
+joy,sadness,-2.0,-2.0,1,1,frustration / despair,0.07667402178049088
+joy,sadness,-2.0,-2.0,1,2,uncertainty / indecision,0.12040098011493683
+joy,sadness,-2.0,-2.0,1,3,romantic idealism,0.029939904808998108
+joy,sadness,-2.0,-2.0,1,4,academic ambition / competitive determination,0.040240328758955
+joy,sadness,-2.0,-2.0,1,5,ironic amusement,0.10853258520364761
+joy,sadness,-2.0,-2.0,1,6,enthusiasm / curiosity,0.13570238649845123
+joy,sadness,-2.0,-2.0,2,0,self-doubt / encouragement,0.12475702911615372
+joy,sadness,-2.0,-2.0,2,1,frustration / despair,0.08624531328678131
+joy,sadness,-2.0,-2.0,2,2,uncertainty / indecision,0.16011269390583038
+joy,sadness,-2.0,-2.0,2,3,romantic idealism,0.03969342261552811
+joy,sadness,-2.0,-2.0,2,4,academic ambition / competitive determination,0.18313808739185333
+joy,sadness,-2.0,-2.0,2,5,ironic amusement,0.057710036635398865
+joy,sadness,-2.0,-2.0,2,6,enthusiasm / curiosity,0.12709884345531464
+joy,sadness,-2.0,-2.0,3,0,self-doubt / encouragement,0.0778193399310112
+joy,sadness,-2.0,-2.0,3,1,frustration / despair,0.061688825488090515
+joy,sadness,-2.0,-2.0,3,2,uncertainty / indecision,0.0981634259223938
+joy,sadness,-2.0,-2.0,3,3,romantic idealism,0.017416346818208694
+joy,sadness,-2.0,-2.0,3,4,academic ambition / competitive determination,0.059309765696525574
+joy,sadness,-2.0,-2.0,3,5,ironic amusement,0.12608808279037476
+joy,sadness,-2.0,-2.0,3,6,enthusiasm / curiosity,0.13696786761283875
+joy,sadness,-2.0,-2.0,4,0,self-doubt / encouragement,0.05746904015541077
+joy,sadness,-2.0,-2.0,4,1,frustration / despair,0.038102827966213226
+joy,sadness,-2.0,-2.0,4,2,uncertainty / indecision,0.13881930708885193
+joy,sadness,-2.0,-2.0,4,3,romantic idealism,0.06172497570514679
+joy,sadness,-2.0,-2.0,4,4,academic ambition / competitive determination,0.0741858035326004
+joy,sadness,-2.0,-2.0,4,5,ironic amusement,0.046272944658994675
+joy,sadness,-2.0,-2.0,4,6,enthusiasm / curiosity,0.11164896935224533
+joy,sadness,-2.0,-2.0,5,0,self-doubt / encouragement,0.18259236216545105
+joy,sadness,-2.0,-2.0,5,1,frustration / despair,0.1284300684928894
+joy,sadness,-2.0,-2.0,5,2,uncertainty / indecision,0.14143911004066467
+joy,sadness,-2.0,-2.0,5,3,romantic idealism,0.04135914519429207
+joy,sadness,-2.0,-2.0,5,4,academic ambition / competitive determination,0.09859360754489899
+joy,sadness,-2.0,-2.0,5,5,ironic amusement,0.13852640986442566
+joy,sadness,-2.0,-2.0,5,6,enthusiasm / curiosity,0.2191055417060852
+joy,sadness,-2.0,-2.0,6,0,self-doubt / encouragement,0.11523862183094025
+joy,sadness,-2.0,-2.0,6,1,frustration / despair,0.06691739708185196
+joy,sadness,-2.0,-2.0,6,2,uncertainty / indecision,0.17022469639778137
+joy,sadness,-2.0,-2.0,6,3,romantic idealism,0.0810234472155571
+joy,sadness,-2.0,-2.0,6,4,academic ambition / competitive determination,0.014653699472546577
+joy,sadness,-2.0,-2.0,6,5,ironic amusement,0.058441124856472015
+joy,sadness,-2.0,-2.0,6,6,enthusiasm / curiosity,0.07863115519285202
+joy,sadness,-2.0,-2.0,7,0,self-doubt / encouragement,0.19889087975025177
+joy,sadness,-2.0,-2.0,7,1,frustration / despair,0.17188748717308044
+joy,sadness,-2.0,-2.0,7,2,uncertainty / indecision,0.2467278689146042
+joy,sadness,-2.0,-2.0,7,3,romantic idealism,0.07644107192754745
+joy,sadness,-2.0,-2.0,7,4,academic ambition / competitive determination,0.09628764539957047
+joy,sadness,-2.0,-2.0,7,5,ironic amusement,0.16463708877563477
+joy,sadness,-2.0,-2.0,7,6,enthusiasm / curiosity,0.16095119714736938
+joy,sadness,-2.0,0.0,0,0,self-doubt / encouragement,0.2416723072528839
+joy,sadness,-2.0,0.0,0,1,frustration / despair,0.08709858357906342
+joy,sadness,-2.0,0.0,0,2,uncertainty / indecision,0.23395304381847382
+joy,sadness,-2.0,0.0,0,3,romantic idealism,0.10707913339138031
+joy,sadness,-2.0,0.0,0,4,academic ambition / competitive determination,0.12080076336860657
+joy,sadness,-2.0,0.0,0,5,ironic amusement,0.1366986185312271
+joy,sadness,-2.0,0.0,0,6,enthusiasm / curiosity,0.14777284860610962
+joy,sadness,-2.0,0.0,1,0,self-doubt / encouragement,0.13949938118457794
+joy,sadness,-2.0,0.0,1,1,frustration / despair,0.1093488484621048
+joy,sadness,-2.0,0.0,1,2,uncertainty / indecision,0.13900555670261383
+joy,sadness,-2.0,0.0,1,3,romantic idealism,0.0101500004529953
+joy,sadness,-2.0,0.0,1,4,academic ambition / competitive determination,0.08028964698314667
+joy,sadness,-2.0,0.0,1,5,ironic amusement,0.12814021110534668
+joy,sadness,-2.0,0.0,1,6,enthusiasm / curiosity,0.14583031833171844
+joy,sadness,-2.0,0.0,2,0,self-doubt / encouragement,0.1353772133588791
+joy,sadness,-2.0,0.0,2,1,frustration / despair,0.0777725800871849
+joy,sadness,-2.0,0.0,2,2,uncertainty / indecision,0.1824788749217987
+joy,sadness,-2.0,0.0,2,3,romantic idealism,0.09406162798404694
+joy,sadness,-2.0,0.0,2,4,academic ambition / competitive determination,0.2683221697807312
+joy,sadness,-2.0,0.0,2,5,ironic amusement,0.06266959011554718
+joy,sadness,-2.0,0.0,2,6,enthusiasm / curiosity,0.1866932213306427
+joy,sadness,-2.0,0.0,3,0,self-doubt / encouragement,0.15675240755081177
+joy,sadness,-2.0,0.0,3,1,frustration / despair,0.15172626078128815
+joy,sadness,-2.0,0.0,3,2,uncertainty / indecision,0.20749326050281525
+joy,sadness,-2.0,0.0,3,3,romantic idealism,0.04540790617465973
+joy,sadness,-2.0,0.0,3,4,academic ambition / competitive determination,0.11407603323459625
+joy,sadness,-2.0,0.0,3,5,ironic amusement,0.15578784048557281
+joy,sadness,-2.0,0.0,3,6,enthusiasm / curiosity,0.19195112586021423
+joy,sadness,-2.0,0.0,4,0,self-doubt / encouragement,0.05941418185830116
+joy,sadness,-2.0,0.0,4,1,frustration / despair,0.08119416236877441
+joy,sadness,-2.0,0.0,4,2,uncertainty / indecision,0.14607946574687958
+joy,sadness,-2.0,0.0,4,3,romantic idealism,0.08024097234010696
+joy,sadness,-2.0,0.0,4,4,academic ambition / competitive determination,0.1558435708284378
+joy,sadness,-2.0,0.0,4,5,ironic amusement,0.01961260847747326
+joy,sadness,-2.0,0.0,4,6,enthusiasm / curiosity,0.0981014296412468
+joy,sadness,-2.0,0.0,5,0,self-doubt / encouragement,0.26273325085639954
+joy,sadness,-2.0,0.0,5,1,frustration / despair,0.1608516126871109
+joy,sadness,-2.0,0.0,5,2,uncertainty / indecision,0.2884429693222046
+joy,sadness,-2.0,0.0,5,3,romantic idealism,0.07068438082933426
+joy,sadness,-2.0,0.0,5,4,academic ambition / competitive determination,0.22210119664669037
+joy,sadness,-2.0,0.0,5,5,ironic amusement,0.12021782249212265
+joy,sadness,-2.0,0.0,5,6,enthusiasm / curiosity,0.2232711911201477
+joy,sadness,-2.0,0.0,6,0,self-doubt / encouragement,0.19330263137817383
+joy,sadness,-2.0,0.0,6,1,frustration / despair,0.1471332162618637
+joy,sadness,-2.0,0.0,6,2,uncertainty / indecision,0.16749916970729828
+joy,sadness,-2.0,0.0,6,3,romantic idealism,0.0803346037864685
+joy,sadness,-2.0,0.0,6,4,academic ambition / competitive determination,0.16426824033260345
+joy,sadness,-2.0,0.0,6,5,ironic amusement,0.1317630261182785
+joy,sadness,-2.0,0.0,6,6,enthusiasm / curiosity,0.24366001784801483
+joy,sadness,-2.0,0.0,7,0,self-doubt / encouragement,0.2250956892967224
+joy,sadness,-2.0,0.0,7,1,frustration / despair,0.16625189781188965
+joy,sadness,-2.0,0.0,7,2,uncertainty / indecision,0.25709956884384155
+joy,sadness,-2.0,0.0,7,3,romantic idealism,0.10998430848121643
+joy,sadness,-2.0,0.0,7,4,academic ambition / competitive determination,0.1628682017326355
+joy,sadness,-2.0,0.0,7,5,ironic amusement,0.16764648258686066
+joy,sadness,-2.0,0.0,7,6,enthusiasm / curiosity,0.2183898538351059
+joy,sadness,-2.0,2.0,0,0,self-doubt / encouragement,0.2510764002799988
+joy,sadness,-2.0,2.0,0,1,frustration / despair,0.179714173078537
+joy,sadness,-2.0,2.0,0,2,uncertainty / indecision,0.3690183460712433
+joy,sadness,-2.0,2.0,0,3,romantic idealism,0.16223876178264618
+joy,sadness,-2.0,2.0,0,4,academic ambition / competitive determination,0.11415120959281921
+joy,sadness,-2.0,2.0,0,5,ironic amusement,0.16073618829250336
+joy,sadness,-2.0,2.0,0,6,enthusiasm / curiosity,0.2222718894481659
+joy,sadness,-2.0,2.0,1,0,self-doubt / encouragement,0.15903444588184357
+joy,sadness,-2.0,2.0,1,1,frustration / despair,0.14340797066688538
+joy,sadness,-2.0,2.0,1,2,uncertainty / indecision,0.1959492266178131
+joy,sadness,-2.0,2.0,1,3,romantic idealism,0.04071981832385063
+joy,sadness,-2.0,2.0,1,4,academic ambition / competitive determination,0.1530214250087738
+joy,sadness,-2.0,2.0,1,5,ironic amusement,0.12694379687309265
+joy,sadness,-2.0,2.0,1,6,enthusiasm / curiosity,0.18986764550209045
+joy,sadness,-2.0,2.0,2,0,self-doubt / encouragement,0.16668464243412018
+joy,sadness,-2.0,2.0,2,1,frustration / despair,0.09170220047235489
+joy,sadness,-2.0,2.0,2,2,uncertainty / indecision,0.1928250938653946
+joy,sadness,-2.0,2.0,2,3,romantic idealism,0.062046509236097336
+joy,sadness,-2.0,2.0,2,4,academic ambition / competitive determination,0.3098944127559662
+joy,sadness,-2.0,2.0,2,5,ironic amusement,0.06442040205001831
+joy,sadness,-2.0,2.0,2,6,enthusiasm / curiosity,0.2197360098361969
+joy,sadness,-2.0,2.0,3,0,self-doubt / encouragement,0.10401805490255356
+joy,sadness,-2.0,2.0,3,1,frustration / despair,0.11730627715587616
+joy,sadness,-2.0,2.0,3,2,uncertainty / indecision,0.17566321790218353
+joy,sadness,-2.0,2.0,3,3,romantic idealism,0.026458077132701874
+joy,sadness,-2.0,2.0,3,4,academic ambition / competitive determination,0.07140282541513443
+joy,sadness,-2.0,2.0,3,5,ironic amusement,0.12211333960294724
+joy,sadness,-2.0,2.0,3,6,enthusiasm / curiosity,0.18959005177021027
+joy,sadness,-2.0,2.0,4,0,self-doubt / encouragement,0.1606317013502121
+joy,sadness,-2.0,2.0,4,1,frustration / despair,0.15386858582496643
+joy,sadness,-2.0,2.0,4,2,uncertainty / indecision,0.21781735122203827
+joy,sadness,-2.0,2.0,4,3,romantic idealism,0.11986576020717621
+joy,sadness,-2.0,2.0,4,4,academic ambition / competitive determination,0.18152737617492676
+joy,sadness,-2.0,2.0,4,5,ironic amusement,0.07978541404008865
+joy,sadness,-2.0,2.0,4,6,enthusiasm / curiosity,0.15418386459350586
+joy,sadness,-2.0,2.0,5,0,self-doubt / encouragement,0.23817706108093262
+joy,sadness,-2.0,2.0,5,1,frustration / despair,0.17628750205039978
+joy,sadness,-2.0,2.0,5,2,uncertainty / indecision,0.30494141578674316
+joy,sadness,-2.0,2.0,5,3,romantic idealism,0.09322742372751236
+joy,sadness,-2.0,2.0,5,4,academic ambition / competitive determination,0.251936674118042
+joy,sadness,-2.0,2.0,5,5,ironic amusement,0.1402817815542221
+joy,sadness,-2.0,2.0,5,6,enthusiasm / curiosity,0.23270529508590698
+joy,sadness,-2.0,2.0,6,0,self-doubt / encouragement,0.3420145511627197
+joy,sadness,-2.0,2.0,6,1,frustration / despair,0.1572020947933197
+joy,sadness,-2.0,2.0,6,2,uncertainty / indecision,0.20748454332351685
+joy,sadness,-2.0,2.0,6,3,romantic idealism,0.03595166280865669
+joy,sadness,-2.0,2.0,6,4,academic ambition / competitive determination,0.13233201205730438
+joy,sadness,-2.0,2.0,6,5,ironic amusement,0.13870035111904144
+joy,sadness,-2.0,2.0,6,6,enthusiasm / curiosity,0.2349851280450821
+joy,sadness,-2.0,2.0,7,0,self-doubt / encouragement,0.24377381801605225
+joy,sadness,-2.0,2.0,7,1,frustration / despair,0.1797969937324524
+joy,sadness,-2.0,2.0,7,2,uncertainty / indecision,0.24837887287139893
+joy,sadness,-2.0,2.0,7,3,romantic idealism,0.04621066153049469
+joy,sadness,-2.0,2.0,7,4,academic ambition / competitive determination,0.08829522132873535
+joy,sadness,-2.0,2.0,7,5,ironic amusement,0.1648683100938797
+joy,sadness,-2.0,2.0,7,6,enthusiasm / curiosity,0.1911958009004593
+joy,sadness,0.0,-2.0,0,0,self-doubt / encouragement,0.21910753846168518
+joy,sadness,0.0,-2.0,0,1,frustration / despair,0.12772433459758759
+joy,sadness,0.0,-2.0,0,2,uncertainty / indecision,0.1751219928264618
+joy,sadness,0.0,-2.0,0,3,romantic idealism,0.17284753918647766
+joy,sadness,0.0,-2.0,0,4,academic ambition / competitive determination,0.18714283406734467
+joy,sadness,0.0,-2.0,0,5,ironic amusement,0.1604740470647812
+joy,sadness,0.0,-2.0,0,6,enthusiasm / curiosity,0.21162952482700348
+joy,sadness,0.0,-2.0,1,0,self-doubt / encouragement,0.13395480811595917
+joy,sadness,0.0,-2.0,1,1,frustration / despair,0.12557266652584076
+joy,sadness,0.0,-2.0,1,2,uncertainty / indecision,0.17044955492019653
+joy,sadness,0.0,-2.0,1,3,romantic idealism,0.07622798532247543
+joy,sadness,0.0,-2.0,1,4,academic ambition / competitive determination,0.07298698276281357
+joy,sadness,0.0,-2.0,1,5,ironic amusement,0.09059520810842514
+joy,sadness,0.0,-2.0,1,6,enthusiasm / curiosity,0.1432448923587799
+joy,sadness,0.0,-2.0,2,0,self-doubt / encouragement,0.13840483129024506
+joy,sadness,0.0,-2.0,2,1,frustration / despair,0.08268659561872482
+joy,sadness,0.0,-2.0,2,2,uncertainty / indecision,0.17273148894309998
+joy,sadness,0.0,-2.0,2,3,romantic idealism,0.08000317215919495
+joy,sadness,0.0,-2.0,2,4,academic ambition / competitive determination,0.18378295004367828
+joy,sadness,0.0,-2.0,2,5,ironic amusement,0.061446163803339005
+joy,sadness,0.0,-2.0,2,6,enthusiasm / curiosity,0.14638909697532654
+joy,sadness,0.0,-2.0,3,0,self-doubt / encouragement,0.05511867254972458
+joy,sadness,0.0,-2.0,3,1,frustration / despair,0.08847526460886002
+joy,sadness,0.0,-2.0,3,2,uncertainty / indecision,0.1204390898346901
+joy,sadness,0.0,-2.0,3,3,romantic idealism,0.029474737122654915
+joy,sadness,0.0,-2.0,3,4,academic ambition / competitive determination,0.03374030068516731
+joy,sadness,0.0,-2.0,3,5,ironic amusement,0.13665291666984558
+joy,sadness,0.0,-2.0,3,6,enthusiasm / curiosity,0.12011595815420151
+joy,sadness,0.0,-2.0,4,0,self-doubt / encouragement,0.10523014515638351
+joy,sadness,0.0,-2.0,4,1,frustration / despair,0.0501016341149807
+joy,sadness,0.0,-2.0,4,2,uncertainty / indecision,0.18351143598556519
+joy,sadness,0.0,-2.0,4,3,romantic idealism,0.04917928948998451
+joy,sadness,0.0,-2.0,4,4,academic ambition / competitive determination,0.07592451572418213
+joy,sadness,0.0,-2.0,4,5,ironic amusement,0.0366157591342926
+joy,sadness,0.0,-2.0,4,6,enthusiasm / curiosity,0.10710300505161285
+joy,sadness,0.0,-2.0,5,0,self-doubt / encouragement,0.12024502456188202
+joy,sadness,0.0,-2.0,5,1,frustration / despair,0.09634792059659958
+joy,sadness,0.0,-2.0,5,2,uncertainty / indecision,0.11853007972240448
+joy,sadness,0.0,-2.0,5,3,romantic idealism,0.03657589107751846
+joy,sadness,0.0,-2.0,5,4,academic ambition / competitive determination,0.08595924079418182
+joy,sadness,0.0,-2.0,5,5,ironic amusement,0.1406036764383316
+joy,sadness,0.0,-2.0,5,6,enthusiasm / curiosity,0.19646111130714417
+joy,sadness,0.0,-2.0,6,0,self-doubt / encouragement,0.10592321306467056
+joy,sadness,0.0,-2.0,6,1,frustration / despair,0.06250938773155212
+joy,sadness,0.0,-2.0,6,2,uncertainty / indecision,0.16655130684375763
+joy,sadness,0.0,-2.0,6,3,romantic idealism,0.09418299049139023
+joy,sadness,0.0,-2.0,6,4,academic ambition / competitive determination,0.15460970997810364
+joy,sadness,0.0,-2.0,6,5,ironic amusement,0.033849529922008514
+joy,sadness,0.0,-2.0,6,6,enthusiasm / curiosity,0.22995397448539734
+joy,sadness,0.0,-2.0,7,0,self-doubt / encouragement,0.2939532399177551
+joy,sadness,0.0,-2.0,7,1,frustration / despair,0.34492677450180054
+joy,sadness,0.0,-2.0,7,2,uncertainty / indecision,0.39849424362182617
+joy,sadness,0.0,-2.0,7,3,romantic idealism,0.17476359009742737
+joy,sadness,0.0,-2.0,7,4,academic ambition / competitive determination,0.2899567782878876
+joy,sadness,0.0,-2.0,7,5,ironic amusement,0.2867128849029541
+joy,sadness,0.0,-2.0,7,6,enthusiasm / curiosity,0.3336951732635498
+joy,sadness,0.0,0.0,0,0,self-doubt / encouragement,0.2579997777938843
+joy,sadness,0.0,0.0,0,1,frustration / despair,0.1789245754480362
+joy,sadness,0.0,0.0,0,2,uncertainty / indecision,0.29390186071395874
+joy,sadness,0.0,0.0,0,3,romantic idealism,0.09816206246614456
+joy,sadness,0.0,0.0,0,4,academic ambition / competitive determination,0.1298098862171173
+joy,sadness,0.0,0.0,0,5,ironic amusement,0.1419863998889923
+joy,sadness,0.0,0.0,0,6,enthusiasm / curiosity,0.18679481744766235
+joy,sadness,0.0,0.0,1,0,self-doubt / encouragement,0.08845274150371552
+joy,sadness,0.0,0.0,1,1,frustration / despair,0.12093593180179596
+joy,sadness,0.0,0.0,1,2,uncertainty / indecision,0.1579023152589798
+joy,sadness,0.0,0.0,1,3,romantic idealism,-0.006807968486100435
+joy,sadness,0.0,0.0,1,4,academic ambition / competitive determination,0.07018128782510757
+joy,sadness,0.0,0.0,1,5,ironic amusement,0.1118372306227684
+joy,sadness,0.0,0.0,1,6,enthusiasm / curiosity,0.10050424188375473
+joy,sadness,0.0,0.0,2,0,self-doubt / encouragement,0.11809313297271729
+joy,sadness,0.0,0.0,2,1,frustration / despair,0.08123224973678589
+joy,sadness,0.0,0.0,2,2,uncertainty / indecision,0.16268309950828552
+joy,sadness,0.0,0.0,2,3,romantic idealism,0.08184073120355606
+joy,sadness,0.0,0.0,2,4,academic ambition / competitive determination,0.22492694854736328
+joy,sadness,0.0,0.0,2,5,ironic amusement,0.0756302997469902
+joy,sadness,0.0,0.0,2,6,enthusiasm / curiosity,0.16488052904605865
+joy,sadness,0.0,0.0,3,0,self-doubt / encouragement,0.05243324488401413
+joy,sadness,0.0,0.0,3,1,frustration / despair,0.09356782585382462
+joy,sadness,0.0,0.0,3,2,uncertainty / indecision,0.12729161977767944
+joy,sadness,0.0,0.0,3,3,romantic idealism,0.030825095251202583
+joy,sadness,0.0,0.0,3,4,academic ambition / competitive determination,0.0544109046459198
+joy,sadness,0.0,0.0,3,5,ironic amusement,0.11290410161018372
+joy,sadness,0.0,0.0,3,6,enthusiasm / curiosity,0.11533231288194656
+joy,sadness,0.0,0.0,4,0,self-doubt / encouragement,0.09420821070671082
+joy,sadness,0.0,0.0,4,1,frustration / despair,0.08754955232143402
+joy,sadness,0.0,0.0,4,2,uncertainty / indecision,0.1750241070985794
+joy,sadness,0.0,0.0,4,3,romantic idealism,0.0778314620256424
+joy,sadness,0.0,0.0,4,4,academic ambition / competitive determination,0.17608575522899628
+joy,sadness,0.0,0.0,4,5,ironic amusement,0.04792594164609909
+joy,sadness,0.0,0.0,4,6,enthusiasm / curiosity,0.12139500677585602
+joy,sadness,0.0,0.0,5,0,self-doubt / encouragement,0.26054656505584717
+joy,sadness,0.0,0.0,5,1,frustration / despair,0.18212664127349854
+joy,sadness,0.0,0.0,5,2,uncertainty / indecision,0.32548990845680237
+joy,sadness,0.0,0.0,5,3,romantic idealism,0.07388083636760712
+joy,sadness,0.0,0.0,5,4,academic ambition / competitive determination,0.2368214726448059
+joy,sadness,0.0,0.0,5,5,ironic amusement,0.12936455011367798
+joy,sadness,0.0,0.0,5,6,enthusiasm / curiosity,0.24971291422843933
+joy,sadness,0.0,0.0,6,0,self-doubt / encouragement,0.05740978196263313
+joy,sadness,0.0,0.0,6,1,frustration / despair,0.018406767398118973
+joy,sadness,0.0,0.0,6,2,uncertainty / indecision,0.05213114619255066
+joy,sadness,0.0,0.0,6,3,romantic idealism,-0.0029194806702435017
+joy,sadness,0.0,0.0,6,4,academic ambition / competitive determination,0.06545843183994293
+joy,sadness,0.0,0.0,6,5,ironic amusement,0.11780129373073578
+joy,sadness,0.0,0.0,6,6,enthusiasm / curiosity,0.0769282728433609
+joy,sadness,0.0,0.0,7,0,self-doubt / encouragement,0.2342257797718048
+joy,sadness,0.0,0.0,7,1,frustration / despair,0.17508135735988617
+joy,sadness,0.0,0.0,7,2,uncertainty / indecision,0.23814348876476288
+joy,sadness,0.0,0.0,7,3,romantic idealism,0.04391293227672577
+joy,sadness,0.0,0.0,7,4,academic ambition / competitive determination,0.09760971367359161
+joy,sadness,0.0,0.0,7,5,ironic amusement,0.1656855195760727
+joy,sadness,0.0,0.0,7,6,enthusiasm / curiosity,0.21326756477355957
+joy,sadness,0.0,2.0,0,0,self-doubt / encouragement,0.20574110746383667
+joy,sadness,0.0,2.0,0,1,frustration / despair,0.13150855898857117
+joy,sadness,0.0,2.0,0,2,uncertainty / indecision,0.17589536309242249
+joy,sadness,0.0,2.0,0,3,romantic idealism,0.1140536516904831
+joy,sadness,0.0,2.0,0,4,academic ambition / competitive determination,0.09963010996580124
+joy,sadness,0.0,2.0,0,5,ironic amusement,0.1658262461423874
+joy,sadness,0.0,2.0,0,6,enthusiasm / curiosity,0.16992828249931335
+joy,sadness,0.0,2.0,1,0,self-doubt / encouragement,0.14395447075366974
+joy,sadness,0.0,2.0,1,1,frustration / despair,0.16743546724319458
+joy,sadness,0.0,2.0,1,2,uncertainty / indecision,0.18715566396713257
+joy,sadness,0.0,2.0,1,3,romantic idealism,0.055248819291591644
+joy,sadness,0.0,2.0,1,4,academic ambition / competitive determination,0.16393323242664337
+joy,sadness,0.0,2.0,1,5,ironic amusement,0.13841795921325684
+joy,sadness,0.0,2.0,1,6,enthusiasm / curiosity,0.1818237006664276
+joy,sadness,0.0,2.0,2,0,self-doubt / encouragement,0.15972189605236053
+joy,sadness,0.0,2.0,2,1,frustration / despair,0.08316762745380402
+joy,sadness,0.0,2.0,2,2,uncertainty / indecision,0.12816178798675537
+joy,sadness,0.0,2.0,2,3,romantic idealism,0.15891389548778534
+joy,sadness,0.0,2.0,2,4,academic ambition / competitive determination,0.14244550466537476
+joy,sadness,0.0,2.0,2,5,ironic amusement,0.10723700374364853
+joy,sadness,0.0,2.0,2,6,enthusiasm / curiosity,0.1904628574848175
+joy,sadness,0.0,2.0,3,0,self-doubt / encouragement,0.052889883518218994
+joy,sadness,0.0,2.0,3,1,frustration / despair,0.1057828888297081
+joy,sadness,0.0,2.0,3,2,uncertainty / indecision,0.1571422666311264
+joy,sadness,0.0,2.0,3,3,romantic idealism,0.04563329741358757
+joy,sadness,0.0,2.0,3,4,academic ambition / competitive determination,0.06478719413280487
+joy,sadness,0.0,2.0,3,5,ironic amusement,0.13265523314476013
+joy,sadness,0.0,2.0,3,6,enthusiasm / curiosity,0.1373119354248047
+joy,sadness,0.0,2.0,4,0,self-doubt / encouragement,0.1351308673620224
+joy,sadness,0.0,2.0,4,1,frustration / despair,0.1290745586156845
+joy,sadness,0.0,2.0,4,2,uncertainty / indecision,0.19595862925052643
+joy,sadness,0.0,2.0,4,3,romantic idealism,0.11460842192173004
+joy,sadness,0.0,2.0,4,4,academic ambition / competitive determination,0.1792849898338318
+joy,sadness,0.0,2.0,4,5,ironic amusement,0.05390077829360962
+joy,sadness,0.0,2.0,4,6,enthusiasm / curiosity,0.1333893984556198
+joy,sadness,0.0,2.0,5,0,self-doubt / encouragement,0.24933820962905884
+joy,sadness,0.0,2.0,5,1,frustration / despair,0.21430744230747223
+joy,sadness,0.0,2.0,5,2,uncertainty / indecision,0.2926328480243683
+joy,sadness,0.0,2.0,5,3,romantic idealism,0.13794387876987457
+joy,sadness,0.0,2.0,5,4,academic ambition / competitive determination,0.18547025322914124
+joy,sadness,0.0,2.0,5,5,ironic amusement,0.18198274075984955
+joy,sadness,0.0,2.0,5,6,enthusiasm / curiosity,0.2829777002334595
+joy,sadness,0.0,2.0,6,0,self-doubt / encouragement,0.16461434960365295
+joy,sadness,0.0,2.0,6,1,frustration / despair,0.08778852224349976
+joy,sadness,0.0,2.0,6,2,uncertainty / indecision,0.17354629933834076
+joy,sadness,0.0,2.0,6,3,romantic idealism,0.06623158603906631
+joy,sadness,0.0,2.0,6,4,academic ambition / competitive determination,0.05957423523068428
+joy,sadness,0.0,2.0,6,5,ironic amusement,0.09650914371013641
+joy,sadness,0.0,2.0,6,6,enthusiasm / curiosity,0.20850883424282074
+joy,sadness,0.0,2.0,7,0,self-doubt / encouragement,0.24377381801605225
+joy,sadness,0.0,2.0,7,1,frustration / despair,0.1797969937324524
+joy,sadness,0.0,2.0,7,2,uncertainty / indecision,0.24837887287139893
+joy,sadness,0.0,2.0,7,3,romantic idealism,0.04621066153049469
+joy,sadness,0.0,2.0,7,4,academic ambition / competitive determination,0.08829522132873535
+joy,sadness,0.0,2.0,7,5,ironic amusement,0.1648683100938797
+joy,sadness,0.0,2.0,7,6,enthusiasm / curiosity,0.1911958009004593
+joy,sadness,2.0,-2.0,0,0,self-doubt / encouragement,0.20681051909923553
+joy,sadness,2.0,-2.0,0,1,frustration / despair,0.1862412542104721
+joy,sadness,2.0,-2.0,0,2,uncertainty / indecision,0.249135360121727
+joy,sadness,2.0,-2.0,0,3,romantic idealism,0.05775831639766693
+joy,sadness,2.0,-2.0,0,4,academic ambition / competitive determination,0.11653720587491989
+joy,sadness,2.0,-2.0,0,5,ironic amusement,0.11840344220399857
+joy,sadness,2.0,-2.0,0,6,enthusiasm / curiosity,0.1550193876028061
+joy,sadness,2.0,-2.0,1,0,self-doubt / encouragement,0.07288808375597
+joy,sadness,2.0,-2.0,1,1,frustration / despair,0.07803551852703094
+joy,sadness,2.0,-2.0,1,2,uncertainty / indecision,0.12858089804649353
+joy,sadness,2.0,-2.0,1,3,romantic idealism,-0.0023349467664957047
+joy,sadness,2.0,-2.0,1,4,academic ambition / competitive determination,0.08453324437141418
+joy,sadness,2.0,-2.0,1,5,ironic amusement,0.09789575636386871
+joy,sadness,2.0,-2.0,1,6,enthusiasm / curiosity,0.11526866257190704
+joy,sadness,2.0,-2.0,2,0,self-doubt / encouragement,0.13840483129024506
+joy,sadness,2.0,-2.0,2,1,frustration / despair,0.08268659561872482
+joy,sadness,2.0,-2.0,2,2,uncertainty / indecision,0.17273148894309998
+joy,sadness,2.0,-2.0,2,3,romantic idealism,0.08000317215919495
+joy,sadness,2.0,-2.0,2,4,academic ambition / competitive determination,0.18378295004367828
+joy,sadness,2.0,-2.0,2,5,ironic amusement,0.061446163803339005
+joy,sadness,2.0,-2.0,2,6,enthusiasm / curiosity,0.14638909697532654
+joy,sadness,2.0,-2.0,3,0,self-doubt / encouragement,0.042880695313215256
+joy,sadness,2.0,-2.0,3,1,frustration / despair,0.03811127319931984
+joy,sadness,2.0,-2.0,3,2,uncertainty / indecision,0.07844221591949463
+joy,sadness,2.0,-2.0,3,3,romantic idealism,0.03317754715681076
+joy,sadness,2.0,-2.0,3,4,academic ambition / competitive determination,0.015532675199210644
+joy,sadness,2.0,-2.0,3,5,ironic amusement,0.07846929877996445
+joy,sadness,2.0,-2.0,3,6,enthusiasm / curiosity,0.11179949343204498
+joy,sadness,2.0,-2.0,4,0,self-doubt / encouragement,0.10638906806707382
+joy,sadness,2.0,-2.0,4,1,frustration / despair,0.05104774981737137
+joy,sadness,2.0,-2.0,4,2,uncertainty / indecision,0.16913770139217377
+joy,sadness,2.0,-2.0,4,3,romantic idealism,0.058679915964603424
+joy,sadness,2.0,-2.0,4,4,academic ambition / competitive determination,0.08750119060277939
+joy,sadness,2.0,-2.0,4,5,ironic amusement,0.03151959180831909
+joy,sadness,2.0,-2.0,4,6,enthusiasm / curiosity,0.11354374885559082
+joy,sadness,2.0,-2.0,5,0,self-doubt / encouragement,0.12620809674263
+joy,sadness,2.0,-2.0,5,1,frustration / despair,0.11657127737998962
+joy,sadness,2.0,-2.0,5,2,uncertainty / indecision,0.1440439224243164
+joy,sadness,2.0,-2.0,5,3,romantic idealism,0.0007874956354498863
+joy,sadness,2.0,-2.0,5,4,academic ambition / competitive determination,0.12970894575119019
+joy,sadness,2.0,-2.0,5,5,ironic amusement,0.10843369364738464
+joy,sadness,2.0,-2.0,5,6,enthusiasm / curiosity,0.19374176859855652
+joy,sadness,2.0,-2.0,6,0,self-doubt / encouragement,0.11805088818073273
+joy,sadness,2.0,-2.0,6,1,frustration / despair,0.15919756889343262
+joy,sadness,2.0,-2.0,6,2,uncertainty / indecision,0.16658784449100494
+joy,sadness,2.0,-2.0,6,3,romantic idealism,-0.009121531620621681
+joy,sadness,2.0,-2.0,6,4,academic ambition / competitive determination,0.12975074350833893
+joy,sadness,2.0,-2.0,6,5,ironic amusement,0.09162399917840958
+joy,sadness,2.0,-2.0,6,6,enthusiasm / curiosity,0.19541718065738678
+joy,sadness,2.0,-2.0,7,0,self-doubt / encouragement,0.2939532399177551
+joy,sadness,2.0,-2.0,7,1,frustration / despair,0.34492677450180054
+joy,sadness,2.0,-2.0,7,2,uncertainty / indecision,0.39849424362182617
+joy,sadness,2.0,-2.0,7,3,romantic idealism,0.17476359009742737
+joy,sadness,2.0,-2.0,7,4,academic ambition / competitive determination,0.2899567782878876
+joy,sadness,2.0,-2.0,7,5,ironic amusement,0.2867128849029541
+joy,sadness,2.0,-2.0,7,6,enthusiasm / curiosity,0.3336951732635498
+joy,sadness,2.0,0.0,0,0,self-doubt / encouragement,0.21378503739833832
+joy,sadness,2.0,0.0,0,1,frustration / despair,0.19184617698192596
+joy,sadness,2.0,0.0,0,2,uncertainty / indecision,0.2423609495162964
+joy,sadness,2.0,0.0,0,3,romantic idealism,0.06062449514865875
+joy,sadness,2.0,0.0,0,4,academic ambition / competitive determination,0.1157606989145279
+joy,sadness,2.0,0.0,0,5,ironic amusement,0.1250118464231491
+joy,sadness,2.0,0.0,0,6,enthusiasm / curiosity,0.1549644023180008
+joy,sadness,2.0,0.0,1,0,self-doubt / encouragement,0.09728923439979553
+joy,sadness,2.0,0.0,1,1,frustration / despair,0.14753183722496033
+joy,sadness,2.0,0.0,1,2,uncertainty / indecision,0.20171605050563812
+joy,sadness,2.0,0.0,1,3,romantic idealism,0.03883875906467438
+joy,sadness,2.0,0.0,1,4,academic ambition / competitive determination,0.10244415700435638
+joy,sadness,2.0,0.0,1,5,ironic amusement,0.1245109885931015
+joy,sadness,2.0,0.0,1,6,enthusiasm / curiosity,0.12277855724096298
+joy,sadness,2.0,0.0,2,0,self-doubt / encouragement,0.17355890572071075
+joy,sadness,2.0,0.0,2,1,frustration / despair,0.03188755363225937
+joy,sadness,2.0,0.0,2,2,uncertainty / indecision,0.07981067895889282
+joy,sadness,2.0,0.0,2,3,romantic idealism,0.11961069703102112
+joy,sadness,2.0,0.0,2,4,academic ambition / competitive determination,0.08078934252262115
+joy,sadness,2.0,0.0,2,5,ironic amusement,0.1405269056558609
+joy,sadness,2.0,0.0,2,6,enthusiasm / curiosity,0.2852917015552521
+joy,sadness,2.0,0.0,3,0,self-doubt / encouragement,0.05590430647134781
+joy,sadness,2.0,0.0,3,1,frustration / despair,0.09127063304185867
+joy,sadness,2.0,0.0,3,2,uncertainty / indecision,0.12994952499866486
+joy,sadness,2.0,0.0,3,3,romantic idealism,0.03349827229976654
+joy,sadness,2.0,0.0,3,4,academic ambition / competitive determination,0.0610361211001873
+joy,sadness,2.0,0.0,3,5,ironic amusement,0.11829773336648941
+joy,sadness,2.0,0.0,3,6,enthusiasm / curiosity,0.11223521083593369
+joy,sadness,2.0,0.0,4,0,self-doubt / encouragement,0.13900312781333923
+joy,sadness,2.0,0.0,4,1,frustration / despair,0.12460857629776001
+joy,sadness,2.0,0.0,4,2,uncertainty / indecision,0.2138528823852539
+joy,sadness,2.0,0.0,4,3,romantic idealism,0.14402733743190765
+joy,sadness,2.0,0.0,4,4,academic ambition / competitive determination,0.1688574254512787
+joy,sadness,2.0,0.0,4,5,ironic amusement,0.08999751508235931
+joy,sadness,2.0,0.0,4,6,enthusiasm / curiosity,0.18118581175804138
+joy,sadness,2.0,0.0,5,0,self-doubt / encouragement,0.18972086906433105
+joy,sadness,2.0,0.0,5,1,frustration / despair,0.11690311878919601
+joy,sadness,2.0,0.0,5,2,uncertainty / indecision,0.233826145529747
+joy,sadness,2.0,0.0,5,3,romantic idealism,0.08585479855537415
+joy,sadness,2.0,0.0,5,4,academic ambition / competitive determination,0.15735870599746704
+joy,sadness,2.0,0.0,5,5,ironic amusement,0.13426126539707184
+joy,sadness,2.0,0.0,5,6,enthusiasm / curiosity,0.2118896245956421
+joy,sadness,2.0,0.0,6,0,self-doubt / encouragement,0.06423669308423996
+joy,sadness,2.0,0.0,6,1,frustration / despair,0.0566629022359848
+joy,sadness,2.0,0.0,6,2,uncertainty / indecision,0.1096753478050232
+joy,sadness,2.0,0.0,6,3,romantic idealism,0.06310756504535675
+joy,sadness,2.0,0.0,6,4,academic ambition / competitive determination,0.06803785264492035
+joy,sadness,2.0,0.0,6,5,ironic amusement,0.09423606842756271
+joy,sadness,2.0,0.0,6,6,enthusiasm / curiosity,0.1438835859298706
+joy,sadness,2.0,0.0,7,0,self-doubt / encouragement,0.22920849919319153
+joy,sadness,2.0,0.0,7,1,frustration / despair,0.18515625596046448
+joy,sadness,2.0,0.0,7,2,uncertainty / indecision,0.1843675971031189
+joy,sadness,2.0,0.0,7,3,romantic idealism,0.05696609616279602
+joy,sadness,2.0,0.0,7,4,academic ambition / competitive determination,0.08817785233259201
+joy,sadness,2.0,0.0,7,5,ironic amusement,0.18527035415172577
+joy,sadness,2.0,0.0,7,6,enthusiasm / curiosity,0.145801842212677
+joy,sadness,2.0,2.0,0,0,self-doubt / encouragement,0.19291231036186218
+joy,sadness,2.0,2.0,0,1,frustration / despair,0.09929542988538742
+joy,sadness,2.0,2.0,0,2,uncertainty / indecision,0.17994020879268646
+joy,sadness,2.0,2.0,0,3,romantic idealism,0.11359402537345886
+joy,sadness,2.0,2.0,0,4,academic ambition / competitive determination,0.093934066593647
+joy,sadness,2.0,2.0,0,5,ironic amusement,0.13982026278972626
+joy,sadness,2.0,2.0,0,6,enthusiasm / curiosity,0.1999727040529251
+joy,sadness,2.0,2.0,1,0,self-doubt / encouragement,0.17542564868927002
+joy,sadness,2.0,2.0,1,1,frustration / despair,0.1533704698085785
+joy,sadness,2.0,2.0,1,2,uncertainty / indecision,0.19595445692539215
+joy,sadness,2.0,2.0,1,3,romantic idealism,0.09973505884408951
+joy,sadness,2.0,2.0,1,4,academic ambition / competitive determination,0.11199105530977249
+joy,sadness,2.0,2.0,1,5,ironic amusement,0.15441951155662537
+joy,sadness,2.0,2.0,1,6,enthusiasm / curiosity,0.23344308137893677
+joy,sadness,2.0,2.0,2,0,self-doubt / encouragement,0.18751998245716095
+joy,sadness,2.0,2.0,2,1,frustration / despair,0.08135329931974411
+joy,sadness,2.0,2.0,2,2,uncertainty / indecision,0.11129643023014069
+joy,sadness,2.0,2.0,2,3,romantic idealism,0.1941169649362564
+joy,sadness,2.0,2.0,2,4,academic ambition / competitive determination,0.10134225338697433
+joy,sadness,2.0,2.0,2,5,ironic amusement,0.17090314626693726
+joy,sadness,2.0,2.0,2,6,enthusiasm / curiosity,0.26490652561187744
+joy,sadness,2.0,2.0,3,0,self-doubt / encouragement,0.04910089448094368
+joy,sadness,2.0,2.0,3,1,frustration / despair,0.08988445997238159
+joy,sadness,2.0,2.0,3,2,uncertainty / indecision,0.13143251836299896
+joy,sadness,2.0,2.0,3,3,romantic idealism,0.053860798478126526
+joy,sadness,2.0,2.0,3,4,academic ambition / competitive determination,0.054181359708309174
+joy,sadness,2.0,2.0,3,5,ironic amusement,0.092597097158432
+joy,sadness,2.0,2.0,3,6,enthusiasm / curiosity,0.10718431323766708
+joy,sadness,2.0,2.0,4,0,self-doubt / encouragement,0.1175493374466896
+joy,sadness,2.0,2.0,4,1,frustration / despair,0.0948234498500824
+joy,sadness,2.0,2.0,4,2,uncertainty / indecision,0.18496660888195038
+joy,sadness,2.0,2.0,4,3,romantic idealism,0.10289083421230316
+joy,sadness,2.0,2.0,4,4,academic ambition / competitive determination,0.1853165328502655
+joy,sadness,2.0,2.0,4,5,ironic amusement,0.0322800911962986
+joy,sadness,2.0,2.0,4,6,enthusiasm / curiosity,0.12004807591438293
+joy,sadness,2.0,2.0,5,0,self-doubt / encouragement,0.2640171945095062
+joy,sadness,2.0,2.0,5,1,frustration / despair,0.3710125982761383
+joy,sadness,2.0,2.0,5,2,uncertainty / indecision,0.3418837785720825
+joy,sadness,2.0,2.0,5,3,romantic idealism,0.12158245593309402
+joy,sadness,2.0,2.0,5,4,academic ambition / competitive determination,0.20490765571594238
+joy,sadness,2.0,2.0,5,5,ironic amusement,0.1541365087032318
+joy,sadness,2.0,2.0,5,6,enthusiasm / curiosity,0.2221262902021408
+joy,sadness,2.0,2.0,6,0,self-doubt / encouragement,0.14984767138957977
+joy,sadness,2.0,2.0,6,1,frustration / despair,0.11603851616382599
+joy,sadness,2.0,2.0,6,2,uncertainty / indecision,0.17892980575561523
+joy,sadness,2.0,2.0,6,3,romantic idealism,0.06286630034446716
+joy,sadness,2.0,2.0,6,4,academic ambition / competitive determination,0.09003907442092896
+joy,sadness,2.0,2.0,6,5,ironic amusement,0.13699153065681458
+joy,sadness,2.0,2.0,6,6,enthusiasm / curiosity,0.16743338108062744
+joy,sadness,2.0,2.0,7,0,self-doubt / encouragement,0.2864917516708374
+joy,sadness,2.0,2.0,7,1,frustration / despair,0.1903279423713684
+joy,sadness,2.0,2.0,7,2,uncertainty / indecision,0.22986555099487305
+joy,sadness,2.0,2.0,7,3,romantic idealism,0.08005379885435104
+joy,sadness,2.0,2.0,7,4,academic ambition / competitive determination,0.15239770710468292
+joy,sadness,2.0,2.0,7,5,ironic amusement,0.19448919594287872
+joy,sadness,2.0,2.0,7,6,enthusiasm / curiosity,0.1955442875623703

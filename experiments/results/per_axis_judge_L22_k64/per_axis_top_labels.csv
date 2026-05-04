@@ -1,0 +1,903 @@
+axis,alpha_unit,rank,label,count
+0,-2.0,1,curiosity,1
+0,-2.0,2,urgency,1
+0,-2.0,3,career uncertainty,1
+0,-2.0,4,desire for stability,1
+0,-2.0,5,informational guidance,1
+0,0.0,1,indecision,1
+0,0.0,2,uncertainty,1
+0,0.0,3,academic ambition,1
+0,0.0,4,none,1
+0,0.0,5,decision-making,1
+0,2.0,1,helplessness,1
+0,2.0,2,contentment,1
+0,2.0,3,culinary excitement,1
+0,2.0,4,none,1
+0,2.0,5,indecision,1
+1,-2.0,1,uncertainty,2
+1,-2.0,2,nostalgic appreciation,1
+1,-2.0,3,housing insecurity,1
+1,-2.0,4,helpfulness,1
+1,-2.0,5,dark humor,1
+1,0.0,1,confusion,1
+1,0.0,2,uncertainty,1
+1,0.0,3,self-discovery,1
+1,0.0,4,culinary excitement,1
+1,0.0,5,none,1
+1,2.0,1,curiosity,2
+1,2.0,2,playful mystery,1
+1,2.0,3,seeking companionship,1
+2,-2.0,1,intellectual curiosity,1
+2,-2.0,2,uncertainty,1
+2,-2.0,3,casual optimism,1
+2,-2.0,4,confusion,1
+2,-2.0,5,frustration,1
+2,0.0,1,indecision,1
+2,0.0,2,uncertainty,1
+2,0.0,3,academic ambition,1
+2,0.0,4,culinary excitement,1
+2,0.0,5,none,1
+2,2.0,1,self-care,1
+2,2.0,2,none,1
+2,2.0,3,practical planning,1
+2,2.0,4,mild sarcasm,1
+3,-2.0,1,uncertainty,3
+3,-2.0,2,hopefulness,1
+3,-2.0,3,contentment,1
+3,-2.0,4,curiosity,1
+3,-2.0,5,housing insecurity,1
+3,0.0,1,confusion,1
+3,0.0,2,uncertainty,1
+3,0.0,3,none,1
+3,0.0,4,decision-making,1
+3,0.0,5,thoughtfulness,1
+3,2.0,1,frustration,1
+3,2.0,2,uncertainty,1
+3,2.0,3,self-acceptance,1
+3,2.0,4,urgency,1
+3,2.0,5,excitement,1
+4,-2.0,1,frustration,1
+4,-2.0,2,neutral scheduling,1
+4,-2.0,3,academic pride,1
+4,-2.0,4,culinary excitement,1
+4,-2.0,5,practical necessity,1
+4,0.0,1,indecision,1
+4,0.0,2,uncertainty,1
+4,0.0,3,academic ambition,1
+4,0.0,4,none,1
+4,0.0,5,decision-making,1
+4,2.0,1,regret,1
+4,2.0,2,uncertainty,1
+4,2.0,3,self-acceptance,1
+4,2.0,4,contentment,1
+4,2.0,5,adventurousness,1
+5,-2.0,1,uncertainty,2
+5,-2.0,2,existential uncertainty,1
+5,-2.0,3,enthusiastic exploration,1
+5,-2.0,4,desire for comfort,1
+5,-2.0,5,humor,1
+5,0.0,1,confusion,1
+5,0.0,2,uncertainty,1
+5,0.0,3,academic ambition,1
+5,0.0,4,none,1
+5,0.0,5,decision-making,1
+5,2.0,1,anxiety,1
+5,2.0,2,regret,1
+5,2.0,3,culinary excitement,1
+5,2.0,4,contentment,1
+5,2.0,5,nostalgic reflection,1
+6,-2.0,1,curiosity,2
+6,-2.0,2,rebellious enjoyment,1
+6,-2.0,3,collaborative spirit,1
+6,-2.0,4,enthusiasm for history,1
+6,-2.0,5,cautionary advice,1
+6,0.0,1,confusion,1
+6,0.0,2,uncertainty,1
+6,0.0,3,academic ambition,1
+6,0.0,4,culinary excitement,1
+6,0.0,5,none,1
+6,2.0,1,confusion,2
+6,2.0,2,uncertainty,1
+6,2.0,3,enthusiasm for learning,1
+6,2.0,4,casual optimism,1
+6,2.0,5,shared experience,1
+7,-2.0,1,self-doubt,1
+7,-2.0,2,intellectual curiosity,1
+7,-2.0,3,anxiety,1
+7,0.0,1,confusion,1
+7,0.0,2,uncertainty,1
+7,0.0,3,none,1
+7,0.0,4,decision-making,1
+7,0.0,5,appreciation,1
+7,2.0,1,commitment,1
+7,2.0,2,practicality,1
+7,2.0,3,health concern,1
+7,2.0,4,curiosity,1
+7,2.0,5,humorous reflection,1
+8,-2.0,1,confusion,1
+8,-2.0,2,self-identity,1
+8,-2.0,3,culinary curiosity,1
+8,-2.0,4,none,1
+8,-2.0,5,euphoria,1
+8,0.0,1,confusion,1
+8,0.0,2,uncertainty,1
+8,0.0,3,culinary excitement,1
+8,0.0,4,none,1
+8,0.0,5,decision-making,1
+8,2.0,1,frustration,2
+8,2.0,2,commitment,1
+8,2.0,3,academic ambition,1
+8,2.0,4,desire for comfort,1
+9,-2.0,1,helplessness,1
+9,-2.0,2,uncertainty,1
+9,-2.0,3,intellectual curiosity,1
+9,-2.0,4,repetitive emphasis,1
+9,-2.0,5,urgency,1
+9,0.0,1,confusion,1
+9,0.0,2,uncertainty,1
+9,0.0,3,academic ambition,1
+9,0.0,4,none,1
+9,0.0,5,decision-making,1
+9,2.0,1,uncertainty,1
+9,2.0,2,contentment,1
+9,2.0,3,service-oriented,1
+9,2.0,4,financial concern,1
+9,2.0,5,cognitive engagement,1
+10,-2.0,1,determination,1
+10,-2.0,2,none,1
+10,-2.0,3,nostalgia,1
+10,-2.0,4,concern for safety,1
+10,-2.0,5,humor,1
+10,0.0,1,confusion,1
+10,0.0,2,uncertainty,1
+10,0.0,3,self-discovery,1
+10,0.0,4,culinary excitement,1
+10,0.0,5,none,1
+10,2.0,1,none,1
+10,2.0,2,self-identity,1
+10,2.0,3,culinary excitement,1
+10,2.0,4,practical concern,1
+10,2.0,5,uncertainty about food,1
+11,-2.0,1,contentment,2
+11,-2.0,2,curiosity,2
+11,-2.0,3,clarity in reasoning,1
+11,0.0,1,indecision,1
+11,0.0,2,uncertainty,1
+11,0.0,3,academic ambition,1
+11,0.0,4,none,1
+11,0.0,5,decision-making,1
+11,2.0,1,uncertainty,1
+11,2.0,2,nostalgia,1
+11,2.0,3,contentment,1
+11,2.0,4,helpfulness,1
+11,2.0,5,frustration,1
+12,-2.0,1,curiosity,2
+12,-2.0,2,regret,1
+12,-2.0,3,repetitive affirmation,1
+12,-2.0,4,enthusiasm,1
+12,-2.0,5,food aversion,1
+12,0.0,1,indecision,1
+12,0.0,2,uncertainty,1
+12,0.0,3,academic ambition,1
+12,0.0,4,none,1
+12,0.0,5,decision-making,1
+12,2.0,1,determination,1
+12,2.0,2,impatience,1
+12,2.0,3,enthusiasm for history,1
+12,2.0,4,desire for independence,1
+12,2.0,5,confusion,1
+13,-2.0,1,stress,1
+13,-2.0,2,enthusiasm for food,1
+13,-2.0,3,urgency,1
+13,0.0,1,indecision,1
+13,0.0,2,uncertainty,1
+13,0.0,3,academic ambition,1
+13,0.0,4,none,1
+13,0.0,5,decision-making,1
+13,2.0,1,frustration,2
+13,2.0,2,indifference,1
+13,2.0,3,enthusiasm for history,1
+13,2.0,4,financial constraint,1
+13,2.0,5,confusion,1
+14,-2.0,1,frustration,1
+14,-2.0,2,longing,1
+14,-2.0,3,self-acceptance,1
+14,-2.0,4,desire for comfort,1
+14,-2.0,5,mild astonishment,1
+14,0.0,1,indecision,1
+14,0.0,2,uncertainty,1
+14,0.0,3,academic ambition,1
+14,0.0,4,none,1
+14,0.0,5,decision-making,1
+14,2.0,1,determination,1
+14,2.0,2,passion for teaching,1
+14,2.0,3,culinary excitement,1
+14,2.0,4,practicality,1
+14,2.0,5,food aversion,1
+15,-2.0,1,determination,1
+15,-2.0,2,contentment,1
+15,-2.0,3,enthusiasm,1
+15,-2.0,4,frustration,1
+15,-2.0,5,uncertainty,1
+15,0.0,1,indecision,1
+15,0.0,2,uncertainty,1
+15,0.0,3,academic ambition,1
+15,0.0,4,culinary excitement,1
+15,0.0,5,none,1
+15,2.0,1,indecision,1
+15,2.0,2,scheduling,1
+15,2.0,3,dissatisfaction,1
+15,2.0,4,contentment,1
+15,2.0,5,contextual confusion,1
+16,-2.0,1,skepticism,1
+16,-2.0,2,uncertainty,1
+16,-2.0,3,urgency,1
+16,-2.0,4,parental concern,1
+16,0.0,1,indecision,1
+16,0.0,2,uncertainty,1
+16,0.0,3,academic ambition,1
+16,0.0,4,none,1
+16,0.0,5,decision-making,1
+16,2.0,1,uncertainty,2
+16,2.0,2,frustration,1
+16,2.0,3,personal growth,1
+16,2.0,4,financial frustration,1
+17,-2.0,1,confusion,1
+17,-2.0,2,uncertainty,1
+17,-2.0,3,enthusiasm,1
+17,-2.0,4,curiosity,1
+17,-2.0,5,practicality,1
+17,0.0,1,indecision,1
+17,0.0,2,uncertainty,1
+17,0.0,3,academic ambition,1
+17,0.0,4,none,1
+17,0.0,5,decision-making,1
+17,2.0,1,frustration,1
+17,2.0,2,career aspiration,1
+17,2.0,3,financial stress,1
+17,2.0,4,mild embarrassment,1
+18,-2.0,1,determination,1
+18,-2.0,2,repetitive affirmation,1
+18,-2.0,3,enthusiasm,1
+18,-2.0,4,desire for accommodation,1
+18,0.0,1,confusion,1
+18,0.0,2,uncertainty,1
+18,0.0,3,academic ambition,1
+18,0.0,4,none,1
+18,0.0,5,decision-making,1
+18,2.0,1,uncertainty,1
+18,2.0,2,cultural identity,1
+18,2.0,3,safety awareness,1
+19,-2.0,1,self-doubt,1
+19,-2.0,2,uncertainty,1
+19,-2.0,3,desire for stability,1
+19,-2.0,4,disagreement,1
+19,-2.0,5,consumer confidence,1
+19,0.0,1,indecision,1
+19,0.0,2,uncertainty,1
+19,0.0,3,academic ambition,1
+19,0.0,4,culinary excitement,1
+19,0.0,5,none,1
+19,2.0,1,confusion,1
+19,2.0,2,intellectual curiosity,1
+19,2.0,3,seeking stability,1
+19,2.0,4,relationship tension,1
+20,-2.0,1,frustration,1
+20,-2.0,2,uncertainty,1
+20,-2.0,3,self-discovery,1
+20,0.0,1,indecision,1
+20,0.0,2,uncertainty,1
+20,0.0,3,self-discovery,1
+20,0.0,4,culinary excitement,1
+20,0.0,5,none,1
+20,2.0,1,repetitive desire,2
+20,2.0,2,desire for connection,1
+20,2.0,3,desire for comfort,1
+20,2.0,4,humor,1
+21,-2.0,1,confusion,2
+21,-2.0,2,uncertainty,1
+21,-2.0,3,enthusiasm for adventure,1
+21,-2.0,4,culinary appreciation,1
+21,-2.0,5,hopefulness,1
+21,0.0,1,indecision,1
+21,0.0,2,uncertainty,1
+21,0.0,3,academic ambition,1
+21,0.0,4,culinary excitement,1
+21,0.0,5,none,1
+21,2.0,1,motivation,1
+21,2.0,2,accommodating willingness,1
+21,2.0,3,enthusiasm for food,1
+21,2.0,4,desire for comfort,1
+21,2.0,5,curiosity,1
+22,-2.0,1,confusion,1
+22,-2.0,2,repetitive inquiry,1
+22,-2.0,3,sociability,1
+22,-2.0,4,curiosity,1
+22,-2.0,5,anxiety,1
+22,0.0,1,indecision,1
+22,0.0,2,uncertainty,1
+22,0.0,3,none,1
+22,0.0,4,decision-making,1
+22,0.0,5,thoughtfulness,1
+22,2.0,1,unrequited affection,1
+22,2.0,2,uncertainty,1
+22,2.0,3,enthusiasm for history,1
+22,2.0,4,culinary curiosity,1
+22,2.0,5,housing insecurity,1
+23,-2.0,1,frustration,1
+23,-2.0,2,enthusiasm for learning,1
+23,-2.0,3,financial concern,1
+23,-2.0,4,none,1
+23,-2.0,5,humor,1
+23,0.0,1,indecision,1
+23,0.0,2,uncertainty,1
+23,0.0,3,academic ambition,1
+23,0.0,4,decision-making,1
+23,0.0,5,thoughtfulness,1
+23,2.0,1,indecision,1
+23,2.0,2,apprehension,1
+23,2.0,3,social isolation,1
+23,2.0,4,logical reasoning,1
+23,2.0,5,parental concern,1
+24,-2.0,1,confusion,2
+24,-2.0,2,uncertainty,1
+24,-2.0,3,self-discovery,1
+24,-2.0,4,culinary curiosity,1
+24,-2.0,5,transitioning life stage,1
+24,0.0,1,indecision,1
+24,0.0,2,uncertainty,1
+24,0.0,3,culinary excitement,1
+24,0.0,4,none,1
+24,0.0,5,decision-making,1
+24,2.0,1,overwhelmed,1
+24,2.0,2,casualness,1
+24,2.0,3,cultural appreciation,1
+24,2.0,4,frustration,1
+24,2.0,5,safety awareness,1
+25,-2.0,1,self-reflection,1
+25,-2.0,2,personal growth,1
+25,-2.0,3,contentment,1
+25,-2.0,4,dietary concern,1
+25,-2.0,5,fatigue,1
+25,0.0,1,indecision,1
+25,0.0,2,uncertainty,1
+25,0.0,3,culinary excitement,1
+25,0.0,4,none,1
+25,0.0,5,decision-making,1
+25,2.0,1,excitement,1
+25,2.0,2,social engagement,1
+25,2.0,3,nostalgic reflection,1
+25,2.0,4,financial concern,1
+25,2.0,5,practical advice,1
+26,-2.0,1,curiosity,2
+26,-2.0,2,frustration,1
+26,-2.0,3,uncertainty,1
+26,-2.0,4,nostalgia,1
+26,-2.0,5,desperation,1
+26,0.0,1,indecision,1
+26,0.0,2,uncertainty,1
+26,0.0,3,academic ambition,1
+26,0.0,4,decision-making,1
+26,0.0,5,thoughtfulness,1
+26,2.0,1,determination,1
+26,2.0,2,none,1
+26,2.0,3,culinary excitement,1
+26,2.0,4,urgency,1
+26,2.0,5,excitement,1
+27,-2.0,1,indecision,1
+27,-2.0,2,uncertainty,1
+27,-2.0,3,self-identity,1
+27,-2.0,4,culinary excitement,1
+27,-2.0,5,none,1
+27,0.0,1,indecision,1
+27,0.0,2,uncertainty,1
+27,0.0,3,self-discovery,1
+27,0.0,4,culinary excitement,1
+27,0.0,5,none,1
+27,2.0,1,self-doubt,1
+27,2.0,2,academic ambition,1
+27,2.0,3,urgency,1
+27,2.0,4,humor,1
+28,-2.0,1,frustration,1
+28,-2.0,2,social isolation,1
+28,-2.0,3,curiosity,1
+28,-2.0,4,desire for convenience,1
+28,0.0,1,confusion,1
+28,0.0,2,uncertainty,1
+28,0.0,3,none,1
+28,0.0,4,decision-making,1
+28,0.0,5,appreciation,1
+28,2.0,1,frustration,2
+28,2.0,2,culinary excitement,1
+28,2.0,3,desire for change,1
+28,2.0,4,uncertainty,1
+29,-2.0,1,confusion,1
+29,-2.0,2,urgency,1
+29,0.0,1,confusion,1
+29,0.0,2,uncertainty,1
+29,0.0,3,academic ambition,1
+29,0.0,4,none,1
+29,0.0,5,appreciation,1
+29,2.0,1,indecision,1
+29,2.0,2,apprehension,1
+29,2.0,3,self-identity,1
+29,2.0,4,none,1
+29,2.0,5,humor,1
+30,-2.0,1,repetitive behavior,1
+30,-2.0,2,uncertainty,1
+30,-2.0,3,curiosity,1
+30,-2.0,4,urgency,1
+30,-2.0,5,personal freedom,1
+30,0.0,1,confusion,1
+30,0.0,2,uncertainty,1
+30,0.0,3,self-discovery,1
+30,0.0,4,culinary excitement,1
+30,0.0,5,decision-making,1
+30,2.0,1,self-doubt,1
+30,2.0,2,time management,1
+30,2.0,3,self-identification,1
+30,2.0,4,financial concern,1
+30,2.0,5,concern for safety,1
+31,-2.0,1,uncertainty,2
+31,-2.0,2,confusion,1
+31,-2.0,3,enthusiasm,1
+31,-2.0,4,financial commitment,1
+31,-2.0,5,personal accountability,1
+31,0.0,1,indecision,1
+31,0.0,2,uncertainty,1
+31,0.0,3,academic ambition,1
+31,0.0,4,none,1
+31,0.0,5,decision-making,1
+31,2.0,1,frustration,1
+31,2.0,2,self-identity,1
+31,2.0,3,financial concern,1
+32,-2.0,1,anxiety about preparation,1
+32,-2.0,2,contentment,1
+32,-2.0,3,culinary excitement,1
+32,-2.0,4,hopeful searching,1
+32,-2.0,5,confusion,1
+32,0.0,1,indecision,1
+32,0.0,2,uncertainty,1
+32,0.0,3,academic ambition,1
+32,0.0,4,none,1
+32,0.0,5,decision-making,1
+32,2.0,1,enthusiasm,1
+32,2.0,2,affectionate connection,1
+32,2.0,3,contentment,1
+32,2.0,4,self-awareness,1
+33,-2.0,1,repetitive reassurance,1
+33,-2.0,2,desire for comfort,1
+33,-2.0,3,humor,1
+33,0.0,1,indecision,1
+33,0.0,2,uncertainty,1
+33,0.0,3,academic ambition,1
+33,0.0,4,culinary excitement,1
+33,0.0,5,none,1
+33,2.0,1,self-doubt,1
+33,2.0,2,uncertainty,1
+33,2.0,3,curiosity,1
+33,2.0,4,desire for stability,1
+33,2.0,5,indecision,1
+34,-2.0,1,confusion,1
+34,-2.0,2,intellectual curiosity,1
+34,-2.0,3,frustration,1
+34,-2.0,4,curiosity,1
+34,0.0,1,indecision,1
+34,0.0,2,uncertainty,1
+34,0.0,3,self-discovery,1
+34,0.0,4,culinary excitement,1
+34,0.0,5,none,1
+34,2.0,1,frustration,1
+34,2.0,2,indecision,1
+34,2.0,3,nostalgia,1
+34,2.0,4,contentment,1
+34,2.0,5,casual reassurance,1
+35,-2.0,1,indecision,1
+35,-2.0,2,uncertainty,1
+35,-2.0,3,enthusiasm,1
+35,-2.0,4,culinary excitement,1
+35,-2.0,5,financial stress,1
+35,0.0,1,indecision,1
+35,0.0,2,uncertainty,1
+35,0.0,3,academic ambition,1
+35,0.0,4,culinary excitement,1
+35,0.0,5,decision-making,1
+35,2.0,1,curiosity,2
+35,2.0,2,apology,1
+35,2.0,3,uncertainty,1
+35,2.0,4,self-discovery,1
+35,2.0,5,desire for stability,1
+36,-2.0,1,contentment,1
+36,-2.0,2,mild concern,1
+36,-2.0,3,self-identity,1
+36,-2.0,4,practical concern,1
+36,0.0,1,indecision,1
+36,0.0,2,uncertainty,1
+36,0.0,3,academic ambition,1
+36,0.0,4,culinary excitement,1
+36,0.0,5,decision-making,1
+36,2.0,1,paranoid uncertainty,1
+36,2.0,2,individualism,1
+36,2.0,3,concern for safety,1
+37,-2.0,1,confusion,1
+37,-2.0,2,contentment,1
+37,-2.0,3,none,1
+37,-2.0,4,curiosity,1
+37,-2.0,5,safety awareness,1
+37,0.0,1,confusion,1
+37,0.0,2,uncertainty,1
+37,0.0,3,academic ambition,1
+37,0.0,4,culinary excitement,1
+37,0.0,5,none,1
+37,2.0,1,self-doubt,1
+37,2.0,2,curiosity,1
+37,2.0,3,financial concern,1
+37,2.0,4,confusion,1
+37,2.0,5,appreciation,1
+38,-2.0,1,frustration,1
+38,-2.0,2,self-doubt,1
+38,-2.0,3,self-reflection,1
+38,-2.0,4,culinary curiosity,1
+38,-2.0,5,uncertainty,1
+38,0.0,1,indecision,1
+38,0.0,2,uncertainty,1
+38,0.0,3,academic ambition,1
+38,0.0,4,culinary excitement,1
+38,0.0,5,decision-making,1
+38,2.0,1,paranoid hypervigilance,1
+38,2.0,2,contentment,1
+38,2.0,3,hopefulness,1
+38,2.0,4,indecision,1
+38,2.0,5,isolation,1
+39,-2.0,1,frustration,1
+39,-2.0,2,impatience,1
+39,-2.0,3,caution,1
+39,0.0,1,confusion,1
+39,0.0,2,uncertainty,1
+39,0.0,3,self-discovery,1
+39,0.0,4,culinary excitement,1
+39,0.0,5,none,1
+39,2.0,1,uncertainty,2
+39,2.0,2,indecision,1
+39,2.0,3,intellectual curiosity,1
+39,2.0,4,urgency,1
+39,2.0,5,fatigue,1
+40,-2.0,1,eagerness,1
+40,-2.0,2,enthusiasm for history,1
+40,-2.0,3,desire for stability,1
+40,-2.0,4,frustration,1
+40,-2.0,5,fatigue,1
+40,0.0,1,indecision,1
+40,0.0,2,uncertainty,1
+40,0.0,3,self-discovery,1
+40,0.0,4,culinary excitement,1
+40,0.0,5,none,1
+40,2.0,1,inner conflict,1
+40,2.0,2,social connection,1
+40,2.0,3,self-identity,1
+40,2.0,4,none,1
+40,2.0,5,curiosity,1
+41,-2.0,1,confusion,1
+41,-2.0,2,eagerness,1
+41,-2.0,3,shyness,1
+41,-2.0,4,housing anxiety,1
+41,-2.0,5,motivation,1
+41,0.0,1,indecision,1
+41,0.0,2,uncertainty,1
+41,0.0,3,self-discovery,1
+41,0.0,4,culinary excitement,1
+41,0.0,5,none,1
+41,2.0,1,indecision,1
+41,2.0,2,enthusiasm,1
+41,2.0,3,casual confidence,1
+41,2.0,4,confusion,1
+41,2.0,5,curiosity,1
+42,-2.0,1,uncertainty,2
+42,-2.0,2,indecision,1
+42,-2.0,3,urgency,1
+42,-2.0,4,ironic amusement,1
+42,0.0,1,confusion,1
+42,0.0,2,uncertainty,1
+42,0.0,3,academic ambition,1
+42,0.0,4,culinary excitement,1
+42,0.0,5,none,1
+42,2.0,1,frustration,1
+42,2.0,2,willingness to help,1
+42,2.0,3,cultural identity,1
+42,2.0,4,culinary appreciation,1
+42,2.0,5,hopefulness,1
+43,-2.0,1,confusion,2
+43,-2.0,2,dependence,1
+43,-2.0,3,planning,1
+43,-2.0,4,self-discovery,1
+43,-2.0,5,uncertainty,1
+43,0.0,1,indecision,1
+43,0.0,2,uncertainty,1
+43,0.0,3,academic ambition,1
+43,0.0,4,culinary excitement,1
+43,0.0,5,none,1
+43,2.0,1,cynicism,1
+43,2.0,2,conflicted feelings,1
+43,2.0,3,contentment,1
+43,2.0,4,market unpredictability,1
+43,2.0,5,gratitude,1
+44,-2.0,1,confusion,1
+44,-2.0,2,uncertainty,1
+44,-2.0,3,anxiety,1
+44,-2.0,4,none,1
+44,-2.0,5,practical concern,1
+44,0.0,1,confusion,1
+44,0.0,2,uncertainty,1
+44,0.0,3,self-discovery,1
+44,0.0,4,culinary excitement,1
+44,0.0,5,none,1
+44,2.0,1,uncertainty,1
+44,2.0,2,academic ambition,1
+44,2.0,3,desire for convenience,1
+44,2.0,4,humor,1
+45,-2.0,1,hunger,1
+45,-2.0,2,social isolation,1
+45,-2.0,3,confusion,1
+45,-2.0,4,curiosity,1
+45,0.0,1,indecision,1
+45,0.0,2,uncertainty,1
+45,0.0,3,academic ambition,1
+45,0.0,4,culinary excitement,1
+45,0.0,5,none,1
+45,2.0,1,determination,1
+45,2.0,2,uncertainty,1
+45,2.0,3,enthusiasm,1
+45,2.0,4,desire for stability,1
+45,2.0,5,vigilance,1
+46,-2.0,1,apprehension,1
+46,-2.0,2,self-identity,1
+46,-2.0,3,culinary excitement,1
+46,-2.0,4,financial concern,1
+46,-2.0,5,indecision,1
+46,0.0,1,confusion,1
+46,0.0,2,uncertainty,1
+46,0.0,3,culinary excitement,1
+46,0.0,4,decision-making,1
+46,0.0,5,thoughtfulness,1
+46,2.0,1,fatigue,1
+46,2.0,2,hospitality,1
+46,2.0,3,cultural adaptation,1
+46,2.0,4,uncertainty,1
+46,2.0,5,concern for others,1
+47,-2.0,1,eagerness,1
+47,-2.0,2,intellectual curiosity,1
+47,-2.0,3,culinary curiosity,1
+47,-2.0,4,desire for comfort,1
+47,-2.0,5,curiosity,1
+47,0.0,1,confusion,1
+47,0.0,2,uncertainty,1
+47,0.0,3,academic ambition,1
+47,0.0,4,culinary excitement,1
+47,0.0,5,none,1
+47,2.0,1,frustration,2
+47,2.0,2,indecision,1
+47,2.0,3,enthusiasm,1
+47,2.0,4,humorous observation,1
+48,-2.0,1,confusion,1
+48,-2.0,2,urgency,1
+48,-2.0,3,enthusiasm,1
+48,-2.0,4,practicality,1
+48,-2.0,5,uncertainty,1
+48,0.0,1,confusion,1
+48,0.0,2,uncertainty,1
+48,0.0,3,academic ambition,1
+48,0.0,4,culinary excitement,1
+48,0.0,5,none,1
+48,2.0,1,determination,1
+48,2.0,2,planning,1
+48,2.0,3,enthusiasm,1
+48,2.0,4,culinary curiosity,1
+48,2.0,5,student anxiety,1
+49,-2.0,1,uncertainty,2
+49,-2.0,2,enthusiasm,1
+49,-2.0,3,disappointment,1
+49,-2.0,4,desire for belonging,1
+49,-2.0,5,indecision,1
+49,0.0,1,indecision,1
+49,0.0,2,uncertainty,1
+49,0.0,3,academic ambition,1
+49,0.0,4,culinary excitement,1
+49,0.0,5,decision-making,1
+49,2.0,1,academic ambition,1
+49,2.0,2,relationship advice,1
+50,-2.0,1,uncertainty,2
+50,-2.0,2,intellectual curiosity,2
+50,-2.0,3,confusion,1
+50,-2.0,4,self-sufficiency,1
+50,-2.0,5,boredom,1
+50,0.0,1,confusion,1
+50,0.0,2,uncertainty,1
+50,0.0,3,academic ambition,1
+50,0.0,4,none,1
+50,0.0,5,decision-making,1
+50,2.0,1,enthusiasm,1
+50,2.0,2,urgency,1
+50,2.0,3,confusion,1
+50,2.0,4,indifference,1
+51,-2.0,1,frustration,2
+51,-2.0,2,affectionate longing,1
+51,-2.0,3,intellectual curiosity,1
+51,-2.0,4,reflective contemplation,1
+51,0.0,1,confusion,1
+51,0.0,2,uncertainty,1
+51,0.0,3,self-discovery,1
+51,0.0,4,appreciation,1
+51,2.0,1,uncertainty,2
+51,2.0,2,desire for connection,1
+51,2.0,3,self-doubt,1
+51,2.0,4,indecision,1
+51,2.0,5,desperation,1
+52,-2.0,1,encouragement,1
+52,-2.0,2,cultural adjustment,1
+52,-2.0,3,urgency,1
+52,-2.0,4,decision-making,1
+52,-2.0,5,safety awareness,1
+52,0.0,1,confusion,1
+52,0.0,2,uncertainty,1
+52,0.0,3,academic ambition,1
+52,0.0,4,decision-making,1
+52,0.0,5,thoughtfulness,1
+52,2.0,1,confusion,1
+52,2.0,2,uncertainty,1
+52,2.0,3,self-expression,1
+52,2.0,4,casual optimism,1
+52,2.0,5,mild astonishment,1
+53,-2.0,1,self-doubt,1
+53,-2.0,2,uncertainty,1
+53,-2.0,3,enthusiasm for sports,1
+53,-2.0,4,desire for stability,1
+53,-2.0,5,fatigue,1
+53,0.0,1,indecision,1
+53,0.0,2,uncertainty,1
+53,0.0,3,academic ambition,1
+53,0.0,4,culinary excitement,1
+53,0.0,5,decision-making,1
+53,2.0,1,frustration,1
+53,2.0,2,political identity,1
+53,2.0,3,urgency,1
+53,2.0,4,playful sarcasm,1
+53,2.0,5,irony,1
+54,-2.0,1,uncertainty,2
+54,-2.0,2,desire for security,1
+54,-2.0,3,curiosity,1
+54,0.0,1,indecision,1
+54,0.0,2,uncertainty,1
+54,0.0,3,academic ambition,1
+54,0.0,4,culinary excitement,1
+54,0.0,5,decision-making,1
+54,2.0,1,frustration,1
+54,2.0,2,enthusiasm,1
+54,2.0,3,financial concern,1
+54,2.0,4,hunger,1
+54,2.0,5,uncertainty,1
+55,-2.0,1,self-doubt,1
+55,-2.0,2,uncertainty,1
+55,-2.0,3,self-identity,1
+55,-2.0,4,contentment,1
+55,-2.0,5,curiosity,1
+55,0.0,1,confusion,1
+55,0.0,2,uncertainty,1
+55,0.0,3,academic ambition,1
+55,0.0,4,none,1
+55,0.0,5,decision-making,1
+55,2.0,1,curiosity,2
+55,2.0,2,anxiety about change,1
+55,2.0,3,career aspiration,1
+55,2.0,4,frustration,1
+55,2.0,5,preparation anxiety,1
+56,-2.0,1,confusion,1
+56,-2.0,2,uncertainty,1
+56,-2.0,3,urgency,1
+56,0.0,1,indecision,1
+56,0.0,2,uncertainty,1
+56,0.0,3,academic ambition,1
+56,0.0,4,none,1
+56,0.0,5,decision-making,1
+56,2.0,1,determination,1
+56,2.0,2,contentment,1
+56,2.0,3,curiosity,1
+57,-2.0,1,generosity,1
+57,-2.0,2,intellectual curiosity,1
+57,-2.0,3,financial concern,1
+57,-2.0,4,health concern,1
+57,-2.0,5,nervous urgency,1
+57,0.0,1,confusion,1
+57,0.0,2,uncertainty,1
+57,0.0,3,academic ambition,1
+57,0.0,4,culinary excitement,1
+57,0.0,5,none,1
+57,2.0,1,uncertainty,1
+57,2.0,2,romantic longing,1
+57,2.0,3,desire for stability,1
+57,2.0,4,curiosity,1
+58,-2.0,1,relaxed acceptance,1
+58,-2.0,2,enthusiasm,1
+58,-2.0,3,casual contentment,1
+58,-2.0,4,evaluative reasoning,1
+58,-2.0,5,disappointment,1
+58,0.0,1,confusion,1
+58,0.0,2,uncertainty,1
+58,0.0,3,academic ambition,1
+58,0.0,4,culinary excitement,1
+58,0.0,5,none,1
+58,2.0,1,existential uncertainty,1
+58,2.0,2,uncertainty,1
+58,2.0,3,cultural adjustment,1
+58,2.0,4,concern for pet,1
+58,2.0,5,confusion,1
+59,-2.0,1,confusion,1
+59,-2.0,2,nostalgic admiration,1
+59,-2.0,3,hopefulness,1
+59,-2.0,4,resignation,1
+59,-2.0,5,contentment,1
+59,0.0,1,confusion,1
+59,0.0,2,uncertainty,1
+59,0.0,3,academic ambition,1
+59,0.0,4,none,1
+59,0.0,5,decision-making,1
+59,2.0,1,determination,1
+59,2.0,2,excitement,1
+59,2.0,3,career aspiration,1
+59,2.0,4,none,1
+59,2.0,5,heightened alertness,1
+60,-2.0,1,disappointment,1
+60,-2.0,2,career uncertainty,1
+60,-2.0,3,none,1
+60,-2.0,4,financial stress,1
+60,-2.0,5,caution,1
+60,0.0,1,confusion,1
+60,0.0,2,uncertainty,1
+60,0.0,3,academic ambition,1
+60,0.0,4,none,1
+60,0.0,5,decision-making,1
+60,2.0,1,confusion,1
+60,2.0,2,uncertainty,1
+60,2.0,3,intellectual curiosity,1
+60,2.0,4,culinary curiosity,1
+60,2.0,5,financial concern,1
+61,-2.0,1,excitement,1
+61,-2.0,2,curiosity,1
+61,-2.0,3,camaraderie,1
+61,-2.0,4,desire for comfort,1
+61,-2.0,5,uncertainty,1
+61,0.0,1,confusion,1
+61,0.0,2,uncertainty,1
+61,0.0,3,academic ambition,1
+61,0.0,4,none,1
+61,0.0,5,decision-making,1
+61,2.0,1,identity crisis,1
+61,2.0,2,urgency,1
+61,2.0,3,safety awareness,1
+62,-2.0,1,frustration,1
+62,-2.0,2,social connection,1
+62,-2.0,3,wanderlust,1
+62,-2.0,4,urgency,1
+62,-2.0,5,playful banter,1
+62,0.0,1,confusion,1
+62,0.0,2,uncertainty,1
+62,0.0,3,academic ambition,1
+62,0.0,4,culinary excitement,1
+62,0.0,5,none,1
+62,2.0,1,self-doubt,1
+62,2.0,2,time management,1
+62,2.0,3,housing insecurity,1
+62,2.0,4,helpfulness,1
+62,2.0,5,humor,1
+63,-2.0,1,disappointment,1
+63,-2.0,2,cultural exploration,1
+63,-2.0,3,urgency,1
+63,0.0,1,indecision,1
+63,0.0,2,uncertainty,1
+63,0.0,3,academic ambition,1
+63,0.0,4,none,1
+63,0.0,5,decision-making,1
+63,2.0,1,confusion,1
+63,2.0,2,uncertainty,1
+63,2.0,3,academic enthusiasm,1
+63,2.0,4,none,1
+63,2.0,5,desire for stability,1

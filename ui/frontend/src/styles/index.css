@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: theme("colors.booth.ink");
+  background: radial-gradient(
+      1200px 600px at 10% -10%,
+      rgba(124, 92, 255, 0.08),
+      transparent 60%
+    ),
+    radial-gradient(
+      900px 500px at 110% 10%,
+      rgba(34, 211, 238, 0.06),
+      transparent 60%
+    ),
+    theme("colors.booth.bg");
+}
+
+/* DJ-booth-style range track */
+input[type="range"].dj {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 9999px;
+  background: linear-gradient(
+    90deg,
+    theme("colors.booth.cool"),
+    theme("colors.booth.accent"),
+    theme("colors.booth.warm")
+  );
+  outline: none;
+}
+
+input[type="range"].dj::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background: theme("colors.booth.ink");
+  border: 2px solid theme("colors.booth.panel");
+  box-shadow: 0 0 0 1px theme("colors.booth.edge"),
+    0 4px 10px rgba(0, 0, 0, 0.4);
+  cursor: grab;
+}
+
+input[type="range"].dj::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background: theme("colors.booth.ink");
+  border: 2px solid theme("colors.booth.panel");
+  cursor: grab;
+}
+
+/* Vertical sliders for the basis mixer */
+input[type="range"].dj-vert {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 80px;
+  height: 8px;
+  transform: rotate(-90deg);
+  background: theme("colors.booth.edge");
+  border-radius: 9999px;
+}
+
+input[type="range"].dj-vert::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background: theme("colors.booth.accent");
+  cursor: grab;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: theme("colors.booth.edge");
+  border-radius: 4px;
+}

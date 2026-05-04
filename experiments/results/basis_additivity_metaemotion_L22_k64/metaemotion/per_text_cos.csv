@@ -1,0 +1,2521 @@
+cat_a,cat_b,alpha,beta,prompt_id,cluster_id,cluster_name,cos
+b1,b11,-2.0,-2.0,0,0,self-doubt / encouragement,0.2541624903678894
+b1,b11,-2.0,-2.0,0,1,frustration / despair,0.14027322828769684
+b1,b11,-2.0,-2.0,0,2,uncertainty / indecision,0.18803171813488007
+b1,b11,-2.0,-2.0,0,3,romantic idealism,0.19714879989624023
+b1,b11,-2.0,-2.0,0,4,academic ambition / competitive determination,0.0969182550907135
+b1,b11,-2.0,-2.0,0,5,ironic amusement,0.17211806774139404
+b1,b11,-2.0,-2.0,0,6,enthusiasm / curiosity,0.17145948112010956
+b1,b11,-2.0,-2.0,1,0,self-doubt / encouragement,0.07133655250072479
+b1,b11,-2.0,-2.0,1,1,frustration / despair,0.11366166174411774
+b1,b11,-2.0,-2.0,1,2,uncertainty / indecision,0.1384688913822174
+b1,b11,-2.0,-2.0,1,3,romantic idealism,0.0023605867754667997
+b1,b11,-2.0,-2.0,1,4,academic ambition / competitive determination,0.03800182789564133
+b1,b11,-2.0,-2.0,1,5,ironic amusement,0.05659253150224686
+b1,b11,-2.0,-2.0,1,6,enthusiasm / curiosity,0.08321614563465118
+b1,b11,-2.0,-2.0,2,0,self-doubt / encouragement,0.2560352087020874
+b1,b11,-2.0,-2.0,2,1,frustration / despair,0.11325839906930923
+b1,b11,-2.0,-2.0,2,2,uncertainty / indecision,0.1770266592502594
+b1,b11,-2.0,-2.0,2,3,romantic idealism,0.19367282092571259
+b1,b11,-2.0,-2.0,2,4,academic ambition / competitive determination,0.1087871864438057
+b1,b11,-2.0,-2.0,2,5,ironic amusement,0.14362549781799316
+b1,b11,-2.0,-2.0,2,6,enthusiasm / curiosity,0.250885546207428
+b1,b11,-2.0,-2.0,3,0,self-doubt / encouragement,0.064234159886837
+b1,b11,-2.0,-2.0,3,1,frustration / despair,0.1372937262058258
+b1,b11,-2.0,-2.0,3,2,uncertainty / indecision,0.16352365911006927
+b1,b11,-2.0,-2.0,3,3,romantic idealism,0.0481451079249382
+b1,b11,-2.0,-2.0,3,4,academic ambition / competitive determination,0.06987033039331436
+b1,b11,-2.0,-2.0,3,5,ironic amusement,0.14422214031219482
+b1,b11,-2.0,-2.0,3,6,enthusiasm / curiosity,0.12672698497772217
+b1,b11,-2.0,-2.0,4,0,self-doubt / encouragement,0.04579814150929451
+b1,b11,-2.0,-2.0,4,1,frustration / despair,0.030413474887609482
+b1,b11,-2.0,-2.0,4,2,uncertainty / indecision,0.14635887742042542
+b1,b11,-2.0,-2.0,4,3,romantic idealism,0.023250095546245575
+b1,b11,-2.0,-2.0,4,4,academic ambition / competitive determination,0.08106183260679245
+b1,b11,-2.0,-2.0,4,5,ironic amusement,0.05071616172790527
+b1,b11,-2.0,-2.0,4,6,enthusiasm / curiosity,0.10003705322742462
+b1,b11,-2.0,-2.0,5,0,self-doubt / encouragement,0.17517676949501038
+b1,b11,-2.0,-2.0,5,1,frustration / despair,0.1472577601671219
+b1,b11,-2.0,-2.0,5,2,uncertainty / indecision,0.20199871063232422
+b1,b11,-2.0,-2.0,5,3,romantic idealism,0.06894071400165558
+b1,b11,-2.0,-2.0,5,4,academic ambition / competitive determination,0.11090020090341568
+b1,b11,-2.0,-2.0,5,5,ironic amusement,0.12830574810504913
+b1,b11,-2.0,-2.0,5,6,enthusiasm / curiosity,0.19319617748260498
+b1,b11,-2.0,-2.0,6,0,self-doubt / encouragement,0.06455002725124359
+b1,b11,-2.0,-2.0,6,1,frustration / despair,0.14256709814071655
+b1,b11,-2.0,-2.0,6,2,uncertainty / indecision,0.1237078309059143
+b1,b11,-2.0,-2.0,6,3,romantic idealism,0.0019866323564201593
+b1,b11,-2.0,-2.0,6,4,academic ambition / competitive determination,0.09279212355613708
+b1,b11,-2.0,-2.0,6,5,ironic amusement,0.042730726301670074
+b1,b11,-2.0,-2.0,6,6,enthusiasm / curiosity,0.11476504057645798
+b1,b11,-2.0,-2.0,7,0,self-doubt / encouragement,0.21225208044052124
+b1,b11,-2.0,-2.0,7,1,frustration / despair,0.2985210120677948
+b1,b11,-2.0,-2.0,7,2,uncertainty / indecision,0.2603974938392639
+b1,b11,-2.0,-2.0,7,3,romantic idealism,0.1639910787343979
+b1,b11,-2.0,-2.0,7,4,academic ambition / competitive determination,0.14137771725654602
+b1,b11,-2.0,-2.0,7,5,ironic amusement,0.1641620546579361
+b1,b11,-2.0,-2.0,7,6,enthusiasm / curiosity,0.18448913097381592
+b1,b11,-2.0,0.0,0,0,self-doubt / encouragement,0.22355343401432037
+b1,b11,-2.0,0.0,0,1,frustration / despair,0.12071087956428528
+b1,b11,-2.0,0.0,0,2,uncertainty / indecision,0.18830259144306183
+b1,b11,-2.0,0.0,0,3,romantic idealism,0.10849423706531525
+b1,b11,-2.0,0.0,0,4,academic ambition / competitive determination,0.11352430284023285
+b1,b11,-2.0,0.0,0,5,ironic amusement,0.1180473193526268
+b1,b11,-2.0,0.0,0,6,enthusiasm / curiosity,0.16793207824230194
+b1,b11,-2.0,0.0,1,0,self-doubt / encouragement,0.08746439218521118
+b1,b11,-2.0,0.0,1,1,frustration / despair,0.08770052343606949
+b1,b11,-2.0,0.0,1,2,uncertainty / indecision,0.16062960028648376
+b1,b11,-2.0,0.0,1,3,romantic idealism,-0.010361507534980774
+b1,b11,-2.0,0.0,1,4,academic ambition / competitive determination,0.11793409287929535
+b1,b11,-2.0,0.0,1,5,ironic amusement,0.08537258207798004
+b1,b11,-2.0,0.0,1,6,enthusiasm / curiosity,0.12722817063331604
+b1,b11,-2.0,0.0,2,0,self-doubt / encouragement,0.17798173427581787
+b1,b11,-2.0,0.0,2,1,frustration / despair,0.06529410183429718
+b1,b11,-2.0,0.0,2,2,uncertainty / indecision,0.11261283606290817
+b1,b11,-2.0,0.0,2,3,romantic idealism,0.1506270468235016
+b1,b11,-2.0,0.0,2,4,academic ambition / competitive determination,0.09845227748155594
+b1,b11,-2.0,0.0,2,5,ironic amusement,0.1750442385673523
+b1,b11,-2.0,0.0,2,6,enthusiasm / curiosity,0.2435978502035141
+b1,b11,-2.0,0.0,3,0,self-doubt / encouragement,0.08638302236795425
+b1,b11,-2.0,0.0,3,1,frustration / despair,0.1201590895652771
+b1,b11,-2.0,0.0,3,2,uncertainty / indecision,0.14649426937103271
+b1,b11,-2.0,0.0,3,3,romantic idealism,0.08616459369659424
+b1,b11,-2.0,0.0,3,4,academic ambition / competitive determination,0.07820557802915573
+b1,b11,-2.0,0.0,3,5,ironic amusement,0.10613270103931427
+b1,b11,-2.0,0.0,3,6,enthusiasm / curiosity,0.15268078446388245
+b1,b11,-2.0,0.0,4,0,self-doubt / encouragement,0.11672044545412064
+b1,b11,-2.0,0.0,4,1,frustration / despair,0.11034375429153442
+b1,b11,-2.0,0.0,4,2,uncertainty / indecision,0.1759846955537796
+b1,b11,-2.0,0.0,4,3,romantic idealism,0.0921449363231659
+b1,b11,-2.0,0.0,4,4,academic ambition / competitive determination,0.14543281495571136
+b1,b11,-2.0,0.0,4,5,ironic amusement,0.05674440786242485
+b1,b11,-2.0,0.0,4,6,enthusiasm / curiosity,0.11830520629882812
+b1,b11,-2.0,0.0,5,0,self-doubt / encouragement,0.14356251060962677
+b1,b11,-2.0,0.0,5,1,frustration / despair,0.12996019423007965
+b1,b11,-2.0,0.0,5,2,uncertainty / indecision,0.21033523976802826
+b1,b11,-2.0,0.0,5,3,romantic idealism,0.03826725110411644
+b1,b11,-2.0,0.0,5,4,academic ambition / competitive determination,0.10978551208972931
+b1,b11,-2.0,0.0,5,5,ironic amusement,0.12178345769643784
+b1,b11,-2.0,0.0,5,6,enthusiasm / curiosity,0.18002457916736603
+b1,b11,-2.0,0.0,6,0,self-doubt / encouragement,0.08654095977544785
+b1,b11,-2.0,0.0,6,1,frustration / despair,0.03442539647221565
+b1,b11,-2.0,0.0,6,2,uncertainty / indecision,0.10609442740678787
+b1,b11,-2.0,0.0,6,3,romantic idealism,0.021548788994550705
+b1,b11,-2.0,0.0,6,4,academic ambition / competitive determination,0.07654368132352829
+b1,b11,-2.0,0.0,6,5,ironic amusement,0.13682156801223755
+b1,b11,-2.0,0.0,6,6,enthusiasm / curiosity,0.10213663429021835
+b1,b11,-2.0,0.0,7,0,self-doubt / encouragement,0.17064814269542694
+b1,b11,-2.0,0.0,7,1,frustration / despair,0.2604990303516388
+b1,b11,-2.0,0.0,7,2,uncertainty / indecision,0.26752644777297974
+b1,b11,-2.0,0.0,7,3,romantic idealism,0.07750653475522995
+b1,b11,-2.0,0.0,7,4,academic ambition / competitive determination,0.08580341935157776
+b1,b11,-2.0,0.0,7,5,ironic amusement,0.1108509972691536
+b1,b11,-2.0,0.0,7,6,enthusiasm / curiosity,0.1250704526901245
+b1,b11,-2.0,2.0,0,0,self-doubt / encouragement,0.11249619722366333
+b1,b11,-2.0,2.0,0,1,frustration / despair,0.055743761360645294
+b1,b11,-2.0,2.0,0,2,uncertainty / indecision,0.19742555916309357
+b1,b11,-2.0,2.0,0,3,romantic idealism,0.026574838906526566
+b1,b11,-2.0,2.0,0,4,academic ambition / competitive determination,0.0698990747332573
+b1,b11,-2.0,2.0,0,5,ironic amusement,0.12622207403182983
+b1,b11,-2.0,2.0,0,6,enthusiasm / curiosity,0.1511904001235962
+b1,b11,-2.0,2.0,1,0,self-doubt / encouragement,0.10055297613143921
+b1,b11,-2.0,2.0,1,1,frustration / despair,0.1369256228208542
+b1,b11,-2.0,2.0,1,2,uncertainty / indecision,0.13128890097141266
+b1,b11,-2.0,2.0,1,3,romantic idealism,0.022612735629081726
+b1,b11,-2.0,2.0,1,4,academic ambition / competitive determination,0.03798013925552368
+b1,b11,-2.0,2.0,1,5,ironic amusement,0.05123642832040787
+b1,b11,-2.0,2.0,1,6,enthusiasm / curiosity,0.12040844559669495
+b1,b11,-2.0,2.0,2,0,self-doubt / encouragement,0.09828456491231918
+b1,b11,-2.0,2.0,2,1,frustration / despair,0.06764860451221466
+b1,b11,-2.0,2.0,2,2,uncertainty / indecision,0.09375476837158203
+b1,b11,-2.0,2.0,2,3,romantic idealism,0.032635413110256195
+b1,b11,-2.0,2.0,2,4,academic ambition / competitive determination,0.06085558235645294
+b1,b11,-2.0,2.0,2,5,ironic amusement,0.020224889740347862
+b1,b11,-2.0,2.0,2,6,enthusiasm / curiosity,0.08446374535560608
+b1,b11,-2.0,2.0,3,0,self-doubt / encouragement,0.1416916847229004
+b1,b11,-2.0,2.0,3,1,frustration / despair,0.13158848881721497
+b1,b11,-2.0,2.0,3,2,uncertainty / indecision,0.19610533118247986
+b1,b11,-2.0,2.0,3,3,romantic idealism,0.015499441884458065
+b1,b11,-2.0,2.0,3,4,academic ambition / competitive determination,0.16097769141197205
+b1,b11,-2.0,2.0,3,5,ironic amusement,0.09824173897504807
+b1,b11,-2.0,2.0,3,6,enthusiasm / curiosity,0.177995964884758
+b1,b11,-2.0,2.0,4,0,self-doubt / encouragement,0.10963131487369537
+b1,b11,-2.0,2.0,4,1,frustration / despair,0.08719024062156677
+b1,b11,-2.0,2.0,4,2,uncertainty / indecision,0.1856721192598343
+b1,b11,-2.0,2.0,4,3,romantic idealism,0.09611908346414566
+b1,b11,-2.0,2.0,4,4,academic ambition / competitive determination,0.2042762041091919
+b1,b11,-2.0,2.0,4,5,ironic amusement,0.05441068485379219
+b1,b11,-2.0,2.0,4,6,enthusiasm / curiosity,0.13995493948459625
+b1,b11,-2.0,2.0,5,0,self-doubt / encouragement,0.15267470479011536
+b1,b11,-2.0,2.0,5,1,frustration / despair,0.1237950548529625
+b1,b11,-2.0,2.0,5,2,uncertainty / indecision,0.14539511501789093
+b1,b11,-2.0,2.0,5,3,romantic idealism,0.03484370931982994
+b1,b11,-2.0,2.0,5,4,academic ambition / competitive determination,0.09016773849725723
+b1,b11,-2.0,2.0,5,5,ironic amusement,0.13015085458755493
+b1,b11,-2.0,2.0,5,6,enthusiasm / curiosity,0.20479139685630798
+b1,b11,-2.0,2.0,6,0,self-doubt / encouragement,0.05088077858090401
+b1,b11,-2.0,2.0,6,1,frustration / despair,0.07134046405553818
+b1,b11,-2.0,2.0,6,2,uncertainty / indecision,0.08133158087730408
+b1,b11,-2.0,2.0,6,3,romantic idealism,0.026445679366588593
+b1,b11,-2.0,2.0,6,4,academic ambition / competitive determination,0.08192237466573715
+b1,b11,-2.0,2.0,6,5,ironic amusement,0.11839742958545685
+b1,b11,-2.0,2.0,6,6,enthusiasm / curiosity,0.08854293823242188
+b1,b11,-2.0,2.0,7,0,self-doubt / encouragement,0.20512698590755463
+b1,b11,-2.0,2.0,7,1,frustration / despair,0.1930614411830902
+b1,b11,-2.0,2.0,7,2,uncertainty / indecision,0.26441919803619385
+b1,b11,-2.0,2.0,7,3,romantic idealism,0.07625358551740646
+b1,b11,-2.0,2.0,7,4,academic ambition / competitive determination,0.10711453855037689
+b1,b11,-2.0,2.0,7,5,ironic amusement,0.14126116037368774
+b1,b11,-2.0,2.0,7,6,enthusiasm / curiosity,0.17773428559303284
+b1,b11,0.0,-2.0,0,0,self-doubt / encouragement,0.11301782727241516
+b1,b11,0.0,-2.0,0,1,frustration / despair,0.1391116827726364
+b1,b11,0.0,-2.0,0,2,uncertainty / indecision,0.14491698145866394
+b1,b11,0.0,-2.0,0,3,romantic idealism,0.10341130197048187
+b1,b11,0.0,-2.0,0,4,academic ambition / competitive determination,0.07653679698705673
+b1,b11,0.0,-2.0,0,5,ironic amusement,0.11113720387220383
+b1,b11,0.0,-2.0,0,6,enthusiasm / curiosity,0.15219640731811523
+b1,b11,0.0,-2.0,1,0,self-doubt / encouragement,0.12338859587907791
+b1,b11,0.0,-2.0,1,1,frustration / despair,0.0964682325720787
+b1,b11,0.0,-2.0,1,2,uncertainty / indecision,0.14652307331562042
+b1,b11,0.0,-2.0,1,3,romantic idealism,0.058687858283519745
+b1,b11,0.0,-2.0,1,4,academic ambition / competitive determination,0.04753349348902702
+b1,b11,0.0,-2.0,1,5,ironic amusement,0.14756907522678375
+b1,b11,0.0,-2.0,1,6,enthusiasm / curiosity,0.11722950637340546
+b1,b11,0.0,-2.0,2,0,self-doubt / encouragement,0.10015912353992462
+b1,b11,0.0,-2.0,2,1,frustration / despair,0.08625750243663788
+b1,b11,0.0,-2.0,2,2,uncertainty / indecision,0.10923343151807785
+b1,b11,0.0,-2.0,2,3,romantic idealism,0.00604932801797986
+b1,b11,0.0,-2.0,2,4,academic ambition / competitive determination,0.05789452791213989
+b1,b11,0.0,-2.0,2,5,ironic amusement,0.034948788583278656
+b1,b11,0.0,-2.0,2,6,enthusiasm / curiosity,0.09441332519054413
+b1,b11,0.0,-2.0,3,0,self-doubt / encouragement,0.05237164720892906
+b1,b11,0.0,-2.0,3,1,frustration / despair,0.06049089878797531
+b1,b11,0.0,-2.0,3,2,uncertainty / indecision,0.08554056286811829
+b1,b11,0.0,-2.0,3,3,romantic idealism,0.006282904651015997
+b1,b11,0.0,-2.0,3,4,academic ambition / competitive determination,0.0682409256696701
+b1,b11,0.0,-2.0,3,5,ironic amusement,0.1128372997045517
+b1,b11,0.0,-2.0,3,6,enthusiasm / curiosity,0.14910870790481567
+b1,b11,0.0,-2.0,4,0,self-doubt / encouragement,0.07738448679447174
+b1,b11,0.0,-2.0,4,1,frustration / despair,0.043975044041872025
+b1,b11,0.0,-2.0,4,2,uncertainty / indecision,0.15892301499843597
+b1,b11,0.0,-2.0,4,3,romantic idealism,0.060438863933086395
+b1,b11,0.0,-2.0,4,4,academic ambition / competitive determination,0.10448195040225983
+b1,b11,0.0,-2.0,4,5,ironic amusement,0.0477324053645134
+b1,b11,0.0,-2.0,4,6,enthusiasm / curiosity,0.10597408562898636
+b1,b11,0.0,-2.0,5,0,self-doubt / encouragement,0.133521169424057
+b1,b11,0.0,-2.0,5,1,frustration / despair,0.12488778680562973
+b1,b11,0.0,-2.0,5,2,uncertainty / indecision,0.19378192722797394
+b1,b11,0.0,-2.0,5,3,romantic idealism,0.07708044350147247
+b1,b11,0.0,-2.0,5,4,academic ambition / competitive determination,0.08158842474222183
+b1,b11,0.0,-2.0,5,5,ironic amusement,0.09280141443014145
+b1,b11,0.0,-2.0,5,6,enthusiasm / curiosity,0.17690837383270264
+b1,b11,0.0,-2.0,6,0,self-doubt / encouragement,0.18977439403533936
+b1,b11,0.0,-2.0,6,1,frustration / despair,0.17529577016830444
+b1,b11,0.0,-2.0,6,2,uncertainty / indecision,0.21599049866199493
+b1,b11,0.0,-2.0,6,3,romantic idealism,0.05515286326408386
+b1,b11,0.0,-2.0,6,4,academic ambition / competitive determination,0.20919397473335266
+b1,b11,0.0,-2.0,6,5,ironic amusement,0.11703041195869446
+b1,b11,0.0,-2.0,6,6,enthusiasm / curiosity,0.21032395958900452
+b1,b11,0.0,-2.0,7,0,self-doubt / encouragement,0.19694459438323975
+b1,b11,0.0,-2.0,7,1,frustration / despair,0.16397495567798615
+b1,b11,0.0,-2.0,7,2,uncertainty / indecision,0.18704615533351898
+b1,b11,0.0,-2.0,7,3,romantic idealism,0.03052482381463051
+b1,b11,0.0,-2.0,7,4,academic ambition / competitive determination,0.13554590940475464
+b1,b11,0.0,-2.0,7,5,ironic amusement,0.19563856720924377
+b1,b11,0.0,-2.0,7,6,enthusiasm / curiosity,0.25050681829452515
+b1,b11,0.0,0.0,0,0,self-doubt / encouragement,0.2579997777938843
+b1,b11,0.0,0.0,0,1,frustration / despair,0.1789245754480362
+b1,b11,0.0,0.0,0,2,uncertainty / indecision,0.29380178451538086
+b1,b11,0.0,0.0,0,3,romantic idealism,0.09819807857275009
+b1,b11,0.0,0.0,0,4,academic ambition / competitive determination,0.12983283400535583
+b1,b11,0.0,0.0,0,5,ironic amusement,0.1419805884361267
+b1,b11,0.0,0.0,0,6,enthusiasm / curiosity,0.18679827451705933
+b1,b11,0.0,0.0,1,0,self-doubt / encouragement,0.08845274150371552
+b1,b11,0.0,0.0,1,1,frustration / despair,0.12093593180179596
+b1,b11,0.0,0.0,1,2,uncertainty / indecision,0.15784244239330292
+b1,b11,0.0,0.0,1,3,romantic idealism,-0.00678758230060339
+b1,b11,0.0,0.0,1,4,academic ambition / competitive determination,0.07019902020692825
+b1,b11,0.0,0.0,1,5,ironic amusement,0.11188811808824539
+b1,b11,0.0,0.0,1,6,enthusiasm / curiosity,0.10050353407859802
+b1,b11,0.0,0.0,2,0,self-doubt / encouragement,0.11809313297271729
+b1,b11,0.0,0.0,2,1,frustration / despair,0.08123224973678589
+b1,b11,0.0,0.0,2,2,uncertainty / indecision,0.16279290616512299
+b1,b11,0.0,0.0,2,3,romantic idealism,0.0818898156285286
+b1,b11,0.0,0.0,2,4,academic ambition / competitive determination,0.2249232828617096
+b1,b11,0.0,0.0,2,5,ironic amusement,0.07563547044992447
+b1,b11,0.0,0.0,2,6,enthusiasm / curiosity,0.16488325595855713
+b1,b11,0.0,0.0,3,0,self-doubt / encouragement,0.05243324488401413
+b1,b11,0.0,0.0,3,1,frustration / despair,0.09356782585382462
+b1,b11,0.0,0.0,3,2,uncertainty / indecision,0.12720690667629242
+b1,b11,0.0,0.0,3,3,romantic idealism,0.030841806903481483
+b1,b11,0.0,0.0,3,4,academic ambition / competitive determination,0.05445351451635361
+b1,b11,0.0,0.0,3,5,ironic amusement,0.11291592568159103
+b1,b11,0.0,0.0,3,6,enthusiasm / curiosity,0.11533571034669876
+b1,b11,0.0,0.0,4,0,self-doubt / encouragement,0.09420821070671082
+b1,b11,0.0,0.0,4,1,frustration / despair,0.08754955232143402
+b1,b11,0.0,0.0,4,2,uncertainty / indecision,0.17504476010799408
+b1,b11,0.0,0.0,4,3,romantic idealism,0.07784955948591232
+b1,b11,0.0,0.0,4,4,academic ambition / competitive determination,0.1761026680469513
+b1,b11,0.0,0.0,4,5,ironic amusement,0.047947339713573456
+b1,b11,0.0,0.0,4,6,enthusiasm / curiosity,0.1213914304971695
+b1,b11,0.0,0.0,5,0,self-doubt / encouragement,0.26054656505584717
+b1,b11,0.0,0.0,5,1,frustration / despair,0.18212664127349854
+b1,b11,0.0,0.0,5,2,uncertainty / indecision,0.3255496919155121
+b1,b11,0.0,0.0,5,3,romantic idealism,0.07387951016426086
+b1,b11,0.0,0.0,5,4,academic ambition / competitive determination,0.2368575632572174
+b1,b11,0.0,0.0,5,5,ironic amusement,0.12938886880874634
+b1,b11,0.0,0.0,5,6,enthusiasm / curiosity,0.2497142255306244
+b1,b11,0.0,0.0,6,0,self-doubt / encouragement,0.0574154332280159
+b1,b11,0.0,0.0,6,1,frustration / despair,0.0184001624584198
+b1,b11,0.0,0.0,6,2,uncertainty / indecision,0.05218037962913513
+b1,b11,0.0,0.0,6,3,romantic idealism,-0.002880532294511795
+b1,b11,0.0,0.0,6,4,academic ambition / competitive determination,0.06544545292854309
+b1,b11,0.0,0.0,6,5,ironic amusement,0.11783784627914429
+b1,b11,0.0,0.0,6,6,enthusiasm / curiosity,0.0769277960062027
+b1,b11,0.0,0.0,7,0,self-doubt / encouragement,0.23420141637325287
+b1,b11,0.0,0.0,7,1,frustration / despair,0.1751236766576767
+b1,b11,0.0,0.0,7,2,uncertainty / indecision,0.23822972178459167
+b1,b11,0.0,0.0,7,3,romantic idealism,0.04390828683972359
+b1,b11,0.0,0.0,7,4,academic ambition / competitive determination,0.0975266844034195
+b1,b11,0.0,0.0,7,5,ironic amusement,0.16565942764282227
+b1,b11,0.0,0.0,7,6,enthusiasm / curiosity,0.21325303614139557
+b1,b11,0.0,2.0,0,0,self-doubt / encouragement,0.1447521448135376
+b1,b11,0.0,2.0,0,1,frustration / despair,0.14381548762321472
+b1,b11,0.0,2.0,0,2,uncertainty / indecision,0.22935950756072998
+b1,b11,0.0,2.0,0,3,romantic idealism,0.021545419469475746
+b1,b11,0.0,2.0,0,4,academic ambition / competitive determination,0.03326103463768959
+b1,b11,0.0,2.0,0,5,ironic amusement,0.12701818346977234
+b1,b11,0.0,2.0,0,6,enthusiasm / curiosity,0.14662650227546692
+b1,b11,0.0,2.0,1,0,self-doubt / encouragement,0.08105706423521042
+b1,b11,0.0,2.0,1,1,frustration / despair,0.05911119282245636
+b1,b11,0.0,2.0,1,2,uncertainty / indecision,0.11984172463417053
+b1,b11,0.0,2.0,1,3,romantic idealism,0.0789550393819809
+b1,b11,0.0,2.0,1,4,academic ambition / competitive determination,0.07504701614379883
+b1,b11,0.0,2.0,1,5,ironic amusement,0.1284506618976593
+b1,b11,0.0,2.0,1,6,enthusiasm / curiosity,0.13541898131370544
+b1,b11,0.0,2.0,2,0,self-doubt / encouragement,0.11178887635469437
+b1,b11,0.0,2.0,2,1,frustration / despair,0.08477623015642166
+b1,b11,0.0,2.0,2,2,uncertainty / indecision,0.07185048609972
+b1,b11,0.0,2.0,2,3,romantic idealism,0.08511638641357422
+b1,b11,0.0,2.0,2,4,academic ambition / competitive determination,0.008392509073019028
+b1,b11,0.0,2.0,2,5,ironic amusement,0.02872142195701599
+b1,b11,0.0,2.0,2,6,enthusiasm / curiosity,0.07372453063726425
+b1,b11,0.0,2.0,3,0,self-doubt / encouragement,0.15426474809646606
+b1,b11,0.0,2.0,3,1,frustration / despair,0.13229341804981232
+b1,b11,0.0,2.0,3,2,uncertainty / indecision,0.18386581540107727
+b1,b11,0.0,2.0,3,3,romantic idealism,0.06291106343269348
+b1,b11,0.0,2.0,3,4,academic ambition / competitive determination,0.10097064822912216
+b1,b11,0.0,2.0,3,5,ironic amusement,0.16547971963882446
+b1,b11,0.0,2.0,3,6,enthusiasm / curiosity,0.18896764516830444
+b1,b11,0.0,2.0,4,0,self-doubt / encouragement,0.13328680396080017
+b1,b11,0.0,2.0,4,1,frustration / despair,0.1116943284869194
+b1,b11,0.0,2.0,4,2,uncertainty / indecision,0.20653343200683594
+b1,b11,0.0,2.0,4,3,romantic idealism,0.13084319233894348
+b1,b11,0.0,2.0,4,4,academic ambition / competitive determination,0.17013229429721832
+b1,b11,0.0,2.0,4,5,ironic amusement,0.08731290698051453
+b1,b11,0.0,2.0,4,6,enthusiasm / curiosity,0.1784915179014206
+b1,b11,0.0,2.0,5,0,self-doubt / encouragement,0.11162400245666504
+b1,b11,0.0,2.0,5,1,frustration / despair,0.0754404366016388
+b1,b11,0.0,2.0,5,2,uncertainty / indecision,0.12193548679351807
+b1,b11,0.0,2.0,5,3,romantic idealism,-0.02798636071383953
+b1,b11,0.0,2.0,5,4,academic ambition / competitive determination,0.04305274784564972
+b1,b11,0.0,2.0,5,5,ironic amusement,0.11254583299160004
+b1,b11,0.0,2.0,5,6,enthusiasm / curiosity,0.1051587462425232
+b1,b11,0.0,2.0,6,0,self-doubt / encouragement,0.07207649946212769
+b1,b11,0.0,2.0,6,1,frustration / despair,0.08836401253938675
+b1,b11,0.0,2.0,6,2,uncertainty / indecision,0.12987712025642395
+b1,b11,0.0,2.0,6,3,romantic idealism,0.021000947803258896
+b1,b11,0.0,2.0,6,4,academic ambition / competitive determination,0.09540071338415146
+b1,b11,0.0,2.0,6,5,ironic amusement,0.14298269152641296
+b1,b11,0.0,2.0,6,6,enthusiasm / curiosity,0.11271214485168457
+b1,b11,0.0,2.0,7,0,self-doubt / encouragement,0.17175818979740143
+b1,b11,0.0,2.0,7,1,frustration / despair,0.17102238535881042
+b1,b11,0.0,2.0,7,2,uncertainty / indecision,0.20353512465953827
+b1,b11,0.0,2.0,7,3,romantic idealism,0.060201458632946014
+b1,b11,0.0,2.0,7,4,academic ambition / competitive determination,0.1366473138332367
+b1,b11,0.0,2.0,7,5,ironic amusement,0.1265285760164261
+b1,b11,0.0,2.0,7,6,enthusiasm / curiosity,0.17011363804340363
+b1,b11,2.0,-2.0,0,0,self-doubt / encouragement,0.12508831918239594
+b1,b11,2.0,-2.0,0,1,frustration / despair,0.09660691022872925
+b1,b11,2.0,-2.0,0,2,uncertainty / indecision,0.12496494501829147
+b1,b11,2.0,-2.0,0,3,romantic idealism,0.04280034452676773
+b1,b11,2.0,-2.0,0,4,academic ambition / competitive determination,0.05645545944571495
+b1,b11,2.0,-2.0,0,5,ironic amusement,0.12857218086719513
+b1,b11,2.0,-2.0,0,6,enthusiasm / curiosity,0.14909154176712036
+b1,b11,2.0,-2.0,1,0,self-doubt / encouragement,0.14088816940784454
+b1,b11,2.0,-2.0,1,1,frustration / despair,0.1488928347826004
+b1,b11,2.0,-2.0,1,2,uncertainty / indecision,0.17363008856773376
+b1,b11,2.0,-2.0,1,3,romantic idealism,0.049350105226039886
+b1,b11,2.0,-2.0,1,4,academic ambition / competitive determination,0.09866994619369507
+b1,b11,2.0,-2.0,1,5,ironic amusement,0.10608218610286713
+b1,b11,2.0,-2.0,1,6,enthusiasm / curiosity,0.204816997051239
+b1,b11,2.0,-2.0,2,0,self-doubt / encouragement,0.09022797644138336
+b1,b11,2.0,-2.0,2,1,frustration / despair,0.06772220879793167
+b1,b11,2.0,-2.0,2,2,uncertainty / indecision,0.06869050115346909
+b1,b11,2.0,-2.0,2,3,romantic idealism,0.049578677862882614
+b1,b11,2.0,-2.0,2,4,academic ambition / competitive determination,0.05075787380337715
+b1,b11,2.0,-2.0,2,5,ironic amusement,0.06235214322805405
+b1,b11,2.0,-2.0,2,6,enthusiasm / curiosity,0.0850212350487709
+b1,b11,2.0,-2.0,3,0,self-doubt / encouragement,0.08771786093711853
+b1,b11,2.0,-2.0,3,1,frustration / despair,0.06798452138900757
+b1,b11,2.0,-2.0,3,2,uncertainty / indecision,0.14811456203460693
+b1,b11,2.0,-2.0,3,3,romantic idealism,0.017416516318917274
+b1,b11,2.0,-2.0,3,4,academic ambition / competitive determination,0.06540282815694809
+b1,b11,2.0,-2.0,3,5,ironic amusement,0.10578177124261856
+b1,b11,2.0,-2.0,3,6,enthusiasm / curiosity,0.15301838517189026
+b1,b11,2.0,-2.0,4,0,self-doubt / encouragement,0.21096622943878174
+b1,b11,2.0,-2.0,4,1,frustration / despair,0.10356887429952621
+b1,b11,2.0,-2.0,4,2,uncertainty / indecision,0.19521598517894745
+b1,b11,2.0,-2.0,4,3,romantic idealism,0.08258029073476791
+b1,b11,2.0,-2.0,4,4,academic ambition / competitive determination,0.14826533198356628
+b1,b11,2.0,-2.0,4,5,ironic amusement,0.10543058067560196
+b1,b11,2.0,-2.0,4,6,enthusiasm / curiosity,0.23203974962234497
+b1,b11,2.0,-2.0,5,0,self-doubt / encouragement,0.16616615653038025
+b1,b11,2.0,-2.0,5,1,frustration / despair,0.16397209465503693
+b1,b11,2.0,-2.0,5,2,uncertainty / indecision,0.2714843451976776
+b1,b11,2.0,-2.0,5,3,romantic idealism,0.07217073440551758
+b1,b11,2.0,-2.0,5,4,academic ambition / competitive determination,0.18706408143043518
+b1,b11,2.0,-2.0,5,5,ironic amusement,0.11253280937671661
+b1,b11,2.0,-2.0,5,6,enthusiasm / curiosity,0.1649879515171051
+b1,b11,2.0,-2.0,6,0,self-doubt / encouragement,0.22938676178455353
+b1,b11,2.0,-2.0,6,1,frustration / despair,0.17902421951293945
+b1,b11,2.0,-2.0,6,2,uncertainty / indecision,0.23213797807693481
+b1,b11,2.0,-2.0,6,3,romantic idealism,0.08163008093833923
+b1,b11,2.0,-2.0,6,4,academic ambition / competitive determination,0.11928852647542953
+b1,b11,2.0,-2.0,6,5,ironic amusement,0.1725424975156784
+b1,b11,2.0,-2.0,6,6,enthusiasm / curiosity,0.2570253014564514
+b1,b11,2.0,-2.0,7,0,self-doubt / encouragement,0.11623164266347885
+b1,b11,2.0,-2.0,7,1,frustration / despair,0.12870945036411285
+b1,b11,2.0,-2.0,7,2,uncertainty / indecision,0.15444545447826385
+b1,b11,2.0,-2.0,7,3,romantic idealism,0.02663182094693184
+b1,b11,2.0,-2.0,7,4,academic ambition / competitive determination,0.08036307245492935
+b1,b11,2.0,-2.0,7,5,ironic amusement,0.08121033757925034
+b1,b11,2.0,-2.0,7,6,enthusiasm / curiosity,0.10845749825239182
+b1,b11,2.0,0.0,0,0,self-doubt / encouragement,0.2425605058670044
+b1,b11,2.0,0.0,0,1,frustration / despair,0.15465828776359558
+b1,b11,2.0,0.0,0,2,uncertainty / indecision,0.22024334967136383
+b1,b11,2.0,0.0,0,3,romantic idealism,0.004330373369157314
+b1,b11,2.0,0.0,0,4,academic ambition / competitive determination,0.1317223310470581
+b1,b11,2.0,0.0,0,5,ironic amusement,0.21090656518936157
+b1,b11,2.0,0.0,0,6,enthusiasm / curiosity,0.28100040555000305
+b1,b11,2.0,0.0,1,0,self-doubt / encouragement,0.16069795191287994
+b1,b11,2.0,0.0,1,1,frustration / despair,0.15840281546115875
+b1,b11,2.0,0.0,1,2,uncertainty / indecision,0.18827806413173676
+b1,b11,2.0,0.0,1,3,romantic idealism,0.10029228776693344
+b1,b11,2.0,0.0,1,4,academic ambition / competitive determination,0.0666499212384224
+b1,b11,2.0,0.0,1,5,ironic amusement,0.1281481683254242
+b1,b11,2.0,0.0,1,6,enthusiasm / curiosity,0.19893519580364227
+b1,b11,2.0,0.0,2,0,self-doubt / encouragement,0.15914854407310486
+b1,b11,2.0,0.0,2,1,frustration / despair,0.14625652134418488
+b1,b11,2.0,0.0,2,2,uncertainty / indecision,0.16736575961112976
+b1,b11,2.0,0.0,2,3,romantic idealism,0.163497194647789
+b1,b11,2.0,0.0,2,4,academic ambition / competitive determination,0.12637928128242493
+b1,b11,2.0,0.0,2,5,ironic amusement,0.04855099692940712
+b1,b11,2.0,0.0,2,6,enthusiasm / curiosity,0.15319666266441345
+b1,b11,2.0,0.0,3,0,self-doubt / encouragement,0.10252458602190018
+b1,b11,2.0,0.0,3,1,frustration / despair,0.07760469615459442
+b1,b11,2.0,0.0,3,2,uncertainty / indecision,0.14553608000278473
+b1,b11,2.0,0.0,3,3,romantic idealism,-0.030971482396125793
+b1,b11,2.0,0.0,3,4,academic ambition / competitive determination,0.11818607151508331
+b1,b11,2.0,0.0,3,5,ironic amusement,0.12354355305433273
+b1,b11,2.0,0.0,3,6,enthusiasm / curiosity,0.16864505410194397
+b1,b11,2.0,0.0,4,0,self-doubt / encouragement,0.17132197320461273
+b1,b11,2.0,0.0,4,1,frustration / despair,0.11077816784381866
+b1,b11,2.0,0.0,4,2,uncertainty / indecision,0.19798366725444794
+b1,b11,2.0,0.0,4,3,romantic idealism,0.07208235561847687
+b1,b11,2.0,0.0,4,4,academic ambition / competitive determination,0.215925931930542
+b1,b11,2.0,0.0,4,5,ironic amusement,0.09559005498886108
+b1,b11,2.0,0.0,4,6,enthusiasm / curiosity,0.22239503264427185
+b1,b11,2.0,0.0,5,0,self-doubt / encouragement,0.15932099521160126
+b1,b11,2.0,0.0,5,1,frustration / despair,0.14438925683498383
+b1,b11,2.0,0.0,5,2,uncertainty / indecision,0.1829947978258133
+b1,b11,2.0,0.0,5,3,romantic idealism,0.042493678629398346
+b1,b11,2.0,0.0,5,4,academic ambition / competitive determination,0.09955120086669922
+b1,b11,2.0,0.0,5,5,ironic amusement,0.1313936561346054
+b1,b11,2.0,0.0,5,6,enthusiasm / curiosity,0.22046776115894318
+b1,b11,2.0,0.0,6,0,self-doubt / encouragement,0.21404309570789337
+b1,b11,2.0,0.0,6,1,frustration / despair,0.14763428270816803
+b1,b11,2.0,0.0,6,2,uncertainty / indecision,0.17573282122612
+b1,b11,2.0,0.0,6,3,romantic idealism,0.08709210157394409
+b1,b11,2.0,0.0,6,4,academic ambition / competitive determination,0.1314547061920166
+b1,b11,2.0,0.0,6,5,ironic amusement,0.151283860206604
+b1,b11,2.0,0.0,6,6,enthusiasm / curiosity,0.21729573607444763
+b1,b11,2.0,0.0,7,0,self-doubt / encouragement,0.2289009690284729
+b1,b11,2.0,0.0,7,1,frustration / despair,0.1809365451335907
+b1,b11,2.0,0.0,7,2,uncertainty / indecision,0.16955526173114777
+b1,b11,2.0,0.0,7,3,romantic idealism,0.06741634756326675
+b1,b11,2.0,0.0,7,4,academic ambition / competitive determination,0.108656145632267
+b1,b11,2.0,0.0,7,5,ironic amusement,0.16674759984016418
+b1,b11,2.0,0.0,7,6,enthusiasm / curiosity,0.1679295003414154
+b1,b11,2.0,2.0,0,0,self-doubt / encouragement,0.18722409009933472
+b1,b11,2.0,2.0,0,1,frustration / despair,0.1399107575416565
+b1,b11,2.0,2.0,0,2,uncertainty / indecision,0.17438441514968872
+b1,b11,2.0,2.0,0,3,romantic idealism,0.0014354605227708817
+b1,b11,2.0,2.0,0,4,academic ambition / competitive determination,0.11081592738628387
+b1,b11,2.0,2.0,0,5,ironic amusement,0.15337881445884705
+b1,b11,2.0,2.0,0,6,enthusiasm / curiosity,0.15291240811347961
+b1,b11,2.0,2.0,1,0,self-doubt / encouragement,0.19640405476093292
+b1,b11,2.0,2.0,1,1,frustration / despair,0.156819686293602
+b1,b11,2.0,2.0,1,2,uncertainty / indecision,0.24167469143867493
+b1,b11,2.0,2.0,1,3,romantic idealism,0.06088794395327568
+b1,b11,2.0,2.0,1,4,academic ambition / competitive determination,0.13987676799297333
+b1,b11,2.0,2.0,1,5,ironic amusement,0.16657570004463196
+b1,b11,2.0,2.0,1,6,enthusiasm / curiosity,0.23948919773101807
+b1,b11,2.0,2.0,2,0,self-doubt / encouragement,0.16536955535411835
+b1,b11,2.0,2.0,2,1,frustration / despair,0.0873129591345787
+b1,b11,2.0,2.0,2,2,uncertainty / indecision,0.14016059041023254
+b1,b11,2.0,2.0,2,3,romantic idealism,0.1150708794593811
+b1,b11,2.0,2.0,2,4,academic ambition / competitive determination,0.06893204152584076
+b1,b11,2.0,2.0,2,5,ironic amusement,0.05619244650006294
+b1,b11,2.0,2.0,2,6,enthusiasm / curiosity,0.14396531879901886
+b1,b11,2.0,2.0,3,0,self-doubt / encouragement,0.06191817298531532
+b1,b11,2.0,2.0,3,1,frustration / despair,0.052243828773498535
+b1,b11,2.0,2.0,3,2,uncertainty / indecision,0.14527207612991333
+b1,b11,2.0,2.0,3,3,romantic idealism,-0.004609561059623957
+b1,b11,2.0,2.0,3,4,academic ambition / competitive determination,0.05189913511276245
+b1,b11,2.0,2.0,3,5,ironic amusement,0.09962613135576248
+b1,b11,2.0,2.0,3,6,enthusiasm / curiosity,0.15177470445632935
+b1,b11,2.0,2.0,4,0,self-doubt / encouragement,0.1046915203332901
+b1,b11,2.0,2.0,4,1,frustration / despair,0.06867316365242004
+b1,b11,2.0,2.0,4,2,uncertainty / indecision,0.14272165298461914
+b1,b11,2.0,2.0,4,3,romantic idealism,0.08219411969184875
+b1,b11,2.0,2.0,4,4,academic ambition / competitive determination,0.18229630589485168
+b1,b11,2.0,2.0,4,5,ironic amusement,0.05896712839603424
+b1,b11,2.0,2.0,4,6,enthusiasm / curiosity,0.15446048974990845
+b1,b11,2.0,2.0,5,0,self-doubt / encouragement,0.2336086928844452
+b1,b11,2.0,2.0,5,1,frustration / despair,0.08623132109642029
+b1,b11,2.0,2.0,5,2,uncertainty / indecision,0.2261665314435959
+b1,b11,2.0,2.0,5,3,romantic idealism,0.08219067752361298
+b1,b11,2.0,2.0,5,4,academic ambition / competitive determination,0.14999952912330627
+b1,b11,2.0,2.0,5,5,ironic amusement,0.1673738956451416
+b1,b11,2.0,2.0,5,6,enthusiasm / curiosity,0.20539511740207672
+b1,b11,2.0,2.0,6,0,self-doubt / encouragement,0.18977795541286469
+b1,b11,2.0,2.0,6,1,frustration / despair,0.09186514467000961
+b1,b11,2.0,2.0,6,2,uncertainty / indecision,0.1763734072446823
+b1,b11,2.0,2.0,6,3,romantic idealism,0.023098375648260117
+b1,b11,2.0,2.0,6,4,academic ambition / competitive determination,0.17597529292106628
+b1,b11,2.0,2.0,6,5,ironic amusement,0.10699862241744995
+b1,b11,2.0,2.0,6,6,enthusiasm / curiosity,0.22436051070690155
+b1,b11,2.0,2.0,7,0,self-doubt / encouragement,0.2940784990787506
+b1,b11,2.0,2.0,7,1,frustration / despair,0.3450310528278351
+b1,b11,2.0,2.0,7,2,uncertainty / indecision,0.39847028255462646
+b1,b11,2.0,2.0,7,3,romantic idealism,0.17482750117778778
+b1,b11,2.0,2.0,7,4,academic ambition / competitive determination,0.28995218873023987
+b1,b11,2.0,2.0,7,5,ironic amusement,0.28679174184799194
+b1,b11,2.0,2.0,7,6,enthusiasm / curiosity,0.33377212285995483
+b1,b13,-2.0,-2.0,0,0,self-doubt / encouragement,0.17302168905735016
+b1,b13,-2.0,-2.0,0,1,frustration / despair,0.21572770178318024
+b1,b13,-2.0,-2.0,0,2,uncertainty / indecision,0.20929808914661407
+b1,b13,-2.0,-2.0,0,3,romantic idealism,-0.018228156492114067
+b1,b13,-2.0,-2.0,0,4,academic ambition / competitive determination,0.11351124942302704
+b1,b13,-2.0,-2.0,0,5,ironic amusement,0.0773480236530304
+b1,b13,-2.0,-2.0,0,6,enthusiasm / curiosity,0.17587785422801971
+b1,b13,-2.0,-2.0,1,0,self-doubt / encouragement,0.11246112734079361
+b1,b13,-2.0,-2.0,1,1,frustration / despair,0.16883045434951782
+b1,b13,-2.0,-2.0,1,2,uncertainty / indecision,0.20669330656528473
+b1,b13,-2.0,-2.0,1,3,romantic idealism,0.009065065532922745
+b1,b13,-2.0,-2.0,1,4,academic ambition / competitive determination,0.14553065598011017
+b1,b13,-2.0,-2.0,1,5,ironic amusement,0.04484224319458008
+b1,b13,-2.0,-2.0,1,6,enthusiasm / curiosity,0.1395292431116104
+b1,b13,-2.0,-2.0,2,0,self-doubt / encouragement,0.15612968802452087
+b1,b13,-2.0,-2.0,2,1,frustration / despair,0.16248778998851776
+b1,b13,-2.0,-2.0,2,2,uncertainty / indecision,0.17733556032180786
+b1,b13,-2.0,-2.0,2,3,romantic idealism,0.09148860722780228
+b1,b13,-2.0,-2.0,2,4,academic ambition / competitive determination,0.019716013222932816
+b1,b13,-2.0,-2.0,2,5,ironic amusement,0.1031828299164772
+b1,b13,-2.0,-2.0,2,6,enthusiasm / curiosity,0.1667240858078003
+b1,b13,-2.0,-2.0,3,0,self-doubt / encouragement,0.078505739569664
+b1,b13,-2.0,-2.0,3,1,frustration / despair,0.11321070045232773
+b1,b13,-2.0,-2.0,3,2,uncertainty / indecision,0.15331731736660004
+b1,b13,-2.0,-2.0,3,3,romantic idealism,0.05856798216700554
+b1,b13,-2.0,-2.0,3,4,academic ambition / competitive determination,0.08223672211170197
+b1,b13,-2.0,-2.0,3,5,ironic amusement,0.1304052472114563
+b1,b13,-2.0,-2.0,3,6,enthusiasm / curiosity,0.14797207713127136
+b1,b13,-2.0,-2.0,4,0,self-doubt / encouragement,0.1374441385269165
+b1,b13,-2.0,-2.0,4,1,frustration / despair,0.1063818633556366
+b1,b13,-2.0,-2.0,4,2,uncertainty / indecision,0.19021502137184143
+b1,b13,-2.0,-2.0,4,3,romantic idealism,0.11542109400033951
+b1,b13,-2.0,-2.0,4,4,academic ambition / competitive determination,0.1705673784017563
+b1,b13,-2.0,-2.0,4,5,ironic amusement,0.04256265610456467
+b1,b13,-2.0,-2.0,4,6,enthusiasm / curiosity,0.14753130078315735
+b1,b13,-2.0,-2.0,5,0,self-doubt / encouragement,0.1507527232170105
+b1,b13,-2.0,-2.0,5,1,frustration / despair,0.16652891039848328
+b1,b13,-2.0,-2.0,5,2,uncertainty / indecision,0.24538668990135193
+b1,b13,-2.0,-2.0,5,3,romantic idealism,0.10345834493637085
+b1,b13,-2.0,-2.0,5,4,academic ambition / competitive determination,0.07597394287586212
+b1,b13,-2.0,-2.0,5,5,ironic amusement,0.1327725350856781
+b1,b13,-2.0,-2.0,5,6,enthusiasm / curiosity,0.19487442076206207
+b1,b13,-2.0,-2.0,6,0,self-doubt / encouragement,0.11863432079553604
+b1,b13,-2.0,-2.0,6,1,frustration / despair,0.14172779023647308
+b1,b13,-2.0,-2.0,6,2,uncertainty / indecision,0.13631869852542877
+b1,b13,-2.0,-2.0,6,3,romantic idealism,0.03403129428625107
+b1,b13,-2.0,-2.0,6,4,academic ambition / competitive determination,0.09976883232593536
+b1,b13,-2.0,-2.0,6,5,ironic amusement,0.19089925289154053
+b1,b13,-2.0,-2.0,6,6,enthusiasm / curiosity,0.12410462647676468
+b1,b13,-2.0,-2.0,7,0,self-doubt / encouragement,0.24239581823349
+b1,b13,-2.0,-2.0,7,1,frustration / despair,0.1902599185705185
+b1,b13,-2.0,-2.0,7,2,uncertainty / indecision,0.30093854665756226
+b1,b13,-2.0,-2.0,7,3,romantic idealism,0.07984146475791931
+b1,b13,-2.0,-2.0,7,4,academic ambition / competitive determination,0.17412710189819336
+b1,b13,-2.0,-2.0,7,5,ironic amusement,0.209215447306633
+b1,b13,-2.0,-2.0,7,6,enthusiasm / curiosity,0.24681450426578522
+b1,b13,-2.0,0.0,0,0,self-doubt / encouragement,0.22355343401432037
+b1,b13,-2.0,0.0,0,1,frustration / despair,0.12071087956428528
+b1,b13,-2.0,0.0,0,2,uncertainty / indecision,0.18830259144306183
+b1,b13,-2.0,0.0,0,3,romantic idealism,0.10849423706531525
+b1,b13,-2.0,0.0,0,4,academic ambition / competitive determination,0.11352430284023285
+b1,b13,-2.0,0.0,0,5,ironic amusement,0.1180473193526268
+b1,b13,-2.0,0.0,0,6,enthusiasm / curiosity,0.16793207824230194
+b1,b13,-2.0,0.0,1,0,self-doubt / encouragement,0.08746439218521118
+b1,b13,-2.0,0.0,1,1,frustration / despair,0.08770052343606949
+b1,b13,-2.0,0.0,1,2,uncertainty / indecision,0.16062960028648376
+b1,b13,-2.0,0.0,1,3,romantic idealism,-0.010361507534980774
+b1,b13,-2.0,0.0,1,4,academic ambition / competitive determination,0.11793409287929535
+b1,b13,-2.0,0.0,1,5,ironic amusement,0.08537258207798004
+b1,b13,-2.0,0.0,1,6,enthusiasm / curiosity,0.12722817063331604
+b1,b13,-2.0,0.0,2,0,self-doubt / encouragement,0.17798173427581787
+b1,b13,-2.0,0.0,2,1,frustration / despair,0.06529410183429718
+b1,b13,-2.0,0.0,2,2,uncertainty / indecision,0.11261283606290817
+b1,b13,-2.0,0.0,2,3,romantic idealism,0.1506270468235016
+b1,b13,-2.0,0.0,2,4,academic ambition / competitive determination,0.09845227748155594
+b1,b13,-2.0,0.0,2,5,ironic amusement,0.1750442385673523
+b1,b13,-2.0,0.0,2,6,enthusiasm / curiosity,0.2435978502035141
+b1,b13,-2.0,0.0,3,0,self-doubt / encouragement,0.08638302236795425
+b1,b13,-2.0,0.0,3,1,frustration / despair,0.1201590895652771
+b1,b13,-2.0,0.0,3,2,uncertainty / indecision,0.14649426937103271
+b1,b13,-2.0,0.0,3,3,romantic idealism,0.08616459369659424
+b1,b13,-2.0,0.0,3,4,academic ambition / competitive determination,0.07820557802915573
+b1,b13,-2.0,0.0,3,5,ironic amusement,0.10613270103931427
+b1,b13,-2.0,0.0,3,6,enthusiasm / curiosity,0.15268078446388245
+b1,b13,-2.0,0.0,4,0,self-doubt / encouragement,0.11675630509853363
+b1,b13,-2.0,0.0,4,1,frustration / despair,0.11036781966686249
+b1,b13,-2.0,0.0,4,2,uncertainty / indecision,0.1760130226612091
+b1,b13,-2.0,0.0,4,3,romantic idealism,0.09217964112758636
+b1,b13,-2.0,0.0,4,4,academic ambition / competitive determination,0.14545203745365143
+b1,b13,-2.0,0.0,4,5,ironic amusement,0.05676114186644554
+b1,b13,-2.0,0.0,4,6,enthusiasm / curiosity,0.11832098662853241
+b1,b13,-2.0,0.0,5,0,self-doubt / encouragement,0.14364701509475708
+b1,b13,-2.0,0.0,5,1,frustration / despair,0.1300315111875534
+b1,b13,-2.0,0.0,5,2,uncertainty / indecision,0.21043087542057037
+b1,b13,-2.0,0.0,5,3,romantic idealism,0.03832465410232544
+b1,b13,-2.0,0.0,5,4,academic ambition / competitive determination,0.10983549058437347
+b1,b13,-2.0,0.0,5,5,ironic amusement,0.12186001241207123
+b1,b13,-2.0,0.0,5,6,enthusiasm / curiosity,0.18009592592716217
+b1,b13,-2.0,0.0,6,0,self-doubt / encouragement,0.08654095977544785
+b1,b13,-2.0,0.0,6,1,frustration / despair,0.03442539647221565
+b1,b13,-2.0,0.0,6,2,uncertainty / indecision,0.10609442740678787
+b1,b13,-2.0,0.0,6,3,romantic idealism,0.021548788994550705
+b1,b13,-2.0,0.0,6,4,academic ambition / competitive determination,0.07654368132352829
+b1,b13,-2.0,0.0,6,5,ironic amusement,0.13682156801223755
+b1,b13,-2.0,0.0,6,6,enthusiasm / curiosity,0.10213663429021835
+b1,b13,-2.0,0.0,7,0,self-doubt / encouragement,0.17064814269542694
+b1,b13,-2.0,0.0,7,1,frustration / despair,0.2604990303516388
+b1,b13,-2.0,0.0,7,2,uncertainty / indecision,0.26752644777297974
+b1,b13,-2.0,0.0,7,3,romantic idealism,0.07750653475522995
+b1,b13,-2.0,0.0,7,4,academic ambition / competitive determination,0.08580341935157776
+b1,b13,-2.0,0.0,7,5,ironic amusement,0.1108509972691536
+b1,b13,-2.0,0.0,7,6,enthusiasm / curiosity,0.1250704526901245
+b1,b13,-2.0,2.0,0,0,self-doubt / encouragement,0.28526073694229126
+b1,b13,-2.0,2.0,0,1,frustration / despair,0.275340735912323
+b1,b13,-2.0,2.0,0,2,uncertainty / indecision,0.29824671149253845
+b1,b13,-2.0,2.0,0,3,romantic idealism,0.1438782811164856
+b1,b13,-2.0,2.0,0,4,academic ambition / competitive determination,0.19891461730003357
+b1,b13,-2.0,2.0,0,5,ironic amusement,0.27192267775535583
+b1,b13,-2.0,2.0,0,6,enthusiasm / curiosity,0.3368970453739166
+b1,b13,-2.0,2.0,1,0,self-doubt / encouragement,0.28526073694229126
+b1,b13,-2.0,2.0,1,1,frustration / despair,0.275340735912323
+b1,b13,-2.0,2.0,1,2,uncertainty / indecision,0.29824671149253845
+b1,b13,-2.0,2.0,1,3,romantic idealism,0.1438782811164856
+b1,b13,-2.0,2.0,1,4,academic ambition / competitive determination,0.19891461730003357
+b1,b13,-2.0,2.0,1,5,ironic amusement,0.27192267775535583
+b1,b13,-2.0,2.0,1,6,enthusiasm / curiosity,0.3368970453739166
+b1,b13,-2.0,2.0,2,0,self-doubt / encouragement,0.1916157305240631
+b1,b13,-2.0,2.0,2,1,frustration / despair,0.18369804322719574
+b1,b13,-2.0,2.0,2,2,uncertainty / indecision,0.19291822612285614
+b1,b13,-2.0,2.0,2,3,romantic idealism,0.08132112771272659
+b1,b13,-2.0,2.0,2,4,academic ambition / competitive determination,0.04653264582157135
+b1,b13,-2.0,2.0,2,5,ironic amusement,0.10944301635026932
+b1,b13,-2.0,2.0,2,6,enthusiasm / curiosity,0.17043210566043854
+b1,b13,-2.0,2.0,3,0,self-doubt / encouragement,0.1408497393131256
+b1,b13,-2.0,2.0,3,1,frustration / despair,0.1318090558052063
+b1,b13,-2.0,2.0,3,2,uncertainty / indecision,0.1679585576057434
+b1,b13,-2.0,2.0,3,3,romantic idealism,-0.00030440744012594223
+b1,b13,-2.0,2.0,3,4,academic ambition / competitive determination,0.08563283085823059
+b1,b13,-2.0,2.0,3,5,ironic amusement,0.13566401600837708
+b1,b13,-2.0,2.0,3,6,enthusiasm / curiosity,0.14855235815048218
+b1,b13,-2.0,2.0,4,0,self-doubt / encouragement,0.18717800080776215
+b1,b13,-2.0,2.0,4,1,frustration / despair,0.1578996181488037
+b1,b13,-2.0,2.0,4,2,uncertainty / indecision,0.2535145878791809
+b1,b13,-2.0,2.0,4,3,romantic idealism,0.1242763102054596
+b1,b13,-2.0,2.0,4,4,academic ambition / competitive determination,0.23757602274417877
+b1,b13,-2.0,2.0,4,5,ironic amusement,0.1335676908493042
+b1,b13,-2.0,2.0,4,6,enthusiasm / curiosity,0.19514137506484985
+b1,b13,-2.0,2.0,5,0,self-doubt / encouragement,0.12555907666683197
+b1,b13,-2.0,2.0,5,1,frustration / despair,0.13929153978824615
+b1,b13,-2.0,2.0,5,2,uncertainty / indecision,0.20420464873313904
+b1,b13,-2.0,2.0,5,3,romantic idealism,0.012791959568858147
+b1,b13,-2.0,2.0,5,4,academic ambition / competitive determination,0.08808740973472595
+b1,b13,-2.0,2.0,5,5,ironic amusement,0.13546526432037354
+b1,b13,-2.0,2.0,5,6,enthusiasm / curiosity,0.16533927619457245
+b1,b13,-2.0,2.0,6,0,self-doubt / encouragement,0.0901743695139885
+b1,b13,-2.0,2.0,6,1,frustration / despair,0.08932848274707794
+b1,b13,-2.0,2.0,6,2,uncertainty / indecision,0.13291700184345245
+b1,b13,-2.0,2.0,6,3,romantic idealism,0.041853759437799454
+b1,b13,-2.0,2.0,6,4,academic ambition / competitive determination,0.10912413895130157
+b1,b13,-2.0,2.0,6,5,ironic amusement,0.1644028127193451
+b1,b13,-2.0,2.0,6,6,enthusiasm / curiosity,0.12123199552297592
+b1,b13,-2.0,2.0,7,0,self-doubt / encouragement,0.267091304063797
+b1,b13,-2.0,2.0,7,1,frustration / despair,0.16986823081970215
+b1,b13,-2.0,2.0,7,2,uncertainty / indecision,0.23405763506889343
+b1,b13,-2.0,2.0,7,3,romantic idealism,0.06299413740634918
+b1,b13,-2.0,2.0,7,4,academic ambition / competitive determination,0.07789357751607895
+b1,b13,-2.0,2.0,7,5,ironic amusement,0.14940360188484192
+b1,b13,-2.0,2.0,7,6,enthusiasm / curiosity,0.186175137758255
+b1,b13,0.0,-2.0,0,0,self-doubt / encouragement,0.1079656183719635
+b1,b13,0.0,-2.0,0,1,frustration / despair,0.21045981347560883
+b1,b13,0.0,-2.0,0,2,uncertainty / indecision,0.22090905904769897
+b1,b13,0.0,-2.0,0,3,romantic idealism,0.044676825404167175
+b1,b13,0.0,-2.0,0,4,academic ambition / competitive determination,0.14185437560081482
+b1,b13,0.0,-2.0,0,5,ironic amusement,0.0929412841796875
+b1,b13,0.0,-2.0,0,6,enthusiasm / curiosity,0.1414516121149063
+b1,b13,0.0,-2.0,1,0,self-doubt / encouragement,0.0618574433028698
+b1,b13,0.0,-2.0,1,1,frustration / despair,0.08191409707069397
+b1,b13,0.0,-2.0,1,2,uncertainty / indecision,0.10256343334913254
+b1,b13,0.0,-2.0,1,3,romantic idealism,0.03227471560239792
+b1,b13,0.0,-2.0,1,4,academic ambition / competitive determination,0.03616047278046608
+b1,b13,0.0,-2.0,1,5,ironic amusement,0.08802966773509979
+b1,b13,0.0,-2.0,1,6,enthusiasm / curiosity,0.11396098881959915
+b1,b13,0.0,-2.0,2,0,self-doubt / encouragement,0.1587454080581665
+b1,b13,0.0,-2.0,2,1,frustration / despair,0.05815831571817398
+b1,b13,0.0,-2.0,2,2,uncertainty / indecision,0.11451689153909683
+b1,b13,0.0,-2.0,2,3,romantic idealism,0.04771169647574425
+b1,b13,0.0,-2.0,2,4,academic ambition / competitive determination,0.06687882542610168
+b1,b13,0.0,-2.0,2,5,ironic amusement,0.09290698170661926
+b1,b13,0.0,-2.0,2,6,enthusiasm / curiosity,0.20888742804527283
+b1,b13,0.0,-2.0,3,0,self-doubt / encouragement,0.07368439435958862
+b1,b13,0.0,-2.0,3,1,frustration / despair,0.10808540880680084
+b1,b13,0.0,-2.0,3,2,uncertainty / indecision,0.15401965379714966
+b1,b13,0.0,-2.0,3,3,romantic idealism,0.05981472507119179
+b1,b13,0.0,-2.0,3,4,academic ambition / competitive determination,0.06631128489971161
+b1,b13,0.0,-2.0,3,5,ironic amusement,0.132282093167305
+b1,b13,0.0,-2.0,3,6,enthusiasm / curiosity,0.14807161688804626
+b1,b13,0.0,-2.0,4,0,self-doubt / encouragement,0.1056051105260849
+b1,b13,0.0,-2.0,4,1,frustration / despair,0.11323783546686172
+b1,b13,0.0,-2.0,4,2,uncertainty / indecision,0.1961125135421753
+b1,b13,0.0,-2.0,4,3,romantic idealism,0.10802128911018372
+b1,b13,0.0,-2.0,4,4,academic ambition / competitive determination,0.15146327018737793
+b1,b13,0.0,-2.0,4,5,ironic amusement,0.06267121434211731
+b1,b13,0.0,-2.0,4,6,enthusiasm / curiosity,0.12534907460212708
+b1,b13,0.0,-2.0,5,0,self-doubt / encouragement,0.15892355144023895
+b1,b13,0.0,-2.0,5,1,frustration / despair,0.139905646443367
+b1,b13,0.0,-2.0,5,2,uncertainty / indecision,0.2513939142227173
+b1,b13,0.0,-2.0,5,3,romantic idealism,0.09755006432533264
+b1,b13,0.0,-2.0,5,4,academic ambition / competitive determination,0.14702512323856354
+b1,b13,0.0,-2.0,5,5,ironic amusement,0.12300130724906921
+b1,b13,0.0,-2.0,5,6,enthusiasm / curiosity,0.17150066792964935
+b1,b13,0.0,-2.0,6,0,self-doubt / encouragement,0.06309079378843307
+b1,b13,0.0,-2.0,6,1,frustration / despair,0.05641549825668335
+b1,b13,0.0,-2.0,6,2,uncertainty / indecision,0.0848015546798706
+b1,b13,0.0,-2.0,6,3,romantic idealism,0.05890027433633804
+b1,b13,0.0,-2.0,6,4,academic ambition / competitive determination,0.1042616069316864
+b1,b13,0.0,-2.0,6,5,ironic amusement,0.015014798380434513
+b1,b13,0.0,-2.0,6,6,enthusiasm / curiosity,0.1307028979063034
+b1,b13,0.0,-2.0,7,0,self-doubt / encouragement,0.2940784990787506
+b1,b13,0.0,-2.0,7,1,frustration / despair,0.3450310528278351
+b1,b13,0.0,-2.0,7,2,uncertainty / indecision,0.39847028255462646
+b1,b13,0.0,-2.0,7,3,romantic idealism,0.17482750117778778
+b1,b13,0.0,-2.0,7,4,academic ambition / competitive determination,0.28995218873023987
+b1,b13,0.0,-2.0,7,5,ironic amusement,0.28679174184799194
+b1,b13,0.0,-2.0,7,6,enthusiasm / curiosity,0.33377212285995483
+b1,b13,0.0,0.0,0,0,self-doubt / encouragement,0.25813189148902893
+b1,b13,0.0,0.0,0,1,frustration / despair,0.17861869931221008
+b1,b13,0.0,0.0,0,2,uncertainty / indecision,0.2938035726547241
+b1,b13,0.0,0.0,0,3,romantic idealism,0.09840402752161026
+b1,b13,0.0,0.0,0,4,academic ambition / competitive determination,0.12982867658138275
+b1,b13,0.0,0.0,0,5,ironic amusement,0.14226104319095612
+b1,b13,0.0,0.0,0,6,enthusiasm / curiosity,0.18688584864139557
+b1,b13,0.0,0.0,1,0,self-doubt / encouragement,0.08841095864772797
+b1,b13,0.0,0.0,1,1,frustration / despair,0.12091337889432907
+b1,b13,0.0,0.0,1,2,uncertainty / indecision,0.15781734883785248
+b1,b13,0.0,0.0,1,3,romantic idealism,-0.006770863197743893
+b1,b13,0.0,0.0,1,4,academic ambition / competitive determination,0.07020284235477448
+b1,b13,0.0,0.0,1,5,ironic amusement,0.11187908798456192
+b1,b13,0.0,0.0,1,6,enthusiasm / curiosity,0.10045291483402252
+b1,b13,0.0,0.0,2,0,self-doubt / encouragement,0.11807066202163696
+b1,b13,0.0,0.0,2,1,frustration / despair,0.08125200122594833
+b1,b13,0.0,0.0,2,2,uncertainty / indecision,0.1627798229455948
+b1,b13,0.0,0.0,2,3,romantic idealism,0.08189420402050018
+b1,b13,0.0,0.0,2,4,academic ambition / competitive determination,0.22492516040802002
+b1,b13,0.0,0.0,2,5,ironic amusement,0.07568584382534027
+b1,b13,0.0,0.0,2,6,enthusiasm / curiosity,0.16488127410411835
+b1,b13,0.0,0.0,3,0,self-doubt / encouragement,0.052453186362981796
+b1,b13,0.0,0.0,3,1,frustration / despair,0.09358758479356766
+b1,b13,0.0,0.0,3,2,uncertainty / indecision,0.12726494669914246
+b1,b13,0.0,0.0,3,3,romantic idealism,0.030849866569042206
+b1,b13,0.0,0.0,3,4,academic ambition / competitive determination,0.05452263727784157
+b1,b13,0.0,0.0,3,5,ironic amusement,0.11290572583675385
+b1,b13,0.0,0.0,3,6,enthusiasm / curiosity,0.11540377885103226
+b1,b13,0.0,0.0,4,0,self-doubt / encouragement,0.09420274198055267
+b1,b13,0.0,0.0,4,1,frustration / despair,0.08755809813737869
+b1,b13,0.0,0.0,4,2,uncertainty / indecision,0.1750427633523941
+b1,b13,0.0,0.0,4,3,romantic idealism,0.0777839720249176
+b1,b13,0.0,0.0,4,4,academic ambition / competitive determination,0.17606696486473083
+b1,b13,0.0,0.0,4,5,ironic amusement,0.047942329198122025
+b1,b13,0.0,0.0,4,6,enthusiasm / curiosity,0.12136196345090866
+b1,b13,0.0,0.0,5,0,self-doubt / encouragement,0.2605997622013092
+b1,b13,0.0,0.0,5,1,frustration / despair,0.1821449100971222
+b1,b13,0.0,0.0,5,2,uncertainty / indecision,0.3255994915962219
+b1,b13,0.0,0.0,5,3,romantic idealism,0.07390762865543365
+b1,b13,0.0,0.0,5,4,academic ambition / competitive determination,0.23687967658042908
+b1,b13,0.0,0.0,5,5,ironic amusement,0.1294260025024414
+b1,b13,0.0,0.0,5,6,enthusiasm / curiosity,0.2497444748878479
+b1,b13,0.0,0.0,6,0,self-doubt / encouragement,0.05742540583014488
+b1,b13,0.0,0.0,6,1,frustration / despair,0.01839112676680088
+b1,b13,0.0,0.0,6,2,uncertainty / indecision,0.05221102759242058
+b1,b13,0.0,0.0,6,3,romantic idealism,-0.0029398947954177856
+b1,b13,0.0,0.0,6,4,academic ambition / competitive determination,0.06544547528028488
+b1,b13,0.0,0.0,6,5,ironic amusement,0.11783196777105331
+b1,b13,0.0,0.0,6,6,enthusiasm / curiosity,0.07693257182836533
+b1,b13,0.0,0.0,7,0,self-doubt / encouragement,0.23421017825603485
+b1,b13,0.0,0.0,7,1,frustration / despair,0.17512358725070953
+b1,b13,0.0,0.0,7,2,uncertainty / indecision,0.2382877618074417
+b1,b13,0.0,0.0,7,3,romantic idealism,0.043948929756879807
+b1,b13,0.0,0.0,7,4,academic ambition / competitive determination,0.09755353629589081
+b1,b13,0.0,0.0,7,5,ironic amusement,0.16565553843975067
+b1,b13,0.0,0.0,7,6,enthusiasm / curiosity,0.21328479051589966
+b1,b13,0.0,2.0,0,0,self-doubt / encouragement,0.13249002397060394
+b1,b13,0.0,2.0,0,1,frustration / despair,0.20995695888996124
+b1,b13,0.0,2.0,0,2,uncertainty / indecision,0.19181230664253235
+b1,b13,0.0,2.0,0,3,romantic idealism,-0.020195841789245605
+b1,b13,0.0,2.0,0,4,academic ambition / competitive determination,0.08750301599502563
+b1,b13,0.0,2.0,0,5,ironic amusement,0.1469186693429947
+b1,b13,0.0,2.0,0,6,enthusiasm / curiosity,0.1337772011756897
+b1,b13,0.0,2.0,1,0,self-doubt / encouragement,0.23340177536010742
+b1,b13,0.0,2.0,1,1,frustration / despair,0.23091945052146912
+b1,b13,0.0,2.0,1,2,uncertainty / indecision,0.2619163393974304
+b1,b13,0.0,2.0,1,3,romantic idealism,0.1208295151591301
+b1,b13,0.0,2.0,1,4,academic ambition / competitive determination,0.141514852643013
+b1,b13,0.0,2.0,1,5,ironic amusement,0.20069408416748047
+b1,b13,0.0,2.0,1,6,enthusiasm / curiosity,0.28641194105148315
+b1,b13,0.0,2.0,2,0,self-doubt / encouragement,0.14057748019695282
+b1,b13,0.0,2.0,2,1,frustration / despair,0.06099993735551834
+b1,b13,0.0,2.0,2,2,uncertainty / indecision,0.10362768918275833
+b1,b13,0.0,2.0,2,3,romantic idealism,0.1929982304573059
+b1,b13,0.0,2.0,2,4,academic ambition / competitive determination,0.07709187269210815
+b1,b13,0.0,2.0,2,5,ironic amusement,0.17996057868003845
+b1,b13,0.0,2.0,2,6,enthusiasm / curiosity,0.21706613898277283
+b1,b13,0.0,2.0,3,0,self-doubt / encouragement,0.07205758988857269
+b1,b13,0.0,2.0,3,1,frustration / despair,0.1312333643436432
+b1,b13,0.0,2.0,3,2,uncertainty / indecision,0.17033793032169342
+b1,b13,0.0,2.0,3,3,romantic idealism,0.0614924319088459
+b1,b13,0.0,2.0,3,4,academic ambition / competitive determination,0.07901395857334137
+b1,b13,0.0,2.0,3,5,ironic amusement,0.12075186520814896
+b1,b13,0.0,2.0,3,6,enthusiasm / curiosity,0.164966881275177
+b1,b13,0.0,2.0,4,0,self-doubt / encouragement,0.21117419004440308
+b1,b13,0.0,2.0,4,1,frustration / despair,0.17703020572662354
+b1,b13,0.0,2.0,4,2,uncertainty / indecision,0.2732919752597809
+b1,b13,0.0,2.0,4,3,romantic idealism,0.11195429414510727
+b1,b13,0.0,2.0,4,4,academic ambition / competitive determination,0.21288548409938812
+b1,b13,0.0,2.0,4,5,ironic amusement,0.138455331325531
+b1,b13,0.0,2.0,4,6,enthusiasm / curiosity,0.1984051913022995
+b1,b13,0.0,2.0,5,0,self-doubt / encouragement,0.15653777122497559
+b1,b13,0.0,2.0,5,1,frustration / despair,0.12581466138362885
+b1,b13,0.0,2.0,5,2,uncertainty / indecision,0.19443631172180176
+b1,b13,0.0,2.0,5,3,romantic idealism,0.07441782206296921
+b1,b13,0.0,2.0,5,4,academic ambition / competitive determination,0.10690765082836151
+b1,b13,0.0,2.0,5,5,ironic amusement,0.1326974481344223
+b1,b13,0.0,2.0,5,6,enthusiasm / curiosity,0.20527829229831696
+b1,b13,0.0,2.0,6,0,self-doubt / encouragement,0.1768570989370346
+b1,b13,0.0,2.0,6,1,frustration / despair,0.21283479034900665
+b1,b13,0.0,2.0,6,2,uncertainty / indecision,0.22252266108989716
+b1,b13,0.0,2.0,6,3,romantic idealism,0.0685398131608963
+b1,b13,0.0,2.0,6,4,academic ambition / competitive determination,0.14609208703041077
+b1,b13,0.0,2.0,6,5,ironic amusement,0.1691673845052719
+b1,b13,0.0,2.0,6,6,enthusiasm / curiosity,0.22367002069950104
+b1,b13,0.0,2.0,7,0,self-doubt / encouragement,0.20578666031360626
+b1,b13,0.0,2.0,7,1,frustration / despair,0.17892290651798248
+b1,b13,0.0,2.0,7,2,uncertainty / indecision,0.22662930190563202
+b1,b13,0.0,2.0,7,3,romantic idealism,0.027743680402636528
+b1,b13,0.0,2.0,7,4,academic ambition / competitive determination,0.07254420965909958
+b1,b13,0.0,2.0,7,5,ironic amusement,0.15734465420246124
+b1,b13,0.0,2.0,7,6,enthusiasm / curiosity,0.18109680712223053
+b1,b13,2.0,-2.0,0,0,self-doubt / encouragement,0.15949828922748566
+b1,b13,2.0,-2.0,0,1,frustration / despair,0.18104447424411774
+b1,b13,2.0,-2.0,0,2,uncertainty / indecision,0.21034936606884003
+b1,b13,2.0,-2.0,0,3,romantic idealism,0.02587752789258957
+b1,b13,2.0,-2.0,0,4,academic ambition / competitive determination,0.15651248395442963
+b1,b13,2.0,-2.0,0,5,ironic amusement,0.0943790152668953
+b1,b13,2.0,-2.0,0,6,enthusiasm / curiosity,0.1675524115562439
+b1,b13,2.0,-2.0,1,0,self-doubt / encouragement,0.1449931114912033
+b1,b13,2.0,-2.0,1,1,frustration / despair,0.1353904902935028
+b1,b13,2.0,-2.0,1,2,uncertainty / indecision,0.18455523252487183
+b1,b13,2.0,-2.0,1,3,romantic idealism,0.1148645281791687
+b1,b13,2.0,-2.0,1,4,academic ambition / competitive determination,0.10143417865037918
+b1,b13,2.0,-2.0,1,5,ironic amusement,0.12428277730941772
+b1,b13,2.0,-2.0,1,6,enthusiasm / curiosity,0.2094527781009674
+b1,b13,2.0,-2.0,2,0,self-doubt / encouragement,0.1459057778120041
+b1,b13,2.0,-2.0,2,1,frustration / despair,0.09020084142684937
+b1,b13,2.0,-2.0,2,2,uncertainty / indecision,0.11210831999778748
+b1,b13,2.0,-2.0,2,3,romantic idealism,0.061588019132614136
+b1,b13,2.0,-2.0,2,4,academic ambition / competitive determination,0.05202769488096237
+b1,b13,2.0,-2.0,2,5,ironic amusement,0.04710644856095314
+b1,b13,2.0,-2.0,2,6,enthusiasm / curiosity,0.1053454726934433
+b1,b13,2.0,-2.0,3,0,self-doubt / encouragement,0.0764259621500969
+b1,b13,2.0,-2.0,3,1,frustration / despair,0.0766282007098198
+b1,b13,2.0,-2.0,3,2,uncertainty / indecision,0.16695360839366913
+b1,b13,2.0,-2.0,3,3,romantic idealism,-0.022078994661569595
+b1,b13,2.0,-2.0,3,4,academic ambition / competitive determination,0.15452784299850464
+b1,b13,2.0,-2.0,3,5,ironic amusement,0.11593169718980789
+b1,b13,2.0,-2.0,3,6,enthusiasm / curiosity,0.1402524709701538
+b1,b13,2.0,-2.0,4,0,self-doubt / encouragement,0.14392319321632385
+b1,b13,2.0,-2.0,4,1,frustration / despair,0.11823767423629761
+b1,b13,2.0,-2.0,4,2,uncertainty / indecision,0.18512451648712158
+b1,b13,2.0,-2.0,4,3,romantic idealism,0.10417386889457703
+b1,b13,2.0,-2.0,4,4,academic ambition / competitive determination,0.13873741030693054
+b1,b13,2.0,-2.0,4,5,ironic amusement,0.06425052136182785
+b1,b13,2.0,-2.0,4,6,enthusiasm / curiosity,0.1248292550444603
+b1,b13,2.0,-2.0,5,0,self-doubt / encouragement,0.16007043421268463
+b1,b13,2.0,-2.0,5,1,frustration / despair,0.12573488056659698
+b1,b13,2.0,-2.0,5,2,uncertainty / indecision,0.1840505301952362
+b1,b13,2.0,-2.0,5,3,romantic idealism,0.07016748189926147
+b1,b13,2.0,-2.0,5,4,academic ambition / competitive determination,0.12312508374452591
+b1,b13,2.0,-2.0,5,5,ironic amusement,0.14098288118839264
+b1,b13,2.0,-2.0,5,6,enthusiasm / curiosity,0.222178652882576
+b1,b13,2.0,-2.0,6,0,self-doubt / encouragement,0.13133712112903595
+b1,b13,2.0,-2.0,6,1,frustration / despair,0.057794928550720215
+b1,b13,2.0,-2.0,6,2,uncertainty / indecision,0.09956719726324081
+b1,b13,2.0,-2.0,6,3,romantic idealism,0.03306938335299492
+b1,b13,2.0,-2.0,6,4,academic ambition / competitive determination,-0.003272468224167824
+b1,b13,2.0,-2.0,6,5,ironic amusement,0.17894317209720612
+b1,b13,2.0,-2.0,6,6,enthusiasm / curiosity,0.12194257229566574
+b1,b13,2.0,-2.0,7,0,self-doubt / encouragement,0.2939532399177551
+b1,b13,2.0,-2.0,7,1,frustration / despair,0.34492677450180054
+b1,b13,2.0,-2.0,7,2,uncertainty / indecision,0.39835917949676514
+b1,b13,2.0,-2.0,7,3,romantic idealism,0.17481476068496704
+b1,b13,2.0,-2.0,7,4,academic ambition / competitive determination,0.28996434807777405
+b1,b13,2.0,-2.0,7,5,ironic amusement,0.28677278757095337
+b1,b13,2.0,-2.0,7,6,enthusiasm / curiosity,0.33368515968322754
+b1,b13,2.0,0.0,0,0,self-doubt / encouragement,0.2425605058670044
+b1,b13,2.0,0.0,0,1,frustration / despair,0.15465828776359558
+b1,b13,2.0,0.0,0,2,uncertainty / indecision,0.22024334967136383
+b1,b13,2.0,0.0,0,3,romantic idealism,0.004330373369157314
+b1,b13,2.0,0.0,0,4,academic ambition / competitive determination,0.1317223310470581
+b1,b13,2.0,0.0,0,5,ironic amusement,0.21090656518936157
+b1,b13,2.0,0.0,0,6,enthusiasm / curiosity,0.28100040555000305
+b1,b13,2.0,0.0,1,0,self-doubt / encouragement,0.16069795191287994
+b1,b13,2.0,0.0,1,1,frustration / despair,0.15840281546115875
+b1,b13,2.0,0.0,1,2,uncertainty / indecision,0.18827806413173676
+b1,b13,2.0,0.0,1,3,romantic idealism,0.10029228776693344
+b1,b13,2.0,0.0,1,4,academic ambition / competitive determination,0.0666499212384224
+b1,b13,2.0,0.0,1,5,ironic amusement,0.1281481683254242
+b1,b13,2.0,0.0,1,6,enthusiasm / curiosity,0.19893519580364227
+b1,b13,2.0,0.0,2,0,self-doubt / encouragement,0.15917862951755524
+b1,b13,2.0,0.0,2,1,frustration / despair,0.14626246690750122
+b1,b13,2.0,0.0,2,2,uncertainty / indecision,0.16737045347690582
+b1,b13,2.0,0.0,2,3,romantic idealism,0.1634669303894043
+b1,b13,2.0,0.0,2,4,academic ambition / competitive determination,0.12637081742286682
+b1,b13,2.0,0.0,2,5,ironic amusement,0.048569317907094955
+b1,b13,2.0,0.0,2,6,enthusiasm / curiosity,0.15318620204925537
+b1,b13,2.0,0.0,3,0,self-doubt / encouragement,0.102531298995018
+b1,b13,2.0,0.0,3,1,frustration / despair,0.07760205119848251
+b1,b13,2.0,0.0,3,2,uncertainty / indecision,0.14552870392799377
+b1,b13,2.0,0.0,3,3,romantic idealism,-0.03093135356903076
+b1,b13,2.0,0.0,3,4,academic ambition / competitive determination,0.11816318333148956
+b1,b13,2.0,0.0,3,5,ironic amusement,0.12354525178670883
+b1,b13,2.0,0.0,3,6,enthusiasm / curiosity,0.16865047812461853
+b1,b13,2.0,0.0,4,0,self-doubt / encouragement,0.17132197320461273
+b1,b13,2.0,0.0,4,1,frustration / despair,0.11077816784381866
+b1,b13,2.0,0.0,4,2,uncertainty / indecision,0.19798366725444794
+b1,b13,2.0,0.0,4,3,romantic idealism,0.07208235561847687
+b1,b13,2.0,0.0,4,4,academic ambition / competitive determination,0.215925931930542
+b1,b13,2.0,0.0,4,5,ironic amusement,0.09559005498886108
+b1,b13,2.0,0.0,4,6,enthusiasm / curiosity,0.22239503264427185
+b1,b13,2.0,0.0,5,0,self-doubt / encouragement,0.1593089997768402
+b1,b13,2.0,0.0,5,1,frustration / despair,0.1444195806980133
+b1,b13,2.0,0.0,5,2,uncertainty / indecision,0.18300503492355347
+b1,b13,2.0,0.0,5,3,romantic idealism,0.042489197105169296
+b1,b13,2.0,0.0,5,4,academic ambition / competitive determination,0.09951305389404297
+b1,b13,2.0,0.0,5,5,ironic amusement,0.13140971958637238
+b1,b13,2.0,0.0,5,6,enthusiasm / curiosity,0.22048163414001465
+b1,b13,2.0,0.0,6,0,self-doubt / encouragement,0.2140534669160843
+b1,b13,2.0,0.0,6,1,frustration / despair,0.14762449264526367
+b1,b13,2.0,0.0,6,2,uncertainty / indecision,0.17574620246887207
+b1,b13,2.0,0.0,6,3,romantic idealism,0.08707848191261292
+b1,b13,2.0,0.0,6,4,academic ambition / competitive determination,0.13148042559623718
+b1,b13,2.0,0.0,6,5,ironic amusement,0.15125539898872375
+b1,b13,2.0,0.0,6,6,enthusiasm / curiosity,0.21732866764068604
+b1,b13,2.0,0.0,7,0,self-doubt / encouragement,0.2289009690284729
+b1,b13,2.0,0.0,7,1,frustration / despair,0.1809365451335907
+b1,b13,2.0,0.0,7,2,uncertainty / indecision,0.16955526173114777
+b1,b13,2.0,0.0,7,3,romantic idealism,0.06741634756326675
+b1,b13,2.0,0.0,7,4,academic ambition / competitive determination,0.108656145632267
+b1,b13,2.0,0.0,7,5,ironic amusement,0.16674759984016418
+b1,b13,2.0,0.0,7,6,enthusiasm / curiosity,0.1679295003414154
+b1,b13,2.0,2.0,0,0,self-doubt / encouragement,0.2268582284450531
+b1,b13,2.0,2.0,0,1,frustration / despair,0.2638224959373474
+b1,b13,2.0,2.0,0,2,uncertainty / indecision,0.25200867652893066
+b1,b13,2.0,2.0,0,3,romantic idealism,0.0655154138803482
+b1,b13,2.0,2.0,0,4,academic ambition / competitive determination,0.20566388964653015
+b1,b13,2.0,2.0,0,5,ironic amusement,0.15415318310260773
+b1,b13,2.0,2.0,0,6,enthusiasm / curiosity,0.2396046221256256
+b1,b13,2.0,2.0,1,0,self-doubt / encouragement,0.34140509366989136
+b1,b13,2.0,2.0,1,1,frustration / despair,0.31118443608283997
+b1,b13,2.0,2.0,1,2,uncertainty / indecision,0.32403331995010376
+b1,b13,2.0,2.0,1,3,romantic idealism,0.17291685938835144
+b1,b13,2.0,2.0,1,4,academic ambition / competitive determination,0.19939656555652618
+b1,b13,2.0,2.0,1,5,ironic amusement,0.26900729537010193
+b1,b13,2.0,2.0,1,6,enthusiasm / curiosity,0.37956932187080383
+b1,b13,2.0,2.0,2,0,self-doubt / encouragement,0.21501697599887848
+b1,b13,2.0,2.0,2,1,frustration / despair,0.12282343208789825
+b1,b13,2.0,2.0,2,2,uncertainty / indecision,0.16644053161144257
+b1,b13,2.0,2.0,2,3,romantic idealism,0.16731484234333038
+b1,b13,2.0,2.0,2,4,academic ambition / competitive determination,0.11797259747982025
+b1,b13,2.0,2.0,2,5,ironic amusement,0.0996370017528534
+b1,b13,2.0,2.0,2,6,enthusiasm / curiosity,0.21593576669692993
+b1,b13,2.0,2.0,3,0,self-doubt / encouragement,0.2232288420200348
+b1,b13,2.0,2.0,3,1,frustration / despair,0.09667488187551498
+b1,b13,2.0,2.0,3,2,uncertainty / indecision,0.19748514890670776
+b1,b13,2.0,2.0,3,3,romantic idealism,0.0823960229754448
+b1,b13,2.0,2.0,3,4,academic ambition / competitive determination,0.105744369328022
+b1,b13,2.0,2.0,3,5,ironic amusement,0.16241095960140228
+b1,b13,2.0,2.0,3,6,enthusiasm / curiosity,0.23937377333641052
+b1,b13,2.0,2.0,4,0,self-doubt / encouragement,0.1220385953783989
+b1,b13,2.0,2.0,4,1,frustration / despair,0.1279151886701584
+b1,b13,2.0,2.0,4,2,uncertainty / indecision,0.1853501796722412
+b1,b13,2.0,2.0,4,3,romantic idealism,0.0793573409318924
+b1,b13,2.0,2.0,4,4,academic ambition / competitive determination,0.10507851839065552
+b1,b13,2.0,2.0,4,5,ironic amusement,0.06402552127838135
+b1,b13,2.0,2.0,4,6,enthusiasm / curiosity,0.14855529367923737
+b1,b13,2.0,2.0,5,0,self-doubt / encouragement,0.16495585441589355
+b1,b13,2.0,2.0,5,1,frustration / despair,0.13008956611156464
+b1,b13,2.0,2.0,5,2,uncertainty / indecision,0.2005642056465149
+b1,b13,2.0,2.0,5,3,romantic idealism,0.048014238476753235
+b1,b13,2.0,2.0,5,4,academic ambition / competitive determination,0.19193749129772186
+b1,b13,2.0,2.0,5,5,ironic amusement,0.17415212094783783
+b1,b13,2.0,2.0,5,6,enthusiasm / curiosity,0.1904928833246231
+b1,b13,2.0,2.0,6,0,self-doubt / encouragement,0.28107789158821106
+b1,b13,2.0,2.0,6,1,frustration / despair,0.2278059720993042
+b1,b13,2.0,2.0,6,2,uncertainty / indecision,0.26831120252609253
+b1,b13,2.0,2.0,6,3,romantic idealism,0.09590013325214386
+b1,b13,2.0,2.0,6,4,academic ambition / competitive determination,0.2417752891778946
+b1,b13,2.0,2.0,6,5,ironic amusement,0.16696953773498535
+b1,b13,2.0,2.0,6,6,enthusiasm / curiosity,0.2940751612186432
+b1,b13,2.0,2.0,7,0,self-doubt / encouragement,0.21744562685489655
+b1,b13,2.0,2.0,7,1,frustration / despair,0.18381819128990173
+b1,b13,2.0,2.0,7,2,uncertainty / indecision,0.17472903430461884
+b1,b13,2.0,2.0,7,3,romantic idealism,0.10923269391059875
+b1,b13,2.0,2.0,7,4,academic ambition / competitive determination,0.10550238192081451
+b1,b13,2.0,2.0,7,5,ironic amusement,0.17915813624858856
+b1,b13,2.0,2.0,7,6,enthusiasm / curiosity,0.20998501777648926
+b11,b13,-2.0,-2.0,0,0,self-doubt / encouragement,0.1411987543106079
+b11,b13,-2.0,-2.0,0,1,frustration / despair,0.08453547209501266
+b11,b13,-2.0,-2.0,0,2,uncertainty / indecision,0.10022075474262238
+b11,b13,-2.0,-2.0,0,3,romantic idealism,0.015218113549053669
+b11,b13,-2.0,-2.0,0,4,academic ambition / competitive determination,0.08672917634248734
+b11,b13,-2.0,-2.0,0,5,ironic amusement,0.1399819701910019
+b11,b13,-2.0,-2.0,0,6,enthusiasm / curiosity,0.17312447726726532
+b11,b13,-2.0,-2.0,1,0,self-doubt / encouragement,0.13882383704185486
+b11,b13,-2.0,-2.0,1,1,frustration / despair,0.1545344740152359
+b11,b13,-2.0,-2.0,1,2,uncertainty / indecision,0.19758163392543793
+b11,b13,-2.0,-2.0,1,3,romantic idealism,0.03244466334581375
+b11,b13,-2.0,-2.0,1,4,academic ambition / competitive determination,0.14784102141857147
+b11,b13,-2.0,-2.0,1,5,ironic amusement,0.11793886870145798
+b11,b13,-2.0,-2.0,1,6,enthusiasm / curiosity,0.13020026683807373
+b11,b13,-2.0,-2.0,2,0,self-doubt / encouragement,0.14715144038200378
+b11,b13,-2.0,-2.0,2,1,frustration / despair,0.060527827590703964
+b11,b13,-2.0,-2.0,2,2,uncertainty / indecision,0.08115411549806595
+b11,b13,-2.0,-2.0,2,3,romantic idealism,0.04470652714371681
+b11,b13,-2.0,-2.0,2,4,academic ambition / competitive determination,0.04328734055161476
+b11,b13,-2.0,-2.0,2,5,ironic amusement,0.07890454679727554
+b11,b13,-2.0,-2.0,2,6,enthusiasm / curiosity,0.21461018919944763
+b11,b13,-2.0,-2.0,3,0,self-doubt / encouragement,0.05895610898733139
+b11,b13,-2.0,-2.0,3,1,frustration / despair,0.07934102416038513
+b11,b13,-2.0,-2.0,3,2,uncertainty / indecision,0.09856124222278595
+b11,b13,-2.0,-2.0,3,3,romantic idealism,0.028417423367500305
+b11,b13,-2.0,-2.0,3,4,academic ambition / competitive determination,0.05484836548566818
+b11,b13,-2.0,-2.0,3,5,ironic amusement,0.10769908875226974
+b11,b13,-2.0,-2.0,3,6,enthusiasm / curiosity,0.1485670655965805
+b11,b13,-2.0,-2.0,4,0,self-doubt / encouragement,0.11731740832328796
+b11,b13,-2.0,-2.0,4,1,frustration / despair,0.06781286746263504
+b11,b13,-2.0,-2.0,4,2,uncertainty / indecision,0.16807352006435394
+b11,b13,-2.0,-2.0,4,3,romantic idealism,0.06950677186250687
+b11,b13,-2.0,-2.0,4,4,academic ambition / competitive determination,0.09919610619544983
+b11,b13,-2.0,-2.0,4,5,ironic amusement,0.06598789989948273
+b11,b13,-2.0,-2.0,4,6,enthusiasm / curiosity,0.10113538801670074
+b11,b13,-2.0,-2.0,5,0,self-doubt / encouragement,0.1561926156282425
+b11,b13,-2.0,-2.0,5,1,frustration / despair,0.13555879890918732
+b11,b13,-2.0,-2.0,5,2,uncertainty / indecision,0.13254089653491974
+b11,b13,-2.0,-2.0,5,3,romantic idealism,0.054447975009679794
+b11,b13,-2.0,-2.0,5,4,academic ambition / competitive determination,0.09445703774690628
+b11,b13,-2.0,-2.0,5,5,ironic amusement,0.13684731721878052
+b11,b13,-2.0,-2.0,5,6,enthusiasm / curiosity,0.21611568331718445
+b11,b13,-2.0,-2.0,6,0,self-doubt / encouragement,0.12047626823186874
+b11,b13,-2.0,-2.0,6,1,frustration / despair,0.12014545500278473
+b11,b13,-2.0,-2.0,6,2,uncertainty / indecision,0.12078052014112473
+b11,b13,-2.0,-2.0,6,3,romantic idealism,0.002430252730846405
+b11,b13,-2.0,-2.0,6,4,academic ambition / competitive determination,0.04728766903281212
+b11,b13,-2.0,-2.0,6,5,ironic amusement,0.10690931975841522
+b11,b13,-2.0,-2.0,6,6,enthusiasm / curiosity,0.13086803257465363
+b11,b13,-2.0,-2.0,7,0,self-doubt / encouragement,0.22895358502864838
+b11,b13,-2.0,-2.0,7,1,frustration / despair,0.18005642294883728
+b11,b13,-2.0,-2.0,7,2,uncertainty / indecision,0.1892896443605423
+b11,b13,-2.0,-2.0,7,3,romantic idealism,0.04311336949467659
+b11,b13,-2.0,-2.0,7,4,academic ambition / competitive determination,0.11087101697921753
+b11,b13,-2.0,-2.0,7,5,ironic amusement,0.19371448457241058
+b11,b13,-2.0,-2.0,7,6,enthusiasm / curiosity,0.21065574884414673
+b11,b13,-2.0,0.0,0,0,self-doubt / encouragement,0.11302880942821503
+b11,b13,-2.0,0.0,0,1,frustration / despair,0.1391109675168991
+b11,b13,-2.0,0.0,0,2,uncertainty / indecision,0.14492854475975037
+b11,b13,-2.0,0.0,0,3,romantic idealism,0.10339558124542236
+b11,b13,-2.0,0.0,0,4,academic ambition / competitive determination,0.07654094696044922
+b11,b13,-2.0,0.0,0,5,ironic amusement,0.1111672967672348
+b11,b13,-2.0,0.0,0,6,enthusiasm / curiosity,0.15221641957759857
+b11,b13,-2.0,0.0,1,0,self-doubt / encouragement,0.12337563931941986
+b11,b13,-2.0,0.0,1,1,frustration / despair,0.0964774638414383
+b11,b13,-2.0,0.0,1,2,uncertainty / indecision,0.1465483158826828
+b11,b13,-2.0,0.0,1,3,romantic idealism,0.058671437203884125
+b11,b13,-2.0,0.0,1,4,academic ambition / competitive determination,0.047532662749290466
+b11,b13,-2.0,0.0,1,5,ironic amusement,0.14754746854305267
+b11,b13,-2.0,0.0,1,6,enthusiasm / curiosity,0.11724772304296494
+b11,b13,-2.0,0.0,2,0,self-doubt / encouragement,0.10017313063144684
+b11,b13,-2.0,0.0,2,1,frustration / despair,0.08625444769859314
+b11,b13,-2.0,0.0,2,2,uncertainty / indecision,0.10923151671886444
+b11,b13,-2.0,0.0,2,3,romantic idealism,0.0060401479713618755
+b11,b13,-2.0,0.0,2,4,academic ambition / competitive determination,0.05787911266088486
+b11,b13,-2.0,0.0,2,5,ironic amusement,0.034921761602163315
+b11,b13,-2.0,0.0,2,6,enthusiasm / curiosity,0.09441226720809937
+b11,b13,-2.0,0.0,3,0,self-doubt / encouragement,0.0523921437561512
+b11,b13,-2.0,0.0,3,1,frustration / despair,0.060511279851198196
+b11,b13,-2.0,0.0,3,2,uncertainty / indecision,0.08555363118648529
+b11,b13,-2.0,0.0,3,3,romantic idealism,0.006268564146012068
+b11,b13,-2.0,0.0,3,4,academic ambition / competitive determination,0.06825955957174301
+b11,b13,-2.0,0.0,3,5,ironic amusement,0.11284893751144409
+b11,b13,-2.0,0.0,3,6,enthusiasm / curiosity,0.14914202690124512
+b11,b13,-2.0,0.0,4,0,self-doubt / encouragement,0.07742451876401901
+b11,b13,-2.0,0.0,4,1,frustration / despair,0.04400031268596649
+b11,b13,-2.0,0.0,4,2,uncertainty / indecision,0.15896834433078766
+b11,b13,-2.0,0.0,4,3,romantic idealism,0.060419369488954544
+b11,b13,-2.0,0.0,4,4,academic ambition / competitive determination,0.10453395545482635
+b11,b13,-2.0,0.0,4,5,ironic amusement,0.04774653539061546
+b11,b13,-2.0,0.0,4,6,enthusiasm / curiosity,0.10600210726261139
+b11,b13,-2.0,0.0,5,0,self-doubt / encouragement,0.13359108567237854
+b11,b13,-2.0,0.0,5,1,frustration / despair,0.12494492530822754
+b11,b13,-2.0,0.0,5,2,uncertainty / indecision,0.19384364783763885
+b11,b13,-2.0,0.0,5,3,romantic idealism,0.07712844014167786
+b11,b13,-2.0,0.0,5,4,academic ambition / competitive determination,0.08162403851747513
+b11,b13,-2.0,0.0,5,5,ironic amusement,0.09281914681196213
+b11,b13,-2.0,0.0,5,6,enthusiasm / curiosity,0.1769547462463379
+b11,b13,-2.0,0.0,6,0,self-doubt / encouragement,0.18978522717952728
+b11,b13,-2.0,0.0,6,1,frustration / despair,0.17530137300491333
+b11,b13,-2.0,0.0,6,2,uncertainty / indecision,0.2160092294216156
+b11,b13,-2.0,0.0,6,3,romantic idealism,0.0551871731877327
+b11,b13,-2.0,0.0,6,4,academic ambition / competitive determination,0.20921854674816132
+b11,b13,-2.0,0.0,6,5,ironic amusement,0.11708109825849533
+b11,b13,-2.0,0.0,6,6,enthusiasm / curiosity,0.21032845973968506
+b11,b13,-2.0,0.0,7,0,self-doubt / encouragement,0.19698932766914368
+b11,b13,-2.0,0.0,7,1,frustration / despair,0.16401775181293488
+b11,b13,-2.0,0.0,7,2,uncertainty / indecision,0.18708957731723785
+b11,b13,-2.0,0.0,7,3,romantic idealism,0.0305256899446249
+b11,b13,-2.0,0.0,7,4,academic ambition / competitive determination,0.1355484127998352
+b11,b13,-2.0,0.0,7,5,ironic amusement,0.1956532895565033
+b11,b13,-2.0,0.0,7,6,enthusiasm / curiosity,0.2505369186401367
+b11,b13,-2.0,2.0,0,0,self-doubt / encouragement,0.34140509366989136
+b11,b13,-2.0,2.0,0,1,frustration / despair,0.31118443608283997
+b11,b13,-2.0,2.0,0,2,uncertainty / indecision,0.32403331995010376
+b11,b13,-2.0,2.0,0,3,romantic idealism,0.17291685938835144
+b11,b13,-2.0,2.0,0,4,academic ambition / competitive determination,0.19939656555652618
+b11,b13,-2.0,2.0,0,5,ironic amusement,0.26900729537010193
+b11,b13,-2.0,2.0,0,6,enthusiasm / curiosity,0.37956932187080383
+b11,b13,-2.0,2.0,1,0,self-doubt / encouragement,0.34140509366989136
+b11,b13,-2.0,2.0,1,1,frustration / despair,0.31118443608283997
+b11,b13,-2.0,2.0,1,2,uncertainty / indecision,0.32403331995010376
+b11,b13,-2.0,2.0,1,3,romantic idealism,0.17291685938835144
+b11,b13,-2.0,2.0,1,4,academic ambition / competitive determination,0.19939656555652618
+b11,b13,-2.0,2.0,1,5,ironic amusement,0.26900729537010193
+b11,b13,-2.0,2.0,1,6,enthusiasm / curiosity,0.37956932187080383
+b11,b13,-2.0,2.0,2,0,self-doubt / encouragement,0.10523338615894318
+b11,b13,-2.0,2.0,2,1,frustration / despair,0.08180981129407883
+b11,b13,-2.0,2.0,2,2,uncertainty / indecision,0.11103879660367966
+b11,b13,-2.0,2.0,2,3,romantic idealism,0.0017821150831878185
+b11,b13,-2.0,2.0,2,4,academic ambition / competitive determination,0.04887187480926514
+b11,b13,-2.0,2.0,2,5,ironic amusement,0.04264437034726143
+b11,b13,-2.0,2.0,2,6,enthusiasm / curiosity,0.08683998882770538
+b11,b13,-2.0,2.0,3,0,self-doubt / encouragement,0.1469026803970337
+b11,b13,-2.0,2.0,3,1,frustration / despair,0.16771070659160614
+b11,b13,-2.0,2.0,3,2,uncertainty / indecision,0.20858953893184662
+b11,b13,-2.0,2.0,3,3,romantic idealism,0.0647801011800766
+b11,b13,-2.0,2.0,3,4,academic ambition / competitive determination,0.09909223020076752
+b11,b13,-2.0,2.0,3,5,ironic amusement,0.17138855159282684
+b11,b13,-2.0,2.0,3,6,enthusiasm / curiosity,0.24482466280460358
+b11,b13,-2.0,2.0,4,0,self-doubt / encouragement,0.19191952049732208
+b11,b13,-2.0,2.0,4,1,frustration / despair,0.1594458818435669
+b11,b13,-2.0,2.0,4,2,uncertainty / indecision,0.20571140944957733
+b11,b13,-2.0,2.0,4,3,romantic idealism,0.04415443539619446
+b11,b13,-2.0,2.0,4,4,academic ambition / competitive determination,0.11398748308420181
+b11,b13,-2.0,2.0,4,5,ironic amusement,0.1570657342672348
+b11,b13,-2.0,2.0,4,6,enthusiasm / curiosity,0.2409783899784088
+b11,b13,-2.0,2.0,5,0,self-doubt / encouragement,0.3014792799949646
+b11,b13,-2.0,2.0,5,1,frustration / despair,0.28701645135879517
+b11,b13,-2.0,2.0,5,2,uncertainty / indecision,0.35518935322761536
+b11,b13,-2.0,2.0,5,3,romantic idealism,0.11578930914402008
+b11,b13,-2.0,2.0,5,4,academic ambition / competitive determination,0.283059298992157
+b11,b13,-2.0,2.0,5,5,ironic amusement,0.23791517317295074
+b11,b13,-2.0,2.0,5,6,enthusiasm / curiosity,0.32522082328796387
+b11,b13,-2.0,2.0,6,0,self-doubt / encouragement,0.22062593698501587
+b11,b13,-2.0,2.0,6,1,frustration / despair,0.17986930906772614
+b11,b13,-2.0,2.0,6,2,uncertainty / indecision,0.22147776186466217
+b11,b13,-2.0,2.0,6,3,romantic idealism,0.03143153712153435
+b11,b13,-2.0,2.0,6,4,academic ambition / competitive determination,0.21397872269153595
+b11,b13,-2.0,2.0,6,5,ironic amusement,0.14372938871383667
+b11,b13,-2.0,2.0,6,6,enthusiasm / curiosity,0.23841261863708496
+b11,b13,-2.0,2.0,7,0,self-doubt / encouragement,0.18583039939403534
+b11,b13,-2.0,2.0,7,1,frustration / despair,0.11588168144226074
+b11,b13,-2.0,2.0,7,2,uncertainty / indecision,0.17938923835754395
+b11,b13,-2.0,2.0,7,3,romantic idealism,0.04853514954447746
+b11,b13,-2.0,2.0,7,4,academic ambition / competitive determination,0.0573444738984108
+b11,b13,-2.0,2.0,7,5,ironic amusement,0.09979253262281418
+b11,b13,-2.0,2.0,7,6,enthusiasm / curiosity,0.13191482424736023
+b11,b13,0.0,-2.0,0,0,self-doubt / encouragement,0.10800196975469589
+b11,b13,0.0,-2.0,0,1,frustration / despair,0.21044424176216125
+b11,b13,0.0,-2.0,0,2,uncertainty / indecision,0.2208927571773529
+b11,b13,0.0,-2.0,0,3,romantic idealism,0.04468564689159393
+b11,b13,0.0,-2.0,0,4,academic ambition / competitive determination,0.14189809560775757
+b11,b13,0.0,-2.0,0,5,ironic amusement,0.09293513745069504
+b11,b13,0.0,-2.0,0,6,enthusiasm / curiosity,0.14147599041461945
+b11,b13,0.0,-2.0,1,0,self-doubt / encouragement,0.06185317039489746
+b11,b13,0.0,-2.0,1,1,frustration / despair,0.08194039016962051
+b11,b13,0.0,-2.0,1,2,uncertainty / indecision,0.10255925357341766
+b11,b13,0.0,-2.0,1,3,romantic idealism,0.03222005069255829
+b11,b13,0.0,-2.0,1,4,academic ambition / competitive determination,0.03618216514587402
+b11,b13,0.0,-2.0,1,5,ironic amusement,0.08800027519464493
+b11,b13,0.0,-2.0,1,6,enthusiasm / curiosity,0.11398252099752426
+b11,b13,0.0,-2.0,2,0,self-doubt / encouragement,0.15875530242919922
+b11,b13,0.0,-2.0,2,1,frustration / despair,0.05817759782075882
+b11,b13,0.0,-2.0,2,2,uncertainty / indecision,0.11453074961900711
+b11,b13,0.0,-2.0,2,3,romantic idealism,0.047704875469207764
+b11,b13,0.0,-2.0,2,4,academic ambition / competitive determination,0.06686359643936157
+b11,b13,0.0,-2.0,2,5,ironic amusement,0.09288948029279709
+b11,b13,0.0,-2.0,2,6,enthusiasm / curiosity,0.2089003473520279
+b11,b13,0.0,-2.0,3,0,self-doubt / encouragement,0.0736732929944992
+b11,b13,0.0,-2.0,3,1,frustration / despair,0.10810624063014984
+b11,b13,0.0,-2.0,3,2,uncertainty / indecision,0.15402503311634064
+b11,b13,0.0,-2.0,3,3,romantic idealism,0.059827592223882675
+b11,b13,0.0,-2.0,3,4,academic ambition / competitive determination,0.0663028135895729
+b11,b13,0.0,-2.0,3,5,ironic amusement,0.1322956681251526
+b11,b13,0.0,-2.0,3,6,enthusiasm / curiosity,0.14805030822753906
+b11,b13,0.0,-2.0,4,0,self-doubt / encouragement,0.10557853430509567
+b11,b13,0.0,-2.0,4,1,frustration / despair,0.11318807303905487
+b11,b13,0.0,-2.0,4,2,uncertainty / indecision,0.19603532552719116
+b11,b13,0.0,-2.0,4,3,romantic idealism,0.10800441354513168
+b11,b13,0.0,-2.0,4,4,academic ambition / competitive determination,0.1513984352350235
+b11,b13,0.0,-2.0,4,5,ironic amusement,0.06264525651931763
+b11,b13,0.0,-2.0,4,6,enthusiasm / curiosity,0.12529902160167694
+b11,b13,0.0,-2.0,5,0,self-doubt / encouragement,0.15896576642990112
+b11,b13,0.0,-2.0,5,1,frustration / despair,0.13996869325637817
+b11,b13,0.0,-2.0,5,2,uncertainty / indecision,0.25142499804496765
+b11,b13,0.0,-2.0,5,3,romantic idealism,0.09755753725767136
+b11,b13,0.0,-2.0,5,4,academic ambition / competitive determination,0.14705897867679596
+b11,b13,0.0,-2.0,5,5,ironic amusement,0.12303315848112106
+b11,b13,0.0,-2.0,5,6,enthusiasm / curiosity,0.17152801156044006
+b11,b13,0.0,-2.0,6,0,self-doubt / encouragement,0.06312377750873566
+b11,b13,0.0,-2.0,6,1,frustration / despair,0.056482944637537
+b11,b13,0.0,-2.0,6,2,uncertainty / indecision,0.08484043926000595
+b11,b13,0.0,-2.0,6,3,romantic idealism,0.058933623135089874
+b11,b13,0.0,-2.0,6,4,academic ambition / competitive determination,0.10426446795463562
+b11,b13,0.0,-2.0,6,5,ironic amusement,0.015008213929831982
+b11,b13,0.0,-2.0,6,6,enthusiasm / curiosity,0.1307283490896225
+b11,b13,0.0,-2.0,7,0,self-doubt / encouragement,0.2939532399177551
+b11,b13,0.0,-2.0,7,1,frustration / despair,0.34492677450180054
+b11,b13,0.0,-2.0,7,2,uncertainty / indecision,0.39835917949676514
+b11,b13,0.0,-2.0,7,3,romantic idealism,0.17481476068496704
+b11,b13,0.0,-2.0,7,4,academic ambition / competitive determination,0.28996434807777405
+b11,b13,0.0,-2.0,7,5,ironic amusement,0.28677278757095337
+b11,b13,0.0,-2.0,7,6,enthusiasm / curiosity,0.33368515968322754
+b11,b13,0.0,0.0,0,0,self-doubt / encouragement,0.2579997777938843
+b11,b13,0.0,0.0,0,1,frustration / despair,0.1789245754480362
+b11,b13,0.0,0.0,0,2,uncertainty / indecision,0.29380178451538086
+b11,b13,0.0,0.0,0,3,romantic idealism,0.09819807857275009
+b11,b13,0.0,0.0,0,4,academic ambition / competitive determination,0.12983283400535583
+b11,b13,0.0,0.0,0,5,ironic amusement,0.1419805884361267
+b11,b13,0.0,0.0,0,6,enthusiasm / curiosity,0.18679827451705933
+b11,b13,0.0,0.0,1,0,self-doubt / encouragement,0.08845274150371552
+b11,b13,0.0,0.0,1,1,frustration / despair,0.12093593180179596
+b11,b13,0.0,0.0,1,2,uncertainty / indecision,0.15784244239330292
+b11,b13,0.0,0.0,1,3,romantic idealism,-0.00678758230060339
+b11,b13,0.0,0.0,1,4,academic ambition / competitive determination,0.07019902020692825
+b11,b13,0.0,0.0,1,5,ironic amusement,0.11188811808824539
+b11,b13,0.0,0.0,1,6,enthusiasm / curiosity,0.10050353407859802
+b11,b13,0.0,0.0,2,0,self-doubt / encouragement,0.11809313297271729
+b11,b13,0.0,0.0,2,1,frustration / despair,0.08123224973678589
+b11,b13,0.0,0.0,2,2,uncertainty / indecision,0.16279290616512299
+b11,b13,0.0,0.0,2,3,romantic idealism,0.0818898156285286
+b11,b13,0.0,0.0,2,4,academic ambition / competitive determination,0.2249232828617096
+b11,b13,0.0,0.0,2,5,ironic amusement,0.07563547044992447
+b11,b13,0.0,0.0,2,6,enthusiasm / curiosity,0.16488325595855713
+b11,b13,0.0,0.0,3,0,self-doubt / encouragement,0.05243324488401413
+b11,b13,0.0,0.0,3,1,frustration / despair,0.09356782585382462
+b11,b13,0.0,0.0,3,2,uncertainty / indecision,0.12720690667629242
+b11,b13,0.0,0.0,3,3,romantic idealism,0.030841806903481483
+b11,b13,0.0,0.0,3,4,academic ambition / competitive determination,0.05445351451635361
+b11,b13,0.0,0.0,3,5,ironic amusement,0.11291592568159103
+b11,b13,0.0,0.0,3,6,enthusiasm / curiosity,0.11533571034669876
+b11,b13,0.0,0.0,4,0,self-doubt / encouragement,0.09420821070671082
+b11,b13,0.0,0.0,4,1,frustration / despair,0.08754955232143402
+b11,b13,0.0,0.0,4,2,uncertainty / indecision,0.17504476010799408
+b11,b13,0.0,0.0,4,3,romantic idealism,0.07784955948591232
+b11,b13,0.0,0.0,4,4,academic ambition / competitive determination,0.1761026680469513
+b11,b13,0.0,0.0,4,5,ironic amusement,0.047947339713573456
+b11,b13,0.0,0.0,4,6,enthusiasm / curiosity,0.1213914304971695
+b11,b13,0.0,0.0,5,0,self-doubt / encouragement,0.26054656505584717
+b11,b13,0.0,0.0,5,1,frustration / despair,0.18212664127349854
+b11,b13,0.0,0.0,5,2,uncertainty / indecision,0.3255496919155121
+b11,b13,0.0,0.0,5,3,romantic idealism,0.07387951016426086
+b11,b13,0.0,0.0,5,4,academic ambition / competitive determination,0.2368575632572174
+b11,b13,0.0,0.0,5,5,ironic amusement,0.12938886880874634
+b11,b13,0.0,0.0,5,6,enthusiasm / curiosity,0.2497142255306244
+b11,b13,0.0,0.0,6,0,self-doubt / encouragement,0.05740978196263313
+b11,b13,0.0,0.0,6,1,frustration / despair,0.018406767398118973
+b11,b13,0.0,0.0,6,2,uncertainty / indecision,0.05222403258085251
+b11,b13,0.0,0.0,6,3,romantic idealism,-0.0029037646017968655
+b11,b13,0.0,0.0,6,4,academic ambition / competitive determination,0.0654359757900238
+b11,b13,0.0,0.0,6,5,ironic amusement,0.11782681196928024
+b11,b13,0.0,0.0,6,6,enthusiasm / curiosity,0.07692910730838776
+b11,b13,0.0,0.0,7,0,self-doubt / encouragement,0.2342257797718048
+b11,b13,0.0,0.0,7,1,frustration / despair,0.17508135735988617
+b11,b13,0.0,0.0,7,2,uncertainty / indecision,0.23823431134223938
+b11,b13,0.0,0.0,7,3,romantic idealism,0.04392537847161293
+b11,b13,0.0,0.0,7,4,academic ambition / competitive determination,0.09754790365695953
+b11,b13,0.0,0.0,7,5,ironic amusement,0.16570064425468445
+b11,b13,0.0,0.0,7,6,enthusiasm / curiosity,0.21326260268688202
+b11,b13,0.0,2.0,0,0,self-doubt / encouragement,0.13249002397060394
+b11,b13,0.0,2.0,0,1,frustration / despair,0.20995695888996124
+b11,b13,0.0,2.0,0,2,uncertainty / indecision,0.19181230664253235
+b11,b13,0.0,2.0,0,3,romantic idealism,-0.020195841789245605
+b11,b13,0.0,2.0,0,4,academic ambition / competitive determination,0.08750301599502563
+b11,b13,0.0,2.0,0,5,ironic amusement,0.1469186693429947
+b11,b13,0.0,2.0,0,6,enthusiasm / curiosity,0.1337772011756897
+b11,b13,0.0,2.0,1,0,self-doubt / encouragement,0.23340177536010742
+b11,b13,0.0,2.0,1,1,frustration / despair,0.23091945052146912
+b11,b13,0.0,2.0,1,2,uncertainty / indecision,0.2619163393974304
+b11,b13,0.0,2.0,1,3,romantic idealism,0.1208295151591301
+b11,b13,0.0,2.0,1,4,academic ambition / competitive determination,0.141514852643013
+b11,b13,0.0,2.0,1,5,ironic amusement,0.20069408416748047
+b11,b13,0.0,2.0,1,6,enthusiasm / curiosity,0.28641194105148315
+b11,b13,0.0,2.0,2,0,self-doubt / encouragement,0.14057748019695282
+b11,b13,0.0,2.0,2,1,frustration / despair,0.06099993735551834
+b11,b13,0.0,2.0,2,2,uncertainty / indecision,0.10362768918275833
+b11,b13,0.0,2.0,2,3,romantic idealism,0.1929982304573059
+b11,b13,0.0,2.0,2,4,academic ambition / competitive determination,0.07709187269210815
+b11,b13,0.0,2.0,2,5,ironic amusement,0.17996057868003845
+b11,b13,0.0,2.0,2,6,enthusiasm / curiosity,0.21706613898277283
+b11,b13,0.0,2.0,3,0,self-doubt / encouragement,0.07205758988857269
+b11,b13,0.0,2.0,3,1,frustration / despair,0.1312333643436432
+b11,b13,0.0,2.0,3,2,uncertainty / indecision,0.17033793032169342
+b11,b13,0.0,2.0,3,3,romantic idealism,0.0614924319088459
+b11,b13,0.0,2.0,3,4,academic ambition / competitive determination,0.07901395857334137
+b11,b13,0.0,2.0,3,5,ironic amusement,0.12075186520814896
+b11,b13,0.0,2.0,3,6,enthusiasm / curiosity,0.164966881275177
+b11,b13,0.0,2.0,4,0,self-doubt / encouragement,0.21117150783538818
+b11,b13,0.0,2.0,4,1,frustration / despair,0.1769852191209793
+b11,b13,0.0,2.0,4,2,uncertainty / indecision,0.2732750177383423
+b11,b13,0.0,2.0,4,3,romantic idealism,0.11195427924394608
+b11,b13,0.0,2.0,4,4,academic ambition / competitive determination,0.2128657102584839
+b11,b13,0.0,2.0,4,5,ironic amusement,0.13844263553619385
+b11,b13,0.0,2.0,4,6,enthusiasm / curiosity,0.19838732481002808
+b11,b13,0.0,2.0,5,0,self-doubt / encouragement,0.15653777122497559
+b11,b13,0.0,2.0,5,1,frustration / despair,0.12581466138362885
+b11,b13,0.0,2.0,5,2,uncertainty / indecision,0.19443631172180176
+b11,b13,0.0,2.0,5,3,romantic idealism,0.07441782206296921
+b11,b13,0.0,2.0,5,4,academic ambition / competitive determination,0.10690765082836151
+b11,b13,0.0,2.0,5,5,ironic amusement,0.1326974481344223
+b11,b13,0.0,2.0,5,6,enthusiasm / curiosity,0.20527829229831696
+b11,b13,0.0,2.0,6,0,self-doubt / encouragement,0.1768570989370346
+b11,b13,0.0,2.0,6,1,frustration / despair,0.21283479034900665
+b11,b13,0.0,2.0,6,2,uncertainty / indecision,0.22252266108989716
+b11,b13,0.0,2.0,6,3,romantic idealism,0.0685398131608963
+b11,b13,0.0,2.0,6,4,academic ambition / competitive determination,0.14609208703041077
+b11,b13,0.0,2.0,6,5,ironic amusement,0.1691673845052719
+b11,b13,0.0,2.0,6,6,enthusiasm / curiosity,0.22367002069950104
+b11,b13,0.0,2.0,7,0,self-doubt / encouragement,0.20578666031360626
+b11,b13,0.0,2.0,7,1,frustration / despair,0.17892290651798248
+b11,b13,0.0,2.0,7,2,uncertainty / indecision,0.22662930190563202
+b11,b13,0.0,2.0,7,3,romantic idealism,0.027743680402636528
+b11,b13,0.0,2.0,7,4,academic ambition / competitive determination,0.07254420965909958
+b11,b13,0.0,2.0,7,5,ironic amusement,0.15734465420246124
+b11,b13,0.0,2.0,7,6,enthusiasm / curiosity,0.18109680712223053
+b11,b13,2.0,-2.0,0,0,self-doubt / encouragement,0.2013123780488968
+b11,b13,2.0,-2.0,0,1,frustration / despair,0.15864235162734985
+b11,b13,2.0,-2.0,0,2,uncertainty / indecision,0.1928754299879074
+b11,b13,2.0,-2.0,0,3,romantic idealism,0.028597941622138023
+b11,b13,2.0,-2.0,0,4,academic ambition / competitive determination,0.1151486411690712
+b11,b13,2.0,-2.0,0,5,ironic amusement,0.16580137610435486
+b11,b13,2.0,-2.0,0,6,enthusiasm / curiosity,0.18471266329288483
+b11,b13,2.0,-2.0,1,0,self-doubt / encouragement,0.13922475278377533
+b11,b13,2.0,-2.0,1,1,frustration / despair,0.12177705764770508
+b11,b13,2.0,-2.0,1,2,uncertainty / indecision,0.16959910094738007
+b11,b13,2.0,-2.0,1,3,romantic idealism,0.0013474151492118835
+b11,b13,2.0,-2.0,1,4,academic ambition / competitive determination,0.11726104468107224
+b11,b13,2.0,-2.0,1,5,ironic amusement,0.12994498014450073
+b11,b13,2.0,-2.0,1,6,enthusiasm / curiosity,0.1758514940738678
+b11,b13,2.0,-2.0,2,0,self-doubt / encouragement,0.11990397423505783
+b11,b13,2.0,-2.0,2,1,frustration / despair,0.07474800944328308
+b11,b13,2.0,-2.0,2,2,uncertainty / indecision,0.11988067626953125
+b11,b13,2.0,-2.0,2,3,romantic idealism,0.03494128957390785
+b11,b13,2.0,-2.0,2,4,academic ambition / competitive determination,0.12208889424800873
+b11,b13,2.0,-2.0,2,5,ironic amusement,0.04809259623289108
+b11,b13,2.0,-2.0,2,6,enthusiasm / curiosity,0.1100759506225586
+b11,b13,2.0,-2.0,3,0,self-doubt / encouragement,0.0928989127278328
+b11,b13,2.0,-2.0,3,1,frustration / despair,0.08746035397052765
+b11,b13,2.0,-2.0,3,2,uncertainty / indecision,0.12242014706134796
+b11,b13,2.0,-2.0,3,3,romantic idealism,0.02054624632000923
+b11,b13,2.0,-2.0,3,4,academic ambition / competitive determination,0.06739035248756409
+b11,b13,2.0,-2.0,3,5,ironic amusement,0.14271821081638336
+b11,b13,2.0,-2.0,3,6,enthusiasm / curiosity,0.13808678090572357
+b11,b13,2.0,-2.0,4,0,self-doubt / encouragement,0.09910231083631516
+b11,b13,2.0,-2.0,4,1,frustration / despair,0.09050288796424866
+b11,b13,2.0,-2.0,4,2,uncertainty / indecision,0.17138372361660004
+b11,b13,2.0,-2.0,4,3,romantic idealism,0.08324761688709259
+b11,b13,2.0,-2.0,4,4,academic ambition / competitive determination,0.1774946004152298
+b11,b13,2.0,-2.0,4,5,ironic amusement,0.0556187704205513
+b11,b13,2.0,-2.0,4,6,enthusiasm / curiosity,0.12388130277395248
+b11,b13,2.0,-2.0,5,0,self-doubt / encouragement,0.12503935396671295
+b11,b13,2.0,-2.0,5,1,frustration / despair,0.13449497520923615
+b11,b13,2.0,-2.0,5,2,uncertainty / indecision,0.16098976135253906
+b11,b13,2.0,-2.0,5,3,romantic idealism,0.03158019110560417
+b11,b13,2.0,-2.0,5,4,academic ambition / competitive determination,0.048734311014413834
+b11,b13,2.0,-2.0,5,5,ironic amusement,0.11876227706670761
+b11,b13,2.0,-2.0,5,6,enthusiasm / curiosity,0.16013164818286896
+b11,b13,2.0,-2.0,6,0,self-doubt / encouragement,0.01334996148943901
+b11,b13,2.0,-2.0,6,1,frustration / despair,0.029641414061188698
+b11,b13,2.0,-2.0,6,2,uncertainty / indecision,0.10354357957839966
+b11,b13,2.0,-2.0,6,3,romantic idealism,0.036434106528759
+b11,b13,2.0,-2.0,6,4,academic ambition / competitive determination,0.06985697895288467
+b11,b13,2.0,-2.0,6,5,ironic amusement,0.10180111229419708
+b11,b13,2.0,-2.0,6,6,enthusiasm / curiosity,0.06502898782491684
+b11,b13,2.0,-2.0,7,0,self-doubt / encouragement,0.17576131224632263
+b11,b13,2.0,-2.0,7,1,frustration / despair,0.23302344977855682
+b11,b13,2.0,-2.0,7,2,uncertainty / indecision,0.19899451732635498
+b11,b13,2.0,-2.0,7,3,romantic idealism,0.045402493327856064
+b11,b13,2.0,-2.0,7,4,academic ambition / competitive determination,0.09664400666952133
+b11,b13,2.0,-2.0,7,5,ironic amusement,0.18519005179405212
+b11,b13,2.0,-2.0,7,6,enthusiasm / curiosity,0.15389327704906464
+b11,b13,2.0,0.0,0,0,self-doubt / encouragement,0.1447521448135376
+b11,b13,2.0,0.0,0,1,frustration / despair,0.14381548762321472
+b11,b13,2.0,0.0,0,2,uncertainty / indecision,0.22935950756072998
+b11,b13,2.0,0.0,0,3,romantic idealism,0.021545419469475746
+b11,b13,2.0,0.0,0,4,academic ambition / competitive determination,0.03326103463768959
+b11,b13,2.0,0.0,0,5,ironic amusement,0.12701818346977234
+b11,b13,2.0,0.0,0,6,enthusiasm / curiosity,0.14662650227546692
+b11,b13,2.0,0.0,1,0,self-doubt / encouragement,0.08105706423521042
+b11,b13,2.0,0.0,1,1,frustration / despair,0.05911119282245636
+b11,b13,2.0,0.0,1,2,uncertainty / indecision,0.11984172463417053
+b11,b13,2.0,0.0,1,3,romantic idealism,0.0789550393819809
+b11,b13,2.0,0.0,1,4,academic ambition / competitive determination,0.07504701614379883
+b11,b13,2.0,0.0,1,5,ironic amusement,0.1284506618976593
+b11,b13,2.0,0.0,1,6,enthusiasm / curiosity,0.13541898131370544
+b11,b13,2.0,0.0,2,0,self-doubt / encouragement,0.11178887635469437
+b11,b13,2.0,0.0,2,1,frustration / despair,0.08477623015642166
+b11,b13,2.0,0.0,2,2,uncertainty / indecision,0.07185048609972
+b11,b13,2.0,0.0,2,3,romantic idealism,0.08511638641357422
+b11,b13,2.0,0.0,2,4,academic ambition / competitive determination,0.008392509073019028
+b11,b13,2.0,0.0,2,5,ironic amusement,0.02872142195701599
+b11,b13,2.0,0.0,2,6,enthusiasm / curiosity,0.07372453063726425
+b11,b13,2.0,0.0,3,0,self-doubt / encouragement,0.15426474809646606
+b11,b13,2.0,0.0,3,1,frustration / despair,0.13229341804981232
+b11,b13,2.0,0.0,3,2,uncertainty / indecision,0.18386581540107727
+b11,b13,2.0,0.0,3,3,romantic idealism,0.06291106343269348
+b11,b13,2.0,0.0,3,4,academic ambition / competitive determination,0.10097064822912216
+b11,b13,2.0,0.0,3,5,ironic amusement,0.16547971963882446
+b11,b13,2.0,0.0,3,6,enthusiasm / curiosity,0.18896764516830444
+b11,b13,2.0,0.0,4,0,self-doubt / encouragement,0.13328680396080017
+b11,b13,2.0,0.0,4,1,frustration / despair,0.1116943284869194
+b11,b13,2.0,0.0,4,2,uncertainty / indecision,0.20653343200683594
+b11,b13,2.0,0.0,4,3,romantic idealism,0.13084319233894348
+b11,b13,2.0,0.0,4,4,academic ambition / competitive determination,0.17013229429721832
+b11,b13,2.0,0.0,4,5,ironic amusement,0.08731290698051453
+b11,b13,2.0,0.0,4,6,enthusiasm / curiosity,0.1784915179014206
+b11,b13,2.0,0.0,5,0,self-doubt / encouragement,0.11162400245666504
+b11,b13,2.0,0.0,5,1,frustration / despair,0.0754404366016388
+b11,b13,2.0,0.0,5,2,uncertainty / indecision,0.12193548679351807
+b11,b13,2.0,0.0,5,3,romantic idealism,-0.02798636071383953
+b11,b13,2.0,0.0,5,4,academic ambition / competitive determination,0.04305274784564972
+b11,b13,2.0,0.0,5,5,ironic amusement,0.11254583299160004
+b11,b13,2.0,0.0,5,6,enthusiasm / curiosity,0.1051587462425232
+b11,b13,2.0,0.0,6,0,self-doubt / encouragement,0.07207649946212769
+b11,b13,2.0,0.0,6,1,frustration / despair,0.08836401253938675
+b11,b13,2.0,0.0,6,2,uncertainty / indecision,0.12987712025642395
+b11,b13,2.0,0.0,6,3,romantic idealism,0.021000947803258896
+b11,b13,2.0,0.0,6,4,academic ambition / competitive determination,0.09540071338415146
+b11,b13,2.0,0.0,6,5,ironic amusement,0.14298269152641296
+b11,b13,2.0,0.0,6,6,enthusiasm / curiosity,0.11271214485168457
+b11,b13,2.0,0.0,7,0,self-doubt / encouragement,0.17175818979740143
+b11,b13,2.0,0.0,7,1,frustration / despair,0.17102238535881042
+b11,b13,2.0,0.0,7,2,uncertainty / indecision,0.20353512465953827
+b11,b13,2.0,0.0,7,3,romantic idealism,0.060201458632946014
+b11,b13,2.0,0.0,7,4,academic ambition / competitive determination,0.1366473138332367
+b11,b13,2.0,0.0,7,5,ironic amusement,0.1265285760164261
+b11,b13,2.0,0.0,7,6,enthusiasm / curiosity,0.17011363804340363
+b11,b13,2.0,2.0,0,0,self-doubt / encouragement,0.22783008217811584
+b11,b13,2.0,2.0,0,1,frustration / despair,0.22678859531879425
+b11,b13,2.0,2.0,0,2,uncertainty / indecision,0.29830169677734375
+b11,b13,2.0,2.0,0,3,romantic idealism,0.11940094083547592
+b11,b13,2.0,2.0,0,4,academic ambition / competitive determination,0.1223401129245758
+b11,b13,2.0,2.0,0,5,ironic amusement,0.16165176033973694
+b11,b13,2.0,2.0,0,6,enthusiasm / curiosity,0.177338644862175
+b11,b13,2.0,2.0,1,0,self-doubt / encouragement,0.0891319289803505
+b11,b13,2.0,2.0,1,1,frustration / despair,0.09995080530643463
+b11,b13,2.0,2.0,1,2,uncertainty / indecision,0.17130863666534424
+b11,b13,2.0,2.0,1,3,romantic idealism,0.05445428565144539
+b11,b13,2.0,2.0,1,4,academic ambition / competitive determination,0.09035854041576385
+b11,b13,2.0,2.0,1,5,ironic amusement,0.10998857021331787
+b11,b13,2.0,2.0,1,6,enthusiasm / curiosity,0.16977600753307343
+b11,b13,2.0,2.0,2,0,self-doubt / encouragement,0.16855807602405548
+b11,b13,2.0,2.0,2,1,frustration / despair,0.11629695445299149
+b11,b13,2.0,2.0,2,2,uncertainty / indecision,0.10757127404212952
+b11,b13,2.0,2.0,2,3,romantic idealism,0.038743678480386734
+b11,b13,2.0,2.0,2,4,academic ambition / competitive determination,0.0510871447622776
+b11,b13,2.0,2.0,2,5,ironic amusement,0.08076538145542145
+b11,b13,2.0,2.0,2,6,enthusiasm / curiosity,0.08951292932033539
+b11,b13,2.0,2.0,3,0,self-doubt / encouragement,0.08521488308906555
+b11,b13,2.0,2.0,3,1,frustration / despair,0.0751376673579216
+b11,b13,2.0,2.0,3,2,uncertainty / indecision,0.10924738645553589
+b11,b13,2.0,2.0,3,3,romantic idealism,-0.006437448784708977
+b11,b13,2.0,2.0,3,4,academic ambition / competitive determination,0.09096673876047134
+b11,b13,2.0,2.0,3,5,ironic amusement,0.11664093285799026
+b11,b13,2.0,2.0,3,6,enthusiasm / curiosity,0.13275785744190216
+b11,b13,2.0,2.0,4,0,self-doubt / encouragement,0.2539062201976776
+b11,b13,2.0,2.0,4,1,frustration / despair,0.20789216458797455
+b11,b13,2.0,2.0,4,2,uncertainty / indecision,0.22402743995189667
+b11,b13,2.0,2.0,4,3,romantic idealism,0.11161874979734421
+b11,b13,2.0,2.0,4,4,academic ambition / competitive determination,0.23221608996391296
+b11,b13,2.0,2.0,4,5,ironic amusement,0.1538214236497879
+b11,b13,2.0,2.0,4,6,enthusiasm / curiosity,0.26136037707328796
+b11,b13,2.0,2.0,5,0,self-doubt / encouragement,0.10985425114631653
+b11,b13,2.0,2.0,5,1,frustration / despair,0.0994245857000351
+b11,b13,2.0,2.0,5,2,uncertainty / indecision,0.15496744215488434
+b11,b13,2.0,2.0,5,3,romantic idealism,0.0392015166580677
+b11,b13,2.0,2.0,5,4,academic ambition / competitive determination,0.05173454433679581
+b11,b13,2.0,2.0,5,5,ironic amusement,0.12870731949806213
+b11,b13,2.0,2.0,5,6,enthusiasm / curiosity,0.1480928510427475
+b11,b13,2.0,2.0,6,0,self-doubt / encouragement,0.1720133125782013
+b11,b13,2.0,2.0,6,1,frustration / despair,0.16330395638942719
+b11,b13,2.0,2.0,6,2,uncertainty / indecision,0.16630961000919342
+b11,b13,2.0,2.0,6,3,romantic idealism,0.06390698254108429
+b11,b13,2.0,2.0,6,4,academic ambition / competitive determination,0.08247895538806915
+b11,b13,2.0,2.0,6,5,ironic amusement,0.10741743445396423
+b11,b13,2.0,2.0,6,6,enthusiasm / curiosity,0.18703170120716095
+b11,b13,2.0,2.0,7,0,self-doubt / encouragement,0.14262299239635468
+b11,b13,2.0,2.0,7,1,frustration / despair,0.11509551852941513
+b11,b13,2.0,2.0,7,2,uncertainty / indecision,0.16144685447216034
+b11,b13,2.0,2.0,7,3,romantic idealism,3.865920007228851e-06
+b11,b13,2.0,2.0,7,4,academic ambition / competitive determination,0.031532417982816696
+b11,b13,2.0,2.0,7,5,ironic amusement,0.14666400849819183
+b11,b13,2.0,2.0,7,6,enthusiasm / curiosity,0.09886246919631958
+b8,b4,-2.0,-2.0,0,0,self-doubt / encouragement,0.150838702917099
+b8,b4,-2.0,-2.0,0,1,frustration / despair,0.24909934401512146
+b8,b4,-2.0,-2.0,0,2,uncertainty / indecision,0.25052061676979065
+b8,b4,-2.0,-2.0,0,3,romantic idealism,0.0015344340354204178
+b8,b4,-2.0,-2.0,0,4,academic ambition / competitive determination,0.10516506433486938
+b8,b4,-2.0,-2.0,0,5,ironic amusement,0.1393023282289505
+b8,b4,-2.0,-2.0,0,6,enthusiasm / curiosity,0.14988361299037933
+b8,b4,-2.0,-2.0,1,0,self-doubt / encouragement,0.16039516031742096
+b8,b4,-2.0,-2.0,1,1,frustration / despair,0.1786274015903473
+b8,b4,-2.0,-2.0,1,2,uncertainty / indecision,0.1960286796092987
+b8,b4,-2.0,-2.0,1,3,romantic idealism,0.045203451067209244
+b8,b4,-2.0,-2.0,1,4,academic ambition / competitive determination,0.09105454385280609
+b8,b4,-2.0,-2.0,1,5,ironic amusement,0.1531183421611786
+b8,b4,-2.0,-2.0,1,6,enthusiasm / curiosity,0.20000670850276947
+b8,b4,-2.0,-2.0,2,0,self-doubt / encouragement,0.11141769587993622
+b8,b4,-2.0,-2.0,2,1,frustration / despair,0.08417209982872009
+b8,b4,-2.0,-2.0,2,2,uncertainty / indecision,0.14051464200019836
+b8,b4,-2.0,-2.0,2,3,romantic idealism,0.05030190199613571
+b8,b4,-2.0,-2.0,2,4,academic ambition / competitive determination,0.16799615323543549
+b8,b4,-2.0,-2.0,2,5,ironic amusement,0.07386460900306702
+b8,b4,-2.0,-2.0,2,6,enthusiasm / curiosity,0.11929040402173996
+b8,b4,-2.0,-2.0,3,0,self-doubt / encouragement,0.13631559908390045
+b8,b4,-2.0,-2.0,3,1,frustration / despair,0.11682417243719101
+b8,b4,-2.0,-2.0,3,2,uncertainty / indecision,0.18954572081565857
+b8,b4,-2.0,-2.0,3,3,romantic idealism,0.04098618030548096
+b8,b4,-2.0,-2.0,3,4,academic ambition / competitive determination,0.12194809317588806
+b8,b4,-2.0,-2.0,3,5,ironic amusement,0.1196855902671814
+b8,b4,-2.0,-2.0,3,6,enthusiasm / curiosity,0.15445591509342194
+b8,b4,-2.0,-2.0,4,0,self-doubt / encouragement,0.11225399374961853
+b8,b4,-2.0,-2.0,4,1,frustration / despair,0.09077353775501251
+b8,b4,-2.0,-2.0,4,2,uncertainty / indecision,0.19502027332782745
+b8,b4,-2.0,-2.0,4,3,romantic idealism,0.10548979043960571
+b8,b4,-2.0,-2.0,4,4,academic ambition / competitive determination,0.21212229132652283
+b8,b4,-2.0,-2.0,4,5,ironic amusement,0.052219048142433167
+b8,b4,-2.0,-2.0,4,6,enthusiasm / curiosity,0.1346714198589325
+b8,b4,-2.0,-2.0,5,0,self-doubt / encouragement,0.1839364469051361
+b8,b4,-2.0,-2.0,5,1,frustration / despair,0.18753144145011902
+b8,b4,-2.0,-2.0,5,2,uncertainty / indecision,0.27843040227890015
+b8,b4,-2.0,-2.0,5,3,romantic idealism,0.06784456968307495
+b8,b4,-2.0,-2.0,5,4,academic ambition / competitive determination,0.1536044031381607
+b8,b4,-2.0,-2.0,5,5,ironic amusement,0.11712311953306198
+b8,b4,-2.0,-2.0,5,6,enthusiasm / curiosity,0.19686108827590942
+b8,b4,-2.0,-2.0,6,0,self-doubt / encouragement,0.15208202600479126
+b8,b4,-2.0,-2.0,6,1,frustration / despair,0.1506969928741455
+b8,b4,-2.0,-2.0,6,2,uncertainty / indecision,0.2000071406364441
+b8,b4,-2.0,-2.0,6,3,romantic idealism,0.026254156604409218
+b8,b4,-2.0,-2.0,6,4,academic ambition / competitive determination,0.09959966689348221
+b8,b4,-2.0,-2.0,6,5,ironic amusement,0.11427489668130875
+b8,b4,-2.0,-2.0,6,6,enthusiasm / curiosity,0.2184920608997345
+b8,b4,-2.0,-2.0,7,0,self-doubt / encouragement,0.21001851558685303
+b8,b4,-2.0,-2.0,7,1,frustration / despair,0.17540572583675385
+b8,b4,-2.0,-2.0,7,2,uncertainty / indecision,0.2646418809890747
+b8,b4,-2.0,-2.0,7,3,romantic idealism,0.09696445614099503
+b8,b4,-2.0,-2.0,7,4,academic ambition / competitive determination,0.10977908968925476
+b8,b4,-2.0,-2.0,7,5,ironic amusement,0.17995139956474304
+b8,b4,-2.0,-2.0,7,6,enthusiasm / curiosity,0.1715298742055893
+b8,b4,-2.0,0.0,0,0,self-doubt / encouragement,0.13056142628192902
+b8,b4,-2.0,0.0,0,1,frustration / despair,0.07960298657417297
+b8,b4,-2.0,0.0,0,2,uncertainty / indecision,0.12467452138662338
+b8,b4,-2.0,0.0,0,3,romantic idealism,0.05521149933338165
+b8,b4,-2.0,0.0,0,4,academic ambition / competitive determination,0.02350233495235443
+b8,b4,-2.0,0.0,0,5,ironic amusement,0.08042799681425095
+b8,b4,-2.0,0.0,0,6,enthusiasm / curiosity,0.0865272805094719
+b8,b4,-2.0,0.0,1,0,self-doubt / encouragement,0.1527615636587143
+b8,b4,-2.0,0.0,1,1,frustration / despair,0.10295349359512329
+b8,b4,-2.0,0.0,1,2,uncertainty / indecision,0.1676984429359436
+b8,b4,-2.0,0.0,1,3,romantic idealism,-0.022096607834100723
+b8,b4,-2.0,0.0,1,4,academic ambition / competitive determination,0.1115560382604599
+b8,b4,-2.0,0.0,1,5,ironic amusement,0.1226440817117691
+b8,b4,-2.0,0.0,1,6,enthusiasm / curiosity,0.11313195526599884
+b8,b4,-2.0,0.0,2,0,self-doubt / encouragement,0.13277414441108704
+b8,b4,-2.0,0.0,2,1,frustration / despair,0.07126232981681824
+b8,b4,-2.0,0.0,2,2,uncertainty / indecision,0.1281988024711609
+b8,b4,-2.0,0.0,2,3,romantic idealism,0.10321937501430511
+b8,b4,-2.0,0.0,2,4,academic ambition / competitive determination,0.10393443703651428
+b8,b4,-2.0,0.0,2,5,ironic amusement,0.15718892216682434
+b8,b4,-2.0,0.0,2,6,enthusiasm / curiosity,0.18689872324466705
+b8,b4,-2.0,0.0,3,0,self-doubt / encouragement,0.1019725427031517
+b8,b4,-2.0,0.0,3,1,frustration / despair,0.08965389430522919
+b8,b4,-2.0,0.0,3,2,uncertainty / indecision,0.13949702680110931
+b8,b4,-2.0,0.0,3,3,romantic idealism,0.07449480146169662
+b8,b4,-2.0,0.0,3,4,academic ambition / competitive determination,0.05371800810098648
+b8,b4,-2.0,0.0,3,5,ironic amusement,0.11582067608833313
+b8,b4,-2.0,0.0,3,6,enthusiasm / curiosity,0.14598791301250458
+b8,b4,-2.0,0.0,4,0,self-doubt / encouragement,0.12815937399864197
+b8,b4,-2.0,0.0,4,1,frustration / despair,0.09591628611087799
+b8,b4,-2.0,0.0,4,2,uncertainty / indecision,0.17688941955566406
+b8,b4,-2.0,0.0,4,3,romantic idealism,0.0992179587483406
+b8,b4,-2.0,0.0,4,4,academic ambition / competitive determination,0.18114347755908966
+b8,b4,-2.0,0.0,4,5,ironic amusement,0.12085333466529846
+b8,b4,-2.0,0.0,4,6,enthusiasm / curiosity,0.19535072147846222
+b8,b4,-2.0,0.0,5,0,self-doubt / encouragement,0.08807329833507538
+b8,b4,-2.0,0.0,5,1,frustration / despair,0.11454488337039948
+b8,b4,-2.0,0.0,5,2,uncertainty / indecision,0.13989880681037903
+b8,b4,-2.0,0.0,5,3,romantic idealism,-0.01066632941365242
+b8,b4,-2.0,0.0,5,4,academic ambition / competitive determination,0.05443524196743965
+b8,b4,-2.0,0.0,5,5,ironic amusement,0.10094626992940903
+b8,b4,-2.0,0.0,5,6,enthusiasm / curiosity,0.12607455253601074
+b8,b4,-2.0,0.0,6,0,self-doubt / encouragement,0.050577312707901
+b8,b4,-2.0,0.0,6,1,frustration / despair,0.042020320892333984
+b8,b4,-2.0,0.0,6,2,uncertainty / indecision,0.08135531097650528
+b8,b4,-2.0,0.0,6,3,romantic idealism,0.047530002892017365
+b8,b4,-2.0,0.0,6,4,academic ambition / competitive determination,0.04943562671542168
+b8,b4,-2.0,0.0,6,5,ironic amusement,0.14877478778362274
+b8,b4,-2.0,0.0,6,6,enthusiasm / curiosity,0.07173492759466171
+b8,b4,-2.0,0.0,7,0,self-doubt / encouragement,0.2063046097755432
+b8,b4,-2.0,0.0,7,1,frustration / despair,0.19243218004703522
+b8,b4,-2.0,0.0,7,2,uncertainty / indecision,0.25778985023498535
+b8,b4,-2.0,0.0,7,3,romantic idealism,0.12774576246738434
+b8,b4,-2.0,0.0,7,4,academic ambition / competitive determination,0.14669020473957062
+b8,b4,-2.0,0.0,7,5,ironic amusement,0.12233951687812805
+b8,b4,-2.0,0.0,7,6,enthusiasm / curiosity,0.1899939924478531
+b8,b4,-2.0,2.0,0,0,self-doubt / encouragement,0.2554956376552582
+b8,b4,-2.0,2.0,0,1,frustration / despair,0.18654534220695496
+b8,b4,-2.0,2.0,0,2,uncertainty / indecision,0.3642077147960663
+b8,b4,-2.0,2.0,0,3,romantic idealism,0.14327223598957062
+b8,b4,-2.0,2.0,0,4,academic ambition / competitive determination,0.13303974270820618
+b8,b4,-2.0,2.0,0,5,ironic amusement,0.11683708429336548
+b8,b4,-2.0,2.0,0,6,enthusiasm / curiosity,0.24414397776126862
+b8,b4,-2.0,2.0,1,0,self-doubt / encouragement,0.09479539841413498
+b8,b4,-2.0,2.0,1,1,frustration / despair,0.10062225908041
+b8,b4,-2.0,2.0,1,2,uncertainty / indecision,0.15062692761421204
+b8,b4,-2.0,2.0,1,3,romantic idealism,-0.026399211958050728
+b8,b4,-2.0,2.0,1,4,academic ambition / competitive determination,0.08802197128534317
+b8,b4,-2.0,2.0,1,5,ironic amusement,0.09067955613136292
+b8,b4,-2.0,2.0,1,6,enthusiasm / curiosity,0.13616962730884552
+b8,b4,-2.0,2.0,2,0,self-doubt / encouragement,0.19612553715705872
+b8,b4,-2.0,2.0,2,1,frustration / despair,0.049340151250362396
+b8,b4,-2.0,2.0,2,2,uncertainty / indecision,0.1484047919511795
+b8,b4,-2.0,2.0,2,3,romantic idealism,0.17614838480949402
+b8,b4,-2.0,2.0,2,4,academic ambition / competitive determination,0.08278457075357437
+b8,b4,-2.0,2.0,2,5,ironic amusement,0.19613724946975708
+b8,b4,-2.0,2.0,2,6,enthusiasm / curiosity,0.2405817210674286
+b8,b4,-2.0,2.0,3,0,self-doubt / encouragement,0.09754841774702072
+b8,b4,-2.0,2.0,3,1,frustration / despair,0.0448380783200264
+b8,b4,-2.0,2.0,3,2,uncertainty / indecision,0.11514990031719208
+b8,b4,-2.0,2.0,3,3,romantic idealism,0.07689822465181351
+b8,b4,-2.0,2.0,3,4,academic ambition / competitive determination,0.027899106964468956
+b8,b4,-2.0,2.0,3,5,ironic amusement,0.07908493280410767
+b8,b4,-2.0,2.0,3,6,enthusiasm / curiosity,0.12510766088962555
+b8,b4,-2.0,2.0,4,0,self-doubt / encouragement,0.10832001268863678
+b8,b4,-2.0,2.0,4,1,frustration / despair,0.06018146127462387
+b8,b4,-2.0,2.0,4,2,uncertainty / indecision,0.253533273935318
+b8,b4,-2.0,2.0,4,3,romantic idealism,0.10312401503324509
+b8,b4,-2.0,2.0,4,4,academic ambition / competitive determination,0.1537821888923645
+b8,b4,-2.0,2.0,4,5,ironic amusement,0.05912730470299721
+b8,b4,-2.0,2.0,4,6,enthusiasm / curiosity,0.12181185185909271
+b8,b4,-2.0,2.0,5,0,self-doubt / encouragement,0.1255316138267517
+b8,b4,-2.0,2.0,5,1,frustration / despair,0.1447191834449768
+b8,b4,-2.0,2.0,5,2,uncertainty / indecision,0.18189296126365662
+b8,b4,-2.0,2.0,5,3,romantic idealism,-0.0012906244955956936
+b8,b4,-2.0,2.0,5,4,academic ambition / competitive determination,0.09692475944757462
+b8,b4,-2.0,2.0,5,5,ironic amusement,0.10453462600708008
+b8,b4,-2.0,2.0,5,6,enthusiasm / curiosity,0.1374826431274414
+b8,b4,-2.0,2.0,6,0,self-doubt / encouragement,0.04628356918692589
+b8,b4,-2.0,2.0,6,1,frustration / despair,0.02797781676054001
+b8,b4,-2.0,2.0,6,2,uncertainty / indecision,0.06122567877173424
+b8,b4,-2.0,2.0,6,3,romantic idealism,0.007418153807520866
+b8,b4,-2.0,2.0,6,4,academic ambition / competitive determination,0.04309196025133133
+b8,b4,-2.0,2.0,6,5,ironic amusement,0.12100747227668762
+b8,b4,-2.0,2.0,6,6,enthusiasm / curiosity,0.06067086383700371
+b8,b4,-2.0,2.0,7,0,self-doubt / encouragement,0.21528688073158264
+b8,b4,-2.0,2.0,7,1,frustration / despair,0.1521444022655487
+b8,b4,-2.0,2.0,7,2,uncertainty / indecision,0.26677876710891724
+b8,b4,-2.0,2.0,7,3,romantic idealism,0.12947744131088257
+b8,b4,-2.0,2.0,7,4,academic ambition / competitive determination,0.15636500716209412
+b8,b4,-2.0,2.0,7,5,ironic amusement,0.14595340192317963
+b8,b4,-2.0,2.0,7,6,enthusiasm / curiosity,0.21680423617362976
+b8,b4,0.0,-2.0,0,0,self-doubt / encouragement,0.10449211299419403
+b8,b4,0.0,-2.0,0,1,frustration / despair,0.15226413309574127
+b8,b4,0.0,-2.0,0,2,uncertainty / indecision,0.1599477380514145
+b8,b4,0.0,-2.0,0,3,romantic idealism,0.03314053267240524
+b8,b4,0.0,-2.0,0,4,academic ambition / competitive determination,0.12317405641078949
+b8,b4,0.0,-2.0,0,5,ironic amusement,0.1088162511587143
+b8,b4,0.0,-2.0,0,6,enthusiasm / curiosity,0.14065887033939362
+b8,b4,0.0,-2.0,1,0,self-doubt / encouragement,0.0865510031580925
+b8,b4,0.0,-2.0,1,1,frustration / despair,0.13276521861553192
+b8,b4,0.0,-2.0,1,2,uncertainty / indecision,0.1590639352798462
+b8,b4,0.0,-2.0,1,3,romantic idealism,-0.012865125201642513
+b8,b4,0.0,-2.0,1,4,academic ambition / competitive determination,0.06525515019893646
+b8,b4,0.0,-2.0,1,5,ironic amusement,0.06977621465921402
+b8,b4,0.0,-2.0,1,6,enthusiasm / curiosity,0.10098977386951447
+b8,b4,0.0,-2.0,2,0,self-doubt / encouragement,0.1369050145149231
+b8,b4,0.0,-2.0,2,1,frustration / despair,0.10677644610404968
+b8,b4,0.0,-2.0,2,2,uncertainty / indecision,0.17365124821662903
+b8,b4,0.0,-2.0,2,3,romantic idealism,0.07269354164600372
+b8,b4,0.0,-2.0,2,4,academic ambition / competitive determination,0.22070899605751038
+b8,b4,0.0,-2.0,2,5,ironic amusement,0.02398805320262909
+b8,b4,0.0,-2.0,2,6,enthusiasm / curiosity,0.1748845875263214
+b8,b4,0.0,-2.0,3,0,self-doubt / encouragement,0.08793271332979202
+b8,b4,0.0,-2.0,3,1,frustration / despair,0.10106753557920456
+b8,b4,0.0,-2.0,3,2,uncertainty / indecision,0.09919539839029312
+b8,b4,0.0,-2.0,3,3,romantic idealism,0.03882437199354172
+b8,b4,0.0,-2.0,3,4,academic ambition / competitive determination,0.027560744434595108
+b8,b4,0.0,-2.0,3,5,ironic amusement,0.12626972794532776
+b8,b4,0.0,-2.0,3,6,enthusiasm / curiosity,0.11766309291124344
+b8,b4,0.0,-2.0,4,0,self-doubt / encouragement,0.050383638590574265
+b8,b4,0.0,-2.0,4,1,frustration / despair,0.0433071069419384
+b8,b4,0.0,-2.0,4,2,uncertainty / indecision,0.14110739529132843
+b8,b4,0.0,-2.0,4,3,romantic idealism,0.026536567136645317
+b8,b4,0.0,-2.0,4,4,academic ambition / competitive determination,0.09920202195644379
+b8,b4,0.0,-2.0,4,5,ironic amusement,0.059214577078819275
+b8,b4,0.0,-2.0,4,6,enthusiasm / curiosity,0.06927070021629333
+b8,b4,0.0,-2.0,5,0,self-doubt / encouragement,0.16524173319339752
+b8,b4,0.0,-2.0,5,1,frustration / despair,0.14338438212871552
+b8,b4,0.0,-2.0,5,2,uncertainty / indecision,0.24445085227489471
+b8,b4,0.0,-2.0,5,3,romantic idealism,0.0928153321146965
+b8,b4,0.0,-2.0,5,4,academic ambition / competitive determination,0.16040003299713135
+b8,b4,0.0,-2.0,5,5,ironic amusement,0.08358806371688843
+b8,b4,0.0,-2.0,5,6,enthusiasm / curiosity,0.1696174442768097
+b8,b4,0.0,-2.0,6,0,self-doubt / encouragement,0.28431496024131775
+b8,b4,0.0,-2.0,6,1,frustration / despair,0.15254098176956177
+b8,b4,0.0,-2.0,6,2,uncertainty / indecision,0.26873597502708435
+b8,b4,0.0,-2.0,6,3,romantic idealism,0.06154664233326912
+b8,b4,0.0,-2.0,6,4,academic ambition / competitive determination,0.20099510252475739
+b8,b4,0.0,-2.0,6,5,ironic amusement,0.11368291079998016
+b8,b4,0.0,-2.0,6,6,enthusiasm / curiosity,0.24744172394275665
+b8,b4,0.0,-2.0,7,0,self-doubt / encouragement,0.21478965878486633
+b8,b4,0.0,-2.0,7,1,frustration / despair,0.14813882112503052
+b8,b4,0.0,-2.0,7,2,uncertainty / indecision,0.24578888714313507
+b8,b4,0.0,-2.0,7,3,romantic idealism,0.05159175395965576
+b8,b4,0.0,-2.0,7,4,academic ambition / competitive determination,0.12058199942111969
+b8,b4,0.0,-2.0,7,5,ironic amusement,0.121162548661232
+b8,b4,0.0,-2.0,7,6,enthusiasm / curiosity,0.13573423027992249
+b8,b4,0.0,0.0,0,0,self-doubt / encouragement,0.2579997777938843
+b8,b4,0.0,0.0,0,1,frustration / despair,0.1789245754480362
+b8,b4,0.0,0.0,0,2,uncertainty / indecision,0.29380178451538086
+b8,b4,0.0,0.0,0,3,romantic idealism,0.09819807857275009
+b8,b4,0.0,0.0,0,4,academic ambition / competitive determination,0.12983283400535583
+b8,b4,0.0,0.0,0,5,ironic amusement,0.1419805884361267
+b8,b4,0.0,0.0,0,6,enthusiasm / curiosity,0.18679827451705933
+b8,b4,0.0,0.0,1,0,self-doubt / encouragement,0.08845274150371552
+b8,b4,0.0,0.0,1,1,frustration / despair,0.12093593180179596
+b8,b4,0.0,0.0,1,2,uncertainty / indecision,0.15784244239330292
+b8,b4,0.0,0.0,1,3,romantic idealism,-0.00678758230060339
+b8,b4,0.0,0.0,1,4,academic ambition / competitive determination,0.07019902020692825
+b8,b4,0.0,0.0,1,5,ironic amusement,0.11188811808824539
+b8,b4,0.0,0.0,1,6,enthusiasm / curiosity,0.10050353407859802
+b8,b4,0.0,0.0,2,0,self-doubt / encouragement,0.11809313297271729
+b8,b4,0.0,0.0,2,1,frustration / despair,0.08123224973678589
+b8,b4,0.0,0.0,2,2,uncertainty / indecision,0.16279290616512299
+b8,b4,0.0,0.0,2,3,romantic idealism,0.0818898156285286
+b8,b4,0.0,0.0,2,4,academic ambition / competitive determination,0.2249232828617096
+b8,b4,0.0,0.0,2,5,ironic amusement,0.07563547044992447
+b8,b4,0.0,0.0,2,6,enthusiasm / curiosity,0.16488325595855713
+b8,b4,0.0,0.0,3,0,self-doubt / encouragement,0.05243324488401413
+b8,b4,0.0,0.0,3,1,frustration / despair,0.09356782585382462
+b8,b4,0.0,0.0,3,2,uncertainty / indecision,0.12720690667629242
+b8,b4,0.0,0.0,3,3,romantic idealism,0.030841806903481483
+b8,b4,0.0,0.0,3,4,academic ambition / competitive determination,0.05445351451635361
+b8,b4,0.0,0.0,3,5,ironic amusement,0.11291592568159103
+b8,b4,0.0,0.0,3,6,enthusiasm / curiosity,0.11533571034669876
+b8,b4,0.0,0.0,4,0,self-doubt / encouragement,0.09499266743659973
+b8,b4,0.0,0.0,4,1,frustration / despair,0.08814424276351929
+b8,b4,0.0,0.0,4,2,uncertainty / indecision,0.17493335902690887
+b8,b4,0.0,0.0,4,3,romantic idealism,0.07799560576677322
+b8,b4,0.0,0.0,4,4,academic ambition / competitive determination,0.1749793142080307
+b8,b4,0.0,0.0,4,5,ironic amusement,0.047362156212329865
+b8,b4,0.0,0.0,4,6,enthusiasm / curiosity,0.1213906854391098
+b8,b4,0.0,0.0,5,0,self-doubt / encouragement,0.26054656505584717
+b8,b4,0.0,0.0,5,1,frustration / despair,0.18212664127349854
+b8,b4,0.0,0.0,5,2,uncertainty / indecision,0.3255496919155121
+b8,b4,0.0,0.0,5,3,romantic idealism,0.07387951016426086
+b8,b4,0.0,0.0,5,4,academic ambition / competitive determination,0.2368575632572174
+b8,b4,0.0,0.0,5,5,ironic amusement,0.12938886880874634
+b8,b4,0.0,0.0,5,6,enthusiasm / curiosity,0.2497142255306244
+b8,b4,0.0,0.0,6,0,self-doubt / encouragement,0.05740978196263313
+b8,b4,0.0,0.0,6,1,frustration / despair,0.018406767398118973
+b8,b4,0.0,0.0,6,2,uncertainty / indecision,0.05222403258085251
+b8,b4,0.0,0.0,6,3,romantic idealism,-0.0029037646017968655
+b8,b4,0.0,0.0,6,4,academic ambition / competitive determination,0.0654359757900238
+b8,b4,0.0,0.0,6,5,ironic amusement,0.11782681196928024
+b8,b4,0.0,0.0,6,6,enthusiasm / curiosity,0.07692910730838776
+b8,b4,0.0,0.0,7,0,self-doubt / encouragement,0.23420141637325287
+b8,b4,0.0,0.0,7,1,frustration / despair,0.1751236766576767
+b8,b4,0.0,0.0,7,2,uncertainty / indecision,0.23822972178459167
+b8,b4,0.0,0.0,7,3,romantic idealism,0.04390828683972359
+b8,b4,0.0,0.0,7,4,academic ambition / competitive determination,0.0975266844034195
+b8,b4,0.0,0.0,7,5,ironic amusement,0.16565942764282227
+b8,b4,0.0,0.0,7,6,enthusiasm / curiosity,0.21325303614139557
+b8,b4,0.0,2.0,0,0,self-doubt / encouragement,0.07450946420431137
+b8,b4,0.0,2.0,0,1,frustration / despair,0.22394001483917236
+b8,b4,0.0,2.0,0,2,uncertainty / indecision,0.1847514510154724
+b8,b4,0.0,2.0,0,3,romantic idealism,0.03077762760221958
+b8,b4,0.0,2.0,0,4,academic ambition / competitive determination,0.09633807092905045
+b8,b4,0.0,2.0,0,5,ironic amusement,0.11880269646644592
+b8,b4,0.0,2.0,0,6,enthusiasm / curiosity,0.10183460265398026
+b8,b4,0.0,2.0,1,0,self-doubt / encouragement,0.1318456381559372
+b8,b4,0.0,2.0,1,1,frustration / despair,0.11535261571407318
+b8,b4,0.0,2.0,1,2,uncertainty / indecision,0.2073153257369995
+b8,b4,0.0,2.0,1,3,romantic idealism,0.03375024348497391
+b8,b4,0.0,2.0,1,4,academic ambition / competitive determination,0.07531721889972687
+b8,b4,0.0,2.0,1,5,ironic amusement,0.13862121105194092
+b8,b4,0.0,2.0,1,6,enthusiasm / curiosity,0.11374428123235703
+b8,b4,0.0,2.0,2,0,self-doubt / encouragement,0.2018774151802063
+b8,b4,0.0,2.0,2,1,frustration / despair,0.055106643587350845
+b8,b4,0.0,2.0,2,2,uncertainty / indecision,0.15620261430740356
+b8,b4,0.0,2.0,2,3,romantic idealism,0.16400659084320068
+b8,b4,0.0,2.0,2,4,academic ambition / competitive determination,0.07676051557064056
+b8,b4,0.0,2.0,2,5,ironic amusement,0.19812993705272675
+b8,b4,0.0,2.0,2,6,enthusiasm / curiosity,0.23508967459201813
+b8,b4,0.0,2.0,3,0,self-doubt / encouragement,0.09064976871013641
+b8,b4,0.0,2.0,3,1,frustration / despair,0.06439367681741714
+b8,b4,0.0,2.0,3,2,uncertainty / indecision,0.1215960755944252
+b8,b4,0.0,2.0,3,3,romantic idealism,0.05241299420595169
+b8,b4,0.0,2.0,3,4,academic ambition / competitive determination,0.049879927188158035
+b8,b4,0.0,2.0,3,5,ironic amusement,0.1060863733291626
+b8,b4,0.0,2.0,3,6,enthusiasm / curiosity,0.15707260370254517
+b8,b4,0.0,2.0,4,0,self-doubt / encouragement,0.19017736613750458
+b8,b4,0.0,2.0,4,1,frustration / despair,0.11752861738204956
+b8,b4,0.0,2.0,4,2,uncertainty / indecision,0.23786556720733643
+b8,b4,0.0,2.0,4,3,romantic idealism,0.18599213659763336
+b8,b4,0.0,2.0,4,4,academic ambition / competitive determination,0.09019424766302109
+b8,b4,0.0,2.0,4,5,ironic amusement,0.1102953851222992
+b8,b4,0.0,2.0,4,6,enthusiasm / curiosity,0.20020364224910736
+b8,b4,0.0,2.0,5,0,self-doubt / encouragement,0.0825183093547821
+b8,b4,0.0,2.0,5,1,frustration / despair,0.07705041021108627
+b8,b4,0.0,2.0,5,2,uncertainty / indecision,0.11237920075654984
+b8,b4,0.0,2.0,5,3,romantic idealism,-0.024617446586489677
+b8,b4,0.0,2.0,5,4,academic ambition / competitive determination,0.05725204199552536
+b8,b4,0.0,2.0,5,5,ironic amusement,0.07845202088356018
+b8,b4,0.0,2.0,5,6,enthusiasm / curiosity,0.09766165912151337
+b8,b4,0.0,2.0,6,0,self-doubt / encouragement,0.16900599002838135
+b8,b4,0.0,2.0,6,1,frustration / despair,0.0802503302693367
+b8,b4,0.0,2.0,6,2,uncertainty / indecision,0.16287580132484436
+b8,b4,0.0,2.0,6,3,romantic idealism,0.08807539939880371
+b8,b4,0.0,2.0,6,4,academic ambition / competitive determination,0.121236652135849
+b8,b4,0.0,2.0,6,5,ironic amusement,0.1607334315776825
+b8,b4,0.0,2.0,6,6,enthusiasm / curiosity,0.23847471177577972
+b8,b4,0.0,2.0,7,0,self-doubt / encouragement,0.2939532399177551
+b8,b4,0.0,2.0,7,1,frustration / despair,0.34492677450180054
+b8,b4,0.0,2.0,7,2,uncertainty / indecision,0.39835917949676514
+b8,b4,0.0,2.0,7,3,romantic idealism,0.17481476068496704
+b8,b4,0.0,2.0,7,4,academic ambition / competitive determination,0.28996434807777405
+b8,b4,0.0,2.0,7,5,ironic amusement,0.28677278757095337
+b8,b4,0.0,2.0,7,6,enthusiasm / curiosity,0.33368515968322754
+b8,b4,2.0,-2.0,0,0,self-doubt / encouragement,0.1307317614555359
+b8,b4,2.0,-2.0,0,1,frustration / despair,0.1743917167186737
+b8,b4,2.0,-2.0,0,2,uncertainty / indecision,0.17389369010925293
+b8,b4,2.0,-2.0,0,3,romantic idealism,0.08567190915346146
+b8,b4,2.0,-2.0,0,4,academic ambition / competitive determination,0.06809508800506592
+b8,b4,2.0,-2.0,0,5,ironic amusement,0.12688006460666656
+b8,b4,2.0,-2.0,0,6,enthusiasm / curiosity,0.10277338325977325
+b8,b4,2.0,-2.0,1,0,self-doubt / encouragement,0.14122386276721954
+b8,b4,2.0,-2.0,1,1,frustration / despair,0.16737140715122223
+b8,b4,2.0,-2.0,1,2,uncertainty / indecision,0.20648245513439178
+b8,b4,2.0,-2.0,1,3,romantic idealism,0.042740706354379654
+b8,b4,2.0,-2.0,1,4,academic ambition / competitive determination,0.10790341347455978
+b8,b4,2.0,-2.0,1,5,ironic amusement,0.15114842355251312
+b8,b4,2.0,-2.0,1,6,enthusiasm / curiosity,0.17279207706451416
+b8,b4,2.0,-2.0,2,0,self-doubt / encouragement,0.1653929203748703
+b8,b4,2.0,-2.0,2,1,frustration / despair,0.11277566850185394
+b8,b4,2.0,-2.0,2,2,uncertainty / indecision,0.15010066330432892
+b8,b4,2.0,-2.0,2,3,romantic idealism,0.07558974623680115
+b8,b4,2.0,-2.0,2,4,academic ambition / competitive determination,0.2148590385913849
+b8,b4,2.0,-2.0,2,5,ironic amusement,0.06548557430505753
+b8,b4,2.0,-2.0,2,6,enthusiasm / curiosity,0.14006701111793518
+b8,b4,2.0,-2.0,3,0,self-doubt / encouragement,0.07542262226343155
+b8,b4,2.0,-2.0,3,1,frustration / despair,0.07386276125907898
+b8,b4,2.0,-2.0,3,2,uncertainty / indecision,0.09261023998260498
+b8,b4,2.0,-2.0,3,3,romantic idealism,0.033678747713565826
+b8,b4,2.0,-2.0,3,4,academic ambition / competitive determination,0.009111415594816208
+b8,b4,2.0,-2.0,3,5,ironic amusement,0.1118658259510994
+b8,b4,2.0,-2.0,3,6,enthusiasm / curiosity,0.09942726045846939
+b8,b4,2.0,-2.0,4,0,self-doubt / encouragement,0.07065987586975098
+b8,b4,2.0,-2.0,4,1,frustration / despair,0.05431370437145233
+b8,b4,2.0,-2.0,4,2,uncertainty / indecision,0.11632934957742691
+b8,b4,2.0,-2.0,4,3,romantic idealism,0.024662932381033897
+b8,b4,2.0,-2.0,4,4,academic ambition / competitive determination,0.09036284685134888
+b8,b4,2.0,-2.0,4,5,ironic amusement,0.09359593689441681
+b8,b4,2.0,-2.0,4,6,enthusiasm / curiosity,0.09309641271829605
+b8,b4,2.0,-2.0,5,0,self-doubt / encouragement,0.13859911262989044
+b8,b4,2.0,-2.0,5,1,frustration / despair,0.09519156068563461
+b8,b4,2.0,-2.0,5,2,uncertainty / indecision,0.1692523956298828
+b8,b4,2.0,-2.0,5,3,romantic idealism,0.02732592634856701
+b8,b4,2.0,-2.0,5,4,academic ambition / competitive determination,0.11773522198200226
+b8,b4,2.0,-2.0,5,5,ironic amusement,0.1222238689661026
+b8,b4,2.0,-2.0,5,6,enthusiasm / curiosity,0.17996390163898468
+b8,b4,2.0,-2.0,6,0,self-doubt / encouragement,0.1300545185804367
+b8,b4,2.0,-2.0,6,1,frustration / despair,0.12806229293346405
+b8,b4,2.0,-2.0,6,2,uncertainty / indecision,0.19559545814990997
+b8,b4,2.0,-2.0,6,3,romantic idealism,0.04833988472819328
+b8,b4,2.0,-2.0,6,4,academic ambition / competitive determination,0.13966210186481476
+b8,b4,2.0,-2.0,6,5,ironic amusement,0.08481590449810028
+b8,b4,2.0,-2.0,6,6,enthusiasm / curiosity,0.14740367233753204
+b8,b4,2.0,-2.0,7,0,self-doubt / encouragement,0.22900131344795227
+b8,b4,2.0,-2.0,7,1,frustration / despair,0.23806548118591309
+b8,b4,2.0,-2.0,7,2,uncertainty / indecision,0.2088056206703186
+b8,b4,2.0,-2.0,7,3,romantic idealism,0.0721249058842659
+b8,b4,2.0,-2.0,7,4,academic ambition / competitive determination,0.10063125938177109
+b8,b4,2.0,-2.0,7,5,ironic amusement,0.18458206951618195
+b8,b4,2.0,-2.0,7,6,enthusiasm / curiosity,0.21555769443511963
+b8,b4,2.0,0.0,0,0,self-doubt / encouragement,0.20025020837783813
+b8,b4,2.0,0.0,0,1,frustration / despair,0.22510358691215515
+b8,b4,2.0,0.0,0,2,uncertainty / indecision,0.18865670263767242
+b8,b4,2.0,0.0,0,3,romantic idealism,-0.013371109031140804
+b8,b4,2.0,0.0,0,4,academic ambition / competitive determination,0.05639797821640968
+b8,b4,2.0,0.0,0,5,ironic amusement,0.08881612122058868
+b8,b4,2.0,0.0,0,6,enthusiasm / curiosity,0.14959056675434113
+b8,b4,2.0,0.0,1,0,self-doubt / encouragement,0.12358766794204712
+b8,b4,2.0,0.0,1,1,frustration / despair,0.15652057528495789
+b8,b4,2.0,0.0,1,2,uncertainty / indecision,0.15992122888565063
+b8,b4,2.0,0.0,1,3,romantic idealism,0.08460450172424316
+b8,b4,2.0,0.0,1,4,academic ambition / competitive determination,0.028006665408611298
+b8,b4,2.0,0.0,1,5,ironic amusement,0.11619946360588074
+b8,b4,2.0,0.0,1,6,enthusiasm / curiosity,0.11505993455648422
+b8,b4,2.0,0.0,2,0,self-doubt / encouragement,0.16644588112831116
+b8,b4,2.0,0.0,2,1,frustration / despair,0.08828797936439514
+b8,b4,2.0,0.0,2,2,uncertainty / indecision,0.18965382874011993
+b8,b4,2.0,0.0,2,3,romantic idealism,0.06397201120853424
+b8,b4,2.0,0.0,2,4,academic ambition / competitive determination,0.26346614956855774
+b8,b4,2.0,0.0,2,5,ironic amusement,0.13283079862594604
+b8,b4,2.0,0.0,2,6,enthusiasm / curiosity,0.20830611884593964
+b8,b4,2.0,0.0,3,0,self-doubt / encouragement,0.06772104650735855
+b8,b4,2.0,0.0,3,1,frustration / despair,0.07418173551559448
+b8,b4,2.0,0.0,3,2,uncertainty / indecision,0.1182534471154213
+b8,b4,2.0,0.0,3,3,romantic idealism,0.0012644161470234394
+b8,b4,2.0,0.0,3,4,academic ambition / competitive determination,0.08670889586210251
+b8,b4,2.0,0.0,3,5,ironic amusement,0.12299680709838867
+b8,b4,2.0,0.0,3,6,enthusiasm / curiosity,0.1412336230278015
+b8,b4,2.0,0.0,4,0,self-doubt / encouragement,0.02987457998096943
+b8,b4,2.0,0.0,4,1,frustration / despair,0.035641759634017944
+b8,b4,2.0,0.0,4,2,uncertainty / indecision,0.10258058458566666
+b8,b4,2.0,0.0,4,3,romantic idealism,0.0253573227673769
+b8,b4,2.0,0.0,4,4,academic ambition / competitive determination,0.03925691545009613
+b8,b4,2.0,0.0,4,5,ironic amusement,0.029280342161655426
+b8,b4,2.0,0.0,4,6,enthusiasm / curiosity,0.07245778292417526
+b8,b4,2.0,0.0,5,0,self-doubt / encouragement,0.15549248456954956
+b8,b4,2.0,0.0,5,1,frustration / despair,0.13724179565906525
+b8,b4,2.0,0.0,5,2,uncertainty / indecision,0.22918187081813812
+b8,b4,2.0,0.0,5,3,romantic idealism,0.07569719851016998
+b8,b4,2.0,0.0,5,4,academic ambition / competitive determination,0.12145040184259415
+b8,b4,2.0,0.0,5,5,ironic amusement,0.1255149096250534
+b8,b4,2.0,0.0,5,6,enthusiasm / curiosity,0.20934990048408508
+b8,b4,2.0,0.0,6,0,self-doubt / encouragement,0.0074074845761060715
+b8,b4,2.0,0.0,6,1,frustration / despair,0.0326261930167675
+b8,b4,2.0,0.0,6,2,uncertainty / indecision,0.06916065514087677
+b8,b4,2.0,0.0,6,3,romantic idealism,0.05376114696264267
+b8,b4,2.0,0.0,6,4,academic ambition / competitive determination,0.022552430629730225
+b8,b4,2.0,0.0,6,5,ironic amusement,0.07324423640966415
+b8,b4,2.0,0.0,6,6,enthusiasm / curiosity,0.07984437793493271
+b8,b4,2.0,0.0,7,0,self-doubt / encouragement,0.22566470503807068
+b8,b4,2.0,0.0,7,1,frustration / despair,0.34420865774154663
+b8,b4,2.0,0.0,7,2,uncertainty / indecision,0.25417453050613403
+b8,b4,2.0,0.0,7,3,romantic idealism,0.07651469111442566
+b8,b4,2.0,0.0,7,4,academic ambition / competitive determination,0.09812728315591812
+b8,b4,2.0,0.0,7,5,ironic amusement,0.15157583355903625
+b8,b4,2.0,0.0,7,6,enthusiasm / curiosity,0.20909768342971802
+b8,b4,2.0,2.0,0,0,self-doubt / encouragement,0.14005020260810852
+b8,b4,2.0,2.0,0,1,frustration / despair,0.1345500349998474
+b8,b4,2.0,2.0,0,2,uncertainty / indecision,0.20790663361549377
+b8,b4,2.0,2.0,0,3,romantic idealism,0.09253089129924774
+b8,b4,2.0,2.0,0,4,academic ambition / competitive determination,0.04481537640094757
+b8,b4,2.0,2.0,0,5,ironic amusement,0.20655487477779388
+b8,b4,2.0,2.0,0,6,enthusiasm / curiosity,0.17848317325115204
+b8,b4,2.0,2.0,1,0,self-doubt / encouragement,0.05664188414812088
+b8,b4,2.0,2.0,1,1,frustration / despair,0.10954661667346954
+b8,b4,2.0,2.0,1,2,uncertainty / indecision,0.12251847237348557
+b8,b4,2.0,2.0,1,3,romantic idealism,0.0209207646548748
+b8,b4,2.0,2.0,1,4,academic ambition / competitive determination,0.052066169679164886
+b8,b4,2.0,2.0,1,5,ironic amusement,0.1008143201470375
+b8,b4,2.0,2.0,1,6,enthusiasm / curiosity,0.11354024708271027
+b8,b4,2.0,2.0,2,0,self-doubt / encouragement,0.22465389966964722
+b8,b4,2.0,2.0,2,1,frustration / despair,0.17058444023132324
+b8,b4,2.0,2.0,2,2,uncertainty / indecision,0.15766368806362152
+b8,b4,2.0,2.0,2,3,romantic idealism,0.20016610622406006
+b8,b4,2.0,2.0,2,4,academic ambition / competitive determination,0.04631219059228897
+b8,b4,2.0,2.0,2,5,ironic amusement,0.213253915309906
+b8,b4,2.0,2.0,2,6,enthusiasm / curiosity,0.20227643847465515
+b8,b4,2.0,2.0,3,0,self-doubt / encouragement,0.07454347610473633
+b8,b4,2.0,2.0,3,1,frustration / despair,0.05252907797694206
+b8,b4,2.0,2.0,3,2,uncertainty / indecision,0.09002601355314255
+b8,b4,2.0,2.0,3,3,romantic idealism,0.028971116989850998
+b8,b4,2.0,2.0,3,4,academic ambition / competitive determination,0.04008076339960098
+b8,b4,2.0,2.0,3,5,ironic amusement,0.108486607670784
+b8,b4,2.0,2.0,3,6,enthusiasm / curiosity,0.11854083091020584
+b8,b4,2.0,2.0,4,0,self-doubt / encouragement,0.16079594194889069
+b8,b4,2.0,2.0,4,1,frustration / despair,0.13097500801086426
+b8,b4,2.0,2.0,4,2,uncertainty / indecision,0.2565506100654602
+b8,b4,2.0,2.0,4,3,romantic idealism,0.20340189337730408
+b8,b4,2.0,2.0,4,4,academic ambition / competitive determination,0.12827448546886444
+b8,b4,2.0,2.0,4,5,ironic amusement,0.1670708954334259
+b8,b4,2.0,2.0,4,6,enthusiasm / curiosity,0.2235998958349228
+b8,b4,2.0,2.0,5,0,self-doubt / encouragement,0.10524721443653107
+b8,b4,2.0,2.0,5,1,frustration / despair,0.11789589375257492
+b8,b4,2.0,2.0,5,2,uncertainty / indecision,0.1402209848165512
+b8,b4,2.0,2.0,5,3,romantic idealism,-0.007560425903648138
+b8,b4,2.0,2.0,5,4,academic ambition / competitive determination,0.05205525830388069
+b8,b4,2.0,2.0,5,5,ironic amusement,0.08850462734699249
+b8,b4,2.0,2.0,5,6,enthusiasm / curiosity,0.13451355695724487
+b8,b4,2.0,2.0,6,0,self-doubt / encouragement,0.13292184472084045
+b8,b4,2.0,2.0,6,1,frustration / despair,0.06630349904298782
+b8,b4,2.0,2.0,6,2,uncertainty / indecision,0.1538359373807907
+b8,b4,2.0,2.0,6,3,romantic idealism,0.06982041895389557
+b8,b4,2.0,2.0,6,4,academic ambition / competitive determination,0.09391827881336212
+b8,b4,2.0,2.0,6,5,ironic amusement,0.15054510533809662
+b8,b4,2.0,2.0,6,6,enthusiasm / curiosity,0.21384721994400024
+b8,b4,2.0,2.0,7,0,self-doubt / encouragement,0.2939532399177551
+b8,b4,2.0,2.0,7,1,frustration / despair,0.34492677450180054
+b8,b4,2.0,2.0,7,2,uncertainty / indecision,0.39835917949676514
+b8,b4,2.0,2.0,7,3,romantic idealism,0.17481476068496704
+b8,b4,2.0,2.0,7,4,academic ambition / competitive determination,0.28996434807777405
+b8,b4,2.0,2.0,7,5,ironic amusement,0.28677278757095337
+b8,b4,2.0,2.0,7,6,enthusiasm / curiosity,0.33368515968322754
+b8,b7,-2.0,-2.0,0,0,self-doubt / encouragement,0.16998769342899323
+b8,b7,-2.0,-2.0,0,1,frustration / despair,0.12056832760572433
+b8,b7,-2.0,-2.0,0,2,uncertainty / indecision,0.17240706086158752
+b8,b7,-2.0,-2.0,0,3,romantic idealism,0.0917009487748146
+b8,b7,-2.0,-2.0,0,4,academic ambition / competitive determination,0.09445492178201675
+b8,b7,-2.0,-2.0,0,5,ironic amusement,0.1986619383096695
+b8,b7,-2.0,-2.0,0,6,enthusiasm / curiosity,0.1727452576160431
+b8,b7,-2.0,-2.0,1,0,self-doubt / encouragement,0.09071953594684601
+b8,b7,-2.0,-2.0,1,1,frustration / despair,0.0743790939450264
+b8,b7,-2.0,-2.0,1,2,uncertainty / indecision,0.09890861064195633
+b8,b7,-2.0,-2.0,1,3,romantic idealism,0.03025650419294834
+b8,b7,-2.0,-2.0,1,4,academic ambition / competitive determination,0.07690420001745224
+b8,b7,-2.0,-2.0,1,5,ironic amusement,0.10276052355766296
+b8,b7,-2.0,-2.0,1,6,enthusiasm / curiosity,0.13687673211097717
+b8,b7,-2.0,-2.0,2,0,self-doubt / encouragement,0.1408536434173584
+b8,b7,-2.0,-2.0,2,1,frustration / despair,0.08148924261331558
+b8,b7,-2.0,-2.0,2,2,uncertainty / indecision,0.13998068869113922
+b8,b7,-2.0,-2.0,2,3,romantic idealism,0.11954076588153839
+b8,b7,-2.0,-2.0,2,4,academic ambition / competitive determination,0.10562142729759216
+b8,b7,-2.0,-2.0,2,5,ironic amusement,0.18572525680065155
+b8,b7,-2.0,-2.0,2,6,enthusiasm / curiosity,0.17314425110816956
+b8,b7,-2.0,-2.0,3,0,self-doubt / encouragement,0.10307369381189346
+b8,b7,-2.0,-2.0,3,1,frustration / despair,0.07793811708688736
+b8,b7,-2.0,-2.0,3,2,uncertainty / indecision,0.1473102569580078
+b8,b7,-2.0,-2.0,3,3,romantic idealism,0.039503417909145355
+b8,b7,-2.0,-2.0,3,4,academic ambition / competitive determination,0.10269056260585785
+b8,b7,-2.0,-2.0,3,5,ironic amusement,0.1327509731054306
+b8,b7,-2.0,-2.0,3,6,enthusiasm / curiosity,0.17334306240081787
+b8,b7,-2.0,-2.0,4,0,self-doubt / encouragement,0.13267633318901062
+b8,b7,-2.0,-2.0,4,1,frustration / despair,0.11060619354248047
+b8,b7,-2.0,-2.0,4,2,uncertainty / indecision,0.20589607954025269
+b8,b7,-2.0,-2.0,4,3,romantic idealism,0.12539446353912354
+b8,b7,-2.0,-2.0,4,4,academic ambition / competitive determination,0.17473401129245758
+b8,b7,-2.0,-2.0,4,5,ironic amusement,0.09101520478725433
+b8,b7,-2.0,-2.0,4,6,enthusiasm / curiosity,0.1809433251619339
+b8,b7,-2.0,-2.0,5,0,self-doubt / encouragement,0.08971858769655228
+b8,b7,-2.0,-2.0,5,1,frustration / despair,0.13720011711120605
+b8,b7,-2.0,-2.0,5,2,uncertainty / indecision,0.13583026826381683
+b8,b7,-2.0,-2.0,5,3,romantic idealism,0.01649915799498558
+b8,b7,-2.0,-2.0,5,4,academic ambition / competitive determination,0.05651490390300751
+b8,b7,-2.0,-2.0,5,5,ironic amusement,0.10776400566101074
+b8,b7,-2.0,-2.0,5,6,enthusiasm / curiosity,0.12572932243347168
+b8,b7,-2.0,-2.0,6,0,self-doubt / encouragement,0.0558825358748436
+b8,b7,-2.0,-2.0,6,1,frustration / despair,0.07698928564786911
+b8,b7,-2.0,-2.0,6,2,uncertainty / indecision,0.14130699634552002
+b8,b7,-2.0,-2.0,6,3,romantic idealism,-0.005172464996576309
+b8,b7,-2.0,-2.0,6,4,academic ambition / competitive determination,0.04519278556108475
+b8,b7,-2.0,-2.0,6,5,ironic amusement,0.021536773070693016
+b8,b7,-2.0,-2.0,6,6,enthusiasm / curiosity,0.07194545865058899
+b8,b7,-2.0,-2.0,7,0,self-doubt / encouragement,0.17351220548152924
+b8,b7,-2.0,-2.0,7,1,frustration / despair,0.10546882450580597
+b8,b7,-2.0,-2.0,7,2,uncertainty / indecision,0.20018215477466583
+b8,b7,-2.0,-2.0,7,3,romantic idealism,0.060220297425985336
+b8,b7,-2.0,-2.0,7,4,academic ambition / competitive determination,0.08153410255908966
+b8,b7,-2.0,-2.0,7,5,ironic amusement,0.15217836201190948
+b8,b7,-2.0,-2.0,7,6,enthusiasm / curiosity,0.12419289350509644
+b8,b7,-2.0,0.0,0,0,self-doubt / encouragement,0.13056142628192902
+b8,b7,-2.0,0.0,0,1,frustration / despair,0.07960298657417297
+b8,b7,-2.0,0.0,0,2,uncertainty / indecision,0.12467452138662338
+b8,b7,-2.0,0.0,0,3,romantic idealism,0.05521149933338165
+b8,b7,-2.0,0.0,0,4,academic ambition / competitive determination,0.02350233495235443
+b8,b7,-2.0,0.0,0,5,ironic amusement,0.08042799681425095
+b8,b7,-2.0,0.0,0,6,enthusiasm / curiosity,0.0865272805094719
+b8,b7,-2.0,0.0,1,0,self-doubt / encouragement,0.1527615636587143
+b8,b7,-2.0,0.0,1,1,frustration / despair,0.10295349359512329
+b8,b7,-2.0,0.0,1,2,uncertainty / indecision,0.1676984429359436
+b8,b7,-2.0,0.0,1,3,romantic idealism,-0.022096607834100723
+b8,b7,-2.0,0.0,1,4,academic ambition / competitive determination,0.1115560382604599
+b8,b7,-2.0,0.0,1,5,ironic amusement,0.1226440817117691
+b8,b7,-2.0,0.0,1,6,enthusiasm / curiosity,0.11313195526599884
+b8,b7,-2.0,0.0,2,0,self-doubt / encouragement,0.13277414441108704
+b8,b7,-2.0,0.0,2,1,frustration / despair,0.07126232981681824
+b8,b7,-2.0,0.0,2,2,uncertainty / indecision,0.1281988024711609
+b8,b7,-2.0,0.0,2,3,romantic idealism,0.10321937501430511
+b8,b7,-2.0,0.0,2,4,academic ambition / competitive determination,0.10393443703651428
+b8,b7,-2.0,0.0,2,5,ironic amusement,0.15718892216682434
+b8,b7,-2.0,0.0,2,6,enthusiasm / curiosity,0.18689872324466705
+b8,b7,-2.0,0.0,3,0,self-doubt / encouragement,0.1019725427031517
+b8,b7,-2.0,0.0,3,1,frustration / despair,0.08965389430522919
+b8,b7,-2.0,0.0,3,2,uncertainty / indecision,0.13949702680110931
+b8,b7,-2.0,0.0,3,3,romantic idealism,0.07449480146169662
+b8,b7,-2.0,0.0,3,4,academic ambition / competitive determination,0.05371800810098648
+b8,b7,-2.0,0.0,3,5,ironic amusement,0.11582067608833313
+b8,b7,-2.0,0.0,3,6,enthusiasm / curiosity,0.14598791301250458
+b8,b7,-2.0,0.0,4,0,self-doubt / encouragement,0.12815937399864197
+b8,b7,-2.0,0.0,4,1,frustration / despair,0.09591628611087799
+b8,b7,-2.0,0.0,4,2,uncertainty / indecision,0.17688941955566406
+b8,b7,-2.0,0.0,4,3,romantic idealism,0.0992179587483406
+b8,b7,-2.0,0.0,4,4,academic ambition / competitive determination,0.18114347755908966
+b8,b7,-2.0,0.0,4,5,ironic amusement,0.12085333466529846
+b8,b7,-2.0,0.0,4,6,enthusiasm / curiosity,0.19535072147846222
+b8,b7,-2.0,0.0,5,0,self-doubt / encouragement,0.08807329833507538
+b8,b7,-2.0,0.0,5,1,frustration / despair,0.11454488337039948
+b8,b7,-2.0,0.0,5,2,uncertainty / indecision,0.13989880681037903
+b8,b7,-2.0,0.0,5,3,romantic idealism,-0.01066632941365242
+b8,b7,-2.0,0.0,5,4,academic ambition / competitive determination,0.05443524196743965
+b8,b7,-2.0,0.0,5,5,ironic amusement,0.10094626992940903
+b8,b7,-2.0,0.0,5,6,enthusiasm / curiosity,0.12607455253601074
+b8,b7,-2.0,0.0,6,0,self-doubt / encouragement,0.050577312707901
+b8,b7,-2.0,0.0,6,1,frustration / despair,0.042020320892333984
+b8,b7,-2.0,0.0,6,2,uncertainty / indecision,0.08135531097650528
+b8,b7,-2.0,0.0,6,3,romantic idealism,0.047530002892017365
+b8,b7,-2.0,0.0,6,4,academic ambition / competitive determination,0.04943562671542168
+b8,b7,-2.0,0.0,6,5,ironic amusement,0.14877478778362274
+b8,b7,-2.0,0.0,6,6,enthusiasm / curiosity,0.07173492759466171
+b8,b7,-2.0,0.0,7,0,self-doubt / encouragement,0.2063046097755432
+b8,b7,-2.0,0.0,7,1,frustration / despair,0.19243218004703522
+b8,b7,-2.0,0.0,7,2,uncertainty / indecision,0.25778985023498535
+b8,b7,-2.0,0.0,7,3,romantic idealism,0.12774576246738434
+b8,b7,-2.0,0.0,7,4,academic ambition / competitive determination,0.14669020473957062
+b8,b7,-2.0,0.0,7,5,ironic amusement,0.12233951687812805
+b8,b7,-2.0,0.0,7,6,enthusiasm / curiosity,0.1899939924478531
+b8,b7,-2.0,2.0,0,0,self-doubt / encouragement,0.18894152343273163
+b8,b7,-2.0,2.0,0,1,frustration / despair,0.13707002997398376
+b8,b7,-2.0,2.0,0,2,uncertainty / indecision,0.167368084192276
+b8,b7,-2.0,2.0,0,3,romantic idealism,0.08109930157661438
+b8,b7,-2.0,2.0,0,4,academic ambition / competitive determination,0.15643635392189026
+b8,b7,-2.0,2.0,0,5,ironic amusement,0.11169052869081497
+b8,b7,-2.0,2.0,0,6,enthusiasm / curiosity,0.14591868221759796
+b8,b7,-2.0,2.0,1,0,self-doubt / encouragement,0.09174048900604248
+b8,b7,-2.0,2.0,1,1,frustration / despair,0.10116785019636154
+b8,b7,-2.0,2.0,1,2,uncertainty / indecision,0.14512768387794495
+b8,b7,-2.0,2.0,1,3,romantic idealism,0.027263514697551727
+b8,b7,-2.0,2.0,1,4,academic ambition / competitive determination,0.0887741670012474
+b8,b7,-2.0,2.0,1,5,ironic amusement,0.10683658719062805
+b8,b7,-2.0,2.0,1,6,enthusiasm / curiosity,0.14050710201263428
+b8,b7,-2.0,2.0,2,0,self-doubt / encouragement,0.15620869398117065
+b8,b7,-2.0,2.0,2,1,frustration / despair,0.061277467757463455
+b8,b7,-2.0,2.0,2,2,uncertainty / indecision,0.070340096950531
+b8,b7,-2.0,2.0,2,3,romantic idealism,0.03563680499792099
+b8,b7,-2.0,2.0,2,4,academic ambition / competitive determination,0.05667925253510475
+b8,b7,-2.0,2.0,2,5,ironic amusement,0.031108032912015915
+b8,b7,-2.0,2.0,2,6,enthusiasm / curiosity,0.11550107598304749
+b8,b7,-2.0,2.0,3,0,self-doubt / encouragement,0.055672917515039444
+b8,b7,-2.0,2.0,3,1,frustration / despair,0.10910569131374359
+b8,b7,-2.0,2.0,3,2,uncertainty / indecision,0.12931379675865173
+b8,b7,-2.0,2.0,3,3,romantic idealism,0.024298012256622314
+b8,b7,-2.0,2.0,3,4,academic ambition / competitive determination,0.06256324052810669
+b8,b7,-2.0,2.0,3,5,ironic amusement,0.11198705434799194
+b8,b7,-2.0,2.0,3,6,enthusiasm / curiosity,0.13674452900886536
+b8,b7,-2.0,2.0,4,0,self-doubt / encouragement,0.19788716733455658
+b8,b7,-2.0,2.0,4,1,frustration / despair,0.12206846475601196
+b8,b7,-2.0,2.0,4,2,uncertainty / indecision,0.24067986011505127
+b8,b7,-2.0,2.0,4,3,romantic idealism,0.12800398468971252
+b8,b7,-2.0,2.0,4,4,academic ambition / competitive determination,0.18638989329338074
+b8,b7,-2.0,2.0,4,5,ironic amusement,0.07433156669139862
+b8,b7,-2.0,2.0,4,6,enthusiasm / curiosity,0.18059775233268738
+b8,b7,-2.0,2.0,5,0,self-doubt / encouragement,0.15368187427520752
+b8,b7,-2.0,2.0,5,1,frustration / despair,0.13545385003089905
+b8,b7,-2.0,2.0,5,2,uncertainty / indecision,0.23902049660682678
+b8,b7,-2.0,2.0,5,3,romantic idealism,-0.007976568304002285
+b8,b7,-2.0,2.0,5,4,academic ambition / competitive determination,0.17723897099494934
+b8,b7,-2.0,2.0,5,5,ironic amusement,0.13992191851139069
+b8,b7,-2.0,2.0,5,6,enthusiasm / curiosity,0.181507408618927
+b8,b7,-2.0,2.0,6,0,self-doubt / encouragement,0.07990055531263351
+b8,b7,-2.0,2.0,6,1,frustration / despair,0.0475376695394516
+b8,b7,-2.0,2.0,6,2,uncertainty / indecision,0.10570278763771057
+b8,b7,-2.0,2.0,6,3,romantic idealism,-0.013145904056727886
+b8,b7,-2.0,2.0,6,4,academic ambition / competitive determination,0.07752899825572968
+b8,b7,-2.0,2.0,6,5,ironic amusement,0.15389849245548248
+b8,b7,-2.0,2.0,6,6,enthusiasm / curiosity,0.07855168730020523
+b8,b7,-2.0,2.0,7,0,self-doubt / encouragement,0.21127773821353912
+b8,b7,-2.0,2.0,7,1,frustration / despair,0.21037809550762177
+b8,b7,-2.0,2.0,7,2,uncertainty / indecision,0.20038673281669617
+b8,b7,-2.0,2.0,7,3,romantic idealism,0.051137201488018036
+b8,b7,-2.0,2.0,7,4,academic ambition / competitive determination,0.08123251050710678
+b8,b7,-2.0,2.0,7,5,ironic amusement,0.1555069386959076
+b8,b7,-2.0,2.0,7,6,enthusiasm / curiosity,0.16119714081287384
+b8,b7,0.0,-2.0,0,0,self-doubt / encouragement,0.24010775983333588
+b8,b7,0.0,-2.0,0,1,frustration / despair,0.16612063348293304
+b8,b7,0.0,-2.0,0,2,uncertainty / indecision,0.20127709209918976
+b8,b7,0.0,-2.0,0,3,romantic idealism,0.1230132207274437
+b8,b7,0.0,-2.0,0,4,academic ambition / competitive determination,0.1517445594072342
+b8,b7,0.0,-2.0,0,5,ironic amusement,0.14739485085010529
+b8,b7,0.0,-2.0,0,6,enthusiasm / curiosity,0.18730014562606812
+b8,b7,0.0,-2.0,1,0,self-doubt / encouragement,0.10299979895353317
+b8,b7,0.0,-2.0,1,1,frustration / despair,0.11654634028673172
+b8,b7,0.0,-2.0,1,2,uncertainty / indecision,0.15033431351184845
+b8,b7,0.0,-2.0,1,3,romantic idealism,0.022664878517389297
+b8,b7,0.0,-2.0,1,4,academic ambition / competitive determination,0.08047297596931458
+b8,b7,0.0,-2.0,1,5,ironic amusement,0.06706193089485168
+b8,b7,0.0,-2.0,1,6,enthusiasm / curiosity,0.1170770600438118
+b8,b7,0.0,-2.0,2,0,self-doubt / encouragement,0.11487842351198196
+b8,b7,0.0,-2.0,2,1,frustration / despair,0.047212306410074234
+b8,b7,0.0,-2.0,2,2,uncertainty / indecision,0.06190266087651253
+b8,b7,0.0,-2.0,2,3,romantic idealism,0.11990389227867126
+b8,b7,0.0,-2.0,2,4,academic ambition / competitive determination,0.14278094470500946
+b8,b7,0.0,-2.0,2,5,ironic amusement,0.14754745364189148
+b8,b7,0.0,-2.0,2,6,enthusiasm / curiosity,0.13487586379051208
+b8,b7,0.0,-2.0,3,0,self-doubt / encouragement,0.0751107856631279
+b8,b7,0.0,-2.0,3,1,frustration / despair,0.07705845683813095
+b8,b7,0.0,-2.0,3,2,uncertainty / indecision,0.11815701425075531
+b8,b7,0.0,-2.0,3,3,romantic idealism,0.01537619810551405
+b8,b7,0.0,-2.0,3,4,academic ambition / competitive determination,0.07596538215875626
+b8,b7,0.0,-2.0,3,5,ironic amusement,0.12127641588449478
+b8,b7,0.0,-2.0,3,6,enthusiasm / curiosity,0.12870904803276062
+b8,b7,0.0,-2.0,4,0,self-doubt / encouragement,0.11244892328977585
+b8,b7,0.0,-2.0,4,1,frustration / despair,0.10770496726036072
+b8,b7,0.0,-2.0,4,2,uncertainty / indecision,0.1863601803779602
+b8,b7,0.0,-2.0,4,3,romantic idealism,0.08956192433834076
+b8,b7,0.0,-2.0,4,4,academic ambition / competitive determination,0.21544846892356873
+b8,b7,0.0,-2.0,4,5,ironic amusement,0.05726347118616104
+b8,b7,0.0,-2.0,4,6,enthusiasm / curiosity,0.15503080189228058
+b8,b7,0.0,-2.0,5,0,self-doubt / encouragement,0.20128004252910614
+b8,b7,0.0,-2.0,5,1,frustration / despair,0.18486712872982025
+b8,b7,0.0,-2.0,5,2,uncertainty / indecision,0.2773273289203644
+b8,b7,0.0,-2.0,5,3,romantic idealism,0.10509626567363739
+b8,b7,0.0,-2.0,5,4,academic ambition / competitive determination,0.16257211565971375
+b8,b7,0.0,-2.0,5,5,ironic amusement,0.14030784368515015
+b8,b7,0.0,-2.0,5,6,enthusiasm / curiosity,0.20896705985069275
+b8,b7,0.0,-2.0,6,0,self-doubt / encouragement,0.07869532704353333
+b8,b7,0.0,-2.0,6,1,frustration / despair,0.06495488435029984
+b8,b7,0.0,-2.0,6,2,uncertainty / indecision,0.15513424575328827
+b8,b7,0.0,-2.0,6,3,romantic idealism,0.02349265292286873
+b8,b7,0.0,-2.0,6,4,academic ambition / competitive determination,0.06546778231859207
+b8,b7,0.0,-2.0,6,5,ironic amusement,0.052380986511707306
+b8,b7,0.0,-2.0,6,6,enthusiasm / curiosity,0.07552610337734222
+b8,b7,0.0,-2.0,7,0,self-doubt / encouragement,0.17309634387493134
+b8,b7,0.0,-2.0,7,1,frustration / despair,0.20162035524845123
+b8,b7,0.0,-2.0,7,2,uncertainty / indecision,0.24567213654518127
+b8,b7,0.0,-2.0,7,3,romantic idealism,0.1531493365764618
+b8,b7,0.0,-2.0,7,4,academic ambition / competitive determination,0.10546055436134338
+b8,b7,0.0,-2.0,7,5,ironic amusement,0.16878007352352142
+b8,b7,0.0,-2.0,7,6,enthusiasm / curiosity,0.15347209572792053
+b8,b7,0.0,0.0,0,0,self-doubt / encouragement,0.2579997777938843
+b8,b7,0.0,0.0,0,1,frustration / despair,0.1789245754480362
+b8,b7,0.0,0.0,0,2,uncertainty / indecision,0.29380178451538086
+b8,b7,0.0,0.0,0,3,romantic idealism,0.09819807857275009
+b8,b7,0.0,0.0,0,4,academic ambition / competitive determination,0.12983283400535583
+b8,b7,0.0,0.0,0,5,ironic amusement,0.1419805884361267
+b8,b7,0.0,0.0,0,6,enthusiasm / curiosity,0.18679827451705933
+b8,b7,0.0,0.0,1,0,self-doubt / encouragement,0.08845274150371552
+b8,b7,0.0,0.0,1,1,frustration / despair,0.12093593180179596
+b8,b7,0.0,0.0,1,2,uncertainty / indecision,0.15784244239330292
+b8,b7,0.0,0.0,1,3,romantic idealism,-0.00678758230060339
+b8,b7,0.0,0.0,1,4,academic ambition / competitive determination,0.07019902020692825
+b8,b7,0.0,0.0,1,5,ironic amusement,0.11188811808824539
+b8,b7,0.0,0.0,1,6,enthusiasm / curiosity,0.10050353407859802
+b8,b7,0.0,0.0,2,0,self-doubt / encouragement,0.11809313297271729
+b8,b7,0.0,0.0,2,1,frustration / despair,0.08123224973678589
+b8,b7,0.0,0.0,2,2,uncertainty / indecision,0.16279290616512299
+b8,b7,0.0,0.0,2,3,romantic idealism,0.0818898156285286
+b8,b7,0.0,0.0,2,4,academic ambition / competitive determination,0.2249232828617096
+b8,b7,0.0,0.0,2,5,ironic amusement,0.07563547044992447
+b8,b7,0.0,0.0,2,6,enthusiasm / curiosity,0.16488325595855713
+b8,b7,0.0,0.0,3,0,self-doubt / encouragement,0.05243324488401413
+b8,b7,0.0,0.0,3,1,frustration / despair,0.09356782585382462
+b8,b7,0.0,0.0,3,2,uncertainty / indecision,0.12720690667629242
+b8,b7,0.0,0.0,3,3,romantic idealism,0.030841806903481483
+b8,b7,0.0,0.0,3,4,academic ambition / competitive determination,0.05445351451635361
+b8,b7,0.0,0.0,3,5,ironic amusement,0.11291592568159103
+b8,b7,0.0,0.0,3,6,enthusiasm / curiosity,0.11533571034669876
+b8,b7,0.0,0.0,4,0,self-doubt / encouragement,0.09420821070671082
+b8,b7,0.0,0.0,4,1,frustration / despair,0.08754955232143402
+b8,b7,0.0,0.0,4,2,uncertainty / indecision,0.17504476010799408
+b8,b7,0.0,0.0,4,3,romantic idealism,0.07784955948591232
+b8,b7,0.0,0.0,4,4,academic ambition / competitive determination,0.1761026680469513
+b8,b7,0.0,0.0,4,5,ironic amusement,0.047947339713573456
+b8,b7,0.0,0.0,4,6,enthusiasm / curiosity,0.1213914304971695
+b8,b7,0.0,0.0,5,0,self-doubt / encouragement,0.26054656505584717
+b8,b7,0.0,0.0,5,1,frustration / despair,0.18212664127349854
+b8,b7,0.0,0.0,5,2,uncertainty / indecision,0.3255496919155121
+b8,b7,0.0,0.0,5,3,romantic idealism,0.07387951016426086
+b8,b7,0.0,0.0,5,4,academic ambition / competitive determination,0.2368575632572174
+b8,b7,0.0,0.0,5,5,ironic amusement,0.12938886880874634
+b8,b7,0.0,0.0,5,6,enthusiasm / curiosity,0.2497142255306244
+b8,b7,0.0,0.0,6,0,self-doubt / encouragement,0.05740978196263313
+b8,b7,0.0,0.0,6,1,frustration / despair,0.018406767398118973
+b8,b7,0.0,0.0,6,2,uncertainty / indecision,0.05222403258085251
+b8,b7,0.0,0.0,6,3,romantic idealism,-0.0029037646017968655
+b8,b7,0.0,0.0,6,4,academic ambition / competitive determination,0.0654359757900238
+b8,b7,0.0,0.0,6,5,ironic amusement,0.11782681196928024
+b8,b7,0.0,0.0,6,6,enthusiasm / curiosity,0.07692910730838776
+b8,b7,0.0,0.0,7,0,self-doubt / encouragement,0.2342257797718048
+b8,b7,0.0,0.0,7,1,frustration / despair,0.17508135735988617
+b8,b7,0.0,0.0,7,2,uncertainty / indecision,0.23823431134223938
+b8,b7,0.0,0.0,7,3,romantic idealism,0.04392537847161293
+b8,b7,0.0,0.0,7,4,academic ambition / competitive determination,0.09754790365695953
+b8,b7,0.0,0.0,7,5,ironic amusement,0.16570064425468445
+b8,b7,0.0,0.0,7,6,enthusiasm / curiosity,0.21326260268688202
+b8,b7,0.0,2.0,0,0,self-doubt / encouragement,0.053101733326911926
+b8,b7,0.0,2.0,0,1,frustration / despair,0.1255190074443817
+b8,b7,0.0,2.0,0,2,uncertainty / indecision,0.12483953684568405
+b8,b7,0.0,2.0,0,3,romantic idealism,-0.006037356331944466
+b8,b7,0.0,2.0,0,4,academic ambition / competitive determination,0.029156554490327835
+b8,b7,0.0,2.0,0,5,ironic amusement,0.04395126923918724
+b8,b7,0.0,2.0,0,6,enthusiasm / curiosity,0.08102496713399887
+b8,b7,0.0,2.0,1,0,self-doubt / encouragement,0.048193130642175674
+b8,b7,0.0,2.0,1,1,frustration / despair,0.0919177234172821
+b8,b7,0.0,2.0,1,2,uncertainty / indecision,0.14599193632602692
+b8,b7,0.0,2.0,1,3,romantic idealism,-0.013974197208881378
+b8,b7,0.0,2.0,1,4,academic ambition / competitive determination,0.07481762766838074
+b8,b7,0.0,2.0,1,5,ironic amusement,0.07886409759521484
+b8,b7,0.0,2.0,1,6,enthusiasm / curiosity,0.0704379454255104
+b8,b7,0.0,2.0,2,0,self-doubt / encouragement,0.1376868188381195
+b8,b7,0.0,2.0,2,1,frustration / despair,0.11366938054561615
+b8,b7,0.0,2.0,2,2,uncertainty / indecision,0.07791983336210251
+b8,b7,0.0,2.0,2,3,romantic idealism,0.035414159297943115
+b8,b7,0.0,2.0,2,4,academic ambition / competitive determination,0.09380077570676804
+b8,b7,0.0,2.0,2,5,ironic amusement,0.06459343433380127
+b8,b7,0.0,2.0,2,6,enthusiasm / curiosity,0.14503295719623566
+b8,b7,0.0,2.0,3,0,self-doubt / encouragement,0.03333019092679024
+b8,b7,0.0,2.0,3,1,frustration / despair,0.0779227763414383
+b8,b7,0.0,2.0,3,2,uncertainty / indecision,0.11879537999629974
+b8,b7,0.0,2.0,3,3,romantic idealism,0.048922061920166016
+b8,b7,0.0,2.0,3,4,academic ambition / competitive determination,0.04214197397232056
+b8,b7,0.0,2.0,3,5,ironic amusement,0.11276532709598541
+b8,b7,0.0,2.0,3,6,enthusiasm / curiosity,0.09726256877183914
+b8,b7,0.0,2.0,4,0,self-doubt / encouragement,0.03699452430009842
+b8,b7,0.0,2.0,4,1,frustration / despair,0.06481058895587921
+b8,b7,0.0,2.0,4,2,uncertainty / indecision,0.12806135416030884
+b8,b7,0.0,2.0,4,3,romantic idealism,0.028116624802350998
+b8,b7,0.0,2.0,4,4,academic ambition / competitive determination,0.0779377818107605
+b8,b7,0.0,2.0,4,5,ironic amusement,0.055057477205991745
+b8,b7,0.0,2.0,4,6,enthusiasm / curiosity,0.08703206479549408
+b8,b7,0.0,2.0,5,0,self-doubt / encouragement,0.11373966187238693
+b8,b7,0.0,2.0,5,1,frustration / despair,0.12271235138177872
+b8,b7,0.0,2.0,5,2,uncertainty / indecision,0.2334793657064438
+b8,b7,0.0,2.0,5,3,romantic idealism,-0.0072425235994160175
+b8,b7,0.0,2.0,5,4,academic ambition / competitive determination,0.08997610956430435
+b8,b7,0.0,2.0,5,5,ironic amusement,0.12289345264434814
+b8,b7,0.0,2.0,5,6,enthusiasm / curiosity,0.15664537250995636
+b8,b7,0.0,2.0,6,0,self-doubt / encouragement,0.11619249731302261
+b8,b7,0.0,2.0,6,1,frustration / despair,0.0639500617980957
+b8,b7,0.0,2.0,6,2,uncertainty / indecision,0.15961438417434692
+b8,b7,0.0,2.0,6,3,romantic idealism,0.03034040331840515
+b8,b7,0.0,2.0,6,4,academic ambition / competitive determination,0.11556864529848099
+b8,b7,0.0,2.0,6,5,ironic amusement,0.1113574281334877
+b8,b7,0.0,2.0,6,6,enthusiasm / curiosity,0.14605768024921417
+b8,b7,0.0,2.0,7,0,self-doubt / encouragement,0.2638223171234131
+b8,b7,0.0,2.0,7,1,frustration / despair,0.15025471150875092
+b8,b7,0.0,2.0,7,2,uncertainty / indecision,0.31042712926864624
+b8,b7,0.0,2.0,7,3,romantic idealism,0.1321418136358261
+b8,b7,0.0,2.0,7,4,academic ambition / competitive determination,0.1262914538383484
+b8,b7,0.0,2.0,7,5,ironic amusement,0.20399899780750275
+b8,b7,0.0,2.0,7,6,enthusiasm / curiosity,0.20874182879924774
+b8,b7,2.0,-2.0,0,0,self-doubt / encouragement,0.15185949206352234
+b8,b7,2.0,-2.0,0,1,frustration / despair,0.16133733093738556
+b8,b7,2.0,-2.0,0,2,uncertainty / indecision,0.20644919574260712
+b8,b7,2.0,-2.0,0,3,romantic idealism,0.07689031213521957
+b8,b7,2.0,-2.0,0,4,academic ambition / competitive determination,0.12569376826286316
+b8,b7,2.0,-2.0,0,5,ironic amusement,0.10970708727836609
+b8,b7,2.0,-2.0,0,6,enthusiasm / curiosity,0.16756302118301392
+b8,b7,2.0,-2.0,1,0,self-doubt / encouragement,0.083729587495327
+b8,b7,2.0,-2.0,1,1,frustration / despair,0.10055040568113327
+b8,b7,2.0,-2.0,1,2,uncertainty / indecision,0.1487698256969452
+b8,b7,2.0,-2.0,1,3,romantic idealism,0.13679203391075134
+b8,b7,2.0,-2.0,1,4,academic ambition / competitive determination,0.010647091083228588
+b8,b7,2.0,-2.0,1,5,ironic amusement,0.17795610427856445
+b8,b7,2.0,-2.0,1,6,enthusiasm / curiosity,0.13299283385276794
+b8,b7,2.0,-2.0,2,0,self-doubt / encouragement,0.1731681078672409
+b8,b7,2.0,-2.0,2,1,frustration / despair,0.08674035966396332
+b8,b7,2.0,-2.0,2,2,uncertainty / indecision,0.095804363489151
+b8,b7,2.0,-2.0,2,3,romantic idealism,0.08742654323577881
+b8,b7,2.0,-2.0,2,4,academic ambition / competitive determination,0.07814913243055344
+b8,b7,2.0,-2.0,2,5,ironic amusement,0.11530575901269913
+b8,b7,2.0,-2.0,2,6,enthusiasm / curiosity,0.11246675252914429
+b8,b7,2.0,-2.0,3,0,self-doubt / encouragement,0.13563618063926697
+b8,b7,2.0,-2.0,3,1,frustration / despair,0.07419131696224213
+b8,b7,2.0,-2.0,3,2,uncertainty / indecision,0.1487341672182083
+b8,b7,2.0,-2.0,3,3,romantic idealism,0.05710757151246071
+b8,b7,2.0,-2.0,3,4,academic ambition / competitive determination,0.10776031762361526
+b8,b7,2.0,-2.0,3,5,ironic amusement,0.14438842236995697
+b8,b7,2.0,-2.0,3,6,enthusiasm / curiosity,0.18309134244918823
+b8,b7,2.0,-2.0,4,0,self-doubt / encouragement,0.12886592745780945
+b8,b7,2.0,-2.0,4,1,frustration / despair,0.10870667546987534
+b8,b7,2.0,-2.0,4,2,uncertainty / indecision,0.196433424949646
+b8,b7,2.0,-2.0,4,3,romantic idealism,0.11016936600208282
+b8,b7,2.0,-2.0,4,4,academic ambition / competitive determination,0.22334985435009003
+b8,b7,2.0,-2.0,4,5,ironic amusement,0.05625469982624054
+b8,b7,2.0,-2.0,4,6,enthusiasm / curiosity,0.17428617179393768
+b8,b7,2.0,-2.0,5,0,self-doubt / encouragement,0.13654102385044098
+b8,b7,2.0,-2.0,5,1,frustration / despair,0.13005991280078888
+b8,b7,2.0,-2.0,5,2,uncertainty / indecision,0.1727706342935562
+b8,b7,2.0,-2.0,5,3,romantic idealism,0.03733654320240021
+b8,b7,2.0,-2.0,5,4,academic ambition / competitive determination,0.06552860885858536
+b8,b7,2.0,-2.0,5,5,ironic amusement,0.10598109662532806
+b8,b7,2.0,-2.0,5,6,enthusiasm / curiosity,0.18105681240558624
+b8,b7,2.0,-2.0,6,0,self-doubt / encouragement,0.1762004941701889
+b8,b7,2.0,-2.0,6,1,frustration / despair,0.06651990115642548
+b8,b7,2.0,-2.0,6,2,uncertainty / indecision,0.08735445141792297
+b8,b7,2.0,-2.0,6,3,romantic idealism,0.05388514697551727
+b8,b7,2.0,-2.0,6,4,academic ambition / competitive determination,0.09330698102712631
+b8,b7,2.0,-2.0,6,5,ironic amusement,0.02815079689025879
+b8,b7,2.0,-2.0,6,6,enthusiasm / curiosity,0.1303074061870575
+b8,b7,2.0,-2.0,7,0,self-doubt / encouragement,0.11010028421878815
+b8,b7,2.0,-2.0,7,1,frustration / despair,0.12636470794677734
+b8,b7,2.0,-2.0,7,2,uncertainty / indecision,0.14820465445518494
+b8,b7,2.0,-2.0,7,3,romantic idealism,0.02994009666144848
+b8,b7,2.0,-2.0,7,4,academic ambition / competitive determination,0.05649523437023163
+b8,b7,2.0,-2.0,7,5,ironic amusement,0.0822516605257988
+b8,b7,2.0,-2.0,7,6,enthusiasm / curiosity,0.07738016545772552
+b8,b7,2.0,0.0,0,0,self-doubt / encouragement,0.20025020837783813
+b8,b7,2.0,0.0,0,1,frustration / despair,0.22510358691215515
+b8,b7,2.0,0.0,0,2,uncertainty / indecision,0.18865670263767242
+b8,b7,2.0,0.0,0,3,romantic idealism,-0.013371109031140804
+b8,b7,2.0,0.0,0,4,academic ambition / competitive determination,0.05639797821640968
+b8,b7,2.0,0.0,0,5,ironic amusement,0.08881612122058868
+b8,b7,2.0,0.0,0,6,enthusiasm / curiosity,0.14959056675434113
+b8,b7,2.0,0.0,1,0,self-doubt / encouragement,0.12358766794204712
+b8,b7,2.0,0.0,1,1,frustration / despair,0.15652057528495789
+b8,b7,2.0,0.0,1,2,uncertainty / indecision,0.15992122888565063
+b8,b7,2.0,0.0,1,3,romantic idealism,0.08460450172424316
+b8,b7,2.0,0.0,1,4,academic ambition / competitive determination,0.028006665408611298
+b8,b7,2.0,0.0,1,5,ironic amusement,0.11619946360588074
+b8,b7,2.0,0.0,1,6,enthusiasm / curiosity,0.11505993455648422
+b8,b7,2.0,0.0,2,0,self-doubt / encouragement,0.16644588112831116
+b8,b7,2.0,0.0,2,1,frustration / despair,0.08828797936439514
+b8,b7,2.0,0.0,2,2,uncertainty / indecision,0.18965382874011993
+b8,b7,2.0,0.0,2,3,romantic idealism,0.06397201120853424
+b8,b7,2.0,0.0,2,4,academic ambition / competitive determination,0.26346614956855774
+b8,b7,2.0,0.0,2,5,ironic amusement,0.13283079862594604
+b8,b7,2.0,0.0,2,6,enthusiasm / curiosity,0.20830611884593964
+b8,b7,2.0,0.0,3,0,self-doubt / encouragement,0.06772104650735855
+b8,b7,2.0,0.0,3,1,frustration / despair,0.07418173551559448
+b8,b7,2.0,0.0,3,2,uncertainty / indecision,0.1182534471154213
+b8,b7,2.0,0.0,3,3,romantic idealism,0.0012644161470234394
+b8,b7,2.0,0.0,3,4,academic ambition / competitive determination,0.08670889586210251
+b8,b7,2.0,0.0,3,5,ironic amusement,0.12299680709838867
+b8,b7,2.0,0.0,3,6,enthusiasm / curiosity,0.1412336230278015
+b8,b7,2.0,0.0,4,0,self-doubt / encouragement,0.02987457998096943
+b8,b7,2.0,0.0,4,1,frustration / despair,0.035641759634017944
+b8,b7,2.0,0.0,4,2,uncertainty / indecision,0.10258058458566666
+b8,b7,2.0,0.0,4,3,romantic idealism,0.0253573227673769
+b8,b7,2.0,0.0,4,4,academic ambition / competitive determination,0.03925691545009613
+b8,b7,2.0,0.0,4,5,ironic amusement,0.029280342161655426
+b8,b7,2.0,0.0,4,6,enthusiasm / curiosity,0.07245778292417526
+b8,b7,2.0,0.0,5,0,self-doubt / encouragement,0.15549248456954956
+b8,b7,2.0,0.0,5,1,frustration / despair,0.13724179565906525
+b8,b7,2.0,0.0,5,2,uncertainty / indecision,0.22918187081813812
+b8,b7,2.0,0.0,5,3,romantic idealism,0.07569719851016998
+b8,b7,2.0,0.0,5,4,academic ambition / competitive determination,0.12145040184259415
+b8,b7,2.0,0.0,5,5,ironic amusement,0.1255149096250534
+b8,b7,2.0,0.0,5,6,enthusiasm / curiosity,0.20934990048408508
+b8,b7,2.0,0.0,6,0,self-doubt / encouragement,0.0074074845761060715
+b8,b7,2.0,0.0,6,1,frustration / despair,0.0326261930167675
+b8,b7,2.0,0.0,6,2,uncertainty / indecision,0.06916065514087677
+b8,b7,2.0,0.0,6,3,romantic idealism,0.05376114696264267
+b8,b7,2.0,0.0,6,4,academic ambition / competitive determination,0.022552430629730225
+b8,b7,2.0,0.0,6,5,ironic amusement,0.07324423640966415
+b8,b7,2.0,0.0,6,6,enthusiasm / curiosity,0.07984437793493271
+b8,b7,2.0,0.0,7,0,self-doubt / encouragement,0.22566470503807068
+b8,b7,2.0,0.0,7,1,frustration / despair,0.34420865774154663
+b8,b7,2.0,0.0,7,2,uncertainty / indecision,0.25417453050613403
+b8,b7,2.0,0.0,7,3,romantic idealism,0.07651469111442566
+b8,b7,2.0,0.0,7,4,academic ambition / competitive determination,0.09812728315591812
+b8,b7,2.0,0.0,7,5,ironic amusement,0.15157583355903625
+b8,b7,2.0,0.0,7,6,enthusiasm / curiosity,0.20909768342971802
+b8,b7,2.0,2.0,0,0,self-doubt / encouragement,0.13931193947792053
+b8,b7,2.0,2.0,0,1,frustration / despair,0.15203963220119476
+b8,b7,2.0,2.0,0,2,uncertainty / indecision,0.12306014448404312
+b8,b7,2.0,2.0,0,3,romantic idealism,-0.009635869413614273
+b8,b7,2.0,2.0,0,4,academic ambition / competitive determination,0.07856980711221695
+b8,b7,2.0,2.0,0,5,ironic amusement,0.10460586100816727
+b8,b7,2.0,2.0,0,6,enthusiasm / curiosity,0.14447304606437683
+b8,b7,2.0,2.0,1,0,self-doubt / encouragement,0.08305522799491882
+b8,b7,2.0,2.0,1,1,frustration / despair,0.0588771291077137
+b8,b7,2.0,2.0,1,2,uncertainty / indecision,0.11213413625955582
+b8,b7,2.0,2.0,1,3,romantic idealism,0.028696125373244286
+b8,b7,2.0,2.0,1,4,academic ambition / competitive determination,0.03578965365886688
+b8,b7,2.0,2.0,1,5,ironic amusement,0.0978015810251236
+b8,b7,2.0,2.0,1,6,enthusiasm / curiosity,0.09348898380994797
+b8,b7,2.0,2.0,2,0,self-doubt / encouragement,0.16469022631645203
+b8,b7,2.0,2.0,2,1,frustration / despair,0.11638188362121582
+b8,b7,2.0,2.0,2,2,uncertainty / indecision,0.13073186576366425
+b8,b7,2.0,2.0,2,3,romantic idealism,0.0893462523818016
+b8,b7,2.0,2.0,2,4,academic ambition / competitive determination,0.07488817721605301
+b8,b7,2.0,2.0,2,5,ironic amusement,0.05607164651155472
+b8,b7,2.0,2.0,2,6,enthusiasm / curiosity,0.16404689848423004
+b8,b7,2.0,2.0,3,0,self-doubt / encouragement,0.021722828969359398
+b8,b7,2.0,2.0,3,1,frustration / despair,0.07079644501209259
+b8,b7,2.0,2.0,3,2,uncertainty / indecision,0.11298628151416779
+b8,b7,2.0,2.0,3,3,romantic idealism,-0.001956656575202942
+b8,b7,2.0,2.0,3,4,academic ambition / competitive determination,0.033657412976026535
+b8,b7,2.0,2.0,3,5,ironic amusement,0.11208783090114594
+b8,b7,2.0,2.0,3,6,enthusiasm / curiosity,0.07385249435901642
+b8,b7,2.0,2.0,4,0,self-doubt / encouragement,0.09847433120012283
+b8,b7,2.0,2.0,4,1,frustration / despair,0.06293798238039017
+b8,b7,2.0,2.0,4,2,uncertainty / indecision,0.1536080241203308
+b8,b7,2.0,2.0,4,3,romantic idealism,0.001217004843056202
+b8,b7,2.0,2.0,4,4,academic ambition / competitive determination,0.08018040657043457
+b8,b7,2.0,2.0,4,5,ironic amusement,0.05518805608153343
+b8,b7,2.0,2.0,4,6,enthusiasm / curiosity,0.14004456996917725
+b8,b7,2.0,2.0,5,0,self-doubt / encouragement,0.14658468961715698
+b8,b7,2.0,2.0,5,1,frustration / despair,0.14374954998493195
+b8,b7,2.0,2.0,5,2,uncertainty / indecision,0.2409849613904953
+b8,b7,2.0,2.0,5,3,romantic idealism,-0.0048774052411317825
+b8,b7,2.0,2.0,5,4,academic ambition / competitive determination,0.1031789556145668
+b8,b7,2.0,2.0,5,5,ironic amusement,0.12943191826343536
+b8,b7,2.0,2.0,5,6,enthusiasm / curiosity,0.17473600804805756
+b8,b7,2.0,2.0,6,0,self-doubt / encouragement,0.1100776344537735
+b8,b7,2.0,2.0,6,1,frustration / despair,0.08067049086093903
+b8,b7,2.0,2.0,6,2,uncertainty / indecision,0.14816823601722717
+b8,b7,2.0,2.0,6,3,romantic idealism,0.037632256746292114
+b8,b7,2.0,2.0,6,4,academic ambition / competitive determination,0.1503409594297409
+b8,b7,2.0,2.0,6,5,ironic amusement,0.13338986039161682
+b8,b7,2.0,2.0,6,6,enthusiasm / curiosity,0.15732254087924957
+b8,b7,2.0,2.0,7,0,self-doubt / encouragement,0.20784123241901398
+b8,b7,2.0,2.0,7,1,frustration / despair,0.24739980697631836
+b8,b7,2.0,2.0,7,2,uncertainty / indecision,0.2112167775630951
+b8,b7,2.0,2.0,7,3,romantic idealism,0.05406469479203224
+b8,b7,2.0,2.0,7,4,academic ambition / competitive determination,0.07874701172113419
+b8,b7,2.0,2.0,7,5,ironic amusement,0.14878736436367035
+b8,b7,2.0,2.0,7,6,enthusiasm / curiosity,0.20566193759441376

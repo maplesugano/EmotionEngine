@@ -1,0 +1,67 @@
+{
+  "additivity_dir": "experiments/results/caa_basis_additivity_L22_k64",
+  "cluster_dir": "experiments/results/lexical_gap_judge",
+  "embed_model": "text-embedding-3-small",
+  "n_generations": 288,
+  "n_clusters": 7,
+  "cluster_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "cluster_names": [
+    "self-doubt / encouragement",
+    "frustration / despair",
+    "uncertainty / indecision",
+    "romantic idealism",
+    "academic ambition / competitive determination",
+    "ironic amusement",
+    "enthusiasm / curiosity"
+  ],
+  "n_pairs": 4,
+  "n_offdiag_cells": 16,
+  "median_top_cos": {
+    "resid": 0.06754803285002708,
+    "marg": 0.3240179717540741,
+    "full": 0.05473329313099384
+  },
+  "median_null_p95": 0.04447821527719498,
+  "top_resid_clusters": {
+    "academic ambition / competitive determination": 9,
+    "ironic amusement": 4,
+    "uncertainty / indecision": 3
+  },
+  "per_cluster_top_gain": [
+    {
+      "cluster_id": 1,
+      "cluster_name": "frustration / despair",
+      "median_joint": 0.11726150661706924,
+      "median_marg_max": 0.1362961232662201,
+      "median_resid_gain_to_max": -0.012116294354200363,
+      "median_resid_gain_to_avg": 0.0004944466054439545,
+      "n": 128
+    },
+    {
+      "cluster_id": 0,
+      "cluster_name": "self-doubt / encouragement",
+      "median_joint": 0.14352207630872726,
+      "median_marg_max": 0.16848070919513702,
+      "median_resid_gain_to_max": -0.01420724019408226,
+      "median_resid_gain_to_avg": -0.00017450004816055298,
+      "n": 128
+    },
+    {
+      "cluster_id": 3,
+      "cluster_name": "romantic idealism",
+      "median_joint": 0.0530269593000412,
+      "median_marg_max": 0.08585479855537415,
+      "median_resid_gain_to_max": -0.01839715614914894,
+      "median_resid_gain_to_avg": -0.006892637349665165,
+      "n": 128
+    }
+  ]
+}

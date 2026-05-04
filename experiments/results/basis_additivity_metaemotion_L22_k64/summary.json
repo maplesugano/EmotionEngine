@@ -1,0 +1,43 @@
+{
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "decomposer": "ica",
+  "layer": 22,
+  "k": 64,
+  "pairs": [
+    [
+      1,
+      11
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      1,
+      13
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      7
+    ]
+  ],
+  "alphas": [
+    -2.0,
+    0.0,
+    2.0
+  ],
+  "alpha_mode": "caa_match",
+  "n_prompts": 8,
+  "max_new_tokens": 32,
+  "median_caa_norm": 5.282872200012207,
+  "readout_offdiag": {
+    "median_resid_ratio": 0.8032793998718262,
+    "mean_resid_ratio": 0.7993717461824417,
+    "median_err_i": 0.049028560519218445,
+    "median_err_j": 0.0625917837023735
+  }
+}

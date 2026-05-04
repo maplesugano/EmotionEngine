@@ -1,0 +1,16 @@
+{
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "decomposer": "ica",
+  "k": 64,
+  "layer": 22,
+  "n_prompts": 8,
+  "alphas": [
+    -2.0,
+    0.0,
+    2.0
+  ],
+  "alpha_mode": "caa_match",
+  "judge_model": "gpt-4o-mini",
+  "n_generations": 1536,
+  "n_judgments": 1536
+}

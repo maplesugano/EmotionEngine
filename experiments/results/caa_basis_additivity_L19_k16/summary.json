@@ -1,0 +1,40 @@
+{
+  "layer": 19,
+  "decomposer": "ica",
+  "k": 16,
+  "cat_pairs": [
+    [
+      "joy",
+      "sadness"
+    ],
+    [
+      "joy",
+      "anger"
+    ],
+    [
+      "anger",
+      "fear"
+    ],
+    [
+      "disgust",
+      "joy"
+    ]
+  ],
+  "alphas": [
+    -2.0,
+    0.0,
+    2.0
+  ],
+  "n_prompts": 8,
+  "max_new_tokens": 32,
+  "readout_offdiag": {
+    "median_resid_ratio": 0.7875459790229797,
+    "mean_resid_ratio": 0.9898451566696167
+  },
+  "shift_offdiag": {
+    "abs_resid_to_a_median": 0.0,
+    "abs_resid_to_b_median": 0.0625,
+    "abs_resid_to_a_mean": 0.0859375,
+    "abs_resid_to_b_mean": 0.1015625
+  }
+}

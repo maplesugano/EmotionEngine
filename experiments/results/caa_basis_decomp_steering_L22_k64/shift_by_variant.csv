@@ -1,0 +1,49 @@
+variant,category,n,shift_acc,baseline_acc,delta,note
+caa,anger,32,0.03125,0.0,0.03125,
+caa,anticipation,0,,,,no classifier label
+caa,disgust,32,0.0625,0.0,0.0625,
+caa,fear,32,0.34375,0.09375,0.25,
+caa,joy,32,0.3125,0.1875,0.125,
+caa,sadness,32,0.03125,0.03125,0.0,
+caa,surprise,32,0.09375,0.0625,0.03125,
+caa,trust,0,,,,no classifier label
+lasso,anger,32,0.0,0.0,0.0,
+lasso,anticipation,0,,,,no classifier label
+lasso,disgust,32,0.0,0.0,0.0,
+lasso,fear,32,0.15625,0.09375,0.0625,
+lasso,joy,32,0.15625,0.1875,-0.03125,
+lasso,sadness,32,0.03125,0.03125,0.0,
+lasso,surprise,32,0.0625,0.0625,0.0,
+lasso,trust,0,,,,no classifier label
+nnls,anger,32,0.0,0.0,0.0,
+nnls,anticipation,0,,,,no classifier label
+nnls,disgust,32,0.03125,0.0,0.03125,
+nnls,fear,32,0.15625,0.09375,0.0625,
+nnls,joy,32,0.125,0.1875,-0.0625,
+nnls,sadness,32,0.03125,0.03125,0.0,
+nnls,surprise,32,0.03125,0.0625,-0.03125,
+nnls,trust,0,,,,no classifier label
+ols,anger,32,0.0,0.0,0.0,
+ols,anticipation,0,,,,no classifier label
+ols,disgust,32,0.0625,0.0,0.0625,
+ols,fear,32,0.15625,0.09375,0.0625,
+ols,joy,32,0.34375,0.1875,0.15625,
+ols,sadness,32,0.15625,0.03125,0.125,
+ols,surprise,32,0.09375,0.0625,0.03125,
+ols,trust,0,,,,no classifier label
+random,anger,32,0.0,0.0,0.0,
+random,anticipation,0,,,,no classifier label
+random,disgust,32,0.0,0.0,0.0,
+random,fear,32,0.0,0.09375,-0.09375,
+random,joy,32,0.21875,0.1875,0.03125,
+random,sadness,32,0.0,0.03125,-0.03125,
+random,surprise,32,0.03125,0.0625,-0.03125,
+random,trust,0,,,,no classifier label
+vad,anger,32,0.0,0.0,0.0,
+vad,anticipation,0,,,,no classifier label
+vad,disgust,32,0.0,0.0,0.0,
+vad,fear,32,0.125,0.09375,0.03125,
+vad,joy,32,0.1875,0.1875,0.0,
+vad,sadness,32,0.03125,0.03125,0.0,
+vad,surprise,32,0.03125,0.0625,-0.03125,
+vad,trust,0,,,,no classifier label

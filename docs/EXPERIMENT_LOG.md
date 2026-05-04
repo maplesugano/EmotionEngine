@@ -661,6 +661,261 @@ b1, b11, b13 が掴んでいるのは、Plutchik 8（emotion）よりも一段�
 emotion 分類体系（Ekman, Plutchik）には **乗っていない**が、judge LLM が
 複数語句で記述できる程度には言語化可能な「中間状態」である。
 
+### 4.X.10 retention 押し上げ（A：k=32 / L=22 で本実行）
+
+Phase 1 で R² ベストが ICA k=16 L=22 だったこと、k=8→16 で R² が +0.10
+上がったことから、**k=32 / L=22** で Phase 1+2 を再走。
+
+- basis：[data/emotion_code/basis_sweep_L22/ica_k032_seed0.pt](../data/emotion_code/basis_sweep_L22/ica_k032_seed0.pt)
+  （ICA、niter=46、converged）
+- Phase 1：[experiments/results/caa_basis_decomposition_L22/](../experiments/results/caa_basis_decomposition_L22/)
+  - **R²(OLS) = 0.920**（k=16 L=22 の 0.878 から +0.042、L=19 k=16 の 0.864 から +0.056）
+- Phase 2：[experiments/results/caa_basis_decomp_steering_L22_k32/](../experiments/results/caa_basis_decomp_steering_L22_k32/)
+  - n_prompts=32、α∈{−2, 0, +2}、4608 generations、約 19h
+
+| variant | mean_shift_acc | mean_delta | retention_vs_caa |
+|---|---:|---:|---:|
+| caa | 0.146 | +0.083 | 1.00 |
+| **ols** | **0.115** | **+0.052** | **0.786** |
+| nnls | 0.083 | +0.021 | 0.571 |
+| vad | 0.063 | 0.000 | 0.429 |
+| lasso | 0.052 | −0.010 | 0.357 |
+| random | 0.036 | −0.026 | 0.250 |
+
+→ **OLS retention 0.786（L=19 k=16 比 +0.072pp）**。Phase 1 の R² 改善が
+行動側にもそのまま反映された。CAA 自体の絶対値が L=22 で小さく出る
+（0.146 vs L=19 の 0.161）にもかかわらず、**OLS / CAA 比は確実に向上**。
+VAD は L=22 でも baseline と同等（0.000）、random は L=19 (0.55) より
+さらに低下（0.25）→ 比較ベースが厳しくなった分、**OLS の優位性が明確化**。
+
+含意：
+- **「内在次元 k」を上げると CAA の表現力（R²）と steer 力（retention）が
+  同方向に伸びる**ことが定量化された。k=32 でもまだ R² プラトーには
+  達していない可能性があり、k=64 でさらに伸びる余地。
+- 論文クレーム「named axes は basis の射影として再構成可能」が **R²=0.92,
+  retention=0.79** で再支持された。
+
+### 4.X.11 plateau 探索（A 続き：k=64 / L=22）
+
+§4.X.10 で見せた k=8→32 の R² 単調増加（0.75→0.88→0.92）が頭打ちに
+なるかを確認するため、同 L=22 で **k=64** を実走。
+
+- basis：[data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt](../data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt)
+  （ICA、seed=0、3200 ペア × 4096 次元 → 64 成分）
+- Phase 1：[experiments/results/caa_basis_decomposition_L22/](../experiments/results/caa_basis_decomposition_L22/)
+  に `decomposition.csv` を追記、`weights/basis_sweep_L22__ica_k064_seed0.pt`
+  に Phase 2 用の OLS/NNLS/Lasso/VAD/random 各重みを保存。
+
+Phase 1 の k 別 R²（OLS、L=22、ICA）：
+
+| k | median R² | median cos | per-cat 最低 R² |
+|---:|---:|---:|---|
+| 16 | 0.878 | 0.937 | joy 0.75 |
+| 32 | 0.920 | 0.959 | joy 0.83 |
+| **64** | **0.960** | **0.980** | joy 0.92 / surprise 0.93 |
+
+→ R² の伸び幅は +0.042 → +0.040 と **線形ペースを維持**。最小 R² も大幅に
+改善し、CAA の 8 軸全てが 64 次元 basis の OLS でほぼ完全に張れる。
+
+- Phase 2：[experiments/results/caa_basis_decomp_steering_L22_k64/](../experiments/results/caa_basis_decomp_steering_L22_k64/)
+  - n_prompts=32、α∈{−2, 0, +2}、4608 generations、約 19h
+  - alpha scale = 0.18929（k=32 と同様、basis 行ノルムを CAA median ノルム
+    に合わせる `caa_match` モード）
+
+| variant | mean_shift_acc | mean_baseline_acc | mean_delta | retention_vs_caa |
+|---|---:|---:|---:|---:|
+| caa | 0.1458 | 0.0625 | +0.0833 | 1.000 |
+| **ols** | **0.1354** | 0.0625 | **+0.0729** | **0.929** |
+| lasso | 0.0677 | 0.0625 | +0.0052 | 0.464 |
+| nnls | 0.0625 | 0.0625 | 0.000 | 0.429 |
+| vad | 0.0625 | 0.0625 | 0.000 | 0.429 |
+| random | 0.0417 | 0.0625 | −0.0208 | 0.286 |
+
+→ **OLS retention 0.929**（k=32 比 +0.143、L=19 k=16 比 +0.219）。
+Phase 1 の R² 改善（+0.04）が Phase 2 retention の **+0.14** を生んだ
+（k=16→32 の伝達比 +0.04 → +0.07 より高効率）。CAA 自体の絶対値は
+L=22 で 0.146 と頭打ちのため、retention 1.00 への到達はランダム下限
+（baseline 0.0625）を考慮しても可視範囲。
+
+含意：
+- **「named axis = basis 線形射影」仮説は、retention=0.93 で実質的に閉じた**。
+  論文 Phase 1〜2 は本結果で完了。
+- nnls / lasso / vad は k を増やしても改善せず、いずれも baseline 同等。
+  CAA は basis の **両符号・密な** 線形結合として書かれている（疎ではない、
+  非負だけでもない）ことが追認された。
+- random が baseline 以下（−0.021）に沈んだことで、「介入そのもの」では
+  なく **方向の正当性** が retention を生んでいることが対照群側からも担保された。
+- k 単調増加は **未だ plateau に達していない**（R²: 0.96、最小 0.92）。
+  k=128 で R²→0.99 に到達するか確認すれば「内在次元の上限」を主張できるが、
+  retention 側は既に 0.93 で逓減フェーズに入りつつある。
+
+成果物：
+- 数値：[results/caa_basis_decomposition_L22/decomposition.csv](../experiments/results/caa_basis_decomposition_L22/decomposition.csv) の k=64 行
+- weights：[results/caa_basis_decomposition_L22/weights/basis_sweep_L22__ica_k064_seed0.pt](../experiments/results/caa_basis_decomposition_L22/weights/basis_sweep_L22__ica_k064_seed0.pt)
+- Phase 2：[results/caa_basis_decomp_steering_L22_k64/](../experiments/results/caa_basis_decomp_steering_L22_k64/)
+  （`generations.parquet`、`generations_classified.parquet`、`shift_by_variant.csv`、
+  `summary_by_variant.csv`、`summary.json`）
+
+### 4.X.12 加法性検定（D：CAA カテゴリ対 × OLS 再構成 basis、L=22 / k=64）
+
+仮説「basis = 真の原子」の系として、$\alpha\hat v_a + \beta\hat v_b$ で
+joint steering したとき、**(i) readout 空間** と **(ii) shift-acc 空間**
+の両方で「joint = sum of marginals」が成り立つかを定量化する。
+$\hat v_a, \hat v_b$ は §4.X.11 で得た OLS 重み（ICA k=64, L=22）からの
+CAA カテゴリ再構成。
+
+- スクリプト：[experiments/eval_caa_basis_additivity.py](../experiments/eval_caa_basis_additivity.py)（新設）
+  - input: `--weights`（§4.X.11 の OLS 含む weights .pt）+ `--basis`（同 ICA basis）
+  - 各 (cat_a, cat_b, α, β) で `α·v_a + β·v_b` を hook 注入し生成、再エンコード、
+    全 CAA 軸への射影と分類を測定
+  - off-diagonal additivity を `joint − marg_a − marg_b + baseline` の残差で計算
+- pairs：(joy, sadness), (joy, anger), (anger, fear), (disgust, joy)（4 ペア）
+- α, β ∈ {−2, 0, +2}、n_prompts=8、max_new_tokens=32、計 288 generations、約 35 min
+- α scale = 0.18929（§4.X.11 と同じ `caa_match`）
+
+成果物：[results/caa_basis_additivity_L22_k64/](../experiments/results/caa_basis_additivity_L22_k64/)
+- `generations.parquet` (288 行)
+- `readouts.parquet`（再エンコードした basis 射影）
+- `additivity_readout.csv` per (pair, α, β) の readout 残差ノルム
+- `additivity_shift.csv` per (pair, α, β) の shift-acc 残差
+- `summary.json` off-diagonal 集計
+
+結果（off-diagonal、$\alpha,\beta \neq 0$ のみ）：
+
+| 指標 | median | mean |
+|---|---:|---:|
+| **readout 残差比** \|resid\|/\|marg\| | **0.807** | 0.845 |
+| **shift-acc 残差** \|resid_to_a\| | **0.000** | 0.023 |
+| shift-acc 残差 \|resid_to_b\| | 0.000 | 0.063 |
+
+per-pair の代表（α=β=+2）：
+
+| pair | readout 残差比 | shift-acc 残差 a / b |
+|---|---:|---:|
+| joy + sadness  | 0.81 | 0.00 / 0.00 |
+| joy + anger    | 0.82 | 0.00 / 0.00 |
+| anger + fear   | 0.91 | 0.00 / 0.00 |
+| disgust + joy  | 0.83 | 0.00 / 0.00 |
+
+含意：
+- **readout レベルでは加法性が大きく崩れる**：joint steering の残差は
+  marginal 和ノルムの 80% に達する。basis の 64 次元線形和では joint 効果を
+  説明しきれず、**basis 間に明確な高次相互作用が存在する**。
+- **shift-acc レベルではほぼ完全に加法的**（中央値 0、平均 ≤ 0.06）。
+  CAA 8 値分類器が割り当てるラベルは「片方の単独軸と同じ」になり、
+  joint で新カテゴリに飛ぶことはない（=判別境界は加法的に滑らか）。
+- 残差の符号方向は §3.X.2 で観察された **emergent meta-emotion**
+  （combo_b1+b11 → 「過警戒的内省」、Plutchik で命名困難）と整合：
+  既存ラベルでは検出されない「中間状態」が残差ストリーム表現には現れている。
+- **論文上の主張の構造化**：
+  - Phase 1〜2（CAA ≈ Σ w_k b_k）は **線形再構成**：retention 0.93 で確立。
+  - Phase 3（meta-emotion 合成）は **非線形合成**：readout 残差 0.81 が示す
+    高次相互作用がメタ感情の発生源 ⇒ 単純な α b_i + β b_j では捉えきれない
+    現象が定量レベルで存在する、と主張できる。
+- 残課題：(a) k=32 / L=19 など別構成での再現、(b) per-pair 残差比が
+  「ペア類似度」「emergent カテゴリ存在」と相関するかの分析、
+  (c) readout 残差ベクトルを §3.X.3 のメタ感情クラスタに射影し、
+  「nonlinear 部分 = メタ感情方向」が成立するかの検証。
+
+### 4.X.13 二層構造の追検証（c → b → a）
+
+§4.X.12 残課題 (c)(b)(a) を順に実走。読み出し空間の加法崩れと shift-acc
+の加法成立、という二層構造が **(i) layer/k に対して頑健** で、**(ii) ペアの
+basis 親和性で説明され**、**(iii) 既知メタ感情カタログには射影できない**
+ことを定量的に確認した。
+
+#### (c) 残差 → メタ感情クラスタ射影
+
+- スクリプト：[experiments/eval_caa_additivity_metaemotion.py](../experiments/eval_caa_additivity_metaemotion.py)（新設）
+  - §4.X.12 の `generations.parquet` 288 件を OpenAI `text-embedding-3-small`
+    で埋め込み、§3.X.3 の 7 メタ感情ラベル（self-doubt / encouragement、
+    frustration / despair、uncertainty / indecision、romantic idealism、
+    academic ambition / competitive determination、ironic amusement、
+    enthusiasm / curiosity）を centroid として再構築
+  - 各 off-diag セル (cat_a, cat_b, α, β) で
+    `resid_emb = joint − marg_a − marg_b + baseline`、
+    `gain = cos(joint, c) − max_k cos(marg_k, c)` を測定
+  - null：cell 内シャッフルで p95 を生成
+- 出力：[results/caa_additivity_metaemotion_L22_k64/](../experiments/results/caa_additivity_metaemotion_L22_k64/)
+  - `summary.json`、`per_cluster_summary.csv`、`cell_top_cluster.csv`、
+    `cell_residual_cos.csv`、`per_text_cos.csv`、`embeddings.{npz,parquet}`、
+    `centroids.npz`
+
+| 指標 | 値 |
+|---|---:|
+| residual top-cos median | **0.068** |
+| null p95（shuffle） | 0.044 |
+| marginal top-cos median | 0.324 |
+| 全 7 クラスタ median `joint − marg_max` | **−0.012 〜 −0.020（全て負）** |
+
+最頻ヒット先：`academic ambition / competitive determination` 9/16、
+`ironic amusement` 4/16、`uncertainty / indecision` 3/16。
+
+含意：残差は **non-random**（null p95 の 1.5×）だが、joint 生成は**どのメタ
+感情クラスタにも単独軸より近づかない**。今回 4 ペアは対立／反対方向が
+多く joint で打ち消し（cancellation）が起きているとも解釈できるが、より
+強い結論として「**§3.X.3 のメタ感情は CAA 8 軸対の合成ではなく、basis-native
+な高次相互作用に由来する**」ことを negative result として確立。
+
+#### (b) per-pair 残差比 vs ペア類似度
+
+- スクリプト：[experiments/eval_caa_additivity_pairsim.py](../experiments/eval_caa_additivity_pairsim.py)（新設）
+  - §4.X.11 の OLS 重み（k=64 ICA, L=22）から再構成 CAA 軸の cos
+    （`cos_recon`）、basis 重みベクトル間 cos（`cos_w`）、生 CAA 平均間 cos
+    （`cos_caa_raw`）を 3 種類のペア類似度として算出
+  - 各セルの `resid_ratio = ‖resid‖/‖marg_a + marg_b‖` と相関を pair-level
+    （n=4）と cell-level（n=16）で測定
+- 出力：[results/caa_additivity_pairsim_L22_k64/](../experiments/results/caa_additivity_pairsim_L22_k64/)
+  - `summary.json`、`pair_similarity.csv`、`pair_residual_summary.csv`、
+    `residual_vs_similarity.csv`
+
+per-pair 表（L22/k64）：
+
+| pair | cos_w | cos_recon | median resid ratio |
+|---|---:|---:|---:|
+| anger + fear  | **0.849** | 0.548 | **0.865** |
+| disgust + joy | 0.123 | −0.086 | 0.825 |
+| joy + sadness | 0.116 | 0.018 | 0.803 |
+| joy + anger   | 0.112 | 0.058 | 0.782 |
+
+相関：
+- pair-level (n=4)：cos_w → resid_ratio Spearman r = **+1.00**, Pearson +0.875
+- cell-level (n=16)：cos_w → resid_ratio Pearson r = **+0.59 (p=0.016)**,
+  Spearman r = +0.62 (p=0.011)
+- cos_caa_raw / cos_recon もほぼ同方向（cell Pearson 0.52, p=0.04 / 0.51, p=0.04）
+
+含意：**basis 親和性が高いペアほど残差が大きい**＝同方向に押し合うとき
+高次項が強く効く。逆相関ではないので「直交ペアほど加法的」という
+クリーンな主張に書き換え可能。
+
+#### (a) k=16 / L=19 での再現
+
+- 別構成（§3.X.5 比較対象）で §4.X.12 と同条件の追走
+- 出力：[results/caa_basis_additivity_L19_k16/](../experiments/results/caa_basis_additivity_L19_k16/)
+- α scale = 0.25384（caa_match）、288 generations、約 43 min
+
+| 指標 | L22 / k64 | **L19 / k16** |
+|---|---:|---:|
+| readout 残差比 median | 0.807 | **0.788** |
+| readout 残差比 mean | 0.845 | 0.990 |
+| shift-acc 残差 median (a / b) | 0.000 / 0.000 | **0.000 / 0.062** |
+
+→ 二層構造（readout で大崩れ ≈ 0.8、shift で完全加法 ≈ 0）は **layer/k を
+変えても再現**。pair-sim 相関は L19/k16 では弱い（cell Pearson cos_w
+は非有意、pair Spearman 0.80）。これは disgust+joy が mean resid ratio
+1.64 と外れ値であること、k=16 では basis が荒く `cos_w` シグナルが
+弱いことが原因。
+
+#### 三段まとめ
+
+- (a) 二層構造は構成不変 ⇒ artefact ではない。
+- (b) 残差は random でも noise でもなく、**ペアの basis 親和性で説明可能**な
+  「同方向に押し合う高次項」である。
+- (c) ただしその残差方向は **既知メタ感情カタログには射影できない**。
+  Phase 3 の非線形成分の正体は CAA 軸ペアの合成ではなく、basis-native
+  な合成（b_i + b_j）にある可能性が高い。次の検証は basis 軸対そのもので
+  メタ感情誘発を試みること（残タスク §5.1）。
+
 ---
 
 ## 5. 全体としての発見の要点

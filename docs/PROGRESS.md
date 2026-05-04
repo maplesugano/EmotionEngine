@@ -396,11 +396,337 @@ indecision, ironic amusement, …）** であることが judge + クラスタ�
 これらは英語の単一語では命名困難だが、judge LLM が複数語句で記述できる
 程度には言語化可能な「中間状態」である。
 
----
+### 3.X.5 retention 押し上げ（A：k=32 / L=22）
 
-## 4. ディレクトリ早見
+Phase 1 ベスト構成（ICA k=16 L=22, R²=0.878）に **k=32** を追加して再走。
 
-```
+- basis：[data/emotion_code/basis_sweep_L22/ica_k032_seed0.pt](../data/emotion_code/basis_sweep_L22/ica_k032_seed0.pt)
+- Phase 1（[results/caa_basis_decomposition_L22/](../experiments/results/caa_basis_decomposition_L22/)）
+  → **R²(OLS) = 0.920**（k=16 L=22: 0.878、k=16 L=19: 0.864 → +0.06）
+- Phase 2（[results/caa_basis_decomp_steering_L22_k32/](../experiments/results/caa_basis_decomp_steering_L22_k32/)、19h、4608 gens）
+
+| variant | mean_shift_acc | retention_vs_caa |
+|---|---:|---:|
+| caa | 0.146 | 1.00 |
+| **ols** | **0.115** | **0.786** |
+| nnls | 0.083 | 0.571 |
+| vad | 0.063 | 0.429 |
+| lasso | 0.052 | 0.357 |
+| random | 0.036 | 0.250 |
+
+→ **OLS retention 0.786**（L=19 k=16 比 +7.2pp）。Phase 1 R² 改善が行動でも
+比例して伸びた。**k=32 でもまだ R² プラトーに達していない可能性** があり、
+次は k=64 で plateau 探索が候補。
+
+### 3.X.6 k=64 / L=22（plateau 探索）
+
+§3.X.5 の k∈{8,16,32} の単調増加（R² 0.75→0.88→0.92）が k=64 で頭打ちに
+なるかを確認するため、同 L=22 で k=64 の Phase 1+2 を実走。
+
+- basis：[data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt](../data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt)
+- Phase 1（[results/caa_basis_decomposition_L22/](../experiments/results/caa_basis_decomposition_L22/)）
+
+| k | median R²(OLS) | median cos |
+|---:|---:|---:|
+| 16 | 0.878 | 0.937 |
+| 32 | 0.920 | 0.959 |
+| **64** | **0.960** | **0.980** |
+
+per-cat の最低も joy=0.92 / surprise=0.93 まで上がり、CAA の 8 軸全てが
+basis 64 次元の OLS でほぼ完全再構成可能になった。R² の伸び幅は
++0.04 → +0.04 と **線形ペースを維持**（plateau には未到達）。
+
+- Phase 2（[results/caa_basis_decomp_steering_L22_k64/](../experiments/results/caa_basis_decomp_steering_L22_k64/)、4608 gens、約 19h）
+
+| variant | mean_shift_acc | mean_delta | retention_vs_caa |
+|---|---:|---:|---:|
+| caa | 0.146 | +0.083 | 1.00 |
+| **ols** | **0.135** | **+0.073** | **0.929** |
+| lasso | 0.068 | +0.005 | 0.464 |
+| nnls | 0.063 | 0.000 | 0.429 |
+| vad | 0.063 | 0.000 | 0.429 |
+| random | 0.042 | −0.021 | 0.286 |
+
+→ **OLS retention 0.929**（k=32 比 +14pp、L=19 k=16 比 +22pp）。Phase 1 R² の
++0.04 が Phase 2 retention の +0.14 を生んだ。**「named axis (CAA) は basis の
+線形射影として実質的に再構成可能」**という主張が、数値（R²=0.96）と行動
+（retention=0.93）の両面で強く支持された。
+
+含意・残課題：
+- k=8→64 で R² が 0.75 → 0.96 まで単調増加。**plateau 未確認** だが、
+  R² の限界 1.0 が近く、効用差は逓減フェーズに入りつつある可能性。
+- nnls/lasso は k を上げても改善せず（むしろ random と同水準）。
+  CAA は basis の **両符号スパースでない密な線形結合** として表現される。
+- **論文の Phase 1〜2 セクション（CAA ≈ Σ w_k b_k）はこの結果で実質完了**。
+  以降は (D) 加法性検定で「basis 同士の合成則」を確立し、論文の理論核心
+  （basis = 真の原子）を閉じる段階。
+
+### 3.X.7 加法性検定（D：CAA カテゴリ対 × OLS 再構成 basis、L=22 / k=64）
+
+仮説「basis = 真の原子」の系として、**joint steering = sum of marginals** が
+成り立つかを CAA カテゴリ対で検証。
+[experiments/eval_caa_basis_additivity.py](../experiments/eval_caa_basis_additivity.py) を新設し、
+§3.X.6 で得た OLS 重み（ICA k=64, L=22）から再構成した CAA 軸
+$\hat v_a, \hat v_b$ について、$\alpha\hat v_a + \beta\hat v_b$ で steering して
+生成・再エンコード・CAA 射影を測定。
+
+- pairs：(joy, sadness), (joy, anger), (anger, fear), (disgust, joy)
+- α, β ∈ {−2, 0, +2}、n_prompts=8、max_new_tokens=32
+- 出力：[results/caa_basis_additivity_L22_k64/](../experiments/results/caa_basis_additivity_L22_k64/)
+  （`generations.parquet`、`readouts.parquet`、`additivity_readout.csv`、
+  `additivity_shift.csv`、`summary.json`）
+
+結果（off-diagonal、$\alpha,\beta\neq 0$ のみ）：
+
+| 指標 | 値 |
+|---|---:|
+| **readout 残差比** median \|resid\|/\|marg\| | **0.807** |
+| readout 残差比 mean | 0.845 |
+| **shift-acc 残差** median \|resid_to_a\| | **0.000** |
+| shift-acc 残差 median \|resid_to_b\| | 0.000 |
+
+含意：
+- **readout 空間では加法性が大きく崩れる**（残差が marginal 和の 80% に達する）。
+  joint steering の残差ストリーム表現は「単独軸の単純な線形和」にはなって
+  おらず、basis 間に **明確な高次相互作用** が存在する。
+- **行動（shift-acc）レベルでは残差ほぼゼロ**。joint で生成しても 8 カテゴリ
+  分類器が割り当てるラベルは「片方の単独軸と同じ」になり、加算で新カテゴリ
+  に飛ぶ訳ではない（=判別境界は加法的に滑らか）。
+- 両者の食い違いは §3.X.2 の **emergent meta-emotion**（combo_b1+b11 →
+  「過警戒的内省」など、Plutchik では命名できない混合状態）と整合：
+  既存ラベルでは検出されない「中間状態」が残差ストリームには出ている。
+- 結論として **basis は厳密な加法群ではない** が、**離散ラベル空間に射影
+  すれば加法的に振る舞う** という二層構造が定量化された。論文では
+  「線形再構成（Phase 1〜2）」と「非線形合成（Phase 3）」を分けて主張する
+  土台ができた。
+
+### 3.X.8 二層構造の追検証（D の発展：c → b → a）
+
+§3.X.7 で出した「readout 加法崩れ × shift 加法成立」の二層構造を、
+3 軸（メタ感情射影 / ペア類似度との相関 / 別構成での再現）で追検証。
+
+**(c) 残差ベクトル → メタ感情クラスタ射影**
+[experiments/eval_caa_additivity_metaemotion.py](../experiments/eval_caa_additivity_metaemotion.py) を新設。
+生成テキストを `text-embedding-3-small` で埋め込み、§3.X.3 の 7 メタ感情
+クラスタ centroid（`results/lexical_gap_judge/cluster_summary.csv`）への
+コサインで「joint − marg_max」gain を測定。
+出力：[results/caa_additivity_metaemotion_L22_k64/](../experiments/results/caa_additivity_metaemotion_L22_k64/)
+
+| 指標 | 値 |
+|---|---:|
+| residual top cos median | **0.068** |
+| null p95（shuffle）| 0.044 |
+| marginal top cos median | 0.324 |
+| 全 7 クラスタで median gain `joint − marg_max` | **−0.012 〜 −0.020（全て負）** |
+
+→ 残差は **non-random**（null p95 の 1.5×）だが、**joint 生成は単独軸より
+メタ感情クラスタに近づかない**。最頻ヒット先は "academic ambition /
+competitive determination" (9/16)、"ironic amusement" (4/16)、
+"uncertainty / indecision" (3/16)。
+
+**解釈**：今回の 4 ペア（joy×sadness, joy×anger, anger×fear, disgust×joy）は
+対立 / 反対方向の組み合わせが多く、joint で **打ち消し** が起きている可能性が
+高い。§3.X.3 のメタ感情は単独 basis 軸（b1, b11 など）の steering で出た
+現象であり、CAA 8 カテゴリ対の合成からは直接は再現されない。
+論文上は「CAA-pair 残差 ≠ メタ感情方向」を **明示的な negative result** として
+書き、メタ感情の発生源は CAA の組合せではなく **basis-native な高次相互作用**
+である、と分離して主張するのが妥当。
+
+**(b) per-pair 残差比 vs ペア類似度の相関**
+[experiments/eval_caa_additivity_pairsim.py](../experiments/eval_caa_additivity_pairsim.py) を新設。
+各ペアの cos 類似度（basis 重み `cos_w`、再構成軸 `cos_recon`、生 CAA `cos_caa_raw`）と
+residual ratio の相関を測定。
+出力：[results/caa_additivity_pairsim_L22_k64/](../experiments/results/caa_additivity_pairsim_L22_k64/)
+
+| pair | cos_w | median resid ratio |
+|---|---:|---:|
+| anger + fear  | **0.849** | **0.865** |
+| disgust + joy | 0.123 | 0.825 |
+| joy + sadness | 0.116 | 0.803 |
+| joy + anger   | 0.112 | 0.782 |
+
+相関：
+- pair-level（n=4）: Spearman cos_w r = **+1.00**
+- cell-level（n=16）: Pearson cos_w r = **+0.59 (p=0.016)**, Spearman r = +0.62 (p=0.011)
+
+→ **basis 重みが似ているペアほど残差が大きい**（同方向に押し合う高次項が
+大きい）。逆相関ではない＝「直交ペアほど加法的」というクリーンな主張が出た。
+
+**(a) k=32 / L=19 での再現**
+別構成（ICA k=16, L=19、§3.X.5 比較対象）で同じ加法性検定を実走。
+出力：[results/caa_basis_additivity_L19_k16/](../experiments/results/caa_basis_additivity_L19_k16/)
+
+| 指標 | L22/k64 | **L19/k16** |
+|---|---:|---:|
+| readout 残差比 median | 0.807 | **0.788** |
+| shift-acc 残差 median | 0.000 | **0.000** |
+
+→ 二層構造（**readout で大崩れ ≈ 0.8、shift で完全加法 ≈ 0**）は **層 / k を
+変えても再現**。pair-sim 相関は L19/k16 では弱化（Pearson 非有意、Spearman
+r=0.80 (n=4) で方向は同じ）。これは disgust+joy の mean resid ratio が 1.64 と
+外れ値であること、k=16 で basis 軸が荒く `cos_w` シグナルが弱いことに起因。
+
+**結論（D の発展全体）**：
+- 二層構造は構成不変（layer/k）で確認 ⇒ artefact ではない。
+- 残差は random でも noise でもなく、ペアの basis 親和性で説明できる
+  「同方向に押し合う高次項」である。
+- ただし残差方向は既知メタ感情カタログ（§3.X.3）には射影できない ⇒
+  **「Phase 3 の非線形成分」の正体は CAA 軸ペアの合成ではない**。
+  メタ感情を意図的に誘発するには basis-native な合成（b_i + b_j）が要る、
+  という仮説が次の検証対象になる。
+
+### 3.X.9 basis-native 加法性検定 + メタ感情射影（D-c の続き、ICA k=16 / L=19）
+
+§3.X.8(c) の続報。`eval_basis_additivity_metaemotion.py` で
+basis 軸対 `α b_i + β b_j` を caa_match スケールで joint steering し、
+生成テキストを §3.X.3 の 7 メタ感情クラスタへ射影。
+ペア＝ §3.X.2 の `combo_b1+b11` 系 (b1,b11), (b1,b13), (b11,b13) と
+pan 軸対照 (b8,b4), (b8,b7) の計 5 ペア × 3×3 α × 8 prompts = **360 gens**。
+
+成果物：[results/basis_additivity_metaemotion_L19_k16/](../experiments/results/basis_additivity_metaemotion_L19_k16/)
+（`generations.parquet`, `readouts.parquet`, `additivity_readout.csv`,
+ `additivity_readout_detail.parquet`, `summary.json`,
+ `metaemotion/{embeddings.npz, centroids.npz, cell_residual_cos.csv,
+ cell_top_cluster.csv, per_text_cos.csv, per_text_summary.csv,
+ per_cluster_summary.csv, summary.json}`）
+
+**(a) readout 加法性**（off-diag セル平均）：
+
+| ペア | err_i | err_j | resid_ratio |
+|---|---:|---:|---:|
+| (b1, b11) | 0.064 | 0.077 | 0.897 |
+| (b1, b13) | 0.080 | 0.052 | 0.855 |
+| (b11, b13) | 0.064 | 0.057 | 0.799 |
+| (b8, b4) | 0.066 | 0.059 | 0.839 |
+| (b8, b7) | 0.061 | 0.086 | 0.782 |
+| **median** | **0.069** | **0.061** | **0.817** |
+
+→ **CAA-pair (§3.X.7、err≈0.015–0.030) より 2–4 倍大きい err**。
+basis 軸対は CAA 対よりも局所線形性が弱い。
+全体 |resid|/|marg| ≈ 0.82 は CAA-pair (0.81) と同水準。
+
+**(b) メタ感情射影**（per-cluster median `joint − max(marg)` cosine）：
+
+| cluster | median gain |
+|---|---:|
+| frustration / despair | −0.013 |
+| academic ambition / competitive determination | −0.019 |
+| ironic amusement | −0.019 |
+| self-doubt / encouragement | −0.020 |
+| enthusiasm / curiosity | −0.021 |
+| romantic idealism | −0.022 |
+| **uncertainty / indecision** | **−0.026** |
+
+**全 7 クラスタで gain が負**。joint は単独軸の最大 cos を上回らない。
+**§3.X.8(c) と同じ negative result が basis 軸対でも再現** された。
+
+ただし per-cell 残差は構造化されている（null p95 ≈ 0.05 に対し）：
+
+| pair | α, β | cluster | cos_resid |
+|---|---|---|---:|
+| (b1, b11) | −2,+2 | romantic idealism | **−0.21** |
+| (b1, b13) | −2,+2 | academic ambition / competitive | +0.17 |
+| (b8, b7) | +2,+2 | academic ambition / competitive | +0.16 |
+| **(b8, b4)** | **+2,+2** | **uncertainty / indecision** | **+0.16** |
+| (b8, b4) | −2,+2 | uncertainty / indecision | +0.12 |
+| (b1, b11) | +2,+2 | romantic idealism | −0.14 |
+| (b1, b11) | +2,+2 | self-doubt / encouragement | −0.13 |
+
+唯一の正の per-cluster gain は **(b8, b4) → frustration/despair (+0.005)**、
+有意ではない（n=32）。`+2,+2` セルでは複数のペアが
+"academic ambition / competitive determination" 方向に共通して正残差を出し、
+強い steering 下のアトラクタ的な cross-talk と読める。
+
+**(c) §3.X.2 の "過警戒的内省" は再現せず**：(b1,b11) の `+2,+2` セルで
+"uncertainty / indecision" cos = 0.185 だが、b1 単独 (0.196) と b11 単独
+(0.192) が既に飽和しており joint は両者を下回る。
+3.X.2 で観察された質感は **b11 単独軸の周辺効果** で説明でき、
+b1 との合成は新しい方向を加えていない。
+
+サンプル生成（(b1,b11)）：
+
+| α, β | 生成（先頭一例） |
+|---|---|
+| −2,+2 | "I mean, I'm not saying that you're not a good friend, but sometimes you can be a bit... distant." |
+| +2,+2 | "I've got to get out of here. I'm like, totally sick of this place." |
+| −2,−2 | "I have a new friend, a young woman named Rachel, who is a member of the local community choir." |
+| +2,−2 | "I've been waiting for ages for you to get it. I've been trying to get you to see it for ages." |
+
+→ いずれも Plutchik 隣接の表層感情（不満 / 退屈 / 描写 / 焦燥）。
+"meta-emotion" と呼べる中間状態は外部から確認できない。
+
+**結論（D-c の続き）**：
+- §3.X.7–8 の二層構造（readout 大崩れ × shift 完全加法）は **basis 軸対でも
+  同パターンで再現**、ただし err_i/err_j は CAA 対より 2–4 倍悪い
+  → basis 軸は「より小さい局所性しか持たない」。
+- メタ感情クラスタへの射影は **全 7 クラスタで joint < marg_max**。
+  §3.X.8(c) の "CAA-pair 残差は既存メタ感情に向かない" は **basis-pair でも
+  そのまま成立**。**「Plutchik より細かい現象学」を 2 軸合成で induce する
+  最小構成は、ICA k=16 / L=19 では存在しない**。
+- ただし per-cell には null を超える signed 残差（最大 |cos| ≈ 0.21）があり、
+  ランダムノイズではない。残差方向は **強 steering 下で複数ペア共通して
+  "academic ambition / competitive determination" に向かう** という
+  attractor-like な構造が見えており、これは **k=16 basis の表現容量限界**
+  によるアーティファクトの可能性が高い。
+- 仮説：メタ感情 induce には (i) より細かい basis（k=64 / L=22）、
+  または (ii) 3 軸以上の合成、または (iii) そもそも単独 basis 軸（b11 など）
+  の周辺効果が本質、のいずれか。次の優先は **同 sweep を k=64/L=22 で再走** で
+  basis 容量側の説明を切り分けること。
+
+### 3.X.10 basis-native 加法性 + メタ感情射影（k=64 / L=22 で再走）
+
+§3.X.9 で立てた仮説 (i)「k=16 の容量限界が原因」を切り分けるため、§3.X.6 の
+champion basis（ICA k=64 / L=22, R²=0.96, retention=0.93）で同 5 ペア × 3×3 α ×
+8 prompts = 360 gens を再走。**注意：ICA は (L,k) ごとに成分が並び替わるため
+b1/b11/b13 等のインデックスは L19/k16 とは別軸**（layer-consistency map で対応
+付けしていないので "literal index" 比較）。
+
+成果物：[results/basis_additivity_metaemotion_L22_k64/](../experiments/results/basis_additivity_metaemotion_L22_k64/)
+
+**(a) readout 加法性**：
+
+| 構成 | err_i | err_j | resid_ratio |
+|---|---:|---:|---:|
+| L19 / k=16 (§3.X.9) | 0.069 | 0.061 | 0.817 |
+| **L22 / k=64**     | **0.049** | **0.063** | **0.803** |
+
+→ err_i が 30% 改善、resid_ratio はほぼ同水準。**basis 容量を 4× にしても
+joint と marginal の差は 0.8 のまま**。「readout 大崩れ」は構成不変。
+
+**(b) メタ感情 per-cluster gain（`joint − max(marg)` 中央値）**：
+
+| cluster | L19/k16 gain | **L22/k64 gain** |
+|---|---:|---:|
+| frustration / despair | −0.013 | **−0.014** |
+| ironic amusement | −0.019 | **−0.010** |
+| self-doubt / encouragement | −0.020 | **−0.013** |
+| uncertainty / indecision | **−0.026** | **−0.014** |
+| enthusiasm / curiosity | −0.021 | **−0.015** |
+| academic ambition / competitive | −0.019 | **−0.024** |
+| romantic idealism | −0.022 | **−0.027** |
+
+→ **依然として全 7 クラスタで gain 負**。ただし 5/7 で gain 縮小（uncertainty
+は半減）、(b1,b13) は uncertainty/indecision で **gain = −0.003**（実質ほぼ
+0）まで来た。**容量を増やすと "marginal がメタ感情を吸収しきる" 効果が強まる**
+方向であり、joint で初めて出るメタ感情成分が新たに見えるわけではない。
+
+**(c) per-cell |cos_resid|**：null p95 ≈ 0.05 に対し最大 0.17。L19/k16 の
+0.21 より小さく、cluster 分布も *academic ambition* (8) / *uncertainty* (7) /
+*self-doubt* (4) と分散。**強 steering 下のアトラクタ** という解釈は維持される
+が、k 増加で symptom は軽減。
+
+**結論（§3.X.10）**：
+- 「k=16 の容量不足が negative result の原因」**仮説 (i) は否定**。
+  k=64 でも全クラスタ gain 負・joint < marg_max は不変。
+- err_i / per-cluster gain magnitude は **k 増加で漸近的に縮小** しており、
+  「basis 数を上げるほど marginal の表現力が伸びて joint が新規方向を出さなく
+  なる」という単調傾向。これは "メタ感情は basis 軸対の合成で生まれる" 仮説
+  そのものへの反証寄り。
+- **方針転換**：仮説 (iii)「単独 basis 軸（b11 など）の周辺効果がメタ感情の
+  正体」を主軸に据える。§3.X.2 で観察された "過警戒的内省" 等の現象学は
+  *single-axis × strong α* で十分再現できる、という方向で検証を組み直す。
+  3 軸以上の合成 (ii) は副次優先。
+
 src/emotion_code/
 ├── caa.py               # Phase B-5 本流（不変）
 ├── basis.py             # Phase B-5 本流（不変、k=8固定）
@@ -421,7 +747,13 @@ experiments/
 ├── eval_basis_layerconsistency.py  # Phase C-2: 層間マッチング
 ├── eval_basis_selfconsistency.py   # Phase C-2: hero metric
 ├── eval_basis_qualitative.py       # Phase C-2: steering 生成例
-└── eval_basis_additivity.py        # Phase C-2: 加法性検定
+├── eval_basis_additivity.py        # Phase C-2: basis 成分間の加法性
+├── eval_caa_basis_decomposition.py # Phase C-3: CAA を basis で再構成（Phase 1）
+├── eval_caa_basis_decomp_steering.py # Phase C-3: 再構成 CAA で steering（Phase 2）
+├── eval_caa_basis_additivity.py    # Phase C-3: 再構成 CAA カテゴリ対の加法性（D）
+├── eval_caa_additivity_metaemotion.py # Phase C-3: 残差 → メタ感情クラスタ射影（D-c）
+├── eval_caa_additivity_pairsim.py  # Phase C-3: 残差比 vs ペア類似度（D-b）
+└── eval_basis_additivity_metaemotion.py # Phase C-3: basis 軸対の加法性 + メタ感情射影（D-c 続き）
 
 data/emotion_code/
 ├── caa.pt, basis.pt, vad_mapping.pt        # B-5 本流
@@ -440,27 +772,46 @@ data/emotion_code/
 
 ## 5. 次にやること（優先順）
 
-> **完了済み**：(B) W 構造解析、(C) lexical-gap steering、(E) LLM judge + メタ感情クラスタ
-> （いずれも §3.X.1〜3.X.4）。残タスクは下記。
+> **完了済み**：(A) k=32/L=22 retention 押し上げ（§3.X.5、retention 0.786）→
+> **k=64/L=22 で retention 0.929 に到達**（§3.X.6）、(B) W 構造解析、
+> (C) lexical-gap steering、(D) **加法性検定**（§3.X.7、readout 残差 0.81 /
+> shift-acc 残差 0.00 → 二層構造を定量化）→ **(D) 追検証 c/b/a 完了**
+> （§3.X.8、layer/k 不変で再現、cos_w ↔ 残差 Spearman +1.0、ただし残差は
+> 既存メタ感情カタログには射影できず）、(E) LLM judge + メタ感情
+> クラスタ、(F) **basis-native 加法性 + メタ感情射影（§3.X.9 ICA k=16/L=19、
+> §3.X.10 ICA k=64/L=22 — どちらも全 7 クラスタで joint < marg_max、容量を
+> 上げると gain 縮小傾向 ⇒「メタ感情 = basis 2 軸合成」仮説は反証寄り）**。
+> 残タスクは下記。
 
-1. **k と layer を最適化して retention をさらに押し上げ**
-   Phase 1 ベスト構成は ICA k=16 L=22 (R²=0.878)。L19 ではなく L=22 で Phase 2 を走らせれば retention ≥ 0.75 が期待できる。
-   k=32, 64 で R² plateau を確認 → R²→0.95 が見えれば retention も 0.85 級へ。
-   コスト：Phase 2 ≈16h × 2〜3 構成。
+1. **single-axis × strong-α でメタ感情を直接 induce（§3.X.10 結論の主軸）**
+   §3.X.9–10 で 2 軸合成は negative。次は **単独 basis 軸 × α∈{±3, ±6}** で
+   §3.X.3 の 7 メタ感情クラスタを induce できる軸を網羅。
+   既存 [eval_basis_qualitative.py](../experiments/eval_basis_qualitative.py)
+   は §3.X.2 で b8 の addressivity 軸を発見済み。これを judge + クラスタ
+   射影パイプラインに通して **per-axis × per-cluster gain matrix** を作る。
+   実装案：`eval_basis_qualitative.py` の出力 parquet を
+   `eval_caa_additivity_metaemotion.py` 互換スキーマで保存できるよう薄い
+   adapter を書き、α=0 を baseline として `joint − marg_max` の代わりに
+   `α≠0 − α=0` cosine gain を取る。
 
-2. **メタ感情合成の人手評価 / UI**
+2. **3 軸以上の合成（副次優先）**
+   §3.X.10 で「2 軸では出ない」が確定したので、(b1, b11, b13) 等の 3 軸
+   simultaneous steering を試す価値はある。`eval_basis_additivity_metaemotion.py`
+   を 3 軸対応に拡張する場合、グリッドサイズが 3³=27 セル × ペア数で
+   容易に膨張するため α ∈ {0, ±2} の 3 値固定推奨。
+
+3. **k=128 で R² plateau の最終確認（任意）**
+   k=8→64 で R² が 0.75→0.96 と単調増加。k=128 が頭打ちになるかで「内在
+   次元の上限」を論文クレームできる。retention 側は既に 0.93 まで来ており
+   投資対効果は逓減フェーズ。
+
+4. **メタ感情合成の人手評価 / UI**
    §3.X.3 で同定された 7 メタ感情クラスタ（とくに *uncertainty/indecision*,
    *self-doubt/encouragement*）を **目的的に induce** する steering UI を作り、
-   人手で「Plutchik で言えない」率を確認。
+   人手で「Plutchik で言えない」率を確認。§3.X.10 の結果から、UI は
+   *single-axis × α* スライダーで十分（2 軸合成 UI は不要）。
 
-3. **Compositionality（加法性）の本格検証**
-   $\alpha b_i + \beta b_j$ で steer したとき、shift パターンが
-   $i$ 単独・$j$ 単独の **線形和** になるか（既存の `eval_basis_additivity.py`
-   を OLS 重み再構成版に拡張）。
-   線形和が成り立てば「basis = 真の原子」、崩れれば「basis 間に高次相互作用あり」
-   が定量化できる。combo_b1+b11 / combo_b11+b13 で **emergent な定性パターン**
-   が観察されている（§3.X.2）ので、定量化の優先度は高い。
-
-4. **judge の信頼性確認**
+5. **judge の信頼性確認**
    GPT-4o-mini judge を別 LLM（Claude / Llama-3-70B）で再走 + Krippendorff α
    で agreement を測る。`other_score` が judge bias でないことを保証。
+

@@ -1,0 +1,117 @@
+{
+  "additivity_dir": "experiments/results/caa_basis_additivity_L19_k16",
+  "n_pairs": 4,
+  "n_offdiag_cells": 16,
+  "pair_similarity": [
+    {
+      "cat_a": "anger",
+      "cat_b": "fear",
+      "cos_recon": 0.6645386219024658,
+      "cos_w": 0.8498387336730957,
+      "cos_caa_raw": 0.5025994181632996
+    },
+    {
+      "cat_a": "disgust",
+      "cat_b": "joy",
+      "cos_recon": -0.08714678883552551,
+      "cos_w": 0.09179728478193283,
+      "cos_caa_raw": -0.05329376831650734
+    },
+    {
+      "cat_a": "joy",
+      "cat_b": "anger",
+      "cos_recon": 0.05889132246375084,
+      "cos_w": 0.0862545445561409,
+      "cos_caa_raw": 0.07943412661552429
+    },
+    {
+      "cat_a": "joy",
+      "cat_b": "sadness",
+      "cos_recon": 0.041818346828222275,
+      "cos_w": 0.05597354471683502,
+      "cos_caa_raw": -0.012568086385726929
+    }
+  ],
+  "pair_residual": [
+    {
+      "cat_a": "anger",
+      "cat_b": "fear",
+      "median_resid_ratio": 0.8041364848613739,
+      "mean_resid_ratio": 0.838661327958107,
+      "cos_recon": 0.6645386219024658,
+      "cos_w": 0.8498387336730957,
+      "cos_caa_raw": 0.5025994181632996
+    },
+    {
+      "cat_a": "disgust",
+      "cat_b": "joy",
+      "median_resid_ratio": 0.9274871647357941,
+      "mean_resid_ratio": 1.6423097848892212,
+      "cos_recon": -0.08714678883552551,
+      "cos_w": 0.09179728478193283,
+      "cos_caa_raw": -0.05329376831650734
+    },
+    {
+      "cat_a": "joy",
+      "cat_b": "anger",
+      "median_resid_ratio": 0.7804732024669647,
+      "mean_resid_ratio": 0.8006136864423752,
+      "cos_recon": 0.05889132246375084,
+      "cos_w": 0.0862545445561409,
+      "cos_caa_raw": 0.07943412661552429
+    },
+    {
+      "cat_a": "joy",
+      "cat_b": "sadness",
+      "median_resid_ratio": 0.6923112571239471,
+      "mean_resid_ratio": 0.6777958273887634,
+      "cos_recon": 0.041818346828222275,
+      "cos_w": 0.05597354471683502,
+      "cos_caa_raw": -0.012568086385726929
+    }
+  ],
+  "correlations": {
+    "cell_cos_recon": {
+      "n": 16,
+      "pearson_r": -0.1515880013435343,
+      "pearson_p": 0.575191960780821,
+      "spearman_r": -0.24253562503633297,
+      "spearman_p": 0.3654303385914638
+    },
+    "pair_cos_recon": {
+      "n": 4,
+      "pearson_r": -0.15075900049858776,
+      "pearson_p": 0.8492409995014123,
+      "spearman_r": -0.19999999999999998,
+      "spearman_p": 0.8
+    },
+    "cell_cos_w": {
+      "n": 16,
+      "pearson_r": -0.03034534333294933,
+      "pearson_p": 0.9111723918277793,
+      "spearman_r": 0.41231056256176607,
+      "spearman_p": 0.11250965188359542
+    },
+    "pair_cos_w": {
+      "n": 4,
+      "pearson_r": 0.056141826830894304,
+      "pearson_p": 0.9438581731691058,
+      "spearman_r": 0.7999999999999999,
+      "spearman_p": 0.2000000000000001
+    },
+    "cell_cos_caa_raw": {
+      "n": 16,
+      "pearson_r": -0.10351340723647902,
+      "pearson_p": 0.7028367222242049,
+      "spearman_r": -0.24253562503633297,
+      "spearman_p": 0.3654303385914638
+    },
+    "pair_cos_caa_raw": {
+      "n": 4,
+      "pearson_r": -0.07380815460536128,
+      "pearson_p": 0.9261918453946387,
+      "spearman_r": -0.19999999999999998,
+      "spearman_p": 0.8
+    }
+  }
+}

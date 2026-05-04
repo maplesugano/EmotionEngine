@@ -1,5 +1,5 @@
 {
-  "n_artifacts": 2,
+  "n_artifacts": 3,
   "n_categories": 8,
   "categories": [
     "anger",
@@ -29,14 +29,14 @@
   },
   "by_fit_method": {
     "ols": {
-      "median_r2": 0.9013138465507802,
-      "median_cosine": 0.9493753612041473,
-      "median_l0": 24.0
+      "median_r2": 0.9179490477604635,
+      "median_cosine": 0.9580965340137482,
+      "median_l0": 32.0
     },
     "nnls": {
-      "median_r2": 0.19708103837826935,
-      "median_cosine": 0.4439106461137724,
-      "median_l0": 12.0
+      "median_r2": 0.1912708246590541,
+      "median_cosine": 0.4373421050350986,
+      "median_l0": 15.0
     },
     "lasso": {
       "median_r2": 0.0,
@@ -109,6 +109,39 @@
       "mean_r2": 0.9138910055559183,
       "median_cosine": 0.9589576423168182,
       "median_l0": 32.0,
+      "n_rows": 8
+    },
+    {
+      "decomposer": "ica",
+      "k": 64,
+      "layer": 22,
+      "fit": "lasso",
+      "median_r2": 0.0,
+      "mean_r2": 0.03250484055565919,
+      "median_cosine": 0.0,
+      "median_l0": 0.0,
+      "n_rows": 24
+    },
+    {
+      "decomposer": "ica",
+      "k": 64,
+      "layer": 22,
+      "fit": "nnls",
+      "median_r2": 0.17031780397736818,
+      "mean_r2": 0.15929961942036103,
+      "median_cosine": 0.41211467235005694,
+      "median_l0": 33.5,
+      "n_rows": 8
+    },
+    {
+      "decomposer": "ica",
+      "k": 64,
+      "layer": 22,
+      "fit": "ols",
+      "median_r2": 0.9602428137528298,
+      "mean_r2": 0.9521798952014571,
+      "median_cosine": 0.9799191653728485,
+      "median_l0": 64.0,
       "n_rows": 8
     }
   ]

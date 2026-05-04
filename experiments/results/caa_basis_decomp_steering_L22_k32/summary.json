@@ -1,0 +1,57 @@
+{
+  "layer": 22,
+  "decomposer": "ica",
+  "k": 32,
+  "alpha_target": 2.0,
+  "n_prompts": 32,
+  "alphas": [
+    -2.0,
+    0.0,
+    2.0
+  ],
+  "lasso_alpha_used": 0.001,
+  "per_variant": [
+    {
+      "variant": "caa",
+      "mean_shift_acc": 0.14583333333333334,
+      "mean_baseline_acc": 0.0625,
+      "mean_delta": 0.08333333333333333,
+      "retention_vs_caa": 1.0
+    },
+    {
+      "variant": "lasso",
+      "mean_shift_acc": 0.052083333333333336,
+      "mean_baseline_acc": 0.0625,
+      "mean_delta": -0.010416666666666666,
+      "retention_vs_caa": 0.35714285714285715
+    },
+    {
+      "variant": "nnls",
+      "mean_shift_acc": 0.08333333333333333,
+      "mean_baseline_acc": 0.0625,
+      "mean_delta": 0.020833333333333332,
+      "retention_vs_caa": 0.5714285714285714
+    },
+    {
+      "variant": "ols",
+      "mean_shift_acc": 0.11458333333333333,
+      "mean_baseline_acc": 0.0625,
+      "mean_delta": 0.052083333333333336,
+      "retention_vs_caa": 0.7857142857142856
+    },
+    {
+      "variant": "random",
+      "mean_shift_acc": 0.036458333333333336,
+      "mean_baseline_acc": 0.0625,
+      "mean_delta": -0.026041666666666668,
+      "retention_vs_caa": 0.25
+    },
+    {
+      "variant": "vad",
+      "mean_shift_acc": 0.0625,
+      "mean_baseline_acc": 0.0625,
+      "mean_delta": 0.0,
+      "retention_vs_caa": 0.42857142857142855
+    }
+  ]
+}
