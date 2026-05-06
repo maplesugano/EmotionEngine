@@ -13,10 +13,12 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from . import emotion_engine
+from . import real_model as _backend
 from .models import BASIS_DIM, BASIS_LABELS, MACRO_EMOTIONS, PRESETS
 from .schemas import (
     AnalyzeRequest,
     AnalyzeResponse,
+    AxisLabels,
     MacroSliderRequest,
     MetaResponse,
     PresetRequest,
@@ -49,11 +51,18 @@ app.add_middleware(
 
 @app.get("/api/meta", response_model=MetaResponse)
 def get_meta() -> MetaResponse:
+    # Triggers model load on first call so we can return data-derived labels.
+    phrases = _backend.get_basis_phrases()
+    axis_labels = _backend.get_axis_labels()
+    excluded = _backend.get_excluded_components()
     return MetaResponse(
         basis_dim=BASIS_DIM,
         macro_emotions=MACRO_EMOTIONS,
         presets=PRESETS,
         basis_labels={int(k): v for k, v in BASIS_LABELS.items()},
+        basis_phrases=phrases,
+        axis_labels=AxisLabels(**axis_labels),
+        excluded_components=excluded,
     )
 
 

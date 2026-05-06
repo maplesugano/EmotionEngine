@@ -1,0 +1,16 @@
+{
+  "basis": "ica_k064_seed0.pt",
+  "layer": 22,
+  "exclude": [
+    18,
+    20,
+    22,
+    34,
+    39
+  ],
+  "thresholds": {
+    "rep_4": 0.2,
+    "toxicity_rate": 0.005,
+    "max_run_norm": 0.12
+  }
+}

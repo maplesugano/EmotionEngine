@@ -2,11 +2,13 @@ import { create } from "zustand";
 import {
   analyzeText,
   applyPreset,
+  getMeta,
   rewriteText,
   updateFromMacro,
   updateFromProjection,
 } from "./api/client";
 import type {
+  AxisLabels,
   DiffSegment,
   EmotionState,
   MacroEmotion,
@@ -24,11 +26,15 @@ type Store = EmotionState & {
   diff: DiffSegment[];
   status: Status;
   error: string | null;
+  axisLabels: AxisLabels | null;
+  basisPhrases: string[];
+  excludedComponents: number[];
 
   setSourceText: (t: string) => void;
   setStrength: (v: number) => void;
   setMode: (m: Mode) => void;
 
+  loadMeta: () => Promise<void>;
   analyze: () => Promise<void>;
   rewrite: () => Promise<void>;
   preset: (p: Preset) => Promise<void>;
@@ -50,6 +56,22 @@ export const useStore = create<Store>()((set, get) => ({
   diff: [],
   status: "idle",
   error: null,
+  axisLabels: null,
+  basisPhrases: [],
+  excludedComponents: [],
+
+  loadMeta: async () => {
+    try {
+      const m = await getMeta();
+      set({
+        axisLabels: m.axis_labels,
+        basisPhrases: m.basis_phrases,
+        excludedComponents: m.excluded_components ?? [],
+      });
+    } catch (e) {
+      set({ error: (e as Error).message });
+    }
+  },
 
   setSourceText: (t) => set({ sourceText: t }),
   setStrength: (v) => set({ strength: v }),
@@ -167,6 +189,8 @@ export const useStore = create<Store>()((set, get) => ({
   },
 
   setBasisComponent: async (index, value) => {
+    // Refuse edits on pathological axes (backend would zero them anyway).
+    if (get().excludedComponents.includes(index)) return;
     const next = [...get().basisVector];
     next[index] = Math.max(-1, Math.min(1, value));
     // recompute top via local sort; macro/projection get refreshed by rewrite()

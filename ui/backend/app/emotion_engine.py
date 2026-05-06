@@ -47,14 +47,23 @@ def _projection_from_xy(xy: Tuple[float, float]) -> Projection:
 def _top_components(basis: np.ndarray, k: int = 10) -> List[TopBasisComponent]:
     abs_w = np.abs(basis)
     idxs = np.argsort(abs_w)[::-1][:k]
-    return [
-        TopBasisComponent(
-            index=int(i),
-            weight=float(basis[i]),
-            label=label_for(int(i)),
+    phrases = _backend.get_basis_phrases()
+    out: List[TopBasisComponent] = []
+    for i in idxs:
+        i_int = int(i)
+        # Prefer hand-written qualitative label if we have one, else fall
+        # back to the data-derived verbal phrase.
+        label = label_for(i_int)
+        if label == "latent component":
+            label = phrases[i_int]
+        out.append(
+            TopBasisComponent(
+                index=i_int,
+                weight=float(basis[i_int]),
+                label=label,
+            )
         )
-        for i in idxs
-    ]
+    return out
 
 
 # ── Public API ─────────────────────────────────────────────────────────────

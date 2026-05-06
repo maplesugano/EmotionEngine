@@ -1,0 +1,26 @@
+{
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "exclude": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.exclude.json",
+  "k": 64,
+  "n_excluded": 5,
+  "n_keep": 59,
+  "excluded": [
+    18,
+    20,
+    22,
+    34,
+    39
+  ],
+  "frobenius_retention": 0.9628575327283069,
+  "frobenius_lost_norm": 85.00845144379772,
+  "category_loading_retention_min": 0.8584896189075765,
+  "category_loading_retention_mean": 0.9494979149981101,
+  "offdiag_cosine_mean_full": 0.2184507313618913,
+  "offdiag_cosine_mean_keep": 0.20257333103387737,
+  "cond_W_macro_full": 3.2814987690519786,
+  "cond_W_macro_keep": 3.4924231290760646,
+  "pinv_W_macro_norm_full": 8.22889598347593,
+  "pinv_W_macro_norm_keep": 8.783571244179184,
+  "W_effective_rank_full": 64.0,
+  "W_effective_rank_keep": 59.0
+}

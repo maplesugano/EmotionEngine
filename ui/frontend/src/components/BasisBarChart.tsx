@@ -12,6 +12,8 @@ function labelFor(i: number): string {
 
 export function BasisBarChart() {
   const top = useStore((s) => s.topBasisComponents);
+  const excluded = useStore((s) => s.excludedComponents);
+  const excludedSet = new Set(excluded);
   if (!top.length) {
     return (
       <div className="text-[11px] text-booth-muted italic">
@@ -30,9 +32,28 @@ export function BasisBarChart() {
           const w = c.weight;
           const pct = (Math.abs(w) / max) * 50;
           const isPos = w >= 0;
+          const isExcluded = excludedSet.has(c.index);
           return (
-            <li key={c.index} className="flex items-center gap-2 text-[11px]">
-              <span className="w-10 tabular-nums text-booth-muted">
+            <li
+              key={c.index}
+              className={
+                "flex items-center gap-2 text-[11px] " +
+                (isExcluded ? "opacity-40" : "")
+              }
+              title={
+                isExcluded
+                  ? "pathological axis — zeroed by backend"
+                  : undefined
+              }
+            >
+              <span
+                className={
+                  "w-10 tabular-nums " +
+                  (isExcluded
+                    ? "text-booth-bad/80 line-through"
+                    : "text-booth-muted")
+                }
+              >
                 b{String(c.index + 1).padStart(2, "0")}
               </span>
               <div className="relative flex-1 h-2 bg-booth-panel2 rounded">

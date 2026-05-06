@@ -1,0 +1,158 @@
+{
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "which": "ica",
+  "layer": 22,
+  "k": 64,
+  "alphas": [
+    -2.0,
+    0.0,
+    2.0
+  ],
+  "n_prompts": 8,
+  "max_new_tokens": 96,
+  "thresholds": {
+    "rep_4": 0.2,
+    "toxicity_rate": 0.005,
+    "max_run_norm": 0.12
+  },
+  "n_flagged": 5,
+  "exclude": [
+    18,
+    20,
+    22,
+    34,
+    39
+  ],
+  "top10": [
+    {
+      "component": 22,
+      "worst_alpha": -2.0,
+      "pathology_score": 0.3281227487587386,
+      "rep_4": 0.2940651658639464,
+      "max_run_norm": 0.0340575828947922,
+      "toxicity_rate": 0.0,
+      "compress_ratio": 0.511658283294874,
+      "unique_token_ratio": 0.4888049363340061,
+      "non_ascii_ratio": 0.0017605633802816902,
+      "category_loading_l2": 0.16064853966236115,
+      "example": "I am not sure what you are talking about. I am not sure what you are talking about. I am not sure what you are talking about. I am not sure what you are talking about. I am not sure what you are talking"
+    },
+    {
+      "component": 18,
+      "worst_alpha": -2.0,
+      "pathology_score": 0.26704521960193467,
+      "rep_4": 0.24141025641025643,
+      "max_run_norm": 0.025634963191678253,
+      "toxicity_rate": 0.0,
+      "compress_ratio": 0.5041915317505707,
+      "unique_token_ratio": 0.4190293032738586,
+      "non_ascii_ratio": 0.002702702702702703,
+      "category_loading_l2": 0.20085765421390533,
+      "example": "I've got it now. I've got it now. I've got it now. I've got it now. I've got it now. I've got it now. I've got it now"
+    },
+    {
+      "component": 20,
+      "worst_alpha": 2.0,
+      "pathology_score": 0.24238700552891304,
+      "rep_4": 0.21636763332051645,
+      "max_run_norm": 0.026019372208396598,
+      "toxicity_rate": 0.0,
+      "compress_ratio": 0.6030902687231784,
+      "unique_token_ratio": 0.5431156262711141,
+      "non_ascii_ratio": 0.00232469512195122,
+      "category_loading_l2": 0.06023629754781723,
+      "example": "I 'd like to visit the United States. I 'd like to visit the United States. I 'd like to visit the United States. I 'd like to visit the United States. I 'd like to visit the United"
+    },
+    {
+      "component": 34,
+      "worst_alpha": -2.0,
+      "pathology_score": 0.23251811594202898,
+      "rep_4": 0.0,
+      "max_run_norm": 0.23251811594202898,
+      "toxicity_rate": 0.0,
+      "compress_ratio": 0.571968601254508,
+      "unique_token_ratio": 0.8457427536231884,
+      "non_ascii_ratio": 0.0021551724137931034,
+      "category_loading_l2": 0.17629002034664154,
+      "example": "A : # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #"
+    },
+    {
+      "component": 28,
+      "worst_alpha": -2.0,
+      "pathology_score": 0.2239437528243407,
+      "rep_4": 0.1987053194483535,
+      "max_run_norm": 0.025238433375987177,
+      "toxicity_rate": 0.0,
+      "compress_ratio": 0.5548316613276632,
+      "unique_token_ratio": 0.4875956749432359,
+      "non_ascii_ratio": 0.0032722513089005235,
+      "category_loading_l2": 0.05745025351643562,
+      "example": "you can use the free version of the software to do that. You can use the free version of the software to do that. You can use the free version of the software to do that. You can use the free version of the software"
+    },
+    {
+      "component": 0,
+      "worst_alpha": -2.0,
+      "pathology_score": 0.214457344144401,
+      "rep_4": 0.18839981368563685,
+      "max_run_norm": 0.02605753045876415,
+      "toxicity_rate": 0.0,
+      "compress_ratio": 0.6121201813485541,
+      "unique_token_ratio": 0.5531789266226306,
+      "non_ascii_ratio": 0.0,
+      "category_loading_l2": 0.11396943032741547,
+      "example": "I 'd like to know if you've got it. I 'd like to know if you've got it. I 'd like to know if you've got it. I 'd like to know if you '"
+    },
+    {
+      "component": 51,
+      "worst_alpha": -2.0,
+      "pathology_score": 0.19746133870071664,
+      "rep_4": 0.16795838570032118,
+      "max_run_norm": 0.029502953000395453,
+      "toxicity_rate": 0.0,
+      "compress_ratio": 0.6331149927436476,
+      "unique_token_ratio": 0.6323099676680239,
+      "non_ascii_ratio": 0.0024752475247524753,
+      "category_loading_l2": 0.16385900974273682,
+      "example": "I've been trying to get it for years. I've been trying to get it for years. I've been trying to get it for years. I've been trying to get it for years. I've been"
+    },
+    {
+      "component": 26,
+      "worst_alpha": 2.0,
+      "pathology_score": 0.19516285759114846,
+      "rep_4": 0.16474654377880182,
+      "max_run_norm": 0.030416313812346645,
+      "toxicity_rate": 0.0,
+      "compress_ratio": 0.6156401544274699,
+      "unique_token_ratio": 0.5609140555446985,
+      "non_ascii_ratio": 0.001358695652173913,
+      "category_loading_l2": 0.21448542177677155,
+      "example": "I am a student of the University of the West of England. I am a student of the University of the West of England. I am a student of the University of the West of England. I am a student of the University of the"
+    },
+    {
+      "component": 38,
+      "worst_alpha": -2.0,
+      "pathology_score": 0.1951221991796342,
+      "rep_4": 0.1666543958922918,
+      "max_run_norm": 0.028467803287342386,
+      "toxicity_rate": 0.0,
+      "compress_ratio": 0.5582800993153294,
+      "unique_token_ratio": 0.4535455374957258,
+      "non_ascii_ratio": 0.002512562814070352,
+      "category_loading_l2": 0.08826947957277298,
+      "example": "I'm not going to tell you again. I'm not going to tell you again. I'm not going to tell you again. I'm not going to tell you again. I'm not going to tell you"
+    },
+    {
+      "component": 39,
+      "worst_alpha": 2.0,
+      "pathology_score": 0.19280432674284947,
+      "rep_4": 0.03781512605042017,
+      "max_run_norm": 0.1549892006924293,
+      "toxicity_rate": 0.0,
+      "compress_ratio": 0.6350146674348783,
+      "unique_token_ratio": 0.7615157774542342,
+      "non_ascii_ratio": 0.0018028846153846155,
+      "category_loading_l2": 0.22131863236427307,
+      "example": "A..............................................."
+    }
+  ]
+}

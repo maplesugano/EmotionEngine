@@ -30,6 +30,8 @@ loading fails partway through).
 """
 from __future__ import annotations
 
+import json
+import os
 import sys
 import threading
 from pathlib import Path
@@ -47,7 +49,7 @@ if str(_REPO_ROOT) not in sys.path:
 from src.activations._runtime import collect_batch, load_model, load_profile  # noqa: E402
 from src.steering.generate import steered_generate  # noqa: E402
 
-from .models import BASIS_DIM, MACRO_EMOTIONS  # noqa: E402
+from .models import BASIS_DIM, BASIS_LABELS, MACRO_EMOTIONS  # noqa: E402
 from .utils import seed_from_text  # noqa: E402
 
 
@@ -56,6 +58,7 @@ from .utils import seed_from_text  # noqa: E402
 BASIS_PATH = (
     _REPO_ROOT / "data" / "emotion_code" / "basis_sweep_L22" / "ica_k064_seed0.pt"
 )
+BASIS_EXCLUDE_PATH = BASIS_PATH.with_suffix(".exclude.json")
 MODEL_CFG = _REPO_ROOT / "configs" / "model.yaml"
 STEER_CFG = _REPO_ROOT / "configs" / "steering.yaml"
 
@@ -106,8 +109,68 @@ def _ensure_loaded() -> dict:
         # in the 64-D code.
         cl_centered = W_macro - W_macro.mean(axis=0, keepdims=True)
         _, _, Vt = np.linalg.svd(cl_centered, full_matrices=False)
-        W_proj = Vt[:2]                                         # [2, 64]
+        W_proj = Vt[:2].copy()                                  # [2, 64]
+        # SVD sign is arbitrary — pin signs deterministically so the +x and
+        # +y directions always point toward the basis component with the
+        # single largest contribution (positive). Without this the axis
+        # labels could flip on every server restart.
+        for row in range(2):
+            j = int(np.argmax(np.abs(W_proj[row])))
+            if W_proj[row, j] < 0:
+                W_proj[row] *= -1.0
         W_proj_pinv = np.linalg.pinv(W_proj)                   # [64, 2]
+
+        # ── Verbal names for each of the 64 basis components ─────────────
+        # Each component i gets a phrase. Prefer a hand-curated /
+        # judge-derived label from BASIS_LABELS (Plutchik-free); fall back
+        # to a category_loadings-derived phrase only when no label exists.
+        basis_phrases: list[str] = []
+        for i in range(BASIS_DIM):
+            curated = BASIS_LABELS.get(i)
+            if curated:
+                basis_phrases.append(curated)
+                continue
+            col = W_macro[:, i]                                 # [8]
+            pos_j = int(np.argmax(col))
+            neg_j = int(np.argmin(col))
+            pos_w = float(col[pos_j])
+            neg_w = float(col[neg_j])
+            pos_name = MACRO_EMOTIONS[pos_j]
+            neg_name = MACRO_EMOTIONS[neg_j]
+            if max(pos_w, -neg_w) < 0.04:
+                phrase = "neutral component"
+            elif pos_w > 0.04 and -neg_w > 0.04 and -neg_w > 0.4 * pos_w:
+                phrase = f"{pos_name}↑ {neg_name}↓"
+            elif pos_w >= -neg_w:
+                phrase = f"{pos_name}-leaning"
+            else:
+                phrase = f"anti-{neg_name}"
+            basis_phrases.append(phrase)
+
+        # ── Axis labels: top-K basis components per direction ────────────
+        K_AXIS = 3
+
+        def _axis_entries(weights: np.ndarray, descending: bool) -> list[dict]:
+            order = np.argsort(weights)
+            picks = order[::-1] if descending else order
+            out: list[dict] = []
+            for idx in picks[:K_AXIS]:
+                idx_int = int(idx)
+                out.append(
+                    {
+                        "index": idx_int,
+                        "weight": float(weights[idx_int]),
+                        "phrase": basis_phrases[idx_int],
+                    }
+                )
+            return out
+
+        axis_labels = {
+            "pos_x": _axis_entries(W_proj[0], descending=True),
+            "neg_x": _axis_entries(W_proj[0], descending=False),
+            "pos_y": _axis_entries(W_proj[1], descending=True),
+            "neg_y": _axis_entries(W_proj[1], descending=False),
+        }
 
         # Preset directions in 64-D basis space, built from category loadings
         # so each preset sits on actual CAA-meaningful axes.
@@ -131,6 +194,9 @@ def _ensure_loaded() -> dict:
             "warmth":                _norm(joy + trust),
             "urgency":               _norm(anger + anticipation),
         }
+        # Note: preset vectors get the pathology mask applied AFTER the
+        # exclude list is loaded below, so they too cannot push along
+        # flagged axes.
 
         # Steering-gain calibration. We want one "unit" of basis edit to
         # produce a 4096-D injection comparable in magnitude to one CAA
@@ -142,6 +208,50 @@ def _ensure_loaded() -> dict:
 
         sc = yaml.safe_load(STEER_CFG.read_text())
         apply_to = sc["caa"].get("apply_to", "generation")
+
+        # ── Pathological-axis exclude list ───────────────────────────────
+        # Produced by ``experiments/eval_basis_pathology.py``; sidecar JSON
+        # next to the basis artifact lists axis indices that drive the
+        # model into repetition loops or dirty-language emissions. We zero
+        # those components in every *delta* (preset, macro slider, latent
+        # drag, rewrite) so user edits never push along them. The source
+        # ``z`` from ``text_to_basis`` is left untouched so analyze stays
+        # faithful. Set EMOTION_BASIS_EXCLUDE_DISABLE=1 to bypass.
+        excluded: list[int] = []
+        if os.environ.get("EMOTION_BASIS_EXCLUDE_DISABLE") not in ("1", "true", "TRUE"):
+            if BASIS_EXCLUDE_PATH.exists():
+                try:
+                    payload = json.loads(BASIS_EXCLUDE_PATH.read_text())
+                    excluded = sorted({
+                        int(i) for i in payload.get("exclude", [])
+                        if 0 <= int(i) < BASIS_DIM
+                    })
+                    print(
+                        f"[real_model] basis exclude list: {len(excluded)}/{BASIS_DIM} "
+                        f"axes from {BASIS_EXCLUDE_PATH.name} -> {excluded}"
+                    )
+                except Exception as exc:
+                    print(
+                        f"[real_model] WARN: failed to parse {BASIS_EXCLUDE_PATH.name}: "
+                        f"{exc}; no axes excluded."
+                    )
+            else:
+                print(
+                    f"[real_model] no exclude sidecar at {BASIS_EXCLUDE_PATH.name}; "
+                    "all 64 axes active."
+                )
+        excluded_set = set(excluded)
+        # Mask: 0 on excluded axes, 1 elsewhere. Multiply against any 64-D
+        # delta to silence those components.
+        delta_mask = np.ones(BASIS_DIM, dtype=np.float32)
+        if excluded:
+            delta_mask[np.asarray(excluded, dtype=np.int64)] = 0.0
+            # Apply mask + re-normalise preset directions in place so
+            # ``apply_preset`` cannot move along pathological axes.
+            for name, vec in list(preset_vectors.items()):
+                masked = vec * delta_mask
+                n = float(np.linalg.norm(masked))
+                preset_vectors[name] = masked / n if n > 1e-8 else masked
 
         # Load model.
         profile, prof_name = load_profile(MODEL_CFG)
@@ -165,9 +275,14 @@ def _ensure_loaded() -> dict:
             W_proj=W_proj,                # [2, 64]
             W_proj_pinv=W_proj_pinv,      # [64, 2]
             preset_vectors=preset_vectors,
+            basis_phrases=basis_phrases,
+            axis_labels=axis_labels,
             steer_gain=steer_gain,
             apply_to=apply_to,
             source_basis_cache={},        # text-hash -> np.ndarray[64]
+            excluded_components=excluded,
+            excluded_set=excluded_set,
+            delta_mask=delta_mask,
         )
         # Make presets visible through the module-level proxy.
         PRESET_VECTORS.update(preset_vectors)  # type: ignore[attr-defined]
@@ -243,6 +358,25 @@ def _chat_prompt(text: str) -> str:
 PRESET_VECTORS: Dict[str, np.ndarray] = {}
 
 
+def get_basis_phrases() -> list[str]:
+    """Return the verbal label for each of the 64 basis components."""
+    return list(_ensure_loaded()["basis_phrases"])
+
+
+def get_axis_labels() -> dict:
+    """Return top-K basis contributors per latent-map axis direction."""
+    return _ensure_loaded()["axis_labels"]
+
+
+def get_excluded_components() -> list[int]:
+    """Return basis component indices flagged as pathological (repetition/toxicity).
+
+    Used by /api/meta so the frontend can hide them in the palette and by
+    the rewrite path to zero them in the steering delta.
+    """
+    return list(_ensure_loaded()["excluded_components"])
+
+
 def text_to_basis(text: str) -> np.ndarray:
     """Real text → 64-D basis vector via Llama L22 residual + ICA projection."""
     h = _get_residual(text or " ")
@@ -280,7 +414,9 @@ def macro_to_basis_delta(
     )
     # invert sigmoid(0.5 * x) → x = 2 * logit(p)
     target_logits = 2.0 * np.log(target_probs / (1.0 - target_probs))
-    return current_basis + blend * (W_pinv @ (target_logits - current_logits))
+    delta = W_pinv @ (target_logits - current_logits)
+    delta = delta * s["delta_mask"]  # zero pathological axes
+    return current_basis + blend * delta
 
 
 def basis_to_projection(basis: np.ndarray) -> Tuple[float, float]:
@@ -301,7 +437,9 @@ def projection_to_basis_delta(
     target = np.clip(np.array([target_x, target_y], dtype=np.float64), -0.98, 0.98)
     target_pre = 4.0 * np.arctanh(target)
     current_pre = s["W_proj"] @ current_basis
-    return current_basis + blend * (s["W_proj_pinv"] @ (target_pre - current_pre))
+    delta = s["W_proj_pinv"] @ (target_pre - current_pre)
+    delta = delta * s["delta_mask"]  # zero pathological axes
+    return current_basis + blend * delta
 
 
 def rewrite_text(
@@ -323,6 +461,7 @@ def rewrite_text(
     target = np.asarray(basis, dtype=np.float32)
     src_basis = _get_or_compute_source_basis(source)
     delta_z = target - src_basis  # [64]
+    delta_z = delta_z * s["delta_mask"]  # silence pathological axes
 
     W: torch.Tensor = s["W"]                                       # [64, 4096]
     delta_h = torch.from_numpy(delta_z.astype(np.float32)) @ W     # [4096]

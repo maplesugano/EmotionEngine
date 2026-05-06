@@ -74,6 +74,12 @@ def main() -> None:
     p.add_argument("--alphas", type=float, nargs="+",
                    default=[-3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0],
                    help="Alphas in std-norm units (1.0 ≈ median ||b||).")
+    p.add_argument("--from-generations", type=Path, default=None,
+                   help="Path to an existing generations.parquet (e.g. from "
+                        "per_axis_judge). When set, skip model loading and "
+                        "compute pathology metrics on the cached generations. "
+                        "Expected columns: axis|component, alpha_unit, "
+                        "prompt_id, prompt, generation.")
     p.add_argument("--n-prompts", type=int, default=8)
     p.add_argument("--prompts-seed", type=int, default=0)
     p.add_argument("--max-new-tokens", type=int, default=96)
@@ -108,53 +114,83 @@ def main() -> None:
     )
     out_root.mkdir(parents=True, exist_ok=True)
 
-    # ------------------------------------------------------------------ model + prompts
-    profile, _ = load_profile(args.config)
-    sc = yaml.safe_load(args.steering_config.read_text())
-    apply_to = sc["caa"].get("apply_to", "generation")
-    prompts = load_neutral_prompts(n=args.n_prompts, seed=args.prompts_seed)
-    model, _, _ = load_model(profile)
+    # ------------------------------------------------------------------ gather generations
+    if args.from_generations is not None:
+        # Fast path: reuse cached generations (e.g. per_axis_judge output).
+        src = pd.read_parquet(args.from_generations)
+        # Normalise column names so downstream code is uniform.
+        col_comp = "component" if "component" in src.columns else "axis"
+        col_text = "text" if "text" in src.columns else "generation"
+        col_pid = "prompt_idx" if "prompt_idx" in src.columns else "prompt_id"
+        keep = src[[col_comp, "alpha_unit", col_pid, "prompt", col_text]].rename(
+            columns={col_comp: "component", col_pid: "prompt_idx", col_text: "text"}
+        )
+        if args.components is not None:
+            keep = keep[keep["component"].isin(args.components)]
+        # Filter to requested alphas if a subset was given (keep all if default).
+        keep = keep[keep["alpha_unit"].isin(args.alphas)]
+        print(f"[pathology] from-generations={args.from_generations.name} "
+              f"rows={len(keep)} components={keep['component'].nunique()} "
+              f"alphas={sorted(keep['alpha_unit'].unique())}")
+        rows: list[dict] = []
+        for r in tqdm(keep.itertuples(index=False), total=len(keep), desc="score"):
+            tail = (r.text or "").strip()
+            m = pathology_metrics(tail)
+            rows.append({
+                "component": int(r.component),
+                "alpha_unit": float(r.alpha_unit),
+                "prompt_idx": int(r.prompt_idx),
+                "prompt": r.prompt,
+                "text": tail,
+                "tox_words": ",".join(toxicity_hits(tail)),
+                **m,
+            })
+    else:
+        profile, _ = load_profile(args.config)
+        sc = yaml.safe_load(args.steering_config.read_text())
+        apply_to = sc["caa"].get("apply_to", "generation")
+        prompts = load_neutral_prompts(n=args.n_prompts, seed=args.prompts_seed)
+        model, _, _ = load_model(profile)
 
-    print(f"[pathology] basis={args.basis.name} which={which} layer={layer} "
-          f"k={k} D={D} components={len(components)} alphas={args.alphas} "
-          f"prompts={len(prompts)} apply_to={apply_to}")
+        print(f"[pathology] basis={args.basis.name} which={which} layer={layer} "
+              f"k={k} D={D} components={len(components)} alphas={args.alphas} "
+              f"prompts={len(prompts)} apply_to={apply_to}")
 
-    # ------------------------------------------------------------------ sweep
-    rows: list[dict] = []
-    total = len(components) * len(args.alphas) * len(prompts)
-    pbar = tqdm(total=total, desc="gen", smoothing=0.05)
-    for c in components:
-        b_t = torch.from_numpy(W[c]).to(torch.float32)
-        b_norm = float(norms[c])
-        for alpha_unit in args.alphas:
-            if alpha_unit == 0.0:
-                alpha = 0.0
-                vec = torch.zeros(D)
-            else:
-                alpha = float(alpha_unit) * scale * b_norm
-                vec = b_t
-            for pi, prompt in enumerate(prompts):
-                out = steered_generate(
-                    model, prompt, vector=vec, alpha=alpha,
-                    layers=[layer], apply_to=apply_to,
-                    max_new_tokens=args.max_new_tokens,
-                    temperature=args.temperature, top_p=args.top_p,
-                    repetition_penalty=1.0, no_repeat_ngram_size=0,
-                )
-                tail = out[len(prompt):] if out.startswith(prompt) else out
-                tail = tail.strip()
-                m = pathology_metrics(tail)
-                rows.append({
-                    "component": c,
-                    "alpha_unit": float(alpha_unit),
-                    "prompt_idx": pi,
-                    "prompt": prompt,
-                    "text": tail,
-                    "tox_words": ",".join(toxicity_hits(tail)),
-                    **m,
-                })
-                pbar.update(1)
-    pbar.close()
+        rows = []
+        total = len(components) * len(args.alphas) * len(prompts)
+        pbar = tqdm(total=total, desc="gen", smoothing=0.05)
+        for c in components:
+            b_t = torch.from_numpy(W[c]).to(torch.float32)
+            b_norm = float(norms[c])
+            for alpha_unit in args.alphas:
+                if alpha_unit == 0.0:
+                    alpha = 0.0
+                    vec = torch.zeros(D)
+                else:
+                    alpha = float(alpha_unit) * scale * b_norm
+                    vec = b_t
+                for pi, prompt in enumerate(prompts):
+                    out = steered_generate(
+                        model, prompt, vector=vec, alpha=alpha,
+                        layers=[layer], apply_to=apply_to,
+                        max_new_tokens=args.max_new_tokens,
+                        temperature=args.temperature, top_p=args.top_p,
+                        repetition_penalty=1.0, no_repeat_ngram_size=0,
+                    )
+                    tail = out[len(prompt):] if out.startswith(prompt) else out
+                    tail = tail.strip()
+                    m = pathology_metrics(tail)
+                    rows.append({
+                        "component": c,
+                        "alpha_unit": float(alpha_unit),
+                        "prompt_idx": pi,
+                        "prompt": prompt,
+                        "text": tail,
+                        "tox_words": ",".join(toxicity_hits(tail)),
+                        **m,
+                    })
+                    pbar.update(1)
+        pbar.close()
 
     gen_df = pd.DataFrame(rows)
     gen_df.to_parquet(out_root / "generations.parquet", index=False)

@@ -1,14 +1,40 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useStore } from "../store";
-import type { Projection } from "../types";
+import type { AxisLabelEntry, Projection } from "../types";
 
 const SIZE = 240; // px
+
+function describeAxis(entries: AxisLabelEntry[] | undefined, fallback: string): {
+  short: string;
+  detail: string;
+} {
+  if (!entries || entries.length === 0) {
+    return { short: fallback, detail: fallback };
+  }
+  const top = entries[0];
+  const short = top.phrase;
+  const detail = entries
+    .map((e) => `b${String(e.index).padStart(2, "0")} ${e.phrase} (${e.weight.toFixed(2)})`)
+    .join("\n");
+  return { short, detail };
+}
 
 export function LatentMap() {
   const projection = useStore((s) => s.projection);
   const setProjection = useStore((s) => s.setProjection);
+  const axisLabels = useStore((s) => s.axisLabels);
   const [drag, setDrag] = useState<Projection | null>(null);
   const ref = useRef<SVGSVGElement | null>(null);
+
+  const labels = useMemo(
+    () => ({
+      top: describeAxis(axisLabels?.pos_y, "activated"),
+      bottom: describeAxis(axisLabels?.neg_y, "calm"),
+      left: describeAxis(axisLabels?.neg_x, "inward"),
+      right: describeAxis(axisLabels?.pos_x, "expressive"),
+    }),
+    [axisLabels],
+  );
 
   const point = drag ?? projection;
   const cx = (point.x * 0.5 + 0.5) * SIZE;
@@ -52,18 +78,30 @@ export function LatentMap() {
         className="relative mx-auto select-none"
         style={{ width: SIZE, height: SIZE }}
       >
-        {/* axis labels */}
-        <div className="absolute inset-x-0 -top-1 text-center text-[10px] text-booth-muted">
-          activated / intense
+        {/* axis labels — dynamic top contributors per direction */}
+        <div
+          className="absolute inset-x-0 -top-1 text-center text-[10px] text-booth-muted truncate"
+          title={labels.top.detail}
+        >
+          {labels.top.short}
         </div>
-        <div className="absolute inset-x-0 -bottom-4 text-center text-[10px] text-booth-muted">
-          detached / calm
+        <div
+          className="absolute inset-x-0 -bottom-4 text-center text-[10px] text-booth-muted truncate"
+          title={labels.bottom.detail}
+        >
+          {labels.bottom.short}
         </div>
-        <div className="absolute -left-2 top-1/2 -translate-y-1/2 -rotate-90 text-[10px] text-booth-muted whitespace-nowrap origin-center">
-          inward / uncertain
+        <div
+          className="absolute -left-2 top-1/2 -translate-y-1/2 -rotate-90 text-[10px] text-booth-muted whitespace-nowrap origin-center"
+          title={labels.left.detail}
+        >
+          {labels.left.short}
         </div>
-        <div className="absolute -right-2 top-1/2 -translate-y-1/2 rotate-90 text-[10px] text-booth-muted whitespace-nowrap origin-center">
-          direct / expressive
+        <div
+          className="absolute -right-2 top-1/2 -translate-y-1/2 rotate-90 text-[10px] text-booth-muted whitespace-nowrap origin-center"
+          title={labels.right.detail}
+        >
+          {labels.right.short}
         </div>
 
         <svg

@@ -91,11 +91,27 @@ export type PresetResponse = {
   top_basis_components: TopBasisComponent[];
 };
 
+export type AxisLabelEntry = {
+  index: number;
+  weight: number;
+  phrase: string;
+};
+
+export type AxisLabels = {
+  pos_x: AxisLabelEntry[];
+  neg_x: AxisLabelEntry[];
+  pos_y: AxisLabelEntry[];
+  neg_y: AxisLabelEntry[];
+};
+
 export type MetaResponse = {
   basis_dim: number;
   macro_emotions: MacroEmotion[];
   presets: Preset[];
   basis_labels: Record<string, string>;
+  basis_phrases: string[];
+  axis_labels: AxisLabels;
+  excluded_components?: number[];
 };
 
 export const ZERO_MACRO: MacroEmotions = {

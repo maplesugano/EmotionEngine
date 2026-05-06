@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useStore } from "./store";
 import { Layout } from "./components/Layout";
 import { TextDeck } from "./components/TextDeck";
@@ -6,6 +7,10 @@ import { EmotionDJPanel } from "./components/EmotionDJPanel";
 
 export default function App() {
   const error = useStore((s) => s.error);
+  const loadMeta = useStore((s) => s.loadMeta);
+  useEffect(() => {
+    void loadMeta();
+  }, [loadMeta]);
   return (
     <Layout
       header={

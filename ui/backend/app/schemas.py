@@ -114,8 +114,32 @@ class PresetResponse(BaseModel):
     top_basis_components: List[TopBasisComponent]
 
 
+class AxisLabelEntry(BaseModel):
+    index: int
+    weight: float
+    phrase: str
+
+
+class AxisLabels(BaseModel):
+    pos_x: List[AxisLabelEntry]
+    neg_x: List[AxisLabelEntry]
+    pos_y: List[AxisLabelEntry]
+    neg_y: List[AxisLabelEntry]
+
+
 class MetaResponse(BaseModel):
     basis_dim: int
     macro_emotions: List[str]
     presets: List[str]
     basis_labels: Dict[int, str]
+    basis_phrases: List[str]
+    axis_labels: AxisLabels
+    excluded_components: List[int] = Field(
+        default_factory=list,
+        description=(
+            "Basis component indices flagged as pathological (repetition / "
+            "dirty language) by experiments/eval_basis_pathology.py. The "
+            "backend zeroes these in every steering delta; the frontend "
+            "should hide or grey them out in the palette."
+        ),
+    )

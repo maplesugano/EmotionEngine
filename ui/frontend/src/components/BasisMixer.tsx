@@ -15,6 +15,8 @@ function labelFor(i: number): string {
 export function BasisMixer() {
   const basis = useStore((s) => s.basisVector);
   const setBasisComponent = useStore((s) => s.setBasisComponent);
+  const excluded = useStore((s) => s.excludedComponents);
+  const excludedSet = new Set(excluded);
   const [open, setOpen] = useState(false);
 
   // local mirror so dragging feels instant
@@ -48,16 +50,33 @@ export function BasisMixer() {
             ⚠ Advanced: these basis components are distributed and not
             one-to-one emotions. Real emotions emerge from dense mixtures
             across all 64 dimensions.
+            {excluded.length > 0 && (
+              <span className="block mt-1 text-booth-muted">
+                {excluded.length} axes greyed out: flagged as repetition /
+                dirty-language drivers by
+                <code className="mx-1">eval_basis_pathology</code>.
+              </span>
+            )}
           </div>
 
           <div className="grid grid-cols-8 sm:grid-cols-12 md:grid-cols-16 gap-1">
             {local.map((v, i) => {
               const isKnown = i in KNOWN;
+              const isExcluded = excludedSet.has(i);
               return (
                 <div
                   key={i}
-                  className="flex flex-col items-center gap-0.5 group"
-                  title={`b${String(i + 1).padStart(2, "0")} — ${labelFor(i)}\nweight ${v.toFixed(3)}`}
+                  className={
+                    "flex flex-col items-center gap-0.5 group " +
+                    (isExcluded ? "opacity-40" : "")
+                  }
+                  title={
+                    `b${String(i + 1).padStart(2, "0")} — ${labelFor(i)}\n` +
+                    `weight ${v.toFixed(3)}` +
+                    (isExcluded
+                      ? "\n⚠ disabled: pathological axis (loops / dirty text)"
+                      : "")
+                  }
                 >
                   <input
                     type="range"
@@ -65,6 +84,7 @@ export function BasisMixer() {
                     max={1}
                     step={0.01}
                     value={v}
+                    disabled={isExcluded}
                     onChange={(e) => {
                       const nv = parseFloat(e.target.value);
                       const next = [...local];
@@ -72,12 +92,21 @@ export function BasisMixer() {
                       setLocal(next);
                       debounced(i, nv);
                     }}
-                    className="w-full h-1 accent-booth-accent cursor-pointer"
+                    className={
+                      "w-full h-1 cursor-pointer " +
+                      (isExcluded
+                        ? "accent-booth-muted cursor-not-allowed"
+                        : "accent-booth-accent")
+                    }
                   />
                   <span
                     className={
                       "text-[9px] tabular-nums " +
-                      (isKnown ? "text-booth-accent" : "text-booth-muted")
+                      (isExcluded
+                        ? "text-booth-bad/70 line-through"
+                        : isKnown
+                          ? "text-booth-accent"
+                          : "text-booth-muted")
                     }
                   >
                     b{String(i + 1).padStart(2, "0")}
