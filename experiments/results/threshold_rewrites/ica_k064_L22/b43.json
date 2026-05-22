@@ -1,0 +1,58 @@
+{
+  "component": 43,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I'll try my best to finish it by tomorrow, but I'm not sure if I can meet the deadline. I'm not making any promises, but I'll do my best to get it done as soon as possible.\nIn this example, I'm not making any promises, but I'm still trying to be optimistic and encouraging.",
+      "generation_positive": "I tell him that I will finish it by tomorrow. However, I don't have enough time to finish it. I will have to work extra hours to finish it. I am worried that I will not be able to finish it on time. I am worried that my teammate will be disappointed if I don't finish it on time. I am worried that my boss will be disappointed if I don't finish it on time."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nIt's natural to feel uncertain about how to respond, especially if you've been avoiding the conversation. Here are some suggestions to help you navigate this situation:\n1. **Acknowledge their message**: Respond to their text, acknowledging that you've received it.",
+      "generation_positive": "I'm hesitant because I've been feeling overwhelmed and stressed lately, and I'm not sure I'm ready to open up to them about my current state. I don't want to burden them with my problems, and I'm worried that talking to them will make me feel worse. What should I do?\nThe decision to talk to your friend or not is ultimately up to you, but here are some points to consider:\n1."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree or disagree, but I don't want to seem uncertain. What should I do?",
+      "generation_positive": "I want to express my concerns, but I don't want to come across as negative or uncooperative. How can I communicate my concerns effectively?\nThe key is to frame your concerns in a way that shows you're thinking critically and trying to help the team succeed. Here are some tips:\n1. Start with a positive tone: Begin your response by acknowledging the potential benefits of the plan."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work I put into my application, and how it paid off. I imagine myself walking across the stage, diploma in hand, and the endless possibilities that lie ahead.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the message. My application was accepted! I am going to be a part of the program! I feel a mix of emotions: excitement, relief, and a hint of nervousness. I start thinking about all the things I need to do before the program starts. I need to confirm my spot, pay the tuition, and start making travel arrangements."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and lets them know I'm willing to move forward, but also expresses my hurt and anger?\nHere are some tips to help you respond in a way that acknowledges their apology and lets them know you're willing to move forward, while also expressing your hurt and anger:\n1.",
+      "generation_positive": "I want to forgive and move forward, but I'm still hurt and angry. How can I forgive and reconnect with them?\nForgiveness is a process, and it may take time. Here are some steps you can take to forgive and reconnect with the person:\n1. Acknowledge your feelings: Recognize and accept your emotions, including the hurt and anger."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a casual, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm not going to let it stop me.\" I'm not going to let my health issues get in the way of my goals, and I'm not going to let anyone else know about it either.\nThis is a common phenomenon, especially among people who have experienced chronic illness or disability.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" The person asks again, \"Are you sure you're fine?\" I respond with a simple, \"Yes, I'm fine.\" The person asks again, \"Are you really sure you're fine?\" I respond with a simple, \"Yes, I'm fine.\" The person asks again, \"Are you sure you're fine?"
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about it.\nI'm not sure how to react to this situation. On one hand, I'm happy that my work is being recognized and appreciated. On the other hand, I'm uncomfortable with the public acknowledgement, as I didn't seek it out and I'm not sure I'm comfortable with the spotlight.\nHow can I handle this situation in a way that feels authentic and respectful to both myself and my colleague?",
+      "generation_positive": "I feel uncomfortable with the recognition.\nYou're not alone in feeling uncomfortable with public recognition, especially if you're a quiet contributor. Here are some possible reasons why you might feel this way:\n1. Humility: You might feel that the recognition is undeserved or that you didn't do enough to warrant the praise.\n2. Shyness: You might be uncomfortable with the spotlight and prefer to work behind the scenes.\n3."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is to stay in my current job, which is stable and secure, but not particularly fulfilling. The uncertain opportunity is to take a leap of faith and pursue a new career path that I have been dreaming about for years, but which carries a significant amount of risk and uncertainty.",
+      "generation_positive": "The safe option is a job that I have been offered, but it is not my dream job. The uncertain opportunity is a chance to start my own business, which could be very successful, but also could fail.\nI have been thinking about this decision for a while now, and I have been weighing the pros and cons of each option. The safe option is stable and secure, but it is not something that I am passionate about."
+    }
+  ]
+}

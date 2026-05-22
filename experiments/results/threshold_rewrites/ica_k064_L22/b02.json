@@ -1,0 +1,58 @@
+{
+  "component": 2,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not sure if I can finish it before tomorrow, but I am sure that I will finish it by tomorrow. What is the probability that I will finish it before tomorrow?",
+      "generation_positive": "I tell him that I will try my best to finish it by tomorrow. He asks me to confirm that I will finish it by tomorrow. I tell him that I will try my best to finish it by tomorrow. I am not sure if I can finish it by tomorrow. I am not sure if I can finish it by tomorrow. I am not sure if I can finish it by tomorrow."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nIt's great that you're considering your friend's feelings, but it's also essential to prioritize your own emotional well-being. Here are some suggestions to help you navigate this situation:\n1.",
+      "generation_positive": "I'm hesitant because I've been feeling overwhelmed and stressed lately, and I'm not sure I'm ready to have a deep conversation. How can I respond in a way that lets them know I care but also sets boundaries?\nYou can say something like, \"Hey, I'm glad you reached out! I've been really busy/stressed lately and I'm not sure I'll have the energy for a long conversation tonight."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. What should I do?",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be a naysayer?\nExpressing concerns without appearing negative\nWhen expressing concerns about a plan, focus on the potential risks and challenges rather than simply saying \"no\" or \"I don't like it."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work I put into my application, the countless hours spent researching, writing, and editing.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the words that will change my life.\nI am accepted into my dream program.\nI scream with excitement, jump up and down, and call my family and friends to share the news. I feel like I'm on top of the world.\nBut as the excitement wears off, I start to think about the next steps."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still hurt and angry. How can I forgive and let go of my emotions?\nForgiveness is a process that takes time, effort, and self-reflection. Here are some steps to help you forgive and let go of your emotions:\n1. Acknowledge your feelings: Recognize and accept your emotions, whether it's anger, hurt, or frustration.",
+      "generation_positive": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and expresses my feelings without escalating the situation?\nResponding to an apology and hurt feelings can be a delicate matter. Here are some tips to help you navigate this situation:\n1.  **Acknowledge their apology**: Let them know that you appreciate their apology and that you value your relationship."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be fine so I can get through this event without drawing attention to myself.\" This is a common phenomenon, and it's often referred to as \"masking\" or \"hiding in plain sight.",
+      "generation_positive": "I respond with a casual, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I don't want to worry you.\" I'm afraid of being a burden, so I downplay my symptoms and pretend everything is okay.\nThis is a common phenomenon, especially among women. We often prioritize others' feelings and needs over our own, even when it comes to our health."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the recognition, but I don't want to be seen as ungrateful or uncooperative. How can I handle this situation?\nYou're not alone in feeling uncomfortable with public recognition, especially if you're a quiet contributor. Here are some tips to help you navigate this situation:\n\n1.  **Acknowledge their gratitude**: You can respond with a simple \"thank you\" or \"I appreciate your kind words.",
+      "generation_positive": "I feel uncomfortable with the recognition.\nYou're not alone in feeling uncomfortable with public recognition, especially if you prefer to work behind the scenes. Here are some possible reasons why you might feel this way:\n1.  Humility: You might feel that the recognition is undeserved or that you're not the primary contributor.\n2.  Shyness: You might be uncomfortable with the spotlight and prefer to avoid drawing attention to yourself."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn’t align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and values.\nI am drawn to the safe option because it feels comfortable and secure. It’s a known quantity, and I know what to expect.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals.\nI am drawn to the safe option because it is familiar and comfortable. I know what to expect, and I can rely on it to provide a steady income."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "component": 20,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 4.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not sure if I can finish it before tomorrow, but I am sure that I will finish it by tomorrow. What is the probability that I will finish it before tomorrow?",
+      "generation_positive": "I tell him that I will finish it by tomorrow. I am lying.\nI am lying because I do not have enough time to finish my part by tomorrow. I will not be able to finish it by tomorrow.\nThe correct answer is: I am lying because I do not have enough time to finish my part by tomorrow. I will not be able to finish it by tomorrow."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nIt's great that you're considering your friend's feelings, but it's also essential to prioritize your own emotional well-being. Here are some suggestions to help you navigate this situation:\n\n1.",
+      "generation_positive": "I'm hesitant to commit to a conversation, but I don't want to hurt their feelings. What should I do?\nYou're not obligated to talk to anyone, including a close friend, if you're not feeling up to it. It's okay to set boundaries and prioritize your own needs."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I should share my concerns or just agree with the plan. What should I do?\nA. Share your concerns and explain why you think the plan is risky\nB. Agree with the plan and avoid discussing the risks\nC. Speak up and suggest an alternative plan\nD. Politely decline to share your opinion\nAnswer: A.",
+      "generation_positive": "I'm not sure if I agree or disagree, but I don't want to appear uninformed or unconfident. What should I say?\nYou can say, \"I'm not sure I fully understand the implications of this plan, and I'd like to learn more before sharing my opinion. Can you help me understand the potential risks and benefits?"
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!” I feel a mix of emotions: excitement, relief, and a hint of nervousness. I start imagining myself walking across the stage, shaking hands with the Dean, and receiving my diploma.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the words that will change my life.\nI am accepted into the program!\nI scream with excitement and jump up from my chair. I call my family and friends to share the news. I feel a mix of emotions: happiness, relief, and a sense of accomplishment.\nI remember the long hours I spent preparing for this moment."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and expresses my hurt without escalating the situation?\nYou can respond in a way that acknowledges their apology and expresses your hurt without escalating the situation by using \"I\" statements, which help to convey your feelings without placing blame. Here's an example:\n\"I appreciate your apology, and I'm glad you're willing to reconnect.",
+      "generation_positive": "I want to forgive and move forward, but I'm still feeling hurt and angry. How can I forgive and let go of my emotions?\nForgiveness is a process, and it may take time. Here are some steps you can take to forgive and let go of your emotions:\n1. Acknowledge your feelings: Recognize and accept your emotions, whether it's anger, hurt, or frustration."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a casual, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be, because I don't want to worry you or myself, and I don't want to jeopardize the event.\" This is a common phenomenon, and it's called \"social masking.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" I'm not fine. I'm anxious, stressed, and overwhelmed. I'm trying to put on a brave face, but inside, I'm a mess.\nI've learned to hide my true feelings, to put on a mask of confidence and calmness. I've learned to say \"I'm fine\" even when I'm not."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about the recognition, but I don't want to be seen as ungrateful. How can I handle this situation?\nIt's natural to feel uncomfortable when someone else takes credit for your work, especially if you're not comfortable with the spotlight. Here are some tips to help you handle this situation graciously:\n1.",
+      "generation_positive": "I feel embarrassed and unappreciated.\nYou're not alone in feeling this way. Many people experience similar situations, and it's essential to understand that it's not uncommon for others to receive credit for work you've done behind the scenes.\nHere are some reasons why this might happen and some suggestions on how to handle the situation:\nReasons why others might receive credit for your work:\n1."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn’t align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and could be a game-changer.\nI am naturally inclined to choose the safe option because it feels more comfortable and secure. However, I know that choosing the safe option will mean settling for something that doesn’t truly align with my values and aspirations.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't excite me. The uncertain opportunity is a risk, but it has the potential to bring me great reward and fulfillment.\nI have been thinking about this decision for a while now, and I have been weighing the pros and cons of each option. I have talked to friends and family, and I have sought advice from people I trust."
+    }
+  ]
+}

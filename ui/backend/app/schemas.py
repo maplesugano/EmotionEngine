@@ -65,14 +65,14 @@ class RewriteRequest(BaseModel):
     source_text: str
     basis_vector: BasisVector  # type: ignore[valid-type]
     macro_emotions: MacroEmotions
-    strength: float = 1.0
+    strength: float = Field(default=0.2, ge=0.01, le=0.4)
     mode: Mode = "balanced"
 
 
 class PresetRequest(BaseModel):
     current_basis_vector: BasisVector  # type: ignore[valid-type]
     preset: PresetName
-    strength: float = 1.0
+    strength: float = Field(default=0.2, ge=0.01, le=0.4)
 
 
 class MacroSliderRequest(BaseModel):

@@ -1,0 +1,58 @@
+{
+  "component": 59,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will try my best to finish it on time. I am not sure if I can finish it on time, but I want to be optimistic and give him a positive answer. This is an example of:\nThe correct answer is: Optimism\nThe other options are not correct because:\n- Pessimism is the opposite of optimism, and I am trying to be positive.",
+      "generation_positive": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not sure if I can finish it before tomorrow, but I am sure that I will finish it by tomorrow. What is the truth value of the statement \"I will finish it before tomorrow\"?"
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk. I'm still processing my emotions and haven't had time to reflect on our relationship. I don't want to rush into a conversation that might be difficult or overwhelming. How can I respond in a way that sets boundaries while still being kind and considerate?\nHere are a few suggestions:\n1.",
+      "generation_positive": "I'm hesitant because I've been busy and I'm not sure I'm ready to open up about my life. I don't want to be a bad friend, but I also don't want to feel overwhelmed or drained. What should I say to them?\nYou could say something like, \"Hey, I'm glad you reached out!"
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I'm comfortable sharing my thoughts, especially since I'm relatively new to the team. What should I do?",
+      "generation_positive": "I want to express my concerns, but I don't want to come across as negative or uncooperative. How can I provide a constructive critique without appearing to undermine the plan?\nTo provide a constructive critique without appearing negative or uncooperative, follow these steps:\n1.  **Start with a positive tone**: Begin your response by acknowledging the effort and potential benefits of the plan."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing. I take a deep breath and read the words that will change my life. I am... ACCEPTED!\nI scream with excitement, jump up and down, and call my family and friends to share the news. I feel like I'm on top of the world. I've worked so hard for this moment, and it's finally here.",
+      "generation_positive": "I click on the link and my heart sinks as I read the words: \"We regret to inform you that your application has been denied.\"\nI feel a wave of disappointment wash over me, and I wonder what I could have done differently. I replay the interview in my head, thinking about every question and every answer. I think about my resume and my cover letter, wondering if I could have done something to make them more compelling."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How do I respond?\nWhen someone apologizes and asks to reconnect, it can be tempting to immediately forgive and move forward. However, it's essential to take a step back and consider your feelings and boundaries. Here are some steps to help you respond:\n1.",
+      "generation_positive": "I want to forgive and move forward, but I'm still hurt and angry. How can I forgive and let go of the hurt and anger?\nForgiveness is a process that requires time, effort, and a willingness to let go of negative emotions. Here are some steps to help you forgive and let go of the hurt and anger:\n1."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a casual, \"I'm fine.\" But, in reality, I'm not fine. I'm anxious, stressed, and overwhelmed. I'm worried that if I reveal my true feelings, I'll be seen as weak or unprepared. So, I put on a mask of confidence and pretend to be okay.\nThis is a common phenomenon, especially in high-pressure situations.",
+      "generation_positive": "I say, \"I'm fine.\" But I'm not fine. I'm anxious, I'm stressed, I'm worried. I'm trying to hide it from everyone, including myself.\nI'm not alone in this. Many of us hide our true feelings behind a mask of \"I'm fine."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the recognition.\nI'm not sure how to feel about this situation. On one hand, I'm glad that my work was valued and appreciated. On the other hand, I'm uncomfortable with the public recognition. I didn't seek it out, and I'm not sure I'm comfortable with the spotlight.\nI think it's great that you're acknowledging your feelings and taking the time to reflect on them.",
+      "generation_positive": "I feel awkward and unsure about how to respond.\nYou did the work, and your colleague is acknowledging your contribution. You can respond graciously and humbly, without feeling awkward or unsure.\nHere are some tips to help you respond:\n1. Acknowledge their acknowledgement: You can say something like, “Thank you for recognizing my contribution to this project. I was happy to help.”\n2."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a steady, predictable income, but it doesn't align with my passions or values. The uncertain opportunity is a chance to pursue a career that I'm truly passionate about, but it comes with a lot of unknowns and potential risks.\nI've been thinking about this decision a lot, and I've come to realize that the safe option is not truly safe.",
+      "generation_positive": "The safe option is a sure thing, but it may not be the best fit for me in the long run. The uncertain opportunity is a risk, but it could lead to something amazing.\nI am drawn to the safe option because it is familiar and it feels like a guarantee. But I am also intrigued by the uncertain opportunity because it has the potential to bring me joy and fulfillment."
+    }
+  ]
+}

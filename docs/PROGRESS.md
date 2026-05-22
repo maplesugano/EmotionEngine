@@ -5,6 +5,99 @@
 
 ---
 
+## 2026-05-10 最新更新：Emotion Codebook フルパイプライン
+
+新しい実験スクリプト `experiments/eval_emotion_codebook.py` を作成。
+
+**目標**：
+- Phase C-2 の k=64 ICA (Layer 22) **全 64 成分** を解釈可能化
+- 単なる top-10 候補ではなく、完全な 64 次元「感情辞書」を構築
+
+**段階的実行フロー**：
+1. ステアリング生成 (α ∈ {-2,-1,0,1,2}, 8 中立プロンプト) → `generations.parquet`
+2. 診断メトリクス集約（既存の self_rho, label_dominance, vad_explained）
+3. ソーステキスト抽出 → `top_texts.json`
+4. LLM judge 用 structured JSONL → `judge_inputs.jsonl`
+5. (オプション) LLM judge 実行 → `judge_outputs.jsonl`
+6. 軸カード生成 → `axis_cards/b00.md` ... `b63.md`
+7. 集約ファイル → `axis_summary.csv`, `.json`, `.md`, `.tex`
+8. README 自動生成
+
+**出力ツリー**：
+```
+experiments/results/emotion_codebook/ica_k064_L22/
+├── README.md
+├── generations.parquet
+├── top_texts.json
+├── judge_inputs.jsonl
+├── judge_outputs.jsonl (if --run-judge)
+├── axis_summary.{csv,json}
+├── emotion_codebook.{md,tex}
+└── axis_cards/ (64 個の .md ファイル)
+```
+
+**設計原則**：
+- **再現可能性**：seed + alpha_mode で完全再現
+- **段階的**：`--skip-generation`, `--skip-top-texts`, `--resume` で自由に中断再開
+- **API 効率化**：`judge_inputs.jsonl` で検査後に本当に必要な judge 呼び出しのみ実行
+- **論文対応**：LaTeX table + markdown codebook で即論文化可能
+
+## 2026-05-11 最新更新：adaptive breakage search
+
+- 生成の固定 alpha 問題を解消するため、軸ごとに broken/not-broken の structured judge を導入。
+- 各成分の正側・負側で「壊れない最大 alpha」を探索し、その threshold generations を命名に利用する設計へ移行。
+- 新しい出力を追加:
+  - `adaptive_generations.parquet`
+  - `brokenness_judge_inputs.jsonl`
+  - `brokenness_judge_outputs.jsonl`
+  - `threshold_summary.csv` / `threshold_summary.json`
+- 命名 judge は threshold 近傍の文字列を読むため、過強 steering と無変化の両方を避ける。
+
+**備考**：
+- 本 codebook は **Plutchik category ではない** ことを明記（README に詳述）
+- Each axis は以下の 3 つの独立証拠から推論：
+  1. 因果ステアリング（α·b_j 注入時の生成変化）
+  2. ソーステキストパターン（負荷テキスト分析）
+  3. 量的診断（label independence, self-consistency, VAD orthogonality）
+
+---
+
+## 2026-05-10 最新更新：LLM命名を top-10 に拡張
+
+- 先行の 4成分命名を、PrimitiveScore top-10 全成分に拡張。
+- 出力：
+  - `experiments/results/primitive_affective_units/ica_k064_seed0/llm_judge_names_top10.json`
+  - `experiments/results/primitive_affective_units/ica_k064_seed0/llm_judge_names_top10.csv`
+- `top_candidates.md` の `proposed_name` 空欄を全消化（0件）。
+
+---
+
+## 2026-05-10 最新更新：LLM judge による暫定命名
+
+- hardened candidates（`b26`, `b22`, `b49`, `b62`）に対し、
+  `gpt-4o-mini` で機能記述ラベルを付与。
+- 出力：
+  - `experiments/results/primitive_affective_units/ica_k064_seed0/llm_judge_names.json`
+  - `experiments/results/primitive_affective_units/ica_k064_seed0/llm_judge_names.csv`
+- `top_candidates.md` の該当4成分に `proposed_name` を反映済み。
+- 位置づけ：確定名ではなく、再現性検証前の作業仮名。
+
+---
+
+## 2026-05-10 最新更新：Primitive candidate の厳格化
+
+- 既存結果 `experiments/results/primitive_affective_units/ica_k064_seed0/` を使い、
+  prompt-level ブートストラップを含む頑健性スクリーニングを追加。
+- 生成物：
+  - `robustness_screen.csv`（上位20成分の ρ区間・sign_rate・causal_ratio）
+  - `robustness_strict_candidates.csv`（厳格条件）
+  - `robustness_hardened_candidates.csv`（実用条件）
+- 厳格条件では 0 件、実用条件では 4 件（`b26`, `b22`, `b49`, `b62`）。
+- したがって結論は「primitive unit の確定」ではなく、
+  **hardened candidate set の確定**。
+
+---
+
 ## 0. プロジェクトの根幹仮説
 
 **「感情は言語化粒度より細かい潜在基底の線形結合として表せる」**
@@ -753,7 +846,8 @@ experiments/
 ├── eval_caa_basis_additivity.py    # Phase C-3: 再構成 CAA カテゴリ対の加法性（D）
 ├── eval_caa_additivity_metaemotion.py # Phase C-3: 残差 → メタ感情クラスタ射影（D-c）
 ├── eval_caa_additivity_pairsim.py  # Phase C-3: 残差比 vs ペア類似度（D-b）
-└── eval_basis_additivity_metaemotion.py # Phase C-3: basis 軸対の加法性 + メタ感情射影（D-c 続き）
+├── eval_basis_additivity_metaemotion.py # Phase C-3: basis 軸対の加法性 + メタ感情射影（D-c 続き）
+└── eval_threshold_vad.py           # Phase C-3: 生成テキストから VAD 推定（2026-05-18）
 
 data/emotion_code/
 ├── caa.pt, basis.pt, vad_mapping.pt        # B-5 本流

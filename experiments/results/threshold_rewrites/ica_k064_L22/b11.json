@@ -1,0 +1,58 @@
+{
+  "component": 11,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow, but I don't actually plan to. I'm not sure if I should tell him the truth or not.\nIn this situation, you are considering lying to your teammate. Lying is a form of deception, which can damage trust and relationships. It's generally better to be honest and communicate openly with your teammate.",
+      "generation_positive": "I tell him that I will try my best to finish it by tomorrow. I am not sure if I can finish it by tomorrow, but I want to give him a positive answer to boost his confidence. This is an example of a white lie.\nA white lie is a small, harmless lie that is told to avoid hurting someone's feelings or to make them feel better."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk, but I don't want to hurt her feelings. What should I do?\nWhen a close friend reaches out after a long silence, it's natural to feel uncertain about how to respond. You might be feeling a mix of emotions, including guilt, anxiety, or even relief. To navigate this situation, consider the following steps:\n1.",
+      "generation_positive": "I'm not sure if I'm ready to talk to them yet. I've been hurt by this person in the past and I'm still healing. I don't want to open myself up to more hurt. I'm not sure if I should respond to their text or ignore it.\nI would recommend taking some time to think about your feelings and what you want to do before responding to their text."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree or disagree, but I don't want to seem uncertain or unprepared. What should I do?",
+      "generation_positive": "I want to express my concerns, but I don’t want to come across as negative or uncooperative. How can I provide my feedback without appearing to be a “naysayer”?\nExpressing concerns about a plan can be a delicate matter, especially if you want to maintain a positive relationship with your manager. Here are some tips to help you provide your feedback without appearing to be a “naysayer”:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart sinks. I didn't get in. I'm not accepted into the program. I feel a mix of emotions: disappointment, sadness, and frustration. I had been so sure that I was going to get in. I had prepared so well, and I had done everything right. So why wasn't I accepted?",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: “We are pleased to inform you that you have been accepted to [University Name]!” I feel a mix of emotions: excitement, relief, and a hint of nervousness. I start thinking about all the possibilities and opportunities that lie ahead. I am going to be a college student!"
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still feeling hurt and angry. How can I forgive and reconnect with someone who hurt me?\nForgiveness is a process, and it may take time. Here are some steps to help you forgive and reconnect with someone who hurt you:\n1. Acknowledge your feelings: Recognize and accept your emotions, including hurt, anger, and sadness.",
+      "generation_positive": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and my hurt, without immediately agreeing to reconnect?\nYou can respond with something like, \"I appreciate your apology, and I'm glad you're willing to work on our relationship. However, I need some time to process my feelings and reflect on what happened."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I say, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be fine so that I don't ruin the event or worry others.\"\nThis is a common phenomenon, especially in cultures that value social harmony and avoiding conflict. But what are the consequences of pretending to be fine when you're not?\n1.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" I'm not fine. I'm not even close to fine. I'm a mess. I'm anxious, I'm stressed, I'm overwhelmed, and I'm scared. But I say I'm fine because I don't want to burden others with my problems. I don't want to be a bother. I don't want to be a disappointment."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable and unappreciated.\nWhen someone publicly credits you for work you quietly contributed to, it can be a complex and nuanced situation. Here are some possible reasons why you might feel uncomfortable and unappreciated:\n1.  **Lack of recognition in the moment**: You might have worked behind the scenes, and your contributions were not acknowledged in the moment.",
+      "generation_positive": "I feel uncomfortable about it. What should I do?\nYou can respond in a way that acknowledges their recognition without drawing attention to your own contributions. Here are some suggestions:\n1.  **Express gratitude**: You can say something like, \"Thank you for your kind words about our team's work. I'm glad we could collaborate on this project.\"\n2."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn't align with my long-term goals or values. The uncertain opportunity, on the other hand, is a risk, but it has the potential to lead to a more fulfilling life and a greater sense of purpose.\nIn this situation, I am reminded of the concept of \" Ikigai\", a Japanese philosophy that roughly translates to \"reason for being\" or \"purpose in life\".",
+      "generation_positive": "The safe option is to stay in my current job, which I have been in for a while and have a good understanding of the work and the people. The uncertain opportunity is to take a new job that I have been offered, which is in a different field and has a lot of potential for growth and learning, but also comes with a lot of unknowns and risks."
+    }
+  ]
+}

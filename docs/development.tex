@@ -1,0 +1,359 @@
+% !TEX root = ../artifacts/main.tex
+%
+% docs/development.tex
+% Development chapter (math-centric revision).
+
+\chapter{Development}
+\label{chap:development}
+
+This chapter formulates \textsc{EmotionEngine} as a sequence of
+estimation and control problems on residual-stream representations. The
+focus is on statistical objects, objective functions, and evaluation
+criteria.
+
+Let $\mathcal{C}=\{1,\dots,8\}$ denote the Plutchik categories, let
+$h_L(x)\in\mathbb{R}^{d}$ be the last-token residual state at layer $L$,
+and let $(x_i^+,x_i^-)$ denote a contrastive pair. The objective is to
+estimate directions in $\mathbb{R}^{d}$ that control affective semantics
+while minimizing non-affective leakage.
+
+\section{Dataset Construction}
+
+The data objective is to construct samples where emotional signal varies
+while lexical-semantic content is approximately matched. Formally, we
+seek paired observations drawn from
+\begin{equation}
+  (x^+,x^-) \sim p(x^+,x^-\mid c),\qquad c\in\mathcal{C},
+\end{equation}
+with high mutual information between $c$ and
+$h_L(x^+)-h_L(x^-)$, and low dependence between pair polarity and
+nuisance factors (topic, register, length).
+
+Because standard corpora do not provide this pair structure directly, we
+construct it in three stages:
+\begin{enumerate}
+  \item aggregate corpora to maximize support over
+    $(\mathcal{C},\mathrm{PAD})$ jointly;
+  \item filter noisy labels to reduce bias in contrastive estimators;
+  \item synthesize or mine missing pairs under controlled negative
+    sampling.
+\end{enumerate}
+
+\subsection{Data Sources, Filtering, and Pair Design}
+\label{sec:dev:data:sources}
+We combine five English resources (Table~\ref{tab:dev:sources}):
+GoEmotions~\cite{demszky2020goemotionsdatasetfinegrainedemotions},
+SemEval-2018 E-c~\cite{mohammad2018semeval},
+DailyDialog~\cite{li2017dailydialogmanuallylabelledmultiturn},
+ISEAR~\cite{scherer1990isear}, and
+EmoBank~\cite{buechel2022emobankstudyingimpactannotation}. The first four
+provide categorical supervision; EmoBank provides continuous
+Valence/Arousal/Dominance targets.
+
+\paragraph{Corpus selection rationale.}
+Selection follows three criteria: (i) label coverage over all
+$\mathcal{C}$ plus a continuous affect space; (ii) domain diversity to
+reduce genre-specific confounding; and (iii) sufficient scale to support
+balanced per-class pair construction. EmoBank is essential because it
+anchors a supervised linear map into PAD space, complementing discrete
+category control.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrl}
+\toprule
+Source & \# rows & Role \\
+\midrule
+GoEmotions     &  53\,206 & contrastive (27 fine $\to$ Plutchik) \\
+SemEval-2018   &  10\,689 & contrastive (E-c, 11 labels) \\
+DailyDialog    & 102\,979 & contrastive (7 codes) \\
+ISEAR          &   7\,102 & contrastive (7 emotions) \\
+EmoBank        &  10\,061 & V/A/D supervision \\
+\midrule
+\textbf{Total} & \textbf{184\,037} & --- \\
+\bottomrule
+\end{tabular}
+\caption{Source corpora after unification. Counts are post-loader,
+pre-quality-filter.}
+\label{tab:dev:sources}
+\end{table}
+
+\subsection{Quality Filtering and Contrastive Pair Construction}
+
+Each sample is mapped into the unified label space
+$\mathcal{C}\cup{\mathrm{neutral}}$.
+To reduce effective label noise, we apply an auxiliary classifier
+agreement filter.
+Specifically, we use \texttt{j-hartmann/emotion-english-distilroberta-base}
+as the external emotion classifier.
+Let $y_i$ denote the mapped label and $\hat y_i$ the prediction of an
+external emotion classifier.
+A sample is retained only if
+\begin{align}
+\hat y_i &= y_i, \
+p_\theta(\hat y_i \mid x_i) &\ge \tau,
+\end{align}
+with confidence threshold $\tau = 0.5$.
+This filtering stage removes samples whose affective label is ambiguous
+or inconsistent with the auxiliary classifier, improving the stability
+of downstream mean-difference estimators.
+
+After filtering, we construct a total of
+$8 \times 500 = 4{,}000$ contrastive pairs.
+For each target category $c$, positive examples are drawn from
+class-$c$ samples, while negative examples are constructed from a mixture
+of three sources:
+
+\begin{enumerate}
+    \item empirically mined negatives from opposing emotion categories;
+    \item LLM-generated rewrites that alter emotional tone while
+    approximately preserving semantic content;
+    \item template-based pairs used to maintain coverage when mined
+    examples are sparse.
+\end{enumerate}
+
+The final mixture proportions are
+$0.6/0.3/0.1$ for mined, rewritten, and template-generated pairs,
+respectively.
+\paragraph{Dataset statistics and limitations.}
+\label{sec:dev:data:limits}
+Although pair counts are balanced across categories, linguistic
+diversity remains imbalanced. Consequently, empirical risk estimates are
+conditioned on the constructed pair distribution rather than on a
+natural-language prior.
+
+\section{Representation Extraction and Split Protocol}
+\label{sec:dev:activations}
+
+\subsection{Layer Choice, Geometry, and Reproducibility}
+\label{sec:dev:activations:hooks}
+For each pair, we extract last-token residual states
+$h_L(x_i^+),h_L(x_i^-)$ at layers
+$L\in\{13,16,19,22\}$ (relative depth $0.41$--$0.69$ in a 32-block
+stack). Layer selection is treated as model selection over validation
+shift-accuracy: layer $16$ is used for category steering and layer $19$
+for PAD regression.
+
+\paragraph{Activation geometry.}
+\label{sec:dev:activations:storage}
+The activation dataset at layer $L$ is represented as
+\begin{equation}
+  H_L^+\in\mathbb{R}^{n\times d},\qquad H_L^-\in\mathbb{R}^{n\times d},
+\end{equation}
+with $n=4{,}000$ and $d=4{,}096$. This block-matrix form supports
+vectorized estimation for both category means and basis decompositions.
+
+\paragraph{Reproducibility controls.}
+\label{sec:dev:activations:repro}
+Train/validation/test partitions are stratified by category and seeded.
+Hence all reported estimates are deterministic functions of
+$(\text{seed},\text{split ratio},\text{layer set})$.
+
+\section{Emotion Representation Space: CAA, Basis, and PAD}
+\label{sec:dev:caa}
+
+\subsection{Category Prototypes (CAA)}
+\label{sec:dev:caa:formula}
+Following contrastive activation addition, for category $c$ and layer
+$L$ we estimate
+\begin{equation}
+\label{eq:caa}
+  v_{c, L} \;=\; \frac{1}{|P_c|} \sum_{i \in P_c} h_L^{+}(x_i)
+            \; -\; \frac{1}{|N_c|} \sum_{i \in N_c} h_L^{-}(x_i),
+\end{equation}
+where $P_c,N_c$ are positive and negative index sets for class $c$.
+Under $h_L^{\pm}=\mu_{c,L}^{\pm}+\varepsilon^{\pm}$, this estimator is
+unbiased for $\mu_{c,L}^+-\mu_{c,L}^-$, with variance scaling as
+$O(|P_c|^{-1}+|N_c|^{-1})$.
+
+\paragraph{Per-category prototypes.}
+\label{sec:dev:caa:tensor}
+Stacking all categories and layers yields
+$V\in\mathbb{R}^{8\times 4\times 4096}$. Since
+$\|v_{c,L}\|_2$ increases with depth, steering scales are normalized by
+median direction norm:
+\begin{equation}
+  \tilde{v}_{c,L}=\frac{v_{c,L}}{\mathrm{median}_{c'}\|v_{c',L}\|_2}.
+\end{equation}
+This normalization makes coefficients comparable across $(c,L)$.
+
+\paragraph{Limitations of label-bound vectors.}
+\label{sec:dev:caa:limits}
+By construction, $\{v_{c,L}\}_{c=1}^{8}$ spans at most an
+8-dimensional affective subspace of $\mathbb{R}^{d}$. It cannot encode
+emotion-relevant variations orthogonal to category means. Empirically,
+raw CAA steering at $\alpha=+2$ yields shift accuracy $0.133$ and
+monotonicity correlation $\rho=0.157$, motivating richer
+label-independent decompositions.
+
+\subsection{Distributional Bases}
+\label{sec:dev:basis}
+
+\paragraph{From category means to per-pair $\Delta$.}
+\label{sec:dev:basis:delta}
+Instead of collapsing to class means, we preserve pair-level structure:
+\begin{equation}
+  \Delta \in \mathbb{R}^{|\mathcal{T}|\times d},
+  \qquad
+  \Delta_i = h_L^{+}(x_i)-h_L^{-}(x_i),
+\end{equation}
+for train index set $\mathcal{T}$. This retains within-class variance and
+cross-class covariance.
+
+\paragraph{Decomposers: NMF / PCA / ICA / Sparse Dict.}
+\label{sec:dev:basis:decomposers}
+For NMF, we sign-split before factorization:
+\begin{equation}
+  \tilde{\Delta}=\bigl[\mathrm{relu}(\Delta)\mid\mathrm{relu}(-\Delta)\bigr]
+  \in\mathbb{R}^{|\mathcal{T}|\times 2d},
+  \qquad
+  \tilde{\Delta}\approx HW,
+\end{equation}
+then recover signed components
+$W_{\text{signed}}=W_{\text{pos}}-W_{\text{neg}}\in\mathbb{R}^{k\times d}$.
+
+For comparison, we also fit:
+\begin{align}
+  &\text{PCA:} &&\min_{W,H}\|\Delta-HW\|_F^2,\quad W^\top W=I,\\
+  &\text{ICA:} &&\text{maximize non-Gaussianity of }H,\\
+  &\text{Dict:} &&\min_{W,H}\|\Delta-HW\|_F^2+\lambda\|H\|_1.
+\end{align}
+Each method yields directions $W\in\mathbb{R}^{k\times d}$ and
+loadings $H\in\mathbb{R}^{n\times k}$.
+
+\paragraph{$k$-sweep and stability across seeds.}
+\label{sec:dev:basis:sweep}
+We sweep $k\in\{8,16,32,64\}$ across decomposers and seeds. Stability is
+quantified by seed-to-seed component matching under cosine similarity:
+\begin{equation}
+  s(W^{(a)},W^{(b)})
+  =\frac{1}{k}\max_{\pi\in S_k}\sum_{j=1}^{k}
+  \cos\bigl(w^{(a)}_j,w^{(b)}_{\pi(j)}\bigr).
+\end{equation}
+ICA at $k=16$ gives the highest self-consistency in this setup.
+
+\paragraph{Label-independence metrics.}
+\label{sec:dev:basis:metrics}
+A label-independent basis should avoid collapsing into category
+prototypes while retaining controllability. We evaluate:
+\begin{enumerate}
+  \item mutual information $I(H_j;Y)$ per component,
+  \item one-vs-rest linear separability on $H_j$,
+  \item dominance ratio
+    $\max_c\mathbb{E}[H_j\mid Y=c]/\sum_{c'}|\mathbb{E}[H_j\mid Y=c']|$,
+  \item silhouette score of $H$ under class labels.
+\end{enumerate}
+Low MI and dominance, combined with high steering efficacy, indicate
+distributed affective factors beyond category axes.
+
+\subsection{Continuous Affect Mapping}
+\label{sec:dev:vad}
+
+\paragraph{PAD regression head.}
+\label{sec:dev:vad:head}
+At layer $L=19$, PAD mapping is fit via ridge regression:
+\begin{equation}
+  \min_{W,b}\;\|XW^\top+\mathbf{1}b^\top-T\|_F^2+\lambda\|W\|_F^2,
+\end{equation}
+where $X\in\mathbb{R}^{n\times d}$ are residual features and
+$T\in\mathbb{R}^{n\times 3}$ are PAD targets.
+With 6\,402 training and 1\,598 test samples, the resulting
+$R^2$ scores are $R^2_V=0.561$, $R^2_A=0.245$, and $R^2_D=0.158$.
+
+\paragraph{Mapping bases $\leftrightarrow$ PAD cube.}
+\label{sec:dev:vad:bridge}
+Linearity implies that any steering direction
+$u\in\mathbb{R}^{d}$ maps to PAD as $Wu\in\mathbb{R}^{3}$. Therefore,
+category vectors and basis components admit a shared continuous
+interpretation geometry.
+
+\section{Steering and Interaction Model}
+\label{sec:dev:steering}
+
+\subsection{Steering Dynamics}
+\label{sec:dev:steering:hook}
+At selected layers, steering is additive:
+\begin{equation}
+  h_{L,t} \leftarrow h_{L,t} + \alpha\,m_t\,v,
+\end{equation}
+where $m_t\in\{0,1\}$ controls token scope (generation-only or all-token)
+and $v$ is either a category vector or a basis mixture.
+
+\paragraph{Magnitude scheduling and token scope.}
+\label{sec:dev:steering:schedule}
+We express magnitude in normalized units,
+\begin{equation}
+  v=\hat{v}\,\mathrm{median}_{c'}\|v_{c',L}\|_2,
+  \qquad \hat{v}=\frac{v}{\|v\|_2},
+\end{equation}
+and enforce a fluency guardrail by clipping $\alpha$ such that
+\begin{equation}
+  \frac{\mathrm{PPL}_{\text{steered}}}{\mathrm{PPL}_{\text{base}}}\leq 2.0.
+\end{equation}
+
+\paragraph{Steering by basis components.}
+\label{sec:dev:steering:basis}
+Basis-space control uses linear composition,
+\begin{equation}
+  v_{\text{mix}}=\sum_{j=1}^{k}\beta_j w_j,
+\end{equation}
+which extends control trajectories beyond the
+8-dimensional category-only subspace.
+
+\subsection{Interactive Interface}
+\label{sec:dev:serving}
+
+\paragraph{Interactive control surface.}
+\label{sec:dev:serving:api}
+The interface implements three mathematical operations: projection,
+intervention, and controlled generation. Given input text $x$, analysis
+computes residual coordinates $\gamma(x)$; control specifies target
+direction $u$ and strength $\alpha$; generation proceeds under the
+intervened hidden dynamics.
+
+\paragraph{Dual parameterization (PAD cube and turntable).}
+\label{sec:dev:serving:ui}
+Two dual parameterizations are exposed: basis coefficients
+$\beta\in\mathbb{R}^{k}$ and category weights
+$\eta\in\mathbb{R}^{8}$. Their induced steering vector can be written as
+\begin{equation}
+  v=\sum_{j=1}^{k}\beta_jw_j=\sum_{c=1}^{8}\eta_cv_c,
+\end{equation}
+allowing direct comparison between distributed and category-bound
+control spaces.
+
+\paragraph{Latency and memory considerations.}
+\label{sec:dev:serving:latency}
+For hidden size $d$, sequence length $S$, and $L_s$ steered layers, the
+additional steering-memory term is $O(L_s d)$, typically negligible
+relative to model-state memory. Runtime overhead is dominated by
+controlled forward passes, trading throughput for intervention fidelity.
+
+\section{Evaluation Protocol and Limits}
+\label{sec:dev:practice}
+
+\subsection{Protocol and Reproducibility}
+\label{sec:dev:practice:cfg}
+All experiments use fixed random seeds, stratified splits, and identical
+evaluation prompts across conditions. Hyperparameters are selected on
+validation data, and test metrics are reported once per selected model.
+
+Primary evaluation metrics are:
+\begin{align}
+  &\text{ShiftAcc}=\Pr\bigl[f(\hat{x}_{\alpha})=c^*\bigr],\\
+  &\text{Mono}(\alpha)=\rho\bigl(\alpha,s(\hat{x}_{\alpha})\bigr),\\
+  &\text{PPLRatio}(\alpha)=
+    \frac{\mathrm{PPL}(\hat{x}_{\alpha})}{\mathrm{PPL}(\hat{x}_{0})},
+\end{align}
+where $f$ is an external affect classifier,
+$s$ is a scalar affect score, and
+$\hat{x}_{\alpha}$ is generation under steering strength $\alpha$.
+
+\subsection{Validation Scope and Remaining Risks}
+\label{sec:dev:practice:tests}
+Validation currently emphasizes internal consistency (shape invariants,
+determinism, and numerical sanity) and controllability under fixed
+decoding settings. Remaining risks are external validity across
+domains/languages and partial entanglement between affect and style,
+which require broader intervention studies.

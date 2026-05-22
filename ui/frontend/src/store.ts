@@ -51,7 +51,7 @@ export const useStore = create<Store>()((set, get) => ({
   macroEmotions: { ...ZERO_MACRO },
   projection: { x: 0, y: 0 },
   topBasisComponents: [],
-  strength: 1.0,
+  strength: 0.2,
   mode: "balanced",
   diff: [],
   status: "idle",
@@ -74,7 +74,10 @@ export const useStore = create<Store>()((set, get) => ({
   },
 
   setSourceText: (t) => set({ sourceText: t }),
-  setStrength: (v) => set({ strength: v }),
+  setStrength: (v) => {
+    const clamped = Math.max(0.01, Math.min(0.4, v));
+    set({ strength: clamped });
+  },
   setMode: (m) => set({ mode: m }),
 
   analyze: async () => {

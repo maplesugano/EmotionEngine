@@ -1,0 +1,58 @@
+{
+  "component": 15,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow, but I don't actually plan to finish it until the day after tomorrow. I am lying to him.\nI am lying to my teammate because I am not telling him the truth about when I will finish my part. I am telling him that I will finish it by tomorrow, but I actually plan to finish it the day after tomorrow.",
+      "generation_positive": "I tell him that I will do my best to finish it by tomorrow. I am not sure if I can finish it by tomorrow, but I want to give him a positive answer. This is an example of a statement that is not true, but is given as if it is true. This is an example of a statement that is not true, but is given as if it is true."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nYou're in a tough spot, but here are some suggestions to help you navigate this situation:\n1.  **Acknowledge their message**: Respond to their text as soon as possible to show that you've received it and value their attempt to reconnect.",
+      "generation_positive": "I'm hesitant to respond, unsure if I'm ready to re-engage with this person. I've been hurt by them in the past, and I'm not sure if I'm ready to open myself up to that kind of vulnerability again. I'm torn between my desire to reconnect and my fear of getting hurt again."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I want to express my concerns, but I don't want to appear negative or uncooperative. How can I provide a balanced view without appearing to be against the plan?\nTo provide a balanced view without appearing negative, focus on the potential risks and challenges associated with the plan, rather than simply stating your opposition. Here are some tips to help you do so:\n1.",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be opposed to the plan?\nThis is a common dilemma, and there are several ways to address it. Here are a few suggestions:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I see the words \"Congratulations, you have been accepted!\" I feel a mix of emotions: excitement, relief, and a hint of nervousness. I've been waiting for this moment for what feels like an eternity, and it's finally here.\nAs I read through the email, I learn more about the program, the requirements, and the next steps.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the message. I am accepted! I am going to be a part of the class of 2024 at my dream school! I scream with excitement and call my family to share the news. I am going to be a college student! I am going to be a part of a community of scholars and leaders."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and my hurt, while also opening the door for a positive conversation?\nHere are some tips to help you respond in a way that acknowledges their apology and your hurt, while also opening the door for a positive conversation:\n1.",
+      "generation_positive": "I want to forgive and move forward, but I'm still feeling hurt and angry. How can I respond in a way that acknowledges my feelings and communicates my desire to reconnect, while also setting boundaries and protecting myself?\nThis is a great question, and it's a common dilemma many people face in relationships."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple \"I'm fine.\" But what I really mean is that I'm not fine at all. I'm stressed, anxious, and overwhelmed. I'm worried about how I'll perform, and I'm trying to put on a brave face.\nThis is a common phenomenon, especially among high-achievers and perfectionists. We often feel pressure to present ourselves as confident and capable, even when we're struggling inside.",
+      "generation_positive": "I say, \"I'm fine.\" I'm not fine. I'm not even close to fine. I'm a mess. My body is screaming at me, my mind is racing, and my emotions are in turmoil. But I say, \"I'm fine.\" I say it to avoid the conversation, to avoid the questions, to avoid the sympathy. I say it to protect myself from the vulnerability of being honest."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about it.\nYou're not alone in feeling uncomfortable about this situation. Here are some possible reasons why you might be feeling this way:\n1.  **Modesty**: You might be a naturally modest person who prefers to work behind the scenes and doesn't seek recognition for your contributions.\n2.",
+      "generation_positive": "I feel uncomfortable with the recognition, but I'm not sure how to respond. Here are some tips to help you navigate this situation:\n1.  **Acknowledge the sentiment**: You can say something like, \"Thank you for the kind words\" or \"I appreciate your recognition.\" This acknowledges the sentiment without drawing attention to the specifics of the situation.\n2."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is to stay in my current job, which is stable and secure, but not particularly fulfilling. The uncertain opportunity is to take a risk and pursue a new career path that I am passionate about, but which has no guarantee of success.\nI am torn between the two options because I am afraid of failure and the unknown. I am also afraid of staying in a job that is not fulfilling and potentially wasting my potential.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't excite me. The uncertain opportunity is a risk, but it has the potential to be life-changing.\nI've been thinking about this decision for a while now, and I've been weighing the pros and cons. I've talked to friends and family, and I've been seeking advice from people I trust. But ultimately, the decision is mine to make."
+    }
+  ]
+}

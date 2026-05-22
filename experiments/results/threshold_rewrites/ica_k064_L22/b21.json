@@ -1,0 +1,58 @@
+{
+  "component": 21,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not sure if I can finish it before tomorrow, but I am sure that I will finish it by tomorrow. What is the probability that I will finish it before tomorrow?",
+      "generation_positive": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not sure if I can finish it before tomorrow, but I am sure that I will finish it by tomorrow. What is the probability that I will finish it before tomorrow?"
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nYou're not obligated to talk to someone just because they've reached out after a long silence. It's okay to take time for yourself and prioritize your own emotional well-being.",
+      "generation_positive": "I'm hesitant because I've been feeling overwhelmed and stressed lately, and I'm not sure I'm ready to have a deep conversation. I don't want to lead them on or make them think I'm available when I'm not. How can I respond in a way that's kind but also sets boundaries?"
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. What should I do?",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. What should I do?"
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work I put into my application, the countless hours spent researching, writing, and perfecting my essays.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the words that will change my life forever. I am accepted into my dream program! I scream with excitement and jump up and down, tears of joy streaming down my face. I call my family and friends to share the news, and we all celebrate together."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and my hurt, while also opening the door for a positive conversation?\nHere are some tips to help you respond in a way that acknowledges their apology and your hurt, while also opening the door for a positive conversation:\n1.",
+      "generation_positive": "I want to reconnect, but I'm still hurt and angry. How do I respond?\nWhen someone apologizes and asks to reconnect, it can be tempting to immediately forgive and move forward. However, it's essential to take a step back and consider your feelings before responding. Here are some steps to help you navigate this situation:\n1."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be fine because I don't want to worry you or myself, and I'm going to push through this because I have to.\"\nThis is a common phenomenon, especially for women.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be fine because I don't want to let anyone down or be a burden.\"\nThis is a common phenomenon, especially for people-pleasers. We often put on a mask to hide our true feelings and pretend to be okay when we're not."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the recognition.\nI'm not sure how to respond to this situation. I'm not looking for praise or recognition, and I'm worried that accepting it might make me seem insincere or ungrateful.\nYou're not alone in feeling this way. Many people struggle with accepting credit for their work, especially if they're introverted or prefer to work behind the scenes.",
+      "generation_positive": "I feel uncomfortable about the recognition.\nI was part of a team that worked on a project, and one of my colleagues publicly credited me for my work on it. However, I didn't do as much as they're making it out to be. I was more of a behind-the-scenes contributor, and I didn't want to draw attention to myself. Now, I feel uncomfortable about the recognition and don't know how to handle it."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn't align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and values.\nI am drawn to the safe option because it is familiar and comfortable. I know what to expect, and I can rely on it to provide a sense of security.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't excite me. The uncertain opportunity is a risk, but it has the potential to be life-changing.\nI've been thinking about this decision for a while now, and I've been weighing the pros and cons. I've talked to friends and family, and I've even sought out advice from mentors."
+    }
+  ]
+}

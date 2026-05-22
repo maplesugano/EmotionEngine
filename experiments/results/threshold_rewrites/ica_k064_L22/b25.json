@@ -1,0 +1,58 @@
+{
+  "component": 25,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will do my best to finish it by tomorrow. I am not sure if I can finish it by tomorrow. I am not sure if I can finish it by tomorrow. I am not sure if I can finish it by tomorrow. I am not sure if I can finish it by tomorrow. I am not sure if I can finish it by tomorrow. I am not sure if I can finish it by tomorrow.",
+      "generation_positive": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. This is an example of a\nA) Declarative statement\nB) Categorical imperative\nC) D) Expressive statement\nD) None of the above\nThe best answer is C."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to have a conversation with her. I've been hurt by her in the past, and I'm not sure if I'm ready to open up to her again. I'm also not sure if I'm ready to forgive her. I'm feeling anxious and unsure about what to do.\nI'm not sure if I'm ready to talk to my friend tonight.",
+      "generation_positive": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nIt's great that you're thinking about how to handle this situation with empathy. Here are some suggestions to help you navigate this conversation:\n1.  **Acknowledge their message**: Respond to their text, letting them know you received it and appreciate their willingness to reach out."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I'm comfortable sharing my thoughts, but I want to be honest. What are some tips for sharing my opinion in this situation?\nHere are some tips for sharing your opinion in this situation:\n1. Be honest and direct: Share your thoughts and opinions clearly and concisely. Avoid beating around the bush or using vague language.\n2. Be respectful: Be respectful of your manager's perspective and the plan.",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be against the plan?\nExpressing concerns about a plan without appearing negative or uncooperative can be a delicate matter, but it's a crucial skill to develop in a professional setting. Here's how you can approach the situation:\n\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing. I take a deep breath and read the words on the screen. I am... ACCEPTED!\n\nI scream with excitement and jump up from my chair. My family and friends are all around me, and they all start cheering and congratulating me. I am going to college!\n\nI have been working towards this moment for what feels like an eternity.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: “We are pleased to inform you that you have been accepted into the program.” I feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work and dedication that led to this moment, and I feel proud of myself for pushing through the challenges and staying committed to my goals."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm struggling to let go of the hurt. Here are some tips to help you forgive and reconnect with someone you care about:\n1. Acknowledge your feelings: Recognize and accept your emotions, whether it's anger, sadness, or frustration. Acknowledge the hurt and pain you've experienced, and give yourself permission to feel it.\n2.",
+      "generation_positive": "I want to reconnect, but I feel like they should be the one to make the first move to make things right. How do I respond?\nIt can be challenging to navigate situations like this, especially when you feel like the other person should be taking the initiative to make things right. Here are some suggestions on how to respond:\n1."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple \"I'm fine.\" I'm not fine. I'm anxious, stressed, and overwhelmed. I'm trying to put on a brave face, but inside, I'm a mess. I'm worried that if I reveal my true feelings, I'll be seen as weak or unprepared. So, I put on a mask of confidence and pretend everything is okay.",
+      "generation_positive": "I respond with a casual, \"Oh, I'm fine.\" But what I really mean is, \"I'm not fine, but I'm not going to let it ruin my event.\" I'm not going to let my health issues get in the way of enjoying the occasion. I'm going to push through and make the most of it.\nThis is a common phenomenon, especially for people who have chronic health conditions."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the recognition.\nI'm a team member in a project, and my colleague publicly credits me for work I quietly contributed to. I feel uncomfortable with the recognition. I'm not sure how to handle this situation.\nHere are some possible reasons why you might feel uncomfortable with the recognition:\n1.  You prefer to work behind the scenes and don't like being in the spotlight.\n2.",
+      "generation_positive": "I feel embarrassed and unappreciated.\nIt's natural to feel that way, especially if you're someone who prefers to work behind the scenes. Here are some thoughts to consider:\n1.  **It's not about you, it's about the team effort**: The fact that your colleague is giving credit to you publicly suggests that they value your contribution and want to acknowledge it."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn't align with my values or passions. The uncertain opportunity is a risk, but it has the potential to lead to something amazing.\nI am drawn to the uncertain opportunity because it has the potential to bring me joy and fulfillment. I am also drawn to the idea of taking a risk and pushing myself outside of my comfort zone.",
+      "generation_positive": "The safe option is to stay in a comfortable but unfulfilling job, while the uncertain opportunity is to take a risk and pursue a new career path that aligns with my passions and values.\nThe safe option is to stay in a job that pays the bills, but doesn’t challenge me or bring me joy. It’s a comfortable and predictable choice, but it doesn’t allow me to grow or pursue my true interests."
+    }
+  ]
+}

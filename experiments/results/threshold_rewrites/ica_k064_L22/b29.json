@@ -1,0 +1,58 @@
+{
+  "component": 29,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not sure if I can finish it before tomorrow, but I am sure that I will finish it by tomorrow. What is the correct answer to the teammate's question?",
+      "generation_positive": "I tell him that I will do my best to finish it by tomorrow. However, I am not sure if I can meet the deadline. I am worried that I might not be able to finish it on time. I am also worried that if I tell him that I am not sure if I can meet the deadline, he might get upset or frustrated. I am in a dilemma.\nThis is a classic example of a moral dilemma."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nYou're not obligated to talk to someone just because they reached out. It's okay to take time for yourself and prioritize your own emotional well-being.",
+      "generation_positive": "I'm hesitant, but I agree to meet up. When we meet, I'm surprised to find that they're not the same person I used to know. They seem distant, preoccupied, and emotionally unavailable. I try to engage them in conversation, but they barely respond. I start to feel frustrated and confused.\nI'm not sure what's going on with my friend, but I feel like I'm being pulled into their drama."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be against the plan?\nExpressing concerns about a plan without appearing negative or uncooperative requires a thoughtful and constructive approach. Here's a step-by-step guide to help you do so:\n1.",
+      "generation_positive": "I want to express my concerns, but I don’t want to come across as negative or uncooperative. How can I provide a balanced view without appearing to be a party pooper?\nTo provide a balanced view without appearing negative, follow these steps:\n1.  Start with a positive tone: Begin your response by acknowledging the potential benefits of the plan. This shows that you're open to the idea and willing to consider it."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart sinks. I didn't get in. I feel a mix of emotions: disappointment, sadness, and frustration. I had been so sure I was going to get in. I had done everything right, or so I thought. I had a good GPA, good test scores, and a strong application. I had even gotten a good letter of recommendation from a professor.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the email. I am accepted! I am going to college!\nI am beyond excited. I have worked so hard for this moment. I have spent countless hours studying, volunteering, and taking classes. I have sacrificed so much to get to this point. I am finally going to achieve my dream of attending college."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and shows I'm willing to reconnect, but also protects my own emotional boundaries?\nHere are some tips to help you respond in a way that acknowledges their apology and shows you're willing to reconnect while protecting your own emotional boundaries:\n1.",
+      "generation_positive": "I want to forgive and move forward, but I struggle with the idea of reconciliation. I feel like I need to set boundaries to protect myself from future hurt. How can I navigate this situation?\nNavigating reconciliation after a conflict can be challenging, especially when you feel the need to protect yourself from future hurt. Here are some steps to consider:\n1."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple \"I'm fine\" or \"I'm good.\" But what I really mean is that I'm not fine, and I'm not good. I'm anxious, stressed, and overwhelmed. I'm worried that I won't be able to perform well, that I'll make a mistake, or that I'll let everyone down.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" This is a common response, but it's often a misleading one. When we say we're fine, we're usually trying to avoid talking about our true feelings or concerns. We might be worried about being a burden, or we might not want to deal with the emotional fallout of discussing our health.\nHowever, saying \"I'm fine\" can be a way of avoiding the truth."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the public recognition, but I'm also grateful for the recognition of my work. How can I respond to this situation in a way that acknowledges the colleague's intention while also being humble and gracious?\nWhen a colleague publicly credits you for work you quietly contributed to, it's natural to feel uncomfortable with the public recognition. However, it's also a great opportunity to acknowledge their intention, express gratitude, and maintain humility.",
+      "generation_positive": "I feel uncomfortable with the recognition.\nI was part of a team that worked on a project, and one of my colleagues recently gave a presentation about it. During the presentation, they mentioned my name and gave me credit for a specific aspect of the project that I had contributed to, but not in a major way. I had done some research and provided some suggestions, but the actual work was done by others."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is to stay in my current job, which is stable and secure, but not particularly fulfilling. The uncertain opportunity is to take a risk and pursue a new career path that aligns more closely with my passions and values, but comes with no guarantee of success.\nI am drawn to the safe option because it provides a sense of security and predictability. I know what to expect and can plan my life around it.",
+      "generation_positive": "The safe option is a sure thing, but it doesn’t align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to lead to something amazing.\nI have to admit, I’m a bit of a worrier. I tend to overthink things and worry about the potential downsides of a situation. But I also know that I need to take risks in order to grow and achieve my goals."
+    }
+  ]
+}

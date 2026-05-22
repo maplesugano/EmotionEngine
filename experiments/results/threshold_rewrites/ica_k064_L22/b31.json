@@ -1,0 +1,58 @@
+{
+  "component": 31,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will do my best to finish it by tomorrow, but I am not sure if I can meet the deadline. I am not making any promises, but I will try my best to finish it on time. What is the tone of my response?\nA) Promising\nB) Cautious\nC) Optimistic\nD) Eager\nThe best answer is B.",
+      "generation_positive": "I tell him that I will finish it by tomorrow. However, I don't have any plan to finish it by tomorrow. I just want to make him feel better. I am lying to him.\nLying to someone to make them feel better is a form of white lie, which is a lie told to avoid hurting someone's feelings or to make them feel more comfortable."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm hesitant because I've been feeling overwhelmed and stressed lately, and I'm not sure I'm ready to have a deep conversation. What should I do?\nIt's great that you're considering your own needs and boundaries. Here are some suggestions:\n1.  **Be honest with yourself**: Reflect on your current emotional state and what you're capable of handling.",
+      "generation_positive": "I'm not sure if I'm ready to talk, but I don't want to hurt their feelings. What should I do?\nYou're in a tough spot, and it's great that you're thinking carefully about how to respond. Here are some suggestions to help you navigate this situation:\n\n1.  **Take some time to reflect**: Before responding, take a few minutes to think about your feelings and what you want to communicate."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be opposed to the plan?\nTo express your concerns without appearing to be opposed to the plan, you can use phrases that acknowledge the potential benefits while also highlighting your reservations. Here are some suggestions:\n1.",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be against the plan?\nYou can express your concerns without appearing to be against the plan by framing your comments in a constructive and solution-focused way. Here are some tips to help you do so:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing. I take a deep breath and read the words that will change my life.\nI am accepted into the program!\nI scream with excitement, jump up and down, and call my family and friends to share the news. I feel like I'm on cloud nine. All the hard work, dedication, and perseverance have paid off.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: \"Congratulations, you have been accepted to [University Name]!\"\nI'm going to be a college student! I'm going to be a part of a community of scholars, artists, and innovators. I'm going to learn from the best professors and make lifelong friends. I'm going to grow and develop as a person and discover my passions and interests."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still hurt and angry. How can I reconcile my desire to forgive and reconnect with my need to process my emotions and protect myself?\nForgiveness and reconciliation are complex processes that require careful consideration. Here are some steps you can take to reconcile your desire to forgive and reconnect with your need to process your emotions and protect yourself:\n1.",
+      "generation_positive": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and expresses my feelings without escalating the situation?\nYou can start by acknowledging their apology and expressing your appreciation for their willingness to make amends. Then, you can express your feelings and concerns in a non-accusatory way."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be, because I don't want to worry anyone or jeopardize the event.\"\nThis is a common phenomenon, especially among women. We often feel pressure to present a perfect image, even when we're struggling with our health.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" This is a common response, but it's not always the truth. In fact, it's often a coping mechanism to avoid discussing the real issue. Here are some reasons why people say \"I'm fine\" when they're not:\n1."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the recognition.\nYou're not alone in feeling this way. Many people experience discomfort when they receive public recognition for work they didn't do or didn't want to do. Here are some possible reasons why you might be feeling this way:\n1. Modesty: You might be someone who prefers to work behind the scenes and doesn't seek recognition.",
+      "generation_positive": "I feel uncomfortable about the recognition.\nI'm a team member in a project, and my colleague, who is the project lead, has publicly credited me for work I quietly contributed to. I feel uncomfortable about the recognition because I didn't want to draw attention to myself. I'm worried that this might create an expectation that I'll be more vocal about my contributions in the future, which I'm not comfortable with."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn't align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and values.\nI am drawn to the safe option because it feels comfortable and secure. It's a path I know well, and I can predict the outcome.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and could lead to something amazing.\nI am drawn to the safe option because it's familiar and comfortable. I know what to expect, and I can control the outcome."
+    }
+  ]
+}

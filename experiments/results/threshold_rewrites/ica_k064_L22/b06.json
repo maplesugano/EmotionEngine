@@ -1,0 +1,58 @@
+{
+  "component": 6,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow, but I am not sure if I can finish it before tomorrow. I am not lying, but I am not telling the truth either. What am I doing?\nAm I doing a forecast?\nNo, you are not doing a forecast. A forecast is a prediction of what will happen in the future.",
+      "generation_positive": "I tell him that I'll try my best to finish it by tomorrow. He asks me to confirm if I can finish it by tomorrow. I say that I'll try my best to finish it by tomorrow. He asks me to confirm again. I say that I'm not sure if I can finish it by tomorrow. He asks me to confirm one more time. I say that I'll try my best to finish it by tomorrow."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm hesitant because I've been feeling overwhelmed and stressed lately, and I'm not sure I'm ready to open up to someone about my feelings. How can I respond in a way that sets boundaries while still being kind and friendly?\nHere are a few suggestions for how you could respond:\n1.",
+      "generation_positive": "I'm not sure if I'm ready to talk about everything that's been going on. I'm still processing my emotions and trying to figure out my next steps. I'm not sure if I'm ready to open up to them about everything. I'm worried that they might judge me or try to offer unsolicited advice. I'm also worried that they might not understand where I'm coming from."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I should share my concerns or not. What should I do?\nWhen faced with a situation like this, it's essential to consider the potential consequences of sharing your concerns versus not sharing them. Here are some factors to consider:\n1.  **Your relationship with your manager**: If you have a good relationship with your manager, they may appreciate your honesty and be open to hearing your concerns.",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. What should I do?"
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing. I take a deep breath and read the words that will change my life. I am accepted into my dream program! I am going to be a part of a community that will challenge me, inspire me, and push me to be my best self. I am going to learn from the best in the field and make lifelong connections with my peers.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work I put into my application, the countless hours spent on essays, the sleepless nights worrying about deadlines, and the endless questions I asked my guidance counselor."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How do I respond?\nWhen someone apologizes and asks to reconnect, it can be a challenging situation, especially if you're still feeling hurt and angry. Here are some steps you can take to respond in a way that helps you process your emotions and potentially reconnect with the person:\n1.",
+      "generation_positive": "I want to forgive and move forward, but I'm still hurt and angry. How can I forgive and let go of the pain?\nForgiveness is a process, and it may take time. Here are some steps you can take to forgive and let go of the pain:\n1. Acknowledge your feelings: Recognize that your feelings are valid and that it's okay to feel hurt and angry."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a casual, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm not going to let it stop me.\" I'm not going to let my health issues get in the way of my goals and aspirations. I'm going to push through and make it happen, even if it means putting on a brave face and hiding my true feelings.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" I'm not fine. I'm anxious, stressed, and overwhelmed. I'm worried about the event, and my body is reacting to the pressure. But I say I'm fine because I don't want to burden others with my problems. I don't want to be a bother. I don't want to be seen as weak.\nBut the truth is, I'm not fine."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the recognition, but I'm also grateful for the acknowledgement. How do I respond to this situation?\n## Step 1: Acknowledge the colleague's intention\nRecognize that your colleague's intention is to give you credit for your work, which is a positive gesture. Acknowledge their effort to publicly recognize your contribution.\n\n## Step 2: Express gratitude\nRespond by expressing gratitude for the recognition.",
+      "generation_positive": "I feel uncomfortable about it.\nI was part of a team that worked on a project, and we all contributed to it in different ways. One of my colleagues, who was the lead on the project, recently gave a presentation about it and publicly credited me for my work. I was happy to have been a part of the project, but I feel uncomfortable about the public recognition."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is to continue on a path that I know well, but the uncertain opportunity is one that could potentially lead to a significant breakthrough or a new level of success. I am hesitant to take the uncertain option because I am afraid of failure, but I am also drawn to the potential reward.\nI am reminded of a quote by Thomas Edison, who said, \"I have not failed.",
+      "generation_positive": "The safe option is a sure thing, but it doesn’t align with my values or passions. The uncertain opportunity is a risk, but it has the potential to bring me joy, fulfillment, and growth.\nI am drawn to the uncertain opportunity because it feels like it could be a chance for me to live a more authentic life. I feel a sense of excitement and possibility when I think about it."
+    }
+  ]
+}

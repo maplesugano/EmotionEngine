@@ -1,0 +1,82 @@
+flowchart TB
+    User([User])
+    InText[/"Input text"/]
+    User -->|types| InText
+
+    subgraph DATA["Data Layer (offline)"]
+        direction TB
+        Raw[("Raw corpora<br/>ISEAR · EmoBank<br/>DailyDialog · GoEmotions")]
+        Unified["build_unified.py<br/>+ quality_filter.py"]
+        Pairs["build_contrastive.py<br/>Plutchik 8 × 500 pairs<br/>(mined / llm_swap / template)"]
+        Raw --> Unified --> Pairs
+    end
+
+    subgraph ACT["Activation Collection (offline)"]
+        direction TB
+        Llama[["Llama-3.1-8B-Instruct<br/>(transformer_lens hooks)"]]
+        Collect["collect.py<br/>last-token residuals<br/>L ∈ {13,16,19,22}"]
+        ActStore[("data/activations/llama/<br/>safetensors shards<br/>pos / neg")]
+        Pairs --> Collect
+        Llama -. hook .-> Collect
+        Collect --> ActStore
+    end
+
+    subgraph CODE["Emotion Code Learning (offline)"]
+        direction TB
+        CAA["caa.py<br/>v_c,L = μ(pos) − μ(neg)"]
+        Basis["basis.py + basis_sweep.py<br/>NMF / PCA / ICA / Dict<br/>k-sweep, multi-seed"]
+        VAD["vad.py<br/>Ridge → P/A/D"]
+        CAAArt[("caa.pt")]
+        BasisArt[("basis.pt<br/>basis_sweep/*.pt")]
+        VADArt[("vad_mapping.pt")]
+        ActStore --> CAA --> CAAArt
+        ActStore --> Basis --> BasisArt
+        ActStore --> VAD --> VADArt
+    end
+
+    subgraph INF["Inference Pipeline (online)"]
+        direction TB
+        Encode["Encode<br/>forward + hook capture<br/>(L_extract)"]
+        Project["Project to emotion code<br/>e = decompose(h, B)"]
+        EditUI{{"User edits<br/>α-weights / PAD point"}}
+        Recompose["Recompose steering vector<br/>Δh = Σ αⱼ · bⱼ"]
+        SteerHook["steering/hook.py<br/>add Δh at L_steer"]
+        Generate["steering/generate.py<br/>Llama forward pass"]
+        OutText[/"Steered text"/]
+
+        InText --> Encode --> Project --> EditUI --> Recompose --> SteerHook --> Generate --> OutText
+    end
+
+    CAAArt -.->|prototype| Recompose
+    BasisArt -.->|basis B| Project
+    BasisArt -.->|basis B| Recompose
+    VADArt -.->|P/A/D map| EditUI
+
+    subgraph SERVE["Serving Layer"]
+        direction LR
+        API["FastAPI<br/>/extract · /steer · /health"]
+        FE["React + Vite UI<br/>PAD cube · turntable knobs"]
+        FE <-->|JSON| API
+    end
+
+    User <-->|interact| FE
+    API <-->|calls| INF
+
+    subgraph EVAL["Evaluation Harness"]
+        direction LR
+        E1["shift_accuracy"]
+        E2["monotonicity"]
+        E3["perplexity"]
+        E4["VAD R²"]
+        E5["basis reconstruction<br/>layer consistency<br/>self-consistency"]
+    end
+    Generate -. probes .-> EVAL
+    BasisArt -. probes .-> EVAL
+    CAAArt -. probes .-> EVAL
+
+    classDef store fill:#fef3c7,stroke:#b45309,color:#000;
+    classDef model fill:#e0e7ff,stroke:#3730a3,color:#000;
+    classDef ui fill:#dcfce7,stroke:#166534,color:#000;
+    class Raw,ActStore,CAAArt,BasisArt,VADArt store;
+    class Llama model;
+    class FE,EditUI,User ui;

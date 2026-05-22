@@ -1,0 +1,72 @@
+[
+  {
+    "proposed_name": "uncertainty in engagement",
+    "confidence": 0.75,
+    "rationale": "The component reflects a shift in discourse style characterized by hesitance and indecision, particularly in social interactions and commitments.",
+    "caveat": "May overlap with general indecisiveness.",
+    "component": 26
+  },
+  {
+    "proposed_name": "uncertainty to assurance",
+    "confidence": 0.85,
+    "rationale": "The component reflects a shift from expressions of doubt and hesitation to those of confidence and support, indicating a functional discourse style change.",
+    "caveat": "May not capture all nuances of discourse.",
+    "component": 22
+  },
+  {
+    "proposed_name": "uncertainty to confidence",
+    "confidence": 0.75,
+    "rationale": "The component reflects a shift from indecision and uncertainty to a more assertive and confident discourse style, as seen in the examples.",
+    "caveat": "May not capture all nuances of confidence.",
+    "component": 17
+  },
+  {
+    "proposed_name": "decisive engagement",
+    "confidence": 0.78,
+    "rationale": "The component reflects a shift from uncertainty to proactive planning and engagement, indicating a functional discourse style that emphasizes decision-making and commitment.",
+    "caveat": "May not capture all nuances of decisiveness.",
+    "component": 32
+  },
+  {
+    "proposed_name": "tentative engagement",
+    "confidence": 0.65,
+    "rationale": "The component reflects a shift towards uncertainty and conditionality in discourse, indicating a hesitance to commit or engage fully.",
+    "caveat": "May not capture all nuances of uncertainty.",
+    "component": 38
+  },
+  {
+    "proposed_name": "uncertainty to eagerness",
+    "confidence": 0.65,
+    "rationale": "The examples show a shift from self-doubt and hesitation to anticipation and enthusiasm, indicating a transition in discourse style from uncertainty to eagerness.",
+    "caveat": "The confidence is moderate due to overlapping expressions.",
+    "component": 49
+  },
+  {
+    "proposed_name": "commitment uncertainty",
+    "confidence": 0.75,
+    "rationale": "The component reflects a shift in discourse style characterized by indecision and hesitation, particularly in commitments and relationships.",
+    "caveat": "May overlap with general uncertainty.",
+    "component": 29
+  },
+  {
+    "proposed_name": "uncertainty in decision-making",
+    "confidence": 0.65,
+    "rationale": "The component reflects a shift in discourse style characterized by indecision and questioning, indicating a struggle with choices and readiness.",
+    "caveat": "May overlap with general anxiety.",
+    "component": 62
+  },
+  {
+    "proposed_name": "uncertainty expression",
+    "confidence": 0.75,
+    "rationale": "The component reflects a shift in discourse characterized by expressions of doubt and hesitation, indicating uncertainty in decision-making and communication.",
+    "caveat": "May overlap with other uncertainty-related constructs.",
+    "component": 42
+  },
+  {
+    "proposed_name": "uncertainty to confidence",
+    "confidence": 0.65,
+    "rationale": "The component reflects a shift from expressions of doubt and hesitation to assertiveness and certainty in discourse, indicating a transition in confidence levels.",
+    "caveat": "May not capture all nuances of confidence.",
+    "component": 58
+  }
+]

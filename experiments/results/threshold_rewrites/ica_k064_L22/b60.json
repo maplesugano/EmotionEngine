@@ -1,0 +1,58 @@
+{
+  "component": 60,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not lying, but I am not telling the truth either. What am I?\nI am a calendar. I will finish tomorrow, but I don't know if I will finish before tomorrow. I will finish tomorrow, but I will not finish before tomorrow.",
+      "generation_positive": "I tell him that I can finish it by tomorrow, but I'm not sure if I can do it before that. He asks me to confirm whether I can finish it before tomorrow. I tell him that I'm not sure, but I can definitely finish it by tomorrow. He asks me to confirm again, and I tell him that I'm not sure if I can finish it before tomorrow, but I can definitely finish it by tomorrow."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk to them yet. How do I respond?\nYou can respond with a message that acknowledges their text and expresses your need for time to process your thoughts and emotions before talking. Here are a few examples:\n*   \"Hey, I got your text. I need some time to think about everything. Can we talk another time?\"\n*   \"I appreciate you reaching out.",
+      "generation_positive": "I'm not sure if I'm ready to talk or if I'm just feeling anxious about it. I've been thinking about our friendship a lot lately and I'm not sure if I'm ready to dive back in. I'm also worried that I might say something I regret or that we might have a big misunderstanding. I'm feeling a bit overwhelmed and unsure of how to navigate this situation. What should I do?"
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to appear negative. What should I do?",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem like I'm not a team player. How can I express my concerns without appearing negative or uncooperative?\nExpressing concerns about a plan without appearing negative or uncooperative requires a delicate balance. Here are some tips to help you navigate this situation:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart sinks. I did not get in. I feel a mix of emotions: disappointment, sadness, and frustration. I try to rationalize the decision, but it's hard to see the bright side when I'm not getting the outcome I wanted.\nI take a few deep breaths and remind myself that this is not a reflection of my worth as a person.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: \"We are pleased to inform you that you have been accepted to [University Name]!\"\nI feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work I put into my application, the countless hours spent researching, writing, and editing."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How do I respond?\nWhen someone apologizes and asks to reconnect, it can be tempting to immediately forgive and move forward. However, it's essential to take a step back and prioritize your own emotional well-being. Here are some steps to help you respond:\n1.",
+      "generation_positive": "I want to forgive and move forward, but I'm still hurt and angry. How can I forgive and let go of the hurt and anger?\nForgiveness is a process, and it may take time. Here are some steps you can take to help you forgive and let go of the hurt and anger:\n1. Acknowledge your feelings: Recognize that your feelings are valid and that it's okay to feel hurt and angry."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be fine because I don't want to disappoint anyone or ruin the event.\"\nThis is a common phenomenon, especially for people who are perfectionists or have a strong desire to please others.",
+      "generation_positive": "I respond with a casual, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I don't want to talk about it.\" It's a common phenomenon, especially when we're anxious or stressed about something. We might downplay our symptoms or pretend everything is okay when it's not. This behavior is often referred to as \"social masking."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the public recognition.\nI'm not sure how to respond to this situation. I'm not looking for praise or recognition, but I'm also not sure how to graciously decline the public acknowledgement.\nHere are some possible ways to handle this situation:\n1.  **Graciously accept the credit**: You could simply thank your colleague for the recognition and acknowledge your contribution to the project.",
+      "generation_positive": "I feel uncomfortable about it. What should I do?\nIt's natural to feel uncomfortable when someone else takes credit for your work, especially if you've been quietly contributing to it. Here are some steps you can take to address the situation:\n1.  **Reflect on your feelings**: Understand that it's normal to feel this way, but also consider the potential impact on your relationship with your colleague and the team."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn't excite me. The uncertain opportunity is a risk, but it has the potential to be life-changing.\nI am drawn to the uncertain opportunity because it has the potential to bring me joy, fulfillment, and a sense of purpose. I am also drawn to the idea of challenging myself and pushing beyond my comfort zone.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and values.\nI am drawn to the safe option because it feels comfortable and secure. It's a path that I know, and it's easy to follow."
+    }
+  ]
+}

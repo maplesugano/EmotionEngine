@@ -52,7 +52,7 @@ export function EmotionDJPanel() {
           <MacroSliders />
           <div className="mt-4 space-y-1">
             <div className="flex justify-between text-[11px]">
-              <span className="text-booth-ink">Global strength</span>
+              <span className="text-booth-ink">Global strength (0.01-0.40)</span>
               <span className="tabular-nums text-booth-muted">
                 {localStrength.toFixed(2)}
               </span>
@@ -60,9 +60,9 @@ export function EmotionDJPanel() {
             <input
               type="range"
               className="dj"
-              min={0}
-              max={2}
-              step={0.05}
+              min={0.01}
+              max={0.4}
+              step={0.01}
               value={localStrength}
               onChange={(e) => {
                 const v = parseFloat(e.target.value);

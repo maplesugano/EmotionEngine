@@ -1,0 +1,58 @@
+{
+  "component": 62,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I'll try to finish it by tomorrow, but I'm not sure if I can make it. I'm not making any promises, but I'll do my best to get it done.\nThis conversation is an example of a polite way to communicate a lack of commitment to a deadline. It's a way to be honest about your abilities and limitations without being too blunt or discouraging.",
+      "generation_positive": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not sure if I can finish it before tomorrow, but I am sure that I will finish it by tomorrow. I am not lying, but I am being dishonest. What am I?"
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm hesitant to commit to a conversation, but I don't want to hurt their feelings. What's the best way to respond?\nYou're not obligated to have a conversation with someone just because they've reached out after a long time. It's okay to set boundaries and prioritize your own needs. Here are a few suggestions for responding to your friend's text:\n1.",
+      "generation_positive": "I'm not sure if I'm ready to talk, but I don't want to hurt her feelings. What should I do?\nIt's great that you're considering your friend's feelings, but it's also important to prioritize your own emotional well-being. Here are some suggestions:\n1.  Respond with a gentle \"I'm not sure\" or \"I need some time to think."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be a \"naysayer\"?\nExpressing concerns about a plan without appearing negative or uncooperative requires a thoughtful approach. Here are some tips to help you convey your reservations effectively:\n1.",
+      "generation_positive": "I share my concerns, but she seems dismissive and tells me that I need to be more open-minded. I feel frustrated and unsure of how to respond.\nIn this situation, you are likely experiencing a power imbalance, where your manager has more authority and influence than you do. This can make it challenging to express your concerns and opinions, especially if they differ from hers.\nHere are some tips to help you navigate this situation:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: \"Congratulations, you have been accepted to [University Name]!\"\n\nI feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work I put into my application, the countless hours spent researching, writing, and perfecting my essays.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!” I feel a mix of emotions: excitement, relief, and a hint of nervousness. I start imagining myself walking across the stage, receiving my diploma, and starting my new life as a college student."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still feeling hurt and angry. How can I reconcile my desire to forgive and reconnect with my need to process and deal with my emotions?\nForgiveness is a process, and it's not always easy. Here are some steps you can take to reconcile your desire to forgive and reconnect with your need to process and deal with your emotions:\n1.",
+      "generation_positive": "I want to reconnect, but I’m still hurt and angry. How can I respond in a way that acknowledges their apology and my hurt, but also opens the door for a positive conversation?\nWhen someone apologizes and asks to reconnect, it can be challenging to navigate your emotions and respond in a way that feels authentic and respectful."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I say, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to get through this.\" That's a common response, isn't it? We often downplay our symptoms or concerns to avoid worrying others or to appear more capable than we feel.\nHowever, this response can be misleading and even lead to more harm.",
+      "generation_positive": "I respond with a casual, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I don't want to talk about it right now.\" I'm not trying to be secretive or dishonest, I just don’t want to burden others with my stress or anxiety. I want to maintain a sense of control and normalcy before the event."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uneasy about it.\nYou're not alone in feeling uneasy about this situation. Here are some possible reasons why you might be feeling this way:\n1. Modesty: You might be uncomfortable with the spotlight being on you, especially if you're not one to seek attention or praise.\n2. Teamwork: You might feel that the credit is not entirely yours, and that others on the team also contributed to the work.\n3.",
+      "generation_positive": "I feel uncomfortable with the public recognition, but I don’t want to seem ungrateful. How can I handle this situation?\nWhen someone publicly credits you for work you contributed to, it can be uncomfortable, especially if you prefer to work behind the scenes. Here are some tips to help you handle the situation graciously:\n1."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it's not what I really want. The uncertain opportunity is a chance to do something I've always dreamed of, but it's not guaranteed to work out.\nI've been thinking about this a lot, and I've come to realize that the safe option is not really safe at all. It's just a comfortable familiarity that I've grown accustomed to.",
+      "generation_positive": "The safe option is a sure thing, but it doesn’t align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and values.\nI am drawn to the safe option because it feels comfortable and secure. I am also worried about the potential risks and consequences of the uncertain opportunity."
+    }
+  ]
+}

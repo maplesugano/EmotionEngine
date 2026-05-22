@@ -1,0 +1,58 @@
+{
+  "component": 17,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will try my best to finish it by tomorrow, but I am not sure if I can make it. I am not sure if I can finish it by tomorrow because I have a lot of work to do and I am not sure if I can complete it in time. I am not making any promises, but I will try my best to finish it by tomorrow.",
+      "generation_positive": "I tell him that I will finish it by tomorrow. He asks me if I can finish it by today. I tell him that I can finish it by today. What is the reason for the change in my answer?\nThe reason for the change in my answer is that I was initially optimistic about finishing my part by tomorrow, but after re-evaluating my work, I realized that I could actually finish it by today."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk or if I'm ready to hear what they have to say. I'm feeling a bit anxious about the conversation and I'm not sure how to respond. What should I do?\nIt's natural to feel anxious about a conversation that may bring up unresolved issues or emotions.",
+      "generation_positive": "I'm hesitant because I've been really busy and I'm not sure I'm ready to have a deep conversation. I don't want to lead them on or make them think I'm available when I'm not.\nI could respond with a simple \"I'm really busy tonight\" or \"I'm not available to talk tonight.\" But I'm worried that this might come across as dismissive or uncaring."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I want to express my concerns, but I don't want to be seen as negative or uncooperative. How can I express my concerns without being perceived as negative?\nExpressing concerns without being seen as negative can be a delicate matter, but it's a crucial skill to develop in a professional setting. Here are some tips to help you express your concerns without being perceived as negative:\n1.",
+      "generation_positive": "I'm not sure if I'm comfortable sharing my concerns, but I want to be honest. How can I express my concerns without appearing negative or uncooperative?\nYou can express your concerns without appearing negative or uncooperative by:\n1. Focusing on the potential risks and consequences, rather than the plan itself.\n2. Using \"I\" statements to describe your thoughts and feelings.\n3. Offering alternative solutions or suggestions.\n4."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: \"We are pleased to inform you that you have been accepted to [University Name]!\" I feel a mix of emotions: excitement, relief, and a hint of nervousness. I think back to all the hard work I put into my application, from crafting the perfect essay to acing the SAT.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the words on the screen. I am accepted into my top choice program!\nI am overjoyed and relieved. All the hard work and dedication have paid off. I feel a sense of accomplishment and pride. I start thinking about all the amazing opportunities that lie ahead.\nI start making plans for the next steps."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still feeling hurt and angry. How can I respond in a way that acknowledges their apology and lets them know I'm willing to reconnect, but also expresses my hurt and anger?\nHere are some tips to help you respond in a way that acknowledges their apology and lets them know you're willing to reconnect, but also expresses your hurt and anger:\n1.",
+      "generation_positive": "I want to forgive and move forward, but I'm still hurt. How do I respond?\nWhen someone apologizes and asks to reconnect, it can be a challenging situation, especially when you're still hurt. Here are some steps you can take to respond:\n1. Acknowledge their apology: Respond to their apology by acknowledging that they've taken the first step in making amends."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple \"I'm fine\" or \"I'm good.\" This is a common response, but it's not always the truth. Sometimes, I'm not fine, and I'm not good. I'm stressed, anxious, or overwhelmed. I'm worried about the event, and I'm not sure if I can handle it.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be fine because I don't want to worry anyone or jeopardize the event.\"\nThis is a common phenomenon, especially among high-achievers and perfectionists."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the public recognition, but I'm also happy to see my work appreciated. How can I respond to this situation in a way that acknowledges the recognition while also being humble and gracious?\nHere are some tips to help you respond to the public recognition in a way that is humble and gracious:\n1. Acknowledge the recognition: You can start by acknowledging the recognition and expressing your gratitude for the appreciation.",
+      "generation_positive": "I feel uncomfortable about the recognition.\nI was part of a team that worked on a project, and one of my colleagues recently gave a presentation about it. During the presentation, they mentioned my name and said that I was the one who came up with the idea for the project. I was surprised and a bit uncomfortable because I didn’t actually come up with the idea."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it may not be the best fit for me. The uncertain opportunity is a chance to grow and learn, but it also comes with a risk of failure. I am torn between the two and I don't know which one to choose.\nI am feeling anxious and uncertain about this decision.",
+      "generation_positive": "The safe option is a sure thing, but it doesn’t align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to lead to significant growth and success.\nI am drawn to the safe option because it is predictable and secure. It’s a path that I know will lead to a certain outcome, even if it’s not the outcome I truly desire."
+    }
+  ]
+}

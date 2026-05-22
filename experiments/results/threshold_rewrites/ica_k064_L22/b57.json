@@ -1,0 +1,58 @@
+{
+  "component": 57,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I can finish it by tomorrow, but I'm not sure if I can finish it before tomorrow. This is an example of a conditional statement. A conditional statement is a statement that contains the words \"if\" and \"maybe,\" \"possibly,\" or \"could.\" It is a statement that is uncertain. The following are examples of conditional statements:\n* If it rains, I will take an umbrella.",
+      "generation_positive": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not lying, but I am not telling the truth either. What am I?\nI am a calendar.\nI am not lying because I will finish (i.e., end) tomorrow, but I am not telling the truth because I will not finish (i.e., complete) before tomorrow."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk. I've been processing my emotions and thoughts about our friendship and I'm not sure if I'm ready to open up to her. I don't want to lead her on or give her false hope. What should I do?\nYou're right to be cautious and considerate of your friend's feelings. Here are some suggestions:\n1.",
+      "generation_positive": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nIt's great that you're considering your friend's feelings, but it's also important to prioritize your own emotional well-being. Here are a few suggestions:\n1."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem like I'm not a team player. How can I express my concerns without appearing negative?\nYou can express your concerns without appearing negative by framing them as questions or suggestions. For example, you could say, \"I'm not sure I understand the full implications of this plan. Can we discuss some potential risks and how we can mitigate them?",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be opposed to the plan?\nTo express your concerns without appearing to be opposed to the plan, you can use phrases that acknowledge the potential benefits of the plan while also highlighting your reservations. Here are some suggestions:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing. I take a deep breath and read the words that will change my life. I am accepted! I am going to college!\nI am beyond excited. I have worked so hard for this moment. I have spent countless hours studying, volunteering, and building relationships with my teachers and mentors. I have poured my heart and soul into this application, and it has paid off.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: \"Congratulations, you have been accepted to [University Name]!\"\nI'm going to be a college student! I'm going to be a [Major]! I'm going to be a [University Name] student!\nI feel a mix of emotions: excitement, relief, and a hint of nervousness."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt from the argument. How do I respond?\nYou can respond with a gentle, non-judgmental, and non-accusatory message that acknowledges their apology and expresses your willingness to reconnect. Here are some tips and examples to help you craft a response:\n1. Acknowledge their apology:\nStart by acknowledging their apology and expressing gratitude for their willingness to make amends.",
+      "generation_positive": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and expresses my feelings without escalating the situation?\nResponding to an apology and reconnecting after a disagreement can be challenging, especially when emotions are still raw. Here are some steps and tips to help you navigate this situation:\n\n### 1."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" This is a common response, but it's not always the truth. Sometimes, we feel pressured to say we're fine when we're not. This is called \"social desirability bias.\" It's a psychological phenomenon where we respond in a way that we think others want to hear, rather than being honest about our true feelings.",
+      "generation_positive": "I respond with a simple \"I'm fine\" or \"I'm good.\" But deep down, I'm not fine. I'm anxious, stressed, and overwhelmed. I'm worried about how I'll perform, and I'm afraid of making mistakes. I'm also concerned about how others will perceive me, and I'm anxious about meeting their expectations.\nI've learned to hide my true feelings behind a mask of confidence and a smile."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about the recognition.\nYou're not alone in feeling this way. Many people experience discomfort when they receive public recognition for work they didn't do or didn't want to do. Here are some possible reasons why you might be feeling this way:\n1. Modesty: You might be a modest person who doesn't like to draw attention to yourself. You might feel that taking credit for someone else's work goes against your values.",
+      "generation_positive": "I feel uncomfortable and unappreciated.\nI'm in a situation where a colleague has publicly credited me for work I quietly contributed to. While I'm happy to have been a part of the project, I feel uncomfortable and unappreciated because I didn't receive any recognition or acknowledgement from my colleague at the time of the project's completion."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn’t align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals.\nI am drawn to the safe option because it’s familiar and comfortable. I know what to expect, and I can control the outcome.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't excite me. The uncertain opportunity is a risk, but it has the potential to be life-changing.\nI am drawn to the uncertain opportunity because it has the potential to bring me joy, fulfillment, and a sense of purpose."
+    }
+  ]
+}

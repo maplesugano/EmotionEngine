@@ -1,0 +1,58 @@
+{
+  "component": 54,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 2.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will try my best to finish it on time. He then asks me to confirm whether I will be able to finish it on time. I tell him that I will try my best to finish it on time. He then asks me to confirm again. I start to feel frustrated and tell him that I have already confirmed it twice. He then asks me to confirm again.",
+      "generation_positive": "I tell him that I will try my best to finish it by tomorrow. He asks me to confirm that I will finish it by tomorrow. I tell him that I will finish it by tomorrow. I am not sure if I will be able to finish it by tomorrow. What is the truth value of the statement \"I will finish it by tomorrow\"?"
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm hesitant because I've been feeling overwhelmed and stressed lately, and I'm not sure I'm ready to have a deep conversation. I don't want to lead them on or give them false hope, but I also don't want to hurt their feelings. What should I do?\nIt's great that you're thinking carefully about how to respond to your friend's request. Here are some suggestions:\n1.",
+      "generation_positive": "I'm hesitant because I've been feeling overwhelmed and stressed lately, and I'm not sure I'm ready to have a deep conversation. What should I do?\nIt's great that you're being honest with yourself about your current emotional state. Before responding to your friend, take a moment to reflect on your priorities and boundaries. Here are some suggestions to consider:\n1."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree or disagree, but I don't want to seem uncertain or unconfident. How can I respond in a way that shows I'm thinking critically and not just blindly agreeing or disagreeing?\nHere are a few strategies you can use to respond thoughtfully and critically:\n1.",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. What should I do?"
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I see the words \"Congratulations, you have been accepted...\" I feel a mix of emotions: excitement, relief, and a hint of nervousness. I've been waiting for this moment for what feels like an eternity, and it's finally here.\nI take a deep breath and start reading the email again, this time more carefully.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the words on the screen. I am accepted! I am going to college!\nI am beyond excited and relieved. All the hard work and dedication have paid off. I feel a sense of accomplishment and pride. I think about all the late nights, early mornings, and countless hours spent studying and preparing for this moment. It was all worth it."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How do I respond?\nWhen someone apologizes and asks to reconnect, it can be tempting to immediately forgive and move forward. However, it's essential to take a step back and consider your feelings and boundaries before responding. Here are some tips to help you navigate this situation:\n1.",
+      "generation_positive": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and expresses my feelings without escalating the conflict?\nResponding to an apology and reconnecting after a conflict can be challenging, especially when emotions are still raw. Here are some tips to help you navigate this situation:\n\n1."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple \"I'm fine.\" But what I really mean is that I'm not fine at all. I'm anxious, stressed, and overwhelmed. I'm worried that if I reveal my true feelings, I'll be seen as weak or unprepared for the event. So, I put on a brave face and pretend everything is okay.\nThis is a common phenomenon known as \"masking.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" This is a common response, but it's not always the truth. In fact, it's often a coping mechanism to avoid discussing the real issue. Here are some reasons why people say \"I'm fine\" when they're not:\n1."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about the recognition.\nI'm not sure how to feel about this situation. On one hand, I'm glad that my work was useful and appreciated. On theother hand, I'm uncomfortable with the public recognition. I didn't seek it out, and I'm not sure I'm comfortable with the spotlight.\nI think this is a common dilemma, especially in a work setting.",
+      "generation_positive": "I feel uncomfortable with the recognition.\nYou're not alone in feeling uncomfortable with public recognition, especially if you're someone who prefers to work behind the scenes. Here are some possible reasons why you might be feeling this way:\n1.  Humility: You might feel that the recognition is undeserved or that you didn't do anything out of the ordinary."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it may not be the best fit for me. The uncertain opportunity is a chance to learn and grow, but it also comes with a lot of unknowns and potential risks.\nI have to weigh the pros and cons of each option carefully and consider what is most important to me. I need to think about what I want to achieve in the long run and what will get me there.",
+      "generation_positive": "The safe option is a sure thing, but it doesn’t align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and values.\nI am drawn to the safe option because it feels comfortable and secure. It’s a path that I know, and I can predict the outcome."
+    }
+  ]
+}

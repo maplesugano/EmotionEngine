@@ -1,0 +1,582 @@
+{
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "k": 64,
+  "rows": [
+    {
+      "component": 0,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 1,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 2,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 3,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 4,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 4.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 5,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 6,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 7,
+      "threshold_alpha_unit_negative": 2.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 8,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 9,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 10,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 11,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 12,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 13,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 14,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 15,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 16,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 17,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 18,
+      "threshold_alpha_unit_negative": 2.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 19,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 20,
+      "threshold_alpha_unit_negative": 4.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 21,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 22,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 23,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 4.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 24,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 25,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 26,
+      "threshold_alpha_unit_negative": 4.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 27,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 28,
+      "threshold_alpha_unit_negative": 4.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 29,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 30,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 31,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 32,
+      "threshold_alpha_unit_negative": 1.0,
+      "threshold_alpha_unit_positive": 2.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 33,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 34,
+      "threshold_alpha_unit_negative": 0.25,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 35,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 36,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 37,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 38,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 39,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 40,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 41,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 42,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 43,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 44,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 45,
+      "threshold_alpha_unit_negative": 4.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 46,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 47,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 48,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 49,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 50,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 51,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 52,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 53,
+      "threshold_alpha_unit_negative": 4.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 54,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 2.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 55,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 56,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 57,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 58,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 59,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 60,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 61,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 62,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    },
+    {
+      "component": 63,
+      "threshold_alpha_unit_negative": 8.0,
+      "threshold_alpha_unit_positive": 8.0,
+      "threshold_broken_rate_negative": null,
+      "threshold_broken_rate_positive": null,
+      "threshold_mean_severity_negative": null,
+      "threshold_mean_severity_positive": null
+    }
+  ]
+}

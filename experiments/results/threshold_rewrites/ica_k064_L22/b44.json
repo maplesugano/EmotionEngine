@@ -1,0 +1,58 @@
+{
+  "component": 44,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not sure if I can finish it before tomorrow, but I am sure that I will finish it by tomorrow. What is the probability that I will finish it before tomorrow?",
+      "generation_positive": "I tell him that I will finish it by tomorrow. However, I have a prior commitment that I need to attend to today. I will not be able to finish my part until tomorrow. I am not sure if I can make it to the meeting tomorrow. I am worried that my teammate might think that I am not reliable or that I have forgotten about the deadline."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nIt's great that you're thinking carefully about how to respond. Here are some suggestions to help you navigate this situation:\n1.  **Acknowledge their message**: Respond to their text as soon as possible, so they know you've received it.",
+      "generation_positive": "I'm hesitant because I've been feeling overwhelmed and stressed lately, and I'm not sure I'm ready to have a deep conversation. How can I respond in a way that lets my friend know I care but also sets boundaries?\nYou can respond with a message that acknowledges your friend's request, expresses your care, and sets a boundary. Here are a few examples:\n1. \"Hey, I'm glad you reached out!"
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. What should I do?",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be opposed to the plan?\nTo express your concerns without appearing to be opposed to the plan, you can use phrases that acknowledge the potential benefits of the plan while also highlighting your reservations. Here are some suggestions:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: \"Congratulations, you have been accepted to [University Name]!\"\nI'm over the moon! I've been waiting for this moment for what feels like an eternity, and it's finally here. I feel a mix of emotions: excitement, relief, and a hint of nervousness.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the message. My heart sinks. I didn’t get in. I feel a mix of emotions: disappointment, sadness, and frustration. I try to process my thoughts and emotions, but it’s hard to do so in this moment.\nI remember the countless hours I spent preparing for this moment."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still feeling hurt and angry. How can I forgive and let go of my negative emotions?\nForgiveness is a process, and it may take time. Here are some steps you can take to forgive and let go of your negative emotions:\n1. Acknowledge your feelings: Recognize and accept your hurt and anger.",
+      "generation_positive": "I want to reconnect, but I'm still hurt from the argument. How do I respond?\nYou can respond in a way that acknowledges their apology and expresses your hurt without shutting down the possibility of reconnecting. Here are some tips:\n1. Acknowledge their apology: Let them know that you appreciate their apology and that you value your relationship with them.\n2."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be fine because I don't want to disappoint anyone or ruin the event.\"\nThis is a common phenomenon, especially among women. We often put on a mask of perfection, hiding our true feelings and struggles behind a facade of confidence and control.",
+      "generation_positive": "I respond with a casual, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be fine because I don't want to worry you or myself.\" This is a common phenomenon, especially for women, where we downplay our symptoms or feelings to avoid being a burden or to maintain a sense of control."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the recognition, but I don't want to be seen as ungrateful or uncooperative. How can I handle this situation?\nYou're not alone in feeling uncomfortable with public recognition, especially if you're a quiet contributor. Here are some tips to help you handle the situation with grace:\n1. Acknowledge their gratitude: Respond with a simple \"thank you\" or \"I appreciate your kind words.",
+      "generation_positive": "I feel uncomfortable with the recognition.\nYou're not alone in feeling uncomfortable with public recognition, especially if you're a quiet contributor. Here are some possible reasons why you might feel this way:\n1.  **Humility**: You might feel that the recognition is undeserved or that you didn't do anything out of the ordinary. You might be hesitant to accept praise, especially if you're not used to it.\n2."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn't excite me. The uncertain opportunity is a risk, but it has the potential to be life-changing.\nI've been thinking about this decision for a while now, and I've been weighing the pros and cons. I've talked to friends and family, and I've done my research. But the more I think about it, the more I feel like I'm stuck.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to lead to something amazing.\nI am drawn to the uncertain opportunity because it has the potential to bring me closer to my goals and values. However, I am also aware of the potential risks and uncertainties involved."
+    }
+  ]
+}

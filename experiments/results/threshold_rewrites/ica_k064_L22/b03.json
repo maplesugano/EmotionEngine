@@ -1,0 +1,58 @@
+{
+  "component": 3,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will try my best to finish it, but I am not sure if I can meet the deadline. I am not making any promises, but I will do my best to get it done. I am not sure if I can finish it, but I will try my best to do so. I am not making any promises, but I will do my best to get it done.",
+      "generation_positive": "I tell him that I will finish it by tomorrow. However, I don't have enough time to finish it. I will have to work late tonight to finish it. I am not sure if I can finish it by tomorrow. I am not sure if I can finish it by tomorrow. I am not sure if I can finish it by tomorrow. I am not sure if I I am not sure if I can finish it by tomorrow."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk, but I don't want to hurt their feelings. What should I do?\nYou're in a tough spot, and it's great that you're thinking carefully about how to handle this situation. Here are some suggestions to help you navigate this conversation:\n1.",
+      "generation_positive": "I'm hesitant because I've been hurt by this person in the past. How do I respond?\nYou're not obligated to respond immediately or at all. Take time to process your emotions and consider your boundaries.\nIf you do decide to respond, you could say something like:\n\"I appreciate you reaching out, but I need some time to think about it. Can we talk about what's going on and why you're reaching out now?"
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I should share my concerns or just agree with the plan. What should I do?\nWhen faced with a situation like this, it's essential to consider the potential consequences of your response. Here are some steps to help you decide what to do:\n1.  **Reflect on your concerns**: Take a moment to think about the specific issues you have with the plan.",
+      "generation_positive": "I want to express my concerns, but I don't want to appear negative or uncooperative. How can I provide my input without appearing negative?\nTo provide your input without appearing negative, follow these steps:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!” I feel a mix of emotions: excitement, relief, and a hint of nervousness. I start imagining myself walking on campus, attending classes, and making new friends.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the words that will change my life.\nI am accepted into the program.\nI am overjoyed. I have worked so hard for this moment. I have spent countless hours studying, preparing, and perfecting my application. I have poured my heart and soul into this dream.\nI feel a mix of emotions: excitement, relief, and gratitude."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still feeling hurt and angry. How can I respond in a way that acknowledges their apology and lets them know I'm willing to reconnect, but also sets boundaries and expresses my feelings?\nHere are some tips to help you respond:\n1. Acknowledge their apology: Start by acknowledging their apology and expressing your appreciation for their willingness to make amends.",
+      "generation_positive": "I want to forgive and move forward, but I'm still hurt and unsure if I can trust them. How can I forgive and move forward in a healthy way?\nForgiveness is a process, and it may take time. Here are some steps you can take to forgive and move forward in a healthy way:\n1. Acknowledge your feelings: Recognize and validate your emotions. It's okay to feel hurt, angry, or betrayed."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" But, in reality, I'm not fine. I'm anxious, stressed, and overwhelmed. I'm worried about how I'll perform, and I'm trying to put on a brave face. I'm not ready to admit my true feelings, so I say, \"I'm fine.\"\nThis is a common phenomenon, especially when it comes to mental health.",
+      "generation_positive": "I respond with a simple \"I'm fine.\" This is a common response, but it's not always the truth. In fact, it's often a lie.\nThe phrase \"I'm fine\" is a social nicety that allows us to avoid discussing our true feelings or health status. It's a way to sidestep the question and move on, rather than engaging in a potentially uncomfortable conversation."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about the recognition, but I'm not sure how to respond. Here are some tips to help you navigate this situation:\n1. Be gracious: Acknowledge the recognition and express your appreciation for the colleague's kind words. You can say something like, \"Thank you for the kind words, I'm glad we were able to work together on this project.\"\n2.",
+      "generation_positive": "I feel uncomfortable with the recognition.\nI was part of a team that worked on a project, and my role was to provide research and data analysis. My colleague, who was the project lead, presented the findings at a conference and received recognition for the work. In the presentation, they mentioned my name and thanked me for my contributions. I felt uncomfortable with the recognition because I didn't want to draw attention to myself."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a job that I have been offered, but it is not my dream job. The uncertain opportunity is a chance to start my own business, which could be a huge success, but also could fail. I am feeling a bit anxious about this decision, and I am not sure which path to take.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals.\nI am drawn to the safe option because it is familiar and comfortable. I know what to expect, and I can control the outcome. But the more I think about it, the more I realize that it's not really a choice at all."
+    }
+  ]
+}

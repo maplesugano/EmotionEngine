@@ -1,0 +1,58 @@
+{
+  "component": 26,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 4.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will do my best to finish it by tomorrow. He asks me to confirm that I will finish it by tomorrow. I tell him that I will do my best to finish it by tomorrow. He asks me to confirm again. I tell him that I will do my best to finish it by tomorrow. He asks me to confirm once more.",
+      "generation_positive": "I tell him that I will finish it by tomorrow. However, I am not sure if I can finish it by tomorrow. I am worried that I might not be able to finish it on time. What should I do?\n## Step 1: Assess the situation\nI need to assess the situation and determine the likelihood of finishing the task by tomorrow."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk, but I don't want to hurt their feelings. What should I do?\nYou're in a tough spot, and it's great that you're thinking carefully about how to respond. Here are some suggestions to help you navigate this situation:\n\n1.  **Take time to reflect**: Before responding, take a moment to think about your feelings and what you're comfortable discussing.",
+      "generation_positive": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nIt's great that you're considering your friend's feelings, but it's also essential to prioritize your own emotional well-being. Here are some suggestions to help you navigate this situation:\n\n1."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree or disagree, but I don't want to seem uncertain or unconfident. What should I say?\nA) \"I'm not sure, but I'll try to come up with a better idea.\"\nB) \"I'm not sure, but I'll support the plan if it's what the team wants.",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be opposed to the plan?\nTo express your concerns without appearing to be opposed to the plan, follow these steps:\n1.  **Acknowledge the plan's potential benefits**: Start by acknowledging the potential benefits of the plan."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: \"Congratulations, you have been accepted to [University Name]!\"\nI'm over the moon! I've worked so hard for this moment, and it's finally here. I feel a mix of emotions: excitement, relief, and a hint of nervousness. I start thinking about all the possibilities and opportunities that lie ahead.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the words on the screen. I am accepted into the program! I let out a scream of excitement and jump up and down in my seat. I call my family and friends to share the news. I feel a mix of emotions: excitement, relief, and a sense of accomplishment. I am one step closer to achieving my goal."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still hurt and angry. How can I forgive and let go of my negative emotions?\nForgiveness is a process, and it may take time. Here are some steps you can take to forgive and let go of your negative emotions:\n1. Acknowledge your feelings: Recognize and accept your hurt and anger.",
+      "generation_positive": "I want to reconnect, but I'm still hurt from the argument. How do I respond?\nThe goal is to reconnect, but also to protect yourself from further hurt. Here are some steps to consider:\n1.  **Acknowledge their apology**: Respond to their apology by acknowledging it. This shows that you value their apology and are willing to move forward.\n2."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" I'm not fine. I'm anxious, stressed, and overwhelmed. I'm worried about how I'll perform, and I'm trying to hide it from others. I'm afraid of being judged, and I don't want to be a disappointment.\nI've learned to put on a brave face, to pretend that everything is okay, even when it's not.",
+      "generation_positive": "I respond with a casual, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be fine because I don't want to worry anyone or ruin the event.\"\nThis is a common phenomenon, especially for people-pleasers. We often prioritize others' feelings and expectations over our own well-being."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about it.\nI was part of a team that worked on a project, and I made some suggestions that were incorporated into the final product. However, I didn't seek to draw attention to myself or claim credit for the work. My colleague, who was the lead on the project, recently gave a presentation and publicly credited me for my contributions. I feel uncomfortable about it, and I'm not sure how to respond.",
+      "generation_positive": "I feel uncomfortable with the recognition.\nIt’s not uncommon for people to feel uneasy when they receive public recognition for work they didn’t do. This phenomenon is often referred to as the “imposter syndrome.” It’s a feeling of inadequacy or self-doubt that can be triggered by situations like this.\nHere are a few possible reasons why you might be feeling uncomfortable:\n1."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is to stay in my current job, which is stable and secure, but not particularly fulfilling. The uncertain opportunity is to take a risk and pursue a new career path that I am passionate about, but which has no guarantee of success.\nI am drawn to the safe option because it provides a sense of security and predictability. I know what to expect and I can rely on a steady income.",
+      "generation_positive": "The safe option is a sure thing, but it doesn’t align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to lead to something amazing.\nI am drawn to the safe option because it feels secure and predictable. It’s a path that I know will lead to a certain outcome, even if it’s not the outcome I truly desire."
+    }
+  ]
+}

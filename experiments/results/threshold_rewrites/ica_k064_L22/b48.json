@@ -1,0 +1,58 @@
+{
+  "component": 48,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow morning. He asks me to confirm whether I will finish it by tomorrow morning. I tell him that I will finish it by tomorrow morning. He asks me to confirm again. I tell him that I will finish it by tomorrow morning. He asks me to confirm once more. I tell him that I already confirmed it three times, and I will finish it by tomorrow morning.",
+      "generation_positive": "I tell him that I will finish it by tomorrow. He asks if I can finish it by today. I tell him that I can finish it by today. What is the minimum number of hours I need to work to finish my part?\n\n## Step 1: Understand the initial commitment\nI initially committed to finishing my part by tomorrow, which implies that I have at least one day to complete it."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to have a conversation with them yet, but I don't want to hurt their feelings either. What should I do?\nYou're in a tricky situation, and it's great that you're thinking carefully about how to handle it. Here are some suggestions to help you navigate this:\n1.  **Take your time to respond**: You don't have to respond immediately.",
+      "generation_positive": "I'm not sure if I'm ready to talk, but I don't want to hurt their feelings. What should I do?\nYou're in a tough spot, and it's great that you're thinking carefully about how to respond. Here are some suggestions to help you navigate this situation:\n\n1.  **Acknowledge their message**: Respond to their text with a simple acknowledgement, such as \"Hey, I got your message."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I provide a balanced response?\nA: \"I understand the potential benefits of the plan, but I have some concerns about the risks involved. Can we discuss some of the potential downsides and see if there's a way to mitigate them?",
+      "generation_positive": "I'm not sure if I should share my concerns or just agree with the plan. What should I do?\nIn this situation, it's essential to communicate your concerns in a constructive and respectful manner. Here are some tips to help you navigate this situation:\n1. **Acknowledge the plan's potential benefits**: Start by acknowledging the potential benefits of the plan and expressing your understanding of the goals and objectives."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing. I take a deep breath and read the words: “Congratulations, you have been accepted to [University Name]!”\nI scream with excitement, jump up and down, and call my family to share the news. I feel a mix of emotions: happiness, relief, and a sense of accomplishment.",
+      "generation_positive": "I click on the link and my heart sinks. I didn't get in. I feel a wave of disappointment wash over me. I had been so sure I was going to get in. I had done everything right, I had worked so hard, I had prepared so well. Why wasn't I good enough?\nI take a few deep breaths and try to calm down."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How do I respond?\nWhen someone apologizes and asks to reconnect, it can be tempting to immediately forgive and move forward. However, if you're still hurt and angry, it's essential to take a step back and prioritize your own emotional well-being. Here are some tips to help you respond:\n1.",
+      "generation_positive": "I want to forgive and move forward, but I'm struggling to let go of the hurt and anger. How can I forgive and move forward?\nForgiveness is a process that takes time, effort, and self-reflection. Here are some steps to help you forgive and move forward:\n1. Acknowledge your feelings: Recognize and accept your emotions, whether it's anger, hurt, or frustration."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be fine so I can get through this event without drawing attention to myself.\" This is a common phenomenon, and it's called \"social masking.\"\nSocial masking is a coping mechanism where individuals hide their true feelings or emotions to avoid being judged, rejected, or embarrassed.",
+      "generation_positive": "I respond with a simple \"I'm fine.\" This is a common response, but it's often a coping mechanism that can be misleading. Here are some reasons why saying \"I'm fine\" can be problematic:\n1. It's a way to avoid talking about your feelings: When we say \"I'm fine,\" we might be trying to avoid discussing our true emotions or concerns."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the attention and would like to deflect it. How can I handle this situation?\nYou can respond in a way that acknowledges their contribution while also downplaying your own role. Here are a few suggestions:\n1.  Be gracious and humble: You can express your gratitude for their recognition and acknowledge the team's collective effort. For example, you could say, \"Thank you for the kind words.",
+      "generation_positive": "I feel uncomfortable and want to downplay my role. How can I handle this situation?\nHandling situations like this can be tricky, but there are ways to navigate them with tact and professionalism. Here are some steps you can take:\n1.  **Reflect on your feelings**: Before responding, take a moment to understand why you feel uncomfortable."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn’t align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to lead to something amazing.\nI am drawn to the safe option because it feels secure and predictable. I like knowing what to expect and having a clear plan. But the more I think about it, the more I realize that it’s not really what I want.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and could be a game-changer.\nI am drawn to the safe option because it is familiar and comfortable. It's a path that I know I can follow and that will yield predictable results."
+    }
+  ]
+}

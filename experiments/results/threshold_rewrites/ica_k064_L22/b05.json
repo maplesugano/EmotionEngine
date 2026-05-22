@@ -1,0 +1,58 @@
+{
+  "component": 5,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will try my best to finish it, but I am not sure if I can meet the deadline. I am not making any promises, but I will do my best to finish it as soon as possible. I am not sure if I can meet the deadline, but I will try my best to finish it. I am not making any promises, but I will do my best to finish it as soon as possible.",
+      "generation_positive": "I tell him that I will finish it by tomorrow. He asks me if I can finish it by today. I tell him that I can finish it by today. What is the relationship between the two statements?\nInstructor: The two statements are contradictory.\nStudent: I don't think so. The first statement says that you will finish it by tomorrow, and the second statement says that you can finish it by today."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk, but I don't want to hurt their feelings. What should I do?\nYou're in a tough spot, but here's a suggestion: Respond with a message that acknowledges their reach-out and expresses your appreciation for their interest in reconnecting. However, also communicate your current limitations and boundaries. You could say something like:\n\"Hey, I'm glad you reached out!",
+      "generation_positive": "I'm hesitant because I've been really busy and I'm not sure I'm ready to have a deep conversation. I don't want to lead them on or make them think I'm available when I'm not. How can I respond in a way that's kind but also sets boundaries?\nYou can respond with a message that acknowledges their invitation and expresses your appreciation for their interest in talking, while also being clear about your availability and boundaries."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I want to express my concerns, but I don't want to seem negative or uncooperative. How can I provide constructive feedback without appearing to be a \"downer\"?\nExpressing concerns about a plan can be challenging, especially if you want to maintain a positive relationship with your manager. Here are some tips to help you provide constructive feedback without appearing negative:\n1.",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. What should I do?"
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing. I take a deep breath and read the message. I am accepted! I am going to be a part of the class of 2024 at my dream school! I feel a mix of emotions: excitement, relief, and a hint of nervousness. I start thinking about all the possibilities and opportunities that lie ahead.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI scream with excitement, jump up and down, and call my family to share the news. I feel like I’m on top of the world, and all my hard work and dedication have finally paid off."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges my hurt but also opens the door for healing and moving forward?\nHere are some tips to help you respond in a way that acknowledges your hurt but also opens the door for healing and moving forward:\n1. Acknowledge their apology: Respond with a simple \"thank you\" or \"I appreciate your apology.",
+      "generation_positive": "I want to forgive and move forward, but I'm still feeling hurt and angry. How can I forgive and let go of the hurt?\nForgiveness is a process, and it may take time. Here are some steps you can take to forgive and let go of the hurt:\n1. Acknowledge your feelings: Recognize that your feelings are valid and that it's okay to feel hurt and angry."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple \"I'm fine.\" But what I really mean is that I'm not fine. I'm stressed, anxious, and overwhelmed. I'm worried about how I'll perform, and I'm trying to hide my true feelings.\nThis is a common phenomenon, especially among high-achievers and perfectionists. We often feel pressure to present a confident and capable exterior, even when we're struggling on the inside.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" This is a common response, but it's often a lie. We all have our own reasons for saying \"I'm fine\" when we're not. It might be fear of being a burden, a desire to avoid talking about our problems, or a need to maintain a certain image."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the recognition, but I don't want to be seen as ungrateful. How can I handle this situation?\nYou're not alone in feeling uncomfortable with public recognition, especially if you're a quiet contributor. Here are some tips to help you handle this situation graciously:\n\n1.  **Acknowledge their gesture**: Respond with a simple \"thank you\" or \"I appreciate your kind words.",
+      "generation_positive": "I feel uncomfortable about it.\nYou're not alone in feeling uncomfortable about being publicly credited for work you didn't do. This phenomenon is often referred to as \"impostor syndrome\" or \"credit inflation.\" Here are some possible reasons why you might feel this way and some suggestions on how to handle the situation:\nReasons for feeling uncomfortable:\n1."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it may not be the best fit for me. The uncertain opportunity is a chance to grow and learn, but it also carries some risk.\nI am drawn to the safe option because it feels comfortable and familiar. I know what to expect, and I can rely on it to provide a certain level of security.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and open up new possibilities.\nI am drawn to the safe option because it is predictable and secure. It's a path that I know will lead to a certain outcome, even if it's not the most exciting or fulfilling one."
+    }
+  ]
+}

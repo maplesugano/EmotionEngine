@@ -1,0 +1,58 @@
+{
+  "component": 4,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 4.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will try my best to finish it on time. He asks me to confirm that I will finish it on time. I tell him that I will try my best to finish it on time. He asks me to confirm again. I tell him that I cannot confirm that I will finish it on time. Why did I tell him that I cannot confirm that I will finish it on time?",
+      "generation_positive": "I tell him that I'll try my best to finish it by tomorrow, but I'm not sure if I can make it. He asks me to give him a more specific answer, so I tell him that I'll try to finish it by tomorrow, but I'm not sure if I can make it."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk yet, but I don't want to hurt her feelings. How can I respond in a way that acknowledges her request without committing to a conversation tonight?\nHere are a few suggestions:\n1. \"Hey, I'm glad you reached out!",
+      "generation_positive": "I'm not sure if I'm ready to talk, but I don't want to hurt their feelings. What should I do?\nIt's great that you're considering your friend's feelings, but it's also essential to prioritize your own emotional well-being. Here are some suggestions to help you navigate this situation:\n1."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I want to express my concerns, but I'm afraid of being seen as negative or uncooperative. How can I express my concerns without being perceived as negative?\nExpressing concerns without being perceived as negative requires a thoughtful approach. Here are some tips to help you convey your thoughts effectively:\n1. Frame your concerns as \"what if\" scenarios: Instead of saying \"this will never work,\" say \"what if we encounter unexpected challenges?",
+      "generation_positive": "I'm not sure if I should share my concerns or just agree with the plan. What should I do?\nIt's great that you're thinking carefully about how to respond. Here are some tips to help you navigate this situation:\n1.  **Be honest, but tactfully**: You can express your concerns without directly opposing the plan."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: \"Congratulations, you have been accepted to [University Name]!\"\nI feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work and dedication that went into this moment, and I feel a sense of pride and accomplishment.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the message. I am accepted! I am going to be a part of the class of 2024 at my dream school!\nI am beyond thrilled and can’t wait to share the news with my family and friends. I start making plans for the next few months, thinking about all the things I need to do before I leave for college."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still feeling hurt and angry. How can I forgive and let go of these negative emotions?\nForgiveness is a process, and it may take time. Here are some steps you can take to forgive and let go of negative emotions:\n1. Acknowledge your feelings: Recognize and accept your feelings of hurt and anger.",
+      "generation_positive": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and shows I'm willing to move forward, but also protects my own emotional boundaries?\nHere are some tips to help you respond in a way that acknowledges their apology and shows you're willing to move forward, while also protecting your own emotional boundaries:\n1."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple \"I'm fine\" or \"I'm good.\" This is a common response, but it can be misleading. When we say \"I'm fine\" or \"I'm good,\" we often mean \"I'm not fine\" or \"I'm not good.",
+      "generation_positive": "I respond with a casual, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm not going to let it stop me.\" I'm not going to let my health issues get in the way of my goals or my responsibilities. I'm going to push through and make it happen.\nThis is a common phenomenon, especially among people who have experienced chronic illness or disability."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the recognition and wish to remain anonymous.\nHow to handle this situation?\nYou can politely decline the recognition and express your gratitude for the colleague's kind words. You can say something like, \"Thank you for your kind words, but I was just a small part of the team that contributed to this work. I'm glad we were able to collaborate and achieve this outcome.",
+      "generation_positive": "I feel uncomfortable about it.\nI was part of a team that worked on a project, and I made some suggestions that were incorporated into the final product. However, I didn’t draw attention to myself or seek credit for my contributions. My colleague, who was the lead on the project, recently gave a presentation where he credited me publicly for my work. I feel uncomfortable about it, and I’m not sure how to respond."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a job that I have been offered, but it is not my dream job and I am not passionate about it. The uncertain opportunity is a chance to start my own business, which I have always wanted to do, but it is a risk and I am not sure if it will be successful.\nI have been thinking about this decision for a while now, and I have been weighing the pros and cons of each option.",
+      "generation_positive": "The safe option is a sure thing, but it doesn’t align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals.\nI am drawn to the safe option because it’s familiar and comfortable. It’s a path I know I can take and it will lead to a predictable outcome. But, it’s not the path that will lead me to my dreams."
+    }
+  ]
+}

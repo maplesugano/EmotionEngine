@@ -7,6 +7,334 @@
 
 ---
 
+## 2026-05-10 新機能：Emotion Codebook パイプライン
+
+新スクリプト：`experiments/eval_emotion_codebook.py`
+
+**目的**：
+- Phase C-2 の成果（ICA k=64 Layer 22）を完全解釈可能化
+- 64 個の成分 **すべて** に対して系統的に意味付けを行う
+- 単なる top-10 候補ではなく、64 次元の完全な「感情辞書」を構築
+
+**構成**（8 ステップ）：
+1. **Strong-alpha ステアリング生成**：α ∈ {-2, -1, 0, 1, 2}、中立的プロンプト 8 個、全 64 成分 → 1536 生成例
+2. **診断メトリクス読み込み**：既存の self_rho, label_dominance, vad_explained, primitive_score 等を統合
+3. **トップテキスト解釈**：各成分の top-8 正負負荷テキストを `top_texts.json` に抽出
+4. **LLM judge 入力準備**：structured JSONL `judge_inputs.jsonl` を生成（API 呼び出しの前置段階）
+5. **オプション LLM judge**：`--run-judge` で `gpt-4o-mini` を呼び出し、極性名・軸名・family を付与（`judge_outputs.jsonl`）
+6. **軸カード生成**：各成分に `axis_cards/b{j:02d}.md` を 1 枚ずつ、診断・生成例・命名を記載
+7. **集約ファイル生成**：
+   - `axis_summary.csv`：sortable メタデータ表
+   - `axis_summary.json`：機械可読
+   - `emotion_codebook.md`：Markdown テーブル（論文化用）
+   - `emotion_codebook.tex`：LaTeX テーブル（最初 30 軸）
+8. **README 生成**：方法論・ガイドラインの自動ドキュメント
+
+**出力体系**：
+```
+experiments/results/emotion_codebook/ica_k064_L22/
+├── README.md                      (方法論解説)
+├── generations.parquet            (全ステアリング生成 1536 行)
+├── top_texts.json                 (ソーステキスト特徴)
+├── judge_inputs.jsonl             (LLM judge 用 structured input)
+├── judge_outputs.jsonl            (LLM judge 結果、if --run-judge)
+├── axis_summary.csv               (64 成分 × メタデータ)
+├── axis_summary.json              (JSON 版)
+├── emotion_codebook.md            (Markdown table)
+├── emotion_codebook.tex           (LaTeX table)
+└── axis_cards/
+    ├── b00.md ... b63.md          (各成分の詳細カード)
+```
+
+**使用例**：
+
+```bash
+# ステップ 1-4：生成 + 診断 + テキスト + judge 入力
+uv run python -m experiments.eval_emotion_codebook \
+    --basis data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt \
+    --n-prompts 8 \
+    --alphas -2,-1,0,1,2 \
+    --prepare-judge-inputs
+
+# ステップ 5-8：既存生成を流用してカード・集約生成
+uv run python -m experiments.eval_emotion_codebook \
+    --skip-generation --skip-top-texts \
+    --prepare-judge-inputs
+
+# ステップ 5 のみ実行（LLM judge）
+OPENAI_API_KEY=sk-... uv run python -m experiments.eval_emotion_codebook \
+    --skip-generation --skip-top-texts --run-judge
+
+# Resume モード
+uv run python -m experiments.eval_emotion_codebook \
+    --resume
+```
+
+**科学的なフレーミング**：
+
+この codebook は **Plutchik カテゴリではない**。代わりに、以下の 3 つの独立した証拠から推論した潜在感情次元：
+
+1. **因果ステアリング**：α·b_j を層 22 に注入したとき、生成テキストがどう変わるか
+2. **ソーステキストパターン**：各軸に高く負荷した訓練ペアのテキスト分析
+3. **量的診断**：label independence (MI < 基準)、self-consistency (ρ > 0.5)、VAD orthogonality など
+
+**デザイン原則**：
+
+- **Pareto 最適性**：API 呼び出し前に `judge_inputs.jsonl` で検査可能にして、本当に必要な質問だけ選別できる
+- **再現可能性**：すべての生成を seed + alpha_mode + base norm scaling で完全再現可能
+- **段階的実行**：`--skip-generation` / `--skip-top-texts` / `--resume` で中断再開を自由に
+- **論文対応**：LaTeX table + markdown codebook + axis cards で、定性・定量どちらの記述でも対応
+
+## 2026-05-14 threshold_rewrites：各軸の閾値 alpha で CODEBOOK_FIXED_PROMPTS をリライト
+
+新スクリプト：`experiments/eval_threshold_rewrites.py`
+
+**目的**：
+- `threshold_summary.csv` に記録された各 ICA 軸（64 軸）のブレーク直前閾値 alpha を用いて、
+  `CODEBOOK_FIXED_PROMPTS`（8 プロンプト）を negative / positive 両方向にステアリング生成する。
+- 元のプロンプト・negative 生成・positive 生成のトリプルを軸ごとに JSON として出力する。
+- Generation Cache Policy に準拠：既存 `adaptive_generations.parquet` をキャッシュとして優先利用し、
+  未生成分（コンポーネント 1–18）のみモデルを呼び出す。
+
+**入力**：
+- `data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt`
+- `experiments/results/emotion_codebook/ica_k064_L22/threshold_summary.csv`
+
+**出力**：
+```
+experiments/results/threshold_rewrites/ica_k064_L22/
+├── b00.json  ... b63.json        (各軸 1 ファイル)
+```
+
+各 JSON の構造：
+```json
+{
+  "component": 7,
+  "basis": "...",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 2.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether ...",
+      "generation_negative": "I tell him that ...",
+      "generation_positive": "I tell him that ..."
+    },
+    ...  (8 エントリ)
+  ]
+}
+```
+
+**実行結果（2026-05-14）**：
+- キャッシュヒット：46 軸（コンポーネント 0, 19–63）はキャッシュから取得
+- 実際の生成：18 軸（コンポーネント 1–18）× 2 sign × 8 プロンプト = 288 推論
+- 所要時間：約 6時間42分（GPU: CUDA、モデル: meta-llama/Llama-3.1-8B-Instruct）
+- `adaptive_generations.parquet`：4416 → 4608 行へ更新
+
+**使用コマンド**：
+```bash
+python -m experiments.eval_threshold_rewrites \
+    --basis data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt \
+    --threshold-csv experiments/results/emotion_codebook/ica_k064_L22/threshold_summary.csv \
+    --output-dir experiments/results/threshold_rewrites/ica_k064_L22 \
+    --min-sentences 2
+```
+
+---
+
+## 2026-05-18 threshold_vad：生成テキストから VAD を推定（Approach A）
+
+新スクリプト：[experiments/eval_threshold_vad.py](../experiments/eval_threshold_vad.py)
+
+**目的**：各 ICA 基底成分（b00〜b63）の `generation_positive` / `generation_negative`
+を モデルに再入力し、layer 19 の last-token 残差へ `vad_mapping.pt`（$W_{3\times d}$）
+を適用して VAD を推定。$\Delta\text{VAD} = \hat{v}_+ - \hat{v}_-$ を全 64 成分・8 プロンプトで
+平均することで「ステアリングが VAD 空間に何をするか」を行動的に定量化する。
+
+**入力**：
+- `experiments/results/threshold_rewrites/ica_k064_L22/b{00..63}.json`（512 ペア）
+- `data/emotion_code/vad_mapping.pt`（layer=19、R²: V=0.561, A=0.245, D=0.158）
+
+**出力**：`experiments/results/threshold_vad/`
+- `per_component_prompt.parquet`（全 (成分, プロンプト, 軸) の生 ΔVAD）
+- `component_means.csv`（成分ごとの平均 ΔVAD）
+- `summary.json`（grand-mean および |Δ| の統計）
+
+**実行結果（2026-05-18）**：所要時間 約56秒（GPU: CUDA）
+
+Grand-mean ΔVAD（64 成分 × 8 プロンプト平均）：
+
+| 軸 | mean Δ | mean |Δ| |
+|---|---:|---:|
+| V（Valence） | **+0.0078** | 0.2738 |
+| A（Arousal） | −0.0070 | 0.1774 |
+| D（Dominance） | +0.0013 | 0.1311 |
+
+成分ごとの上位（|ΔV| 順）：
+
+| component | ΔV | ΔA | ΔD |
+|---:|---:|---:|---:|
+| b51 | +0.294 | −0.011 | +0.082 |
+| b55 | +0.268 | +0.035 | +0.093 |
+| b11 | +0.260 | +0.140 | +0.147 |
+| b04 | −0.222 | −0.175 | −0.109 |
+| b43 | −0.214 | −0.052 | −0.023 |
+
+**解釈**：
+
+1. **Grand-mean は実質ゼロ**（|Δ| ≤ 0.008）：64 成分が VAD 空間で互いに逆方向を指向し、
+   平均では打ち消し合う。basis 軸の VAD 方向の多様性を示す。
+
+2. **|Δ| は非ゼロ**（V: 0.27、A: 0.18、D: 0.13）：個々の成分はそれぞれ VAD を動かすが、
+   |ΔV| > 0.3 の成分は **0/64**。単一成分でも VAD 効果は小さく、CAA ベクトルの
+   R²=0.017 という数値結果と行動的に整合する。
+
+3. **Valence 効果が最大**（|ΔV| 中央値 > |ΔA| > |ΔD|）：残差空間で最も線形に
+   読み出しやすい軸（V: R²=0.561）が、生成テキストでも最大の ΔVAD 効果を持つ。
+
+4. **循環性の排除**：この実験は「ステアリング後テキストの VAD」を測るものであり、
+   「basis が VAD を説明するか」（R²=0.017）とは独立した問いである。
+   前者は行動的証拠、後者はベクトル空間の幾何学的証拠。
+
+**使用コマンド**：
+```bash
+source .venv/bin/activate
+python experiments/eval_threshold_vad.py
+```
+
+---
+
+## 2026-05-11 追記：adaptive breakage search による境界 alpha 推定
+
+ユーザー要件の更新により、固定 alpha での命名から以下へ拡張：
+
+1. **broken/not-broken の structured judge**
+  - 生成文が壊れているかを JSON で判定
+  - 破綻・反復崩壊・意味喪失・オフトピックを `broken=true` とみなす
+
+2. **各軸の正負両側で境界 alpha を探索**
+  - 候補 alpha の系列を judge し、壊れない最大 alpha を成分ごとに記録
+  - threshold の生成文字列を `threshold_generations_*` として保持
+
+3. **境界文字列で命名**
+  - 命名 judge は threshold 近傍の文字列と baseline を見て axis name を付与する
+  - これにより、過大 steering による破綻と、弱すぎて変化しない問題を避ける
+
+---
+
+## 2026-05-10 追記：top-10 全候補への LLM 命名拡張
+
+対象：
+- `experiments/results/primitive_affective_units/ica_k064_seed0/primitive_scores.csv` の top-10 成分
+- `experiments/results/primitive_affective_units/ica_k064_seed0/strong_generations.parquet`（α=-3,0,+3）
+
+実施内容：
+- 先行の hardened 4成分だけでなく、top-10 全成分に対して同一プロンプトで命名。
+- 生成物を以下に保存：
+  - `experiments/results/primitive_affective_units/ica_k064_seed0/llm_judge_names_top10.json`
+  - `experiments/results/primitive_affective_units/ica_k064_seed0/llm_judge_names_top10.csv`
+  - 互換のため `llm_judge_names.json/csv` も top-10 内容に更新。
+
+命名（top-10）：
+- b26: uncertainty in engagement
+- b22: uncertainty to assurance
+- b17: uncertainty to confidence
+- b32: decisive engagement
+- b38: tentative engagement
+- b49: uncertainty to eagerness
+- b29: commitment uncertainty
+- b62: uncertainty in decision-making
+- b42: uncertainty expression
+- b58: uncertainty to confidence
+
+反映：
+- `experiments/results/primitive_affective_units/ica_k064_seed0/top_candidates.md`
+  の top-10 すべての `proposed_name` 欄を埋めた（空欄 0 件）。
+
+---
+
+## 2026-05-10 追記：LLM-as-a-judge による候補成分の命名
+
+対象：
+- `experiments/results/primitive_affective_units/ica_k064_seed0/robustness_hardened_candidates.csv`
+- `experiments/results/primitive_affective_units/ica_k064_seed0/strong_generations.parquet`
+
+目的：
+- hardened candidates（b26, b22, b49, b62）に対し、
+  人手解釈前の暫定名を LLM judge で付与して比較可能性を上げる。
+
+手順：
+1. 各成分について metrics（self_rho, sign_correct, causal_strength, cross_talk, label_dominance, vad_explained）を提示。
+2. α∈{-3,0,+3} の生成例（各3本）を提示。
+3. `gpt-4o-mini` に JSON 形式で `proposed_name, confidence, rationale, caveat` を出力させる。
+
+生成ファイル：
+- `experiments/results/primitive_affective_units/ica_k064_seed0/llm_judge_names.json`
+- `experiments/results/primitive_affective_units/ica_k064_seed0/llm_judge_names.csv`
+
+命名結果（暫定）：
+
+| component | proposed_name | confidence |
+|---:|---|---:|
+| 26 | uncertainty in engagement | 0.75 |
+| 22 | uncertainty to assurance | 0.85 |
+| 49 | uncertainty to eagerness | 0.75 |
+| 62 | uncertainty in decision-making | 0.65 |
+
+反映：
+- `experiments/results/primitive_affective_units/ica_k064_seed0/top_candidates.md`
+  の該当4成分 `proposed_name` を上記で更新。
+
+注意：
+- これらの名称は **機能記述ラベル（作業仮名）** であり、心理学的構成概念の確定名ではない。
+- 最終命名は prompt 拡張（n=32 以上）と seed 再現を通過した後に確定すべき。
+
+---
+
+## 2026-05-10 追記：Primitive candidate の厳格化（L22 / ICA k=64）
+
+対象：
+- `experiments/results/primitive_affective_units/ica_k064_seed0/selfcons_readouts.parquet`
+- `experiments/results/primitive_affective_units/ica_k064_seed0/primitive_scores.csv`
+
+目的：
+- 既存の PrimitiveScore 上位成分に対し、**prompt-level の不確実性**を明示して候補集合を厳格化。
+
+手順：
+1. PrimitiveScore 上位 20 成分を対象に抽出。
+2. 各成分で prompt ごとの Spearman ρ（α と self readout）を再計算。
+3. ρ平均の 90% ブートストラップ区間（2000 resamples）を計算。
+4. `sign_rate`（prompt 単位で `Δ+ > 0 かつ Δ- < 0` の比率）と
+   `causal_ratio = causal_strength / cross_talk` を計算。
+
+生成ファイル：
+- `experiments/results/primitive_affective_units/ica_k064_seed0/robustness_screen.csv`
+- `experiments/results/primitive_affective_units/ica_k064_seed0/robustness_strict_candidates.csv`
+- `experiments/results/primitive_affective_units/ica_k064_seed0/robustness_hardened_candidates.csv`
+
+観察：
+- 厳格条件（`rho_lo>0.2`, `sign_rate=1.0`, `label_dominance<=0.5`, `vad_explained<=0.01`）では **0件**。
+- 実用条件（`rho_lo>=0.1`, `sign_rate>=0.5`, `label_dominance<=0.5`, `vad_explained<=0.01`）では **4件**。
+
+実用条件での hardened candidates：
+
+| component | PrimitiveScore | rho_mean | rho_lo | sign_rate | label_dominance | causal_ratio |
+|---:|---:|---:|---:|---:|---:|---:|
+| 26 | 1.5618 | 0.6875 | 0.3750 | 0.625 | 0.25 | 0.7509 |
+| 22 | 1.5612 | 0.8125 | 0.6875 | 0.625 | 0.50 | 0.9175 |
+| 49 | 1.4363 | 0.5625 | 0.1875 | 0.625 | 0.25 | 0.9507 |
+| 62 | 1.2512 | 0.5000 | 0.1250 | 0.500 | 0.50 | 0.8037 |
+
+解釈：
+- 現時点の結論は「primitive affective units の**確定**」ではなく、
+  **candidate set の頑健化**まで。
+- 特に `causal_ratio < 1` の成分が残るため、選択性（漏れの少なさ）は依然として課題。
+- 次段では prompt 数増加（例: 32）と seed 複数化で、`rho_lo` と `sign_rate` の安定化を優先すべき。
+
+---
+
 ## 0. プロジェクトの根幹仮説
 
 > **「感情は言語化粒度より細かい潜在基底の線形結合として表せる」**

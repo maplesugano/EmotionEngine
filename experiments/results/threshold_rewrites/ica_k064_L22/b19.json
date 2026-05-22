@@ -1,0 +1,58 @@
+{
+  "component": 19,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will try my best to finish it, but I am not sure if I can meet the deadline. I am not making any promises, but I will do my best to get it done.\nI am not making any promises, but I will do my best to get it done.",
+      "generation_positive": "I tell him that I will finish it by tomorrow. However, I don't have any plan to finish it by tomorrow. I just want to give him a positive answer to avoid his pressure. This is an example of a white lie.\nA white lie is a small, harmless lie that is told to avoid hurting someone's feelings or to make them feel better."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk, but I don't want to hurt their feelings. What do I say?\nI would say something like, \"Hey, I'm glad you reached out! I've been really busy lately and I'm not sure I have a lot of time to talk tonight, but I'd love to catch up with you soon. Can we schedule a time to talk that works better for me?",
+      "generation_positive": "I'm hesitant because I've been feeling overwhelmed and drained lately. How can I respond without hurting their feelings or making them feel like I'm not interested in talking?\nHere are some tips to help you respond to your friend's request without hurting their feelings:\n1.  **Acknowledge their message**: Respond to their text as soon as possible, even if it's just a simple \"Hey, I got your message."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I'm comfortable sharing my thoughts, but I want to be honest. How can I express my concerns without appearing negative or uncooperative?\nExpressing concerns in a meeting can be challenging, but it's essential to do so in a way that's constructive and respectful. Here are some tips to help you share your thoughts without appearing negative or uncooperative:\n1.",
+      "generation_positive": "I want to express my concerns, but I don't want to seem negative or uncooperative. How can I provide a balanced view without appearing to be a \"naysayer\"?\nTo provide a balanced view without appearing to be a \"naysayer,\" consider the following strategies:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing. I take a deep breath and read the words on the screen. I am accepted into my dream school! I scream with excitement and jump up and down, tears of joy streaming down my face. I call my family and friends to share the news, and we all celebrate together. This is the moment I've been waiting for, and it feels amazing.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work I put into my application, the countless hours spent researching, writing, and perfecting my essays. It was all worth it."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still hurt and angry. How can I forgive and let go of my emotions?\nForgiveness is a process, and it may take time. Here are some steps you can take to help you forgive and let go of your emotions:\n1. Acknowledge your feelings: Recognize and accept your emotions, whether it's anger, hurt, or frustration.",
+      "generation_positive": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and expresses my hurt without escalating the conflict?\nYou can respond with a message that acknowledges their apology, expresses your hurt, and sets boundaries for the conversation. Here's an example:\n\"Hey [Name], I appreciate your apology and I'm glad you're willing to reconnect."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a casual, \"I'm fine.\" But, in reality, I'm not fine. I'm anxious, stressed, and overwhelmed. I'm worried that if I reveal my true feelings, I'll be seen as weak or unprepared. So, I put on a mask and pretend everything is okay.\nThis is a common phenomenon, especially among high-achievers and perfectionists.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" This is a common response, but it's often a misleading one. When we say \"I'm fine,\" we're not always being truthful. We might be trying to avoid talking about our health, or we might be downplaying the severity of our symptoms."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about it.\nI was part of a team that worked on a project, and I made some suggestions that were incorporated into the final product. However, I didn't draw attention to myself or seek credit for my contributions. My colleague, who was the lead on the project, recently gave a presentation and publicly credited me for my work. I feel uncomfortable about it, and I'm not sure how to respond.",
+      "generation_positive": "I feel awkward and uncomfortable about the recognition. How can I graciously decline the recognition without hurting the colleague’s feelings?\nYou can respond with a simple, sincere, and humble message, such as:\n“Thank you for the kind words! I was happy to contribute to the project, and I appreciate your recognition. However, I think the real credit goes to the team’s collective effort. We all worked together to achieve this outcome."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a job that I have been offered, but it doesn't align with my long-term goals or values. The uncertain opportunity is a chance to start my own business, but it comes with a lot of risk and uncertainty.\nI have been thinking about this decision for a while now, and I have been weighing the pros and cons of each option.",
+      "generation_positive": "The safe option is a sure thing, but it may not be the best fit for me. The uncertain opportunity is a risk, but it could be a game-changer for me.\nI am drawn to the safe option because it feels secure and predictable. It’s a path that I know will lead to a certain outcome, even if it’s not the most exciting one."
+    }
+  ]
+}

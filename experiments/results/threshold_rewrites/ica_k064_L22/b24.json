@@ -1,0 +1,58 @@
+{
+  "component": 24,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not sure if I can finish it by tomorrow, but I am sure that I can finish it by the day after tomorrow. I am not lying, but I am not telling the truth either. What am I?",
+      "generation_positive": "I tell him that I will try my best to finish it before the deadline. He asks me to confirm that I will finish it before the deadline. I tell him that I will try my best to finish it before the deadline. He asks me to confirm again. I tell him that I will try my best to finish it before the deadline. He asks me to confirm once more."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm hesitant, but I don't want to be rude, so I agree to meet up. When we meet, I'm surprised to find out that my friend has been going through a tough time, and I'm happy to listen and offer support. However, as the conversation progresses, I start to feel uncomfortable and anxious, as my friend begins to open up about their personal struggles and secrets.",
+      "generation_positive": "I'm not sure if I'm ready to talk. I've been hurt by this person before and I'm not sure if I'm ready to open up again. I'm torn between being honest and being kind.\nI'm torn between being honest and being kind. I want to be honest and tell my friend that I'm not ready to talk, but I also want to be kind and not hurt their feelings."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. What should I do?",
+      "generation_positive": "I want to express my concerns, but I don't want to appear negative or uncooperative. How can I provide a constructive critique without being seen as a \"downer\"?\nYou can express your concerns without appearing negative by framing them as suggestions for improvement. For example, you could say, \"I understand the potential benefits of this plan, but I think we should also consider the potential risks."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI scream with excitement, jump up and down, and call my family to share the news. I feel like I’m on cloud nine, and I know that this is just the beginning of an incredible journey.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the words that will change my life.\nI am accepted into the program.\nI am accepted into the program.\nI am accepted into the program.\nI repeat the words to myself, trying to process the news. I feel a mix of emotions: excitement, relief, and a hint of nervousness."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt from the argument. How do I respond?\nWhen someone apologizes and asks to reconnect, it can be tempting to immediately accept and move forward. However, if you're still hurt from the argument, it's essential to take a step back and consider your response carefully. Here are some tips to help you navigate this situation:\n1.",
+      "generation_positive": "I want to forgive and move forward, but I'm still hurt and feeling uncertain about how to proceed. Here are some steps to help you navigate this situation and rebuild your relationship.\n1. Acknowledge your feelings: Recognize and accept your emotions, even if they're difficult to confront. It's normal to feel hurt, angry, or uncertain after a disagreement.\n2."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a casual, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm not going to let it stop me.\" I'm not going to let my health issues get in the way of my goals or my dreams. I'm going to push through, even if it's not ideal.\nThis is a common phenomenon, especially for people with chronic illnesses or disabilities.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" This is a common response, and it's often a way to avoid talking about our true feelings. We might feel anxious, stressed, or overwhelmed, but we don't want to admit it. We might be worried that others will think we're not capable or that we'll be seen as weak."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about the recognition, but I'm not sure how to respond. Here are some tips to help you navigate this situation:\n1.  **Be humble**: When someone publicly credits you for your work, it's natural to feel uncomfortable, but try to be humble and gracious in your response. Acknowledge their recognition and express your appreciation for their kind words.\n2.",
+      "generation_positive": "I feel uncomfortable and unappreciated.\nYou're not alone in feeling this way. It's a common phenomenon, especially in collaborative work environments. Here are some possible reasons why this might be happening and some suggestions on how to handle the situation:\n\n### Reasons for the Feeling:\n\n1.  **Lack of Recognition**: You might feel that your contributions are not being acknowledged or valued, leading to feelings of frustration and resentment.\n2."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it may not be the best fit for me in the long run. The uncertain opportunity, on the other hand, has the potential to be life-changing, but it also comes with a lot of risk and uncertainty.\nI am naturally inclined towards the safe option, but I am also drawn to the idea of taking a chance and pursuing the uncertain opportunity.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't align with my long-term goals. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and could be a game-changer.\nI've been thinking about this decision for a while, and I've been weighing the pros and cons. I've talked to friends and family, and they've all given me their opinions."
+    }
+  ]
+}

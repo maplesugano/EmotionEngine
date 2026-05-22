@@ -1,0 +1,58 @@
+{
+  "component": 27,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not sure if I can finish it before tomorrow, but I am sure that I will finish it by tomorrow. What is the relationship between the two statements?\nIn this question, the first statement is \"I will finish it by tomorrow.\" The second statement is \"I can finish it before tomorrow.",
+      "generation_positive": "I tell him that I will finish it by tomorrow. However, I don't have any plan to finish it by tomorrow. I just want to make him feel better. I am lying to him.\nLying to someone to make them feel better is a form of white lie, which is a lie told to avoid hurting someone's feelings or to make them feel more comfortable."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk, but I don't want to hurt their feelings. What should I do?\nYou're not obligated to talk to someone just because they reached out. It's okay to set boundaries and prioritize your own emotional well-being. Here are some suggestions:\n1.  Respond with a gentle but clear message: You could say something like, \"Hey, I'm glad you reached out!",
+      "generation_positive": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nIt's great that you're thinking carefully about how to respond. Here are some suggestions:\n1.  **Acknowledge their message**: Respond to their text with a simple \"Hey, I got your message. I'm still processing everything, and I need some time to think."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. What should I do?\nYou should be honest and express your concerns in a constructive way. Here's how:\n1.  **Acknowledge the idea**: Start by acknowledging your manager's idea and showing that you've thought about it. This helps to create a positive tone for the conversation.\n2.",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be a \"no\" person?\nA. \"I'm not sure, but I'll support it if it works out.\"\nB. \"I have some reservations, but I'm willing to give it a try.\"\nC."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI scream with excitement, jump up and down, and call my family and friends to share the news. I feel like I’m on top of the world!\nBut as the excitement wears off, I start to think about the next steps.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: \"We are pleased to inform you that you have been accepted to [University Name]...\" I feel a mix of emotions: excitement, relief, and a hint of nervousness. I've worked hard to get to this point, and now it's time to take the next step."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still hurt and angry. How can I forgive and let go of my anger?\nForgiveness is a process, and it may take time. Here are some steps you can take to forgive and let go of your anger:\n1. Acknowledge your feelings: Recognize that your feelings are valid and that it's okay to feel hurt and angry.",
+      "generation_positive": "I want to reconnect, but I'm still hurt and angry. How do I respond?\nWhen someone apologizes and asks to reconnect, it can be tempting to immediately forgive and move forward. However, it's essential to take a step back and consider your feelings before responding. Here are some tips to help you navigate this situation:\n1. Acknowledge your emotions: Recognize and validate your feelings, even if they're negative."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a casual, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be, because I don't want to ruin the event or worry anyone.\" This is a common phenomenon, especially for people who are perfectionists or have a strong desire to please others.",
+      "generation_positive": "I respond with a simple \"I'm fine.\" This is a common response, but it's not always the truth. Sometimes, I'm not fine. Sometimes, I'm struggling with anxiety, stress, or other health issues that make it difficult for me to perform at my best.\nThe phrase \"I'm fine\" can be a coping mechanism, a way to avoid discussing my true feelings or to hide my struggles."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the recognition.\nYou're not alone in feeling this way. Many people experience discomfort when they receive public recognition for work they didn't do or didn't want to do. Here are some possible reasons why you might be feeling this way:\n1. Modesty: You might be a humble person who doesn't like to draw attention to yourself.",
+      "generation_positive": "I feel uncomfortable with the recognition.\nI'm not sure how to handle this situation. I'm not looking for praise or recognition, and I'm not sure how to respond to the public acknowledgement.\nYou're not alone in feeling uncomfortable with public recognition. Many people, especially those who are introverted or prefer to work behind the scenes, may feel uneasy with being the center of attention."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn’t align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and values.\nI am drawn to the safe option because it is familiar and comfortable. I know what to expect, and I can rely on it to provide a sense of security.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to lead to something amazing.\nI am drawn to the uncertain opportunity because it feels exciting and potentially life-changing. However, I am also aware of the risks involved and the potential for failure."
+    }
+  ]
+}

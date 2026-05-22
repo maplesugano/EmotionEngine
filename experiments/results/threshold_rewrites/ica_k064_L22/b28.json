@@ -1,0 +1,58 @@
+{
+  "component": 28,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 4.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will finish it by tomorrow. However, I don't have any plan to finish it by tomorrow. I just want to make him feel better. I am lying to him.\nIs this a lie?\nNo, this is not a lie. I am not making a false statement with the intention of deceiving him.",
+      "generation_positive": "I tell him that I will finish it by tomorrow, but I don't know if I can finish it before tomorrow. I am not sure if I can finish it before tomorrow, but I am sure that I will finish it by tomorrow. I am not lying, but I am not telling the truth either. What am I?\nA. A computer\nB. A calendar\nC. A clock\nD."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm hesitant because I've been feeling overwhelmed and stressed lately, and I'm not sure I'm ready to have a deep conversation. What should I do?\nIt's great that you're being honest with yourself about your current emotional state. Before responding to your friend, take a moment to reflect on your priorities and boundaries. Here are some suggestions:\n1.",
+      "generation_positive": "I'm not sure if I'm ready to talk or if I'm just not in the mood. I'm feeling a bit overwhelmed and anxious about the conversation. I don't want to lead them on or give them false hope, but I also don't want to hurt their feelings. What should I do?\nIt's great that you're thinking carefully about how to respond to your friend's request."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. What should I do?",
+      "generation_positive": "I'm not sure if I agree or disagree, but I don't want to seem uncertain or unprepared. What should I do?"
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work I put into my application, the countless hours spent researching, writing, and editing. It was all worth it.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: \"We are pleased to inform you that you have been accepted to [University Name]!\" I feel a mix of emotions: excitement, relief, and a hint of nervousness. I've worked hard to get to this point, and now I get to take the next step in my academic journey.\nI start thinking about the opportunities that lie ahead."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How do I respond?\nWhen someone apologizes and asks to reconnect, it can be a challenging situation, especially if you're still feeling hurt and angry. Here are some steps you can take to respond in a way that prioritizes your own emotional well-being while also considering the other person's apology:\n1.",
+      "generation_positive": "I want to forgive and move forward, but I'm still feeling hurt and angry. How can I forgive and reconnect with them without compromising my own emotional well-being?\nForgiveness is a process, and it's okay to take your time. Here are some steps to help you forgive and reconnect with the person while prioritizing your emotional well-being:\n1."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" This is a common response, but it's not always the truth. In fact, it's often a coping mechanism to avoid discussing the real issue. Here are some reasons why people say \"I'm fine\" when they're not:\n1.",
+      "generation_positive": "I respond with a casual, \"I'm fine.\" But, in reality, I'm not fine. I'm anxious, stressed, and overwhelmed. I'm worried about how I'll perform, and I'm afraid of making mistakes. I'm also concerned about what others might think of me. I'm not fine, but I don't want to admit it. I'm afraid of being seen as weak or vulnerable."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about it.\nI was part of a team that worked on a project, and one of my colleagues publicly credited me for my work on it. However, I didn't do the work that they're crediting me for. I was more of a behind-the-scenes person, and I didn't want to draw attention to myself.",
+      "generation_positive": "I feel uncomfortable with the recognition, but I don't want to seem ungrateful. How can I handle this situation?\nYou're not alone in feeling uncomfortable with public recognition, especially if you're a behind-the-scenes contributor. Here are some tips to help you handle the situation graciously:\n1. **Acknowledge their intention**: Recognize that your colleague is trying to give you credit and appreciation for your work."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn't excite me. The uncertain opportunity is a risk, but it has the potential to be life-changing.\nI've been thinking about this decision for a while now, and I've been weighing the pros and cons. But the more I think about it, the more I realize that the decision isn't just about the outcome.",
+      "generation_positive": "The safe option is to stay in my current job, which I have been in for a while and have a good understanding of. The uncertain opportunity is to take a new job that I have been offered, which is in a different field and has a lot of unknowns. I am hesitant to take the new job because I am not sure if I will be successful or if I will like the work."
+    }
+  ]
+}

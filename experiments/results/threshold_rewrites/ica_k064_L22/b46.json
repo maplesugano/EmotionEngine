@@ -1,0 +1,58 @@
+{
+  "component": 46,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will do my best to finish it by tomorrow. I am not sure if I can finish it by tomorrow. I am not lying. I am just being honest. I am not making a promise. I am just giving an assurance. I am not making a commitment. I am just giving a guarantee. I am not making a vow. I am just giving a promise. I am not making a pledge.",
+      "generation_positive": "I tell him that I will try my best to finish it, but I am not sure if I can meet the deadline. He asks me to give him a specific time when I can finish it, and I tell him that I will let him know as soon as I can. What is the best way to respond to his request?\nThe best way to respond to his request is to be honest and transparent about your situation."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk. I've been hurt by this person before and I'm not sure if I'm ready to open up again. I'm torn between reconnecting and protecting myself. What do I do?\nYou're not alone in feeling this way. It's normal to feel uncertain and cautious when reconnecting with someone who has hurt you in the past. Here are some thoughts to consider:\n1.",
+      "generation_positive": "I'm hesitant, but I don't want to hurt their feelings. What should I do?\nIt's natural to feel hesitant when reconnecting with someone after a long silence, especially if you're not sure what to expect. Here are some suggestions to help you navigate this situation:\n1. **Take time to reflect**: Before responding, take a moment to think about your feelings and concerns. What are your reasons for being hesitant?"
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative. How can I express my concerns without appearing to be against the plan?\nYou can say something like, \"I understand the potential benefits of this plan, but I have some concerns about the risks involved. Have we considered the potential downsides and how we would mitigate them?\" This way, you're expressing your concerns without directly opposing the plan.",
+      "generation_positive": "I'm not sure if I should share my concerns or just agree with the plan to avoid conflict.\nIn this situation, it's generally best to share your concerns and provide a balanced perspective. Here's why:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing. I take a deep breath and read the words on the screen. I am accepted into my dream program. I am going to be a part of the program that I have been working towards for years. I am going to be a part of the community that I have been dreaming of being a part of.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: \"Congratulations, you have been accepted to [University Name]!\"\nI'm going to [University Name]!\nI'm going to [University Name]!\nI'm going to [University Name]!\nI'm going to [University Name]!\nI'm going to [University Name]!\nI'm going to [University Name]!"
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still hurt and angry. How can I forgive and reconnect with this person?\nForgiveness is a process that takes time, effort, and a willingness to let go of negative emotions. Here are some steps you can take to forgive and reconnect with the person:\n1. Acknowledge your feelings: Recognize and accept your emotions, whether it's anger, hurt, or frustration.",
+      "generation_positive": "I want to reconnect, but I'm still hurt from the argument. How do I respond?\nWhen someone apologizes and asks to reconnect after a disagreement, it's natural to feel a mix of emotions. You may want to reconnect, but you're also still hurt from the argument."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" I'm not fine. I'm not even close to fine. I'm a mess. My body is screaming at me, my mind is racing, and my heart is pounding. But I say I'm fine. I say it because I don't want to be a burden. I don't want to be a disappointment. I don't want to be a problem.",
+      "generation_positive": "I respond with a casual, \"I'm fine,\" even though I'm not feeling fine at all. This is a common phenomenon, and it's called the \"social desirability bias.\"\nThe social desirability bias is a psychological phenomenon where people tend to overreport their positive feelings and underreport their negative feelings in social situations. This bias is thought to be an evolutionary adaptation that helps us maintain social relationships and avoid conflict."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable with the recognition. How do I handle this situation?\nYou're not alone in feeling uncomfortable with public recognition. Many people struggle with this, especially if they're introverted or prefer to work behind the scenes. Here are some steps you can take to handle this situation:\n1. Acknowledge your feelings: Recognize that your feelings are valid and it's okay to feel uncomfortable.",
+      "generation_positive": "I feel uncomfortable about it\nI'm a team member in a project, and my colleague publicly credits me for work I quietly contributed to. I feel uncomfortable about it because I didn't want to draw attention to myself, and now I'm worried that people will think I'm seeking attention or trying to be the center of attention.\nI'm not sure how to handle this situation."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a steady, predictable income and a comfortable lifestyle. The uncertain opportunity is a chance to pursue a dream and potentially earn a higher income, but with no guarantee of success.\nI am drawn to the safe option because it is familiar and secure. I have a sense of control and stability with this choice. However, I am also feeling a sense of restlessness and discontent with this option.",
+      "generation_positive": "The safe option is a sure thing, but it may not be the best fit for me in the long run. The uncertain opportunity is a risk, but it could lead to something amazing.\nI am drawn to the uncertain opportunity because it has the potential to bring me joy and fulfillment. I am also drawn to the idea of challenging myself and stepping outside of my comfort zone."
+    }
+  ]
+}

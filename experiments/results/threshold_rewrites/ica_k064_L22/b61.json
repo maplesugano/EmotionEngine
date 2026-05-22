@@ -1,0 +1,58 @@
+{
+  "component": 61,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I'll try my best to finish it by tomorrow, but I'm not sure if I can meet the deadline. I'm not sure if I can finish it by tomorrow, but I'll do my best to try. I'm not sure if I can finish it by tomorrow, but I'll do my best to try.",
+      "generation_positive": "I tell him that I will finish it by tomorrow. He asks if I can finish it by today. I tell him that I can finish it by today. What is the minimum number of hours I need to work to finish the task?\n## Step 1: Understand the initial commitment\nI initially committed to finishing the task by tomorrow, which means I had some time to work on it before the deadline."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm not sure if I'm ready to talk, but I don't want to hurt their feelings. What should I do?\nIt's great that you're considering your friend's feelings, but it's also essential to prioritize your own emotional well-being. Here are some suggestions to help you navigate this situation:\n1.",
+      "generation_positive": "I'm hesitant because I've been feeling overwhelmed and stressed lately, and I'm not sure I'm ready to have a deep conversation. What should I do?\nYou're not obligated to talk to your friend tonight, especially if you're feeling overwhelmed. It's okay to set boundaries and prioritize your own needs. You could respond with something like, \"Hey, I'm really busy tonight and need some downtime."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing to be a \"no\" person?\nWhen expressing concerns about a plan, it's not about being a \"no\" person, but about being a responsible and thoughtful contributor to the team. Here are some tips to help you express your concerns without appearing negative:\n1.",
+      "generation_positive": "I want to express my concerns, but I don't want to be seen as negative or uncooperative. How can I communicate my concerns without appearing to be a \"downer\"?\nExpressing concerns without appearing negative requires a delicate balance. Here are some tips to help you communicate your thoughts effectively:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: “We are pleased to inform you that you have been accepted to [University Name]!”\nI feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work I put into my application, the countless hours spent researching, writing, and editing.",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI scream with excitement, jump up and down, and call my family to share the news. I feel like I’m on top of the world. All the hard work, late nights, and early mornings have paid off. I did it!"
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still feeling hurt and angry. How can I forgive and let go of my negative emotions?\nForgiveness is a process, and it may take time. Here are some steps you can take to help you forgive and let go of your negative emotions:\n1. Acknowledge your feelings: Recognize that your feelings are valid and that it's okay to feel hurt and angry.",
+      "generation_positive": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and shows I'm willing to move forward, but also protects my own emotional boundaries?\nHere are some tips to help you respond in a way that acknowledges their apology and shows you're willing to reconnect, while also protecting your own emotional boundaries:\n1."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" I'm not fine. I'm anxious, stressed, and overwhelmed. I'm worried about how I'll perform, and I'm trying to hide it from others. I'm afraid of not meeting expectations, and I'm trying to put on a brave face.\nI'm not alone in this feeling.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" This is a common response, but it's not always the truth. In fact, it's often a lie. We've all been there, haven't we? We don't want to admit our struggles or vulnerabilities, so we put on a mask of confidence and say, \"I'm fine.\" But the truth is, we're not always fine."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about it.\nI'm not sure how to feel about this situation. On one hand, I'm glad that my work was useful and appreciated. On the other hand, I'm uncomfortable with the public recognition, especially since I didn't seek it out or even mention it to anyone.\nI'm not sure if I should say something or just let it go.",
+      "generation_positive": "I feel uncomfortable with the recognition.\nYou're not alone in feeling this way. Many people experience discomfort when they receive public recognition for work they didn't do or didn't want to do. Here are some possible reasons why you might be feeling this way:\n1. Modesty: You might be a modest person who doesn't like to draw attention to yourself, even if it's deserved.\n2."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn't align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to lead to something amazing.\nI've been thinking about this decision for a while now, and I've been weighing the pros and cons. I've also been talking to people I trust and seeking their advice. But ultimately, the decision is mine to make.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and values.\nI am drawn to the safe option because it is familiar and comfortable. It's a path that I know I can take and it will yield predictable results."
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "artifact": "data/emotion_code/basis_sweep_L22/pca_k128_seed0.pt",
+  "decomposer": "pca",
+  "k": 128,
+  "seed": 0,
+  "layer": 22,
+  "silhouette_cosine_H": -0.025508098304271698,
+  "chance_acc": 0.125,
+  "per_component": [
+    {
+      "component": 0,
+      "mi": 0.21537874797607115,
+      "linear_sep_acc": 0.178125,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.00041189827607013285
+    },
+    {
+      "component": 1,
+      "mi": 0.1824750646176576,
+      "linear_sep_acc": 0.1609375,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0015523568727076054
+    },
+    {
+      "component": 2,
+      "mi": 0.22232707925815642,
+      "linear_sep_acc": 0.150625,
+      "category_top1_dominance": 1.0,
+      "vad_explained": 0.014159313403069973
+    },
+    {
+      "component": 3,
+      "mi": 0.129492690828934,
+      "linear_sep_acc": 0.15125000000000002,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.007524304557591677
+    },
+    {
+      "component": 4,
+      "mi": 0.15757650255199707,
+      "linear_sep_acc": 0.13499999999999998,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0028274760115891695
+    },
+    {
+      "component": 5,
+      "mi": 0.1875134427700038,
+      "linear_sep_acc": 0.17062500000000003,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.007295000366866589
+    },
+    {
+      "component": 6,
+      "mi": 0.13556007287155714,
+      "linear_sep_acc": 0.13624999999999998,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.001968459691852331
+    },
+    {
+      "component": 7,
+      "mi": 0.1698136692318255,
+      "linear_sep_acc": 0.15906250000000002,
+      "category_top1_dominance": 0.875,
+      "vad_explained": 0.006367519963532686
+    },
+    {
+      "component": 8,
+      "mi": 0.22018956111160115,
+      "linear_sep_acc": 0.1771875,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.021040981635451317
+    },
+    {
+      "component": 9,
+      "mi": 0.1973213995927714,
+      "linear_sep_acc": 0.1521875,
+      "category_top1_dominance": 0.75,
+      "vad_explained": 0.0017101360717788339
+    },
+    {
+      "component": 10,
+      "mi": 0.16259679427745422,
+      "linear_sep_acc": 0.15,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0007077384507283568
+    },
+    {
+      "component": 11,
+      "mi": 0.15329030058897875,
+      "linear_sep_acc": 0.14156249999999998,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.007258686237037182
+    },
+    {
+      "component": 12,
+      "mi": 0.1438596921211439,
+      "linear_sep_acc": 0.14562499999999998,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.00482662720605731
+    },
+    {
+      "component": 13,
+      "mi": 0.15969201795156263,
+      "linear_sep_acc": 0.144375,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0031452705152332783
+    },
+    {
+      "component": 14,
+      "mi": 0.17683482679594587,
+      "linear_sep_acc": 0.15562499999999999,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.0031423731707036495
+    },
+    {
+      "component": 15,
+      "mi": 0.16309622857324468,
+      "linear_sep_acc": 0.164375,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.011554053984582424
+    },
+    {
+      "component": 16,
+      "mi": 0.19274754104957026,
+      "linear_sep_acc": 0.1484375,
+      "category_top1_dominance": 0.75,
+      "vad_explained": 0.001112209865823388
+    },
+    {
+      "component": 17,
+      "mi": 0.16045752311551764,
+      "linear_sep_acc": 0.164375,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.010170125402510166
+    },
+    {
+      "component": 18,
+      "mi": 0.1650952663994607,
+      "linear_sep_acc": 0.1496875,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0023729505483061075
+    },
+    {
+      "component": 19,
+      "mi": 0.15713979322428306,
+      "linear_sep_acc": 0.1521875,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.013102005235850811
+    },
+    {
+      "component": 20,
+      "mi": 0.15587172117816683,
+      "linear_sep_acc": 0.15781249999999997,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.0014197675045579672
+    },
+    {
+      "component": 21,
+      "mi": 0.15361652216314203,
+      "linear_sep_acc": 0.1346875,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.001646494958549738
+    },
+    {
+      "component": 22,
+      "mi": 0.1338834324214213,
+      "linear_sep_acc": 0.1334375,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.01123008131980896
+    },
+    {
+      "component": 23,
+      "mi": 0.13689089707327007,
+      "linear_sep_acc": 0.151875,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0031648215372115374
+    },
+    {
+      "component": 24,
+      "mi": 0.11592555357489509,
+      "linear_sep_acc": 0.13999999999999999,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0003704351547639817
+    },
+    {
+      "component": 25,
+      "mi": 0.16668452470301354,
+      "linear_sep_acc": 0.15562499999999999,
+      "category_top1_dominance": 1.0,
+      "vad_explained": 0.0016222101403400302
+    },
+    {
+      "component": 26,
+      "mi": 0.15079364634914816,
+      "linear_sep_acc": 0.14375,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0002263740898342803
+    },
+    {
+      "component": 27,
+      "mi": 0.13994935077340642,
+      "linear_sep_acc": 0.1396875,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.007163895294070244
+    },
+    {
+      "component": 28,
+      "mi": 0.16429237759903392,
+      "linear_sep_acc": 0.14750000000000002,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0008257792214863002
+    },
+    {
+      "component": 29,
+      "mi": 0.16254044166246695,
+      "linear_sep_acc": 0.1559375,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.00015380173863377422
+    },
+    {
+      "component": 30,
+      "mi": 0.15291565437985621,
+      "linear_sep_acc": 0.1353125,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0029369823168963194
+    },
+    {
+      "component": 31,
+      "mi": 0.12693826346840353,
+      "linear_sep_acc": 0.1384375,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.0040811700746417046
+    },
+    {
+      "component": 32,
+      "mi": 0.1684580310498549,
+      "linear_sep_acc": 0.146875,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.012624966911971569
+    },
+    {
+      "component": 33,
+      "mi": 0.12793130994195412,
+      "linear_sep_acc": 0.14125,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0055999839678406715
+    },
+    {
+      "component": 34,
+      "mi": 0.15246168847584363,
+      "linear_sep_acc": 0.144375,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0031626468989998102
+    },
+    {
+      "component": 35,
+      "mi": 0.14332131619357646,
+      "linear_sep_acc": 0.13281250000000003,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.0015829174080863595
+    },
+    {
+      "component": 36,
+      "mi": 0.16628161083534554,
+      "linear_sep_acc": 0.15281250000000002,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0013796132989227772
+    },
+    {
+      "component": 37,
+      "mi": 0.13034569171441257,
+      "linear_sep_acc": 0.146875,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.002463896293193102
+    },
+    {
+      "component": 38,
+      "mi": 0.116194637211684,
+      "linear_sep_acc": 0.1284375,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0020054024644196033
+    },
+    {
+      "component": 39,
+      "mi": 0.1609843973905578,
+      "linear_sep_acc": 0.135,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0018929095240309834
+    },
+    {
+      "component": 40,
+      "mi": 0.1242296597728707,
+      "linear_sep_acc": 0.13187500000000002,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0029534674249589443
+    },
+    {
+      "component": 41,
+      "mi": 0.15339291691980783,
+      "linear_sep_acc": 0.144375,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.0018762028776109219
+    },
+    {
+      "component": 42,
+      "mi": 0.130724060145472,
+      "linear_sep_acc": 0.14156249999999998,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0033693620935082436
+    },
+    {
+      "component": 43,
+      "mi": 0.13116409928279538,
+      "linear_sep_acc": 0.15187499999999998,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0007876601885072887
+    },
+    {
+      "component": 44,
+      "mi": 0.15148172986578556,
+      "linear_sep_acc": 0.1671875,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0020118041429668665
+    },
+    {
+      "component": 45,
+      "mi": 0.16961540313877377,
+      "linear_sep_acc": 0.135,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0018529972294345498
+    },
+    {
+      "component": 46,
+      "mi": 0.1662502578831213,
+      "linear_sep_acc": 0.1603125,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0023720706813037395
+    },
+    {
+      "component": 47,
+      "mi": 0.16315617678866712,
+      "linear_sep_acc": 0.13,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.00094528280897066
+    },
+    {
+      "component": 48,
+      "mi": 0.10907556882061886,
+      "linear_sep_acc": 0.1365625,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0010186894796788692
+    },
+    {
+      "component": 49,
+      "mi": 0.16009570463137912,
+      "linear_sep_acc": 0.15749999999999997,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.002024448476731777
+    },
+    {
+      "component": 50,
+      "mi": 0.15257520632485466,
+      "linear_sep_acc": 0.15062499999999998,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.008955898694694042
+    },
+    {
+      "component": 51,
+      "mi": 0.1447939017519686,
+      "linear_sep_acc": 0.13374999999999998,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.00028566012042574584
+    },
+    {
+      "component": 52,
+      "mi": 0.13169729493639126,
+      "linear_sep_acc": 0.14187500000000003,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0012339723762124777
+    },
+    {
+      "component": 53,
+      "mi": 0.1158791927820757,
+      "linear_sep_acc": 0.1334375,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0004416526644490659
+    },
+    {
+      "component": 54,
+      "mi": 0.13373529939559647,
+      "linear_sep_acc": 0.1378125,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0008458072552457452
+    },
+    {
+      "component": 55,
+      "mi": 0.14342553604114094,
+      "linear_sep_acc": 0.144375,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0018309525912627578
+    },
+    {
+      "component": 56,
+      "mi": 0.16047669181695623,
+      "linear_sep_acc": 0.14125,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.00010330245277145877
+    },
+    {
+      "component": 57,
+      "mi": 0.1560013434430596,
+      "linear_sep_acc": 0.11875,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.006257116794586182
+    },
+    {
+      "component": 58,
+      "mi": 0.13186920879256858,
+      "linear_sep_acc": 0.13374999999999998,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.00172181345988065
+    },
+    {
+      "component": 59,
+      "mi": 0.13892083764363905,
+      "linear_sep_acc": 0.13999999999999999,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0008993970695883036
+    },
+    {
+      "component": 60,
+      "mi": 0.1731759395304353,
+      "linear_sep_acc": 0.1359375,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.0022131092846393585
+    },
+    {
+      "component": 61,
+      "mi": 0.12672241160888742,
+      "linear_sep_acc": 0.14499999999999996,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0029300390742719173
+    },
+    {
+      "component": 62,
+      "mi": 0.13155471282166165,
+      "linear_sep_acc": 0.145625,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0021701587829738855
+    },
+    {
+      "component": 63,
+      "mi": 0.1434705762827746,
+      "linear_sep_acc": 0.1528125,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.003956038039177656
+    },
+    {
+      "component": 64,
+      "mi": 0.13690308309678612,
+      "linear_sep_acc": 0.14125000000000001,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.001863126060925424
+    },
+    {
+      "component": 65,
+      "mi": 0.12799771683687622,
+      "linear_sep_acc": 0.1478125,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0018721825908869505
+    },
+    {
+      "component": 66,
+      "mi": 0.13723867027583614,
+      "linear_sep_acc": 0.12875,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.003241784404963255
+    },
+    {
+      "component": 67,
+      "mi": 0.12691415440021192,
+      "linear_sep_acc": 0.138125,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0012747460277751088
+    },
+    {
+      "component": 68,
+      "mi": 0.12691825440876814,
+      "linear_sep_acc": 0.1409375,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0005950023187324405
+    },
+    {
+      "component": 69,
+      "mi": 0.14734390199076186,
+      "linear_sep_acc": 0.13624999999999998,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0018600639887154102
+    },
+    {
+      "component": 70,
+      "mi": 0.14339002376420318,
+      "linear_sep_acc": 0.155,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0009367448510602117
+    },
+    {
+      "component": 71,
+      "mi": 0.14395300207632689,
+      "linear_sep_acc": 0.1459375,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0011327351676300168
+    },
+    {
+      "component": 72,
+      "mi": 0.12313464188790402,
+      "linear_sep_acc": 0.139375,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0003889310755766928
+    },
+    {
+      "component": 73,
+      "mi": 0.1418980949369617,
+      "linear_sep_acc": 0.13874999999999998,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.00044836796587333083
+    },
+    {
+      "component": 74,
+      "mi": 0.12777934245352496,
+      "linear_sep_acc": 0.1525,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0005375722539611161
+    },
+    {
+      "component": 75,
+      "mi": 0.14406684329498365,
+      "linear_sep_acc": 0.1375,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0010428371606394649
+    },
+    {
+      "component": 76,
+      "mi": 0.1281885503957545,
+      "linear_sep_acc": 0.1328125,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0008588725468143821
+    },
+    {
+      "component": 77,
+      "mi": 0.13686168262347387,
+      "linear_sep_acc": 0.1278125,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0017620782600715756
+    },
+    {
+      "component": 78,
+      "mi": 0.13035226790757903,
+      "linear_sep_acc": 0.1346875,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.0005248651723377407
+    },
+    {
+      "component": 79,
+      "mi": 0.14627051602810148,
+      "linear_sep_acc": 0.12874999999999998,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0016745799221098423
+    },
+    {
+      "component": 80,
+      "mi": 0.11759820996245063,
+      "linear_sep_acc": 0.136875,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0011871971655637026
+    },
+    {
+      "component": 81,
+      "mi": 0.12290025343460442,
+      "linear_sep_acc": 0.1475,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0002625576453283429
+    },
+    {
+      "component": 82,
+      "mi": 0.14697735144770885,
+      "linear_sep_acc": 0.1484375,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0003402095171622932
+    },
+    {
+      "component": 83,
+      "mi": 0.10551301880935382,
+      "linear_sep_acc": 0.12125000000000001,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0001937916240422055
+    },
+    {
+      "component": 84,
+      "mi": 0.14278865013024777,
+      "linear_sep_acc": 0.1353125,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.001082071103155613
+    },
+    {
+      "component": 85,
+      "mi": 0.13168368621446858,
+      "linear_sep_acc": 0.13,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0002179151342716068
+    },
+    {
+      "component": 86,
+      "mi": 0.12423327839170328,
+      "linear_sep_acc": 0.13687500000000002,
+      "category_top1_dominance": 0.75,
+      "vad_explained": 0.00036598689621314406
+    },
+    {
+      "component": 87,
+      "mi": 0.11702788375386985,
+      "linear_sep_acc": 0.128125,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.003026082180440426
+    },
+    {
+      "component": 88,
+      "mi": 0.1220694606520194,
+      "linear_sep_acc": 0.13906250000000003,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.000793882121797651
+    },
+    {
+      "component": 89,
+      "mi": 0.12202586852361685,
+      "linear_sep_acc": 0.1328125,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0008622315363027155
+    },
+    {
+      "component": 90,
+      "mi": 0.12947767337863114,
+      "linear_sep_acc": 0.1378125,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0017034789780154824
+    },
+    {
+      "component": 91,
+      "mi": 0.1307775043070416,
+      "linear_sep_acc": 0.13968750000000002,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 9.625523671275005e-05
+    },
+    {
+      "component": 92,
+      "mi": 0.11845131821441957,
+      "linear_sep_acc": 0.13187500000000002,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.00019201112445443869
+    },
+    {
+      "component": 93,
+      "mi": 0.13101997814474364,
+      "linear_sep_acc": 0.13874999999999998,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0031086858361959457
+    },
+    {
+      "component": 94,
+      "mi": 0.13005708594711107,
+      "linear_sep_acc": 0.134375,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.00016634241910651326
+    },
+    {
+      "component": 95,
+      "mi": 0.15053547593457806,
+      "linear_sep_acc": 0.11499999999999999,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0005826088599860668
+    },
+    {
+      "component": 96,
+      "mi": 0.12605009777461706,
+      "linear_sep_acc": 0.1321875,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0008511525229550898
+    },
+    {
+      "component": 97,
+      "mi": 0.13706230225832927,
+      "linear_sep_acc": 0.1325,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0010906864190474153
+    },
+    {
+      "component": 98,
+      "mi": 0.12326667098550192,
+      "linear_sep_acc": 0.1321875,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.00011303056817268953
+    },
+    {
+      "component": 99,
+      "mi": 0.12376646781751699,
+      "linear_sep_acc": 0.13781249999999998,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0003333764907438308
+    },
+    {
+      "component": 100,
+      "mi": 0.12156533022699989,
+      "linear_sep_acc": 0.1453125,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.001838191063143313
+    },
+    {
+      "component": 101,
+      "mi": 0.14400503170246015,
+      "linear_sep_acc": 0.13625,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0006368852918967605
+    },
+    {
+      "component": 102,
+      "mi": 0.14996791563254108,
+      "linear_sep_acc": 0.13718750000000002,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.00023483889526687562
+    },
+    {
+      "component": 103,
+      "mi": 0.147907035281313,
+      "linear_sep_acc": 0.1259375,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.001561775105074048
+    },
+    {
+      "component": 104,
+      "mi": 0.1688186878852278,
+      "linear_sep_acc": 0.136875,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0008311386336572468
+    },
+    {
+      "component": 105,
+      "mi": 0.14320999035401583,
+      "linear_sep_acc": 0.125,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0007161016692407429
+    },
+    {
+      "component": 106,
+      "mi": 0.11009788015860655,
+      "linear_sep_acc": 0.1428125,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0004494599415920675
+    },
+    {
+      "component": 107,
+      "mi": 0.14024469235519454,
+      "linear_sep_acc": 0.12562500000000001,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0015374984359368682
+    },
+    {
+      "component": 108,
+      "mi": 0.15619834190447968,
+      "linear_sep_acc": 0.13906250000000003,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0009460035362280905
+    },
+    {
+      "component": 109,
+      "mi": 0.1098425002066068,
+      "linear_sep_acc": 0.1265625,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0007878896431066096
+    },
+    {
+      "component": 110,
+      "mi": 0.1161816938000455,
+      "linear_sep_acc": 0.13562499999999997,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.000326621433487162
+    },
+    {
+      "component": 111,
+      "mi": 0.11963335053392177,
+      "linear_sep_acc": 0.14656249999999998,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0011303487699478865
+    },
+    {
+      "component": 112,
+      "mi": 0.13220466005519826,
+      "linear_sep_acc": 0.139375,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0007417203160002828
+    },
+    {
+      "component": 113,
+      "mi": 0.1358807028965865,
+      "linear_sep_acc": 0.13125,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0006604124209843576
+    },
+    {
+      "component": 114,
+      "mi": 0.13073162707414365,
+      "linear_sep_acc": 0.1409375,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0015000570565462112
+    },
+    {
+      "component": 115,
+      "mi": 0.1275632617641933,
+      "linear_sep_acc": 0.130625,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.0003789713664446026
+    },
+    {
+      "component": 116,
+      "mi": 0.1148870334575296,
+      "linear_sep_acc": 0.13468750000000002,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.001488220994360745
+    },
+    {
+      "component": 117,
+      "mi": 0.11344506696598433,
+      "linear_sep_acc": 0.136875,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0019224702846258879
+    },
+    {
+      "component": 118,
+      "mi": 0.1352558669645858,
+      "linear_sep_acc": 0.12625,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0006121952319517732
+    },
+    {
+      "component": 119,
+      "mi": 0.14047083495117363,
+      "linear_sep_acc": 0.13374999999999998,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.00044883484952151775
+    },
+    {
+      "component": 120,
+      "mi": 0.1369906224344879,
+      "linear_sep_acc": 0.13562500000000002,
+      "category_top1_dominance": 0.5,
+      "vad_explained": 0.0009109994280152023
+    },
+    {
+      "component": 121,
+      "mi": 0.13557427011664291,
+      "linear_sep_acc": 0.12468750000000002,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0006908860523253679
+    },
+    {
+      "component": 122,
+      "mi": 0.14315919383309605,
+      "linear_sep_acc": 0.1284375,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.000991804525256157
+    },
+    {
+      "component": 123,
+      "mi": 0.12549138794154535,
+      "linear_sep_acc": 0.1384375,
+      "category_top1_dominance": 0.625,
+      "vad_explained": 0.00014851178275421262
+    },
+    {
+      "component": 124,
+      "mi": 0.11322351394440178,
+      "linear_sep_acc": 0.14250000000000002,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0004416134033817798
+    },
+    {
+      "component": 125,
+      "mi": 0.13133020057147782,
+      "linear_sep_acc": 0.1440625,
+      "category_top1_dominance": 0.25,
+      "vad_explained": 0.0009527795482426882
+    },
+    {
+      "component": 126,
+      "mi": 0.13802725268092475,
+      "linear_sep_acc": 0.1375,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0008798096678219736
+    },
+    {
+      "component": 127,
+      "mi": 0.1497588921920685,
+      "linear_sep_acc": 0.13374999999999998,
+      "category_top1_dominance": 0.375,
+      "vad_explained": 0.0010373506229370832
+    }
+  ]
+}

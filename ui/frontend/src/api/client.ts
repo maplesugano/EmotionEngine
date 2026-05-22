@@ -56,7 +56,7 @@ export function applyPreset(payload: {
   strength?: number;
 }): Promise<PresetResponse> {
   return post<PresetResponse>("/api/preset", {
-    strength: 1.0,
+    strength: 0.2,
     ...payload,
   });
 }

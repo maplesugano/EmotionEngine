@@ -1,0 +1,65 @@
+component,axis_name,negative_pole,positive_pole,family,confidence,threshold_alpha_unit_negative,threshold_alpha_unit_positive,threshold_broken_rate_negative,threshold_broken_rate_positive,threshold_mean_severity_negative,threshold_mean_severity_positive,b_norm,self_rho,label_dominance,vad_explained,primitive_score
+0,Certainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.7587014436721802,0.0,0.375,0.0017712602,-0.1894066015
+1,engagement,disinterest,curiosity,cognitive engagement,0.85,8.0,8.0,,,,,0.672488272190094,0.625,0.875,0.0015121513,1.1912585019
+2,Affective Engagement,Fear,Joy,Affective,0.75,8.0,8.0,,,,,0.5938369035720825,0.0625,0.5,0.0020711091,-0.1939480465
+3,Affective Dimension of Emotional Response,sadness,joy,emotional response,0.85,8.0,8.0,,,,,0.8293483257293701,0.0625,0.5,0.000222141,0.8087873996
+4,Emotional Intensity,Anger,Surprise,Affective,0.85,8.0,4.0,,,,,0.8424703478813171,0.1875,0.25,0.0009390655,1.056714485
+5,Trust vs. Distrust,Distrust,Trust,Affective,0.85,8.0,8.0,,,,,0.6906808614730835,0.1875,0.25,0.0070842328,0.053180365
+6,Emotional Investment,Apathy,Engagement,Affective,0.85,8.0,8.0,,,,,0.7263727784156799,0.25,1.0,0.0049116346,0.7431095114
+7,Affective Response to Uncertainty,Fear,Surprise,Affective,0.85,2.0,8.0,,,,,0.7637316584587097,-0.125,1.0,0.0084937727,-0.6322605694
+8,Affective Dimension of Emotion,sadness,joy,emotion,0.75,8.0,8.0,,,,,0.8080388307571411,0.125,1.0,0.0040686727,-0.3819014276
+9,Affective Response to Visual Stimuli,Disgust,Surprise,Affective,0.85,8.0,8.0,,,,,0.7727157473564148,0.625,1.0,0.0052406271,1.1215614622
+10,Affective Trust-Disgust Axis,Disgust,Trust,Affective,0.85,8.0,8.0,,,,,0.5965864062309265,0.6875,1.0,0.0013895046,1.1886752171
+11,Trust-Distrust Axis,Distrust,Trust,Interpersonal Relations,0.85,8.0,8.0,,,,,0.7384833097457886,0.25,0.375,0.0009697549,1.0585759958
+12,Affective Disposition,disgust,joy,Affective,0.75,8.0,8.0,,,,,0.8265328407287598,0.0625,0.625,0.0013845868,0.7478239852
+13,Affective Outlook,Despair,Hope,Affective,0.85,8.0,8.0,,,,,0.601014256477356,0.0,0.375,0.0012213149,-0.1861322268
+14,Affective Response,Disgust,Joy,Affective,0.75,8.0,8.0,,,,,0.6415528059005737,0.625,0.5,0.0003267525,0.3763813457
+15,Affective Response to Novelty,disgust,surprise,emotional response,0.85,8.0,8.0,,,,,0.7152830958366394,0.375,0.375,0.0004395018,1.1820064906
+16,satisfaction,discontent,contentment,affective,0.75,8.0,8.0,,,,,0.7206894755363464,0.375,0.375,0.0006294436,0.1876873829
+17,surprise-disappointment,disappointment,surprise,emotional response,0.85,8.0,8.0,,,,,0.7898664474487305,0.625,0.25,0.0007565751,1.5017927973
+18,Expectation,disappointment,anticipation,emotional anticipation,0.75,2.0,8.0,,,,,0.7046456933021545,0.125,0.375,0.0040310971,-0.067678616
+19,Certainty,Uncertainty,Confidence,Cognitive Evaluation,0.85,8.0,8.0,,,,,0.7080094218254089,-0.125,0.25,0.0053803404,-0.2592615361
+20,Decision-Making Assurance,Uncertainty,Confidence,Cognitive Evaluation,0.85,4.0,8.0,,,,,0.8142591714859009,-0.1875,0.375,0.0003564893,-0.3788316006
+21,Confidence in Decision-Making,Uncertainty,Caution,Cognitive Evaluation,0.85,8.0,8.0,,,,,0.3731037378311157,0.125,1.0,0.0003753805,-0.3729445398
+22,Decision-Making Confidence,Uncertainty,Caution,Cognitive Evaluation,0.85,8.0,8.0,,,,,0.7034760117530823,0.8125,0.5,0.0092793042,1.5611896044
+23,Certainty,Uncertainty,Confidence,Affective,0.95,8.0,4.0,,,,,0.7690441608428955,0.25,0.5,0.0001924887,0.9973984458
+24,Certainty,Cautious,Confident,Affective,0.85,8.0,8.0,,,,,0.7430389523506165,0.0625,0.875,0.001419537,0.6197598306
+25,Certainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.7582429051399231,-0.1875,1.0,0.0023396038,-0.6932734022
+26,Social Interaction Orientation,Avoidance,Engagement,Social Dynamics,0.85,4.0,8.0,,,,,0.6953192353248596,0.6875,0.25,0.0018727478,1.5617860769
+27,Certainty,Uncertainty,Confidence,Cognitive Evaluation,0.85,8.0,8.0,,,,,0.585367739200592,0.3125,0.5,0.0214194506,0.0478272623
+28,Uncertainty vs. Assurance,Cautiousness,Confidence,Affective Communication,0.85,4.0,8.0,,,,,0.6122034192085266,0.375,0.375,0.0004143186,0.1869477161
+29,Certainty,Uncertainty,Confidence,Cognitive Evaluation,0.85,8.0,8.0,,,,,0.7702413201332092,0.6875,0.625,0.0006221448,1.3749385025
+30,Certainty in Communication,Hedging,Commitment,Communication Style,0.85,8.0,8.0,,,,,0.7004573941230774,0.4375,0.625,0.0025226611,1.1229985488
+31,Certainty vs. Uncertainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.5517621040344238,0.1875,0.5,0.0005824076,0.9362867289
+32,Decisiveness,Uncertainty,Caution,Cognitive Evaluation,0.85,1.0,2.0,,,,,0.7187570333480835,0.75,0.625,0.002238482,1.4381426702
+33,Confidence in Communication,Lack of Confidence,Cautious Optimism,Affective Communication,0.85,8.0,8.0,,,,,0.7201564908027649,0.375,1.0,0.0006875626,0.8667865797
+34,Certainty,Uncertainty,Confidence,Affective,0.85,0.25,8.0,,,,,0.6041398644447327,0.375,0.375,0.0033320647,1.1927227217
+35,Decision-Making Assurance,Indecision,Confidence,Cognitive and Emotional Processing,0.85,8.0,8.0,,,,,0.7513471245765686,-0.1875,1.0,0.0066985111,-0.6967466453
+36,Certainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.6945921182632446,0.4375,0.375,0.0021190629,1.2453742119
+37,Self-Assurance,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.8076928853988647,0.375,0.625,0.0205452442,0.0453608917
+38,Decision-Making Assurance,Uncertainty,Confidence,Cognitive Evaluation,0.85,8.0,8.0,,,,,0.7139759063720703,0.5625,0.25,0.0026265224,1.4377011068
+39,Certainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.4887273907661438,0.1875,0.625,0.001540048,-0.127627225
+40,Certainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.5172321796417236,0.375,0.375,0.0007206785,1.1828298348
+41,Certainty,Uncertainty,Confidence,Cognitive Evaluation,0.85,8.0,8.0,,,,,0.4642368257045746,0.4207531755,1.0,0.001047497,0.9135397456
+42,Certainty,Uncertainty,Confidence,Cognitive Evaluation,0.85,8.0,8.0,,,,,0.6399333477020264,0.5625,0.625,0.005272293,1.2474440163
+43,Certainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.7125979065895081,0.3125,1.0,0.0027601598,-0.1870148666
+44,Certainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.5021007657051086,-0.375,1.0,0.0004877582,-0.8813965744
+45,Certainty,Uncertainty,Confidence,Cognitive Assessment,0.85,4.0,8.0,,,,,0.637505292892456,-0.125,0.75,0.0041056145,-0.5083133586
+46,Decision-Making Confidence,Avoidance,Engagement,Cognitive Engagement,0.85,8.0,8.0,,,,,0.7326207160949707,0.5,0.625,0.0020606406,1.1873881784
+47,Certainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.5529160499572754,0.125,0.25,0.0003137159,0.0020445183
+48,Communication Style,Defensiveness,Openness,Affective Communication,0.85,8.0,8.0,,,,,0.7475075721740723,-0.125,0.5,0.003345767,-0.3814213669
+49,Certainty vs. Uncertainty,Cautiousness,Confidence,Affective,0.85,8.0,8.0,,,,,0.7069602608680725,0.5625,0.25,0.0052224547,1.4362700218
+50,Certainty vs. Uncertainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.6449891328811646,0.375,0.875,0.0039185318,0.9327584055
+51,Certainty vs. Uncertainty,Uncertainty and Hesitation,Confidence and Assurance,Affective Communication,0.85,8.0,8.0,,,,,0.7879658937454224,0.375,0.75,0.0012740621,1.0022076285
+52,Confidence in Communication,Lack of Confidence,Cautious Optimism,Affective Communication,0.85,8.0,8.0,,,,,0.6580167412757874,0.5,1.0,0.000516759,-0.0017688227
+53,Certainty,Uncertainty,Confidence,Cognitive Evaluation,0.85,4.0,8.0,,,,,0.6227633953094482,0.125,0.5,0.0004184168,0.8739738912
+54,Decisiveness,Uncertainty,Confidence,Cognitive/Affective,0.85,8.0,2.0,,,,,0.716672420501709,0.0,0.625,0.0005296319,-0.3143805645
+55,Certainty,Uncertainty,Confidence,Affective Communication,0.85,8.0,8.0,,,,,0.7147216200828552,0.3125,1.0,0.0004040625,0.8087881832
+56,Certainty vs. Uncertainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.7368340492248535,0.125,0.5,0.0004749426,-0.1281730595
+57,Certainty vs. Uncertainty,Uncertainty,Optimism,Cognitive and Emotional Responses,0.85,8.0,8.0,,,,,0.6914228200912476,0.25,0.25,0.0014534688,1.1192002855
+58,Confidence in Outcomes,Uncertainty,Cautious Optimism,Affective Dimension of Confidence,0.85,8.0,8.0,,,,,0.6854835748672485,0.4375,0.375,0.0013674507,1.2459084265
+59,Certainty,Uncertainty,Confidence,Cognitive Evaluation,0.85,8.0,8.0,,,,,0.7444639801979065,-0.1875,0.375,0.0033650305,-0.3675967532
+60,Decisiveness,Uncertainty,Confidence,Cognitive/Emotional,0.85,8.0,8.0,,,,,0.6944976449012756,0.3125,0.5,0.0024261645,1.0634606067
+61,Certainty,Uncertainty,Confidence,Affective,0.85,8.0,8.0,,,,,0.5965992212295532,0.0625,0.5,0.0078726178,-0.1892405614
+62,Certainty,Uncertainty,Confidence,Cognitive Evaluation,0.85,8.0,8.0,,,,,0.7401509284973145,0.5,0.5,0.0003530088,1.2511543818
+63,Certainty vs. Uncertainty,Cautiousness,Confidence,Affective Communication,0.85,8.0,8.0,,,,,0.7892992496490479,-0.25,0.25,0.0020560592,-0.3841048792

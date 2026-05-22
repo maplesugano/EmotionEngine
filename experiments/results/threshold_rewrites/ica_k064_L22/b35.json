@@ -1,0 +1,58 @@
+{
+  "component": 35,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I will try my best to finish it by tomorrow. He asks me to confirm that I will finish it by tomorrow. I tell him that I will try my best to finish it by tomorrow. What is the difference between my two responses?\nIn the first response, I said that I will try my best to finish it by tomorrow.",
+      "generation_positive": "I tell him that I will finish it by tomorrow, but I don't actually intend to. I am lying to him.\nI am lying to my teammate because I don't intend to finish my part by tomorrow. I am making a false statement about my intentions, which is a key characteristic of lying.\nThis example illustrates the concept of lying as making a false statement with the intention of deceiving someone."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm hesitant to commit to a conversation, but I don't want to hurt their feelings. What should I do?\nYou're not obligated to talk to someone just because they reached out. It's okay to set boundaries and prioritize your own needs. Here are some suggestions:\n1. Respond with a gentle decline: You can say something like, \"Hey, I appreciate you reaching out, but I'm not feeling up to talking tonight.",
+      "generation_positive": "I'm not sure if I'm ready to talk yet, but I don't want to hurt their feelings. What should I do?\nYou could say something like, \"Hey, I'm glad you reached out! I've been thinking about us a lot lately, and I'm not sure I'm ready to talk just yet. Can we catch up another time soon?"
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I should share my concerns or just agree with the plan. What should I do?\nThis is a classic dilemma in the workplace. On one hand, you want to be a team player and support your manager's ideas. On the other hand, you don't want to be seen as a naysayer or a troublemaker. Here are some tips to help you navigate this situation:\n1.",
+      "generation_positive": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I express my concerns without appearing disloyal or unenthusiastic?\nWhen expressing concerns about a plan, it's essential to strike a balance between being honest and being supportive. Here are some tips to help you do so:\n1."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing. I take a deep breath and read the message. I am accepted! I am going to be a part of the class of [insert year here] at [insert school name here]!\nI am thrilled, but also a little nervous. What does this mean for my future? What kind of opportunities will I have? What kind of challenges will I face?",
+      "generation_positive": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI feel a mix of emotions: excitement, relief, and a hint of nervousness."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and shows I'm willing to move forward, but also communicates my boundaries and needs?\nHere are some tips to help you respond in a way that acknowledges their apology and shows you're willing to move forward, while also communicating your boundaries and needs:\n1.",
+      "generation_positive": "I want to forgive and move forward, but I'm still hurt and angry. How can I forgive and let go of my anger?\nForgiveness is a process, and it may take time. Here are some steps you can take to forgive and let go of your anger:\n1. Acknowledge your feelings: Recognize and accept your hurt and anger."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" But what I really mean is, \"I'm not fine, but I'm going to pretend to be fine so I can get through this event without making a scene.\" This is a common phenomenon known as \"social masking.\"\nSocial masking is a coping mechanism where individuals hide their true feelings and emotions to avoid social discomfort, rejection, or judgment.",
+      "generation_positive": "I respond with a simple, \"I'm fine.\" I'm not fine. I'm anxious, stressed, and overwhelmed. I'm worried about how I'll perform, and I'm terrified of failure. But I don't want to admit it. I don't want to show weakness. So I say, \"I'm fine.\"\nI'm not alone in this. Many of us have been there."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel awkward and uncomfortable about it. How can I handle this situation?\nHandling a situation where someone publicly credits you for work you quietly contributed to can be awkward, but it's an opportunity to practice humility and graciousness. Here are some steps to help you navigate this situation:\n1.  **Acknowledge their intention**: Recognize that your colleague's intention is to give credit where it's due.",
+      "generation_positive": "I feel uncomfortable about the recognition and would like to deflect it. How can I respond in a way that acknowledges their gratitude without drawing attention to my own role?\nYou could say something like, \"Thank you for your kind words, and I'm glad to have been a part of the team that made this happen.\" This response acknowledges your colleague's gratitude without drawing attention to your own role."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn't excite me. The uncertain opportunity is a risk, but it has the potential to be life-changing.\nI've been thinking about this decision for a while, and I've been weighing the pros and cons. But the more I think about it, the more I realize that the decision isn't just about the outcome.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't align with my long-term goals or values. The uncertain opportunity is a risk, but it has the potential to bring me closer to my goals and values.\nI am drawn to the uncertain opportunity because it feels more authentic and exciting. However, I am also aware of the potential risks and uncertainties involved."
+    }
+  ]
+}

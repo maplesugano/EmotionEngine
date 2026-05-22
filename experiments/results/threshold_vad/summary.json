@@ -1,0 +1,14 @@
+{
+  "vad_layer": 19,
+  "n_components": 64,
+  "n_prompts_per_component": 8,
+  "mean_delta_V": 0.00783953769132495,
+  "std_delta_V": 0.3681812582267951,
+  "mean_abs_delta_V": 0.27379063749685884,
+  "mean_delta_A": -0.006981453858315945,
+  "std_delta_A": 0.23321369297745292,
+  "mean_abs_delta_A": 0.17738875932991505,
+  "mean_delta_D": 0.001323428936302662,
+  "std_delta_D": 0.18159812741718662,
+  "mean_abs_delta_D": 0.13105654995888472
+}

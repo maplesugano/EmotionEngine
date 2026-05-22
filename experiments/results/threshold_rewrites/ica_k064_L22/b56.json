@@ -1,0 +1,58 @@
+{
+  "component": 56,
+  "basis": "data/emotion_code/basis_sweep_L22/ica_k064_seed0.pt",
+  "layer": 22,
+  "decomposer": "ica",
+  "alpha_unit_negative": 8.0,
+  "alpha_unit_positive": 8.0,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "original": "My teammate asks whether I can finish my part before tomorrow's deadline.",
+      "generation_negative": "I tell him that I'll try my best to finish it by tomorrow, but I'm not sure if I can make it. I'm not making any promises, but I'll do my best to get it done.\nI'm not making any promises, but I'll do my best to get it done.\nThis sentence is a polite way of saying that you can't make a firm commitment to complete the task by a certain time.",
+      "generation_positive": "I tell him that I will do my best to finish it, but I am not sure if I can meet the deadline. He asks me to confirm whether I can finish it by tomorrow. I tell him that I will try my best, but I am not sure if I can meet the deadline."
+    },
+    {
+      "prompt_id": 1,
+      "original": "A close friend texts me after a long silence and asks to talk tonight.",
+      "generation_negative": "I'm hesitant because I've been feeling overwhelmed and stressed lately, and I'm not sure I'm ready to have a deep conversation. I don't want to lead them on or make them think I'm not interested in talking to them. How can I respond in a way that's honest and kind?\nYou could say something like, “Hey, I appreciate you reaching out and I’m glad you want to talk.",
+      "generation_positive": "I'm not sure if I'm ready to talk, but I don't want to hurt their feelings. What should I do?\nYou're not obligated to talk to someone just because they've reached out after a long silence. It's okay to take time to process your feelings and decide if you're ready to reconnect. Here are some suggestions:\n1."
+    },
+    {
+      "prompt_id": 2,
+      "original": "During a meeting, my manager asks for my opinion on a risky plan.",
+      "generation_negative": "I'm not sure if I agree with it, but I don't want to seem negative or uncooperative. How can I provide a constructive critique without appearing to be a naysayer?\nTo provide a constructive critique without appearing to be a naysayer, follow these steps:\n1.  **Acknowledge the idea**: Start by acknowledging the idea and showing that you've taken the time to consider it.",
+      "generation_positive": "I'm not sure if I should share my concerns or just agree with the plan. What should I do?\nWhen faced with a situation like this, it's essential to consider the potential consequences of your actions. Here are some steps to help you decide:\n1.  **Understand the context**: Before sharing your opinion, make sure you understand the plan's goals, the risks involved, and the potential outcomes."
+    },
+    {
+      "prompt_id": 3,
+      "original": "I open an email and learn that my application decision has just been released.",
+      "generation_negative": "I click on the link and my heart starts racing as I read the words: “Congratulations, you have been accepted to [University Name]!”\nI feel a mix of emotions: excitement, relief, and a hint of nervousness. I think about all the hard work I put into my application, the late nights spent writing essays and the early mornings spent studying for exams. It was all worth it.",
+      "generation_positive": "I click on the link and my heart starts racing. I take a deep breath and read the message. I am accepted! I am going to college!\nI am beyond excited. I have worked so hard for this moment. I have spent countless hours studying, volunteering, and taking classes. I have sacrificed so much, but it has all been worth it. I am going to college!\nI start to think about all the possibilities."
+    },
+    {
+      "prompt_id": 4,
+      "original": "Someone I care about apologizes for a recent argument and asks to reconnect.",
+      "generation_negative": "I want to forgive and move forward, but I'm still feeling hurt and angry. How can I forgive and let go of my negative emotions?\nForgiveness is a process that takes time and effort. Here are some steps you can take to forgive and let go of your negative emotions:\n1. Acknowledge your feelings: Recognize and accept your emotions, even if they're uncomfortable or painful.",
+      "generation_positive": "I want to reconnect, but I'm still hurt and angry. How can I respond in a way that acknowledges their apology and shows I'm willing to move forward, but also protects my own emotional boundaries?\nHere are some tips to help you respond in a way that acknowledges their apology and shows you're willing to reconnect, while also protecting your own emotional boundaries:\n1."
+    },
+    {
+      "prompt_id": 5,
+      "original": "I notice a sudden change in my health before an important event, and someone asks how I feel.",
+      "generation_negative": "I respond with a simple, \"I'm fine.\" I'm not fine. I'm anxious, stressed, and overwhelmed. I'm trying to put on a brave face, but I'm not fooling anyone, least of all myself.\nI've been there, done that, and got the t-shirt.",
+      "generation_positive": "I respond with a simple \"I'm fine.\" But what I really mean is that I'm not fine. I'm stressed, anxious, and overwhelmed. I'm worried about how I'll perform, and I'm afraid of failing. But I don't want to admit it, so I say \"I'm fine.\"\nThis is a common phenomenon, especially among high-achievers."
+    },
+    {
+      "prompt_id": 6,
+      "original": "A colleague publicly credits me for work I quietly contributed to.",
+      "generation_negative": "I feel uncomfortable about the recognition.\nI was part of a team that worked on a project, and I made some significant contributions to it. However, I didn’t seek to draw attention to myself or my role in the project. My colleague, who was the lead on the project, recently gave a presentation about it and publicly credited me for my work. I feel uncomfortable about the recognition, and I don’t know how to respond.",
+      "generation_positive": "I feel awkward and unappreciated. How can I handle this situation?\nHandling a situation where a colleague publicly credits you for work you quietly contributed to can be awkward, but there are ways to address it. Here are some steps you can take:\n1.  **Reflect on your feelings**: Take a moment to acknowledge how you feel."
+    },
+    {
+      "prompt_id": 7,
+      "original": "I am asked to choose between a safe option and an uncertain opportunity right now.",
+      "generation_negative": "The safe option is a sure thing, but it doesn’t excite me. The uncertain opportunity is a risk, but it has the potential to be life-changing.\nI am drawn to the uncertain opportunity because it has the potential to be life-changing. I am excited about the possibility of growth, learning, and new experiences. I am willing to take the risk because I believe that the potential reward is worth it.",
+      "generation_positive": "The safe option is a sure thing, but it doesn't excite me. The uncertain opportunity is a risk, but it has the potential to be life-changing.\nI am drawn to the uncertain opportunity because it has the potential to bring me joy, fulfillment, and a sense of purpose."
+    }
+  ]
+}
