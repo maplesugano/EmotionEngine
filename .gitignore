@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large data / cache files (exceed GitHub 100MB limit)
+data/emotion_code/_vad_cache*.npz
